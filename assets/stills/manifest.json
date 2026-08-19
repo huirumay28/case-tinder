@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "haven",
+    "id": 1,
+    "files": [
+      "haven-01.jpg",
+      "haven-02.jpg",
+      "haven-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "haven-01.jpg",
+        "section": "background",
+        "why": "Flooded Australian street under the ABC line that 10% of homes could be uninsurable by 2035 — climate putting housing beyond ordinary claims."
+      },
+      {
+        "file": "haven-02.jpg",
+        "section": "idea",
+        "why": "Aerial suburb pinned with per-home Bushfire, Flood and Cyclone risk gauges — each house scored for extreme weather."
+      },
+      {
+        "file": "haven-03.jpg",
+        "section": "execution",
+        "why": "Phone, laptop and tablet running Haven: 3D house, WebGL maps of Australia, and Read your report, with no player chrome."
+      }
+    ]
+  },
+  {
+    "slug": "claude",
+    "id": 2,
+    "files": [
+      "claude-01.jpg",
+      "claude-02.jpg",
+      "claude-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "claude-01.jpg",
+        "section": "background",
+        "why": "CNBC: Anthropic CCO made a conscious decision not to put ads in Claude — values made visible when ads are absent."
+      },
+      {
+        "file": "claude-02.jpg",
+        "section": "idea",
+        "why": "One of the four spots: a coach mid-workout, the kind of fragile moment an ad should not interrupt."
+      },
+      {
+        "file": "claude-03.jpg",
+        "section": "execution",
+        "why": "Super Bowl LVI field — the actual Super Bowl buy for the black-comedy spots."
+      }
+    ]
+  },
+  {
+    "slug": "pub-refused-to-die",
+    "id": 3,
+    "files": [
+      "pub-refused-to-die-01.jpg",
+      "pub-refused-to-die-02.jpg",
+      "pub-refused-to-die-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "pub-refused-to-die-01.jpg",
+        "section": "background",
+        "why": "Rural Irish street with ‘9 out of 10 closed pubs are in rural Ireland’ and ‘the pub is the last center of the community.’"
+      },
+      {
+        "file": "pub-refused-to-die-02.jpg",
+        "section": "idea",
+        "why": "Empty pub, stacked chairs, and ‘SO WHAT IF A VILLAGE OWNED IT?’ — villagers saving the last pub."
+      },
+      {
+        "file": "pub-refused-to-die-03.jpg",
+        "section": "execution",
+        "why": "Live Kilteely interview inside the real pub: ‘LOCAL LIMERICK COMMUNITY SAVES LAST PUB.’"
+      }
+    ]
+  },
+  {
+    "slug": "kitkat",
+    "id": 4,
+    "files": [
+      "kitkat-01.jpg",
+      "kitkat-02.jpg",
+      "kitkat-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "kitkat-01.jpg",
+        "section": "background",
+        "why": "News wall plus official statement: 12 tonnes of KitKat stolen in transit — the crisis."
+      },
+      {
+        "file": "kitkat-02.jpg",
+        "section": "idea",
+        "why": "Stolen KitKat Tracker grid: the public as detectives checking 8-digit batch codes."
+      },
+      {
+        "file": "kitkat-03.jpg",
+        "section": "execution",
+        "why": "Hands on a phone entering a KitKat batch number into the tracker UI."
+      }
+    ]
+  },
+  {
+    "slug": "apple-tv",
+    "id": 5,
+    "files": [
+      "apple-tv-01.jpg",
+      "apple-tv-02.jpg",
+      "apple-tv-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "apple-tv-01.jpg",
+        "section": "background",
+        "why": "Severance hallway — the entertainment brand being refreshed, not a generic logo hold."
+      },
+      {
+        "file": "apple-tv-02.jpg",
+        "section": "idea",
+        "why": "Black-and-white App UI pill with the glass tv mark — the system at the moment you open the App."
+      },
+      {
+        "file": "apple-tv-03.jpg",
+        "section": "execution",
+        "why": "Studio BTS of the physical glass  / + / tv sculptures on stands — in-camera, no CG mock."
+      }
+    ]
+  },
+  {
+    "slug": "coinbase",
+    "id": 6,
+    "files": [
+      "coinbase-01.jpg",
+      "coinbase-02.jpg",
+      "coinbase-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "coinbase-01.jpg",
+        "section": "background",
+        "why": "Endless WAIT HERE / TRUSTED INSTITUTION queue — the old system you take control back from."
+      },
+      {
+        "file": "coinbase-02.jpg",
+        "section": "idea",
+        "why": "Suited man sprinting out of a low-poly NPC city — leaving the old system in a new film language."
+      },
+      {
+        "file": "coinbase-03.jpg",
+        "section": "execution",
+        "why": "Boardroom of in-camera 2D / low-poly NPC costumes — the physical game-world craft."
+      }
+    ]
+  },
+  {
+    "slug": "heinz",
+    "id": 7,
+    "files": [
+      "heinz-01.jpg",
+      "heinz-02.jpg",
+      "heinz-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "heinz-01.jpg",
+        "section": "background",
+        "why": "Burger, fries and a red fry box — ketchup belongs with fries, before the logo gag."
+      },
+      {
+        "file": "heinz-02.jpg",
+        "section": "idea",
+        "why": "Keystone outline over the fry box and LOOK FAMILIAR? — the box shape is the Heinz logo."
+      },
+      {
+        "file": "heinz-03.jpg",
+        "section": "execution",
+        "why": "New York City street billboard of the fry-box ad — outdoor execution in situ."
+      }
+    ]
+  },
+  {
+    "slug": "heineken-social",
+    "id": 8,
+    "files": [
+      "heineken-social-01.jpg",
+      "heineken-social-02.jpg",
+      "heineken-social-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "heineken-social-01.jpg",
+        "section": "background",
+        "why": "Woman in a transit hub listening to her phone — voice notes instead of meeting in person."
+      },
+      {
+        "file": "heineken-social-02.jpg",
+        "section": "idea",
+        "why": "Bored man enduring a very long WhatsApp-style waveform — the over-long voice note that should have been a drink."
+      },
+      {
+        "file": "heineken-social-03.jpg",
+        "section": "execution",
+        "why": "Building-side OOH of a giant stacked voice-note plus QR and ‘Podia ser uma Heineken.’"
+      }
+    ]
+  },
+  {
+    "slug": "axa",
+    "id": 9,
+    "files": [
+      "axa-01.jpg",
+      "axa-02.jpg",
+      "axa-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "axa-01.jpg",
+        "section": "background",
+        "why": "Tipped glass and the word Home — domestic disruption without sensational violence."
+      },
+      {
+        "file": "axa-02.jpg",
+        "section": "idea",
+        "why": "‘three words’ highlighted on a policy, ‘to help women escape’ — home insurance plus the clause."
+      },
+      {
+        "file": "axa-03.jpg",
+        "section": "execution",
+        "why": "Transit billboard in French highlighting violences conjugales and emergency relocation — the clause explained in public."
+      }
+    ]
+  },
+  {
+    "slug": "ordinary",
+    "id": 10,
+    "files": [
+      "ordinary-01.jpg",
+      "ordinary-02.jpg",
+      "ordinary-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "ordinary-01.jpg",
+        "section": "background",
+        "why": "Clips-and-wires face-lift — beauty-marketing hype and fake-science extremes made physical."
+      },
+      {
+        "file": "ordinary-02.jpg",
+        "section": "idea",
+        "why": "Dystopian classroom facing The Periodic Fable / A scientific table with zero science — language itself on trial."
+      },
+      {
+        "file": "ordinary-03.jpg",
+        "section": "execution",
+        "why": "Clinical white classroom grid of uniformed students at identical desks — the film’s art direction."
+      }
+    ]
+  }
+]

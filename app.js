@@ -93,6 +93,11 @@ const casesData = [
         boardImage: "boards/haven.jpg",
         filmUrl: "https://lion.box.com/s/wkk8s287z6isbcip5b5q6gcrg9ir8rc8",
         awards: { gp: 1, gold: 0, silver: 2, bronze: 1 },
+        stills: {
+            background: 'assets/stills/haven-01.jpg',
+            idea: 'assets/stills/haven-02.jpg',
+            execution: 'assets/stills/haven-03.jpg'
+        },
         background: "Suncorp Group 的企業宗旨是「Building futures and protecting what matters」，Suncorp Haven 是這項宗旨的具體化。它證明保險公司不必坐等氣候變遷推高保費、把人趕出保險市場，而可以成為解方——讓住宅更能抵禦日益嚴重的極端天氣。",
         idea: "澳洲保險公司 Suncorp 帶動產業從「Recovery」轉向「Resilience」。Haven 是這個獲獎韌性平台的下一章：把海量、令人不知所措的資料，變成每戶一份簡單、個人化的行動計畫。它是全球首創、以資料驅動的數位平台，為澳洲 1,100 萬戶住宅各做一份獨特風險評估，告訴屋主面對暴雨、叢林大火或洪水該做什麼；資訊還以「這棟房子自己的聲音」呈現。這也是保險公司首次公開分享自家資料與洞察，協助降低每位澳洲人的風險。",
         execution: "Haven 為澳洲 1,100 萬戶住宅提供個人化極端天氣風險評估。App 以進階 WebGL 地理視覺化呈現大規模資料集，包含 Suncorp 自身的災害風險資料與洞察；結合 NASA AMMOS 與新釋出的 Google 3D Tiles，達到 Google 現成 API 無法比擬的電影級畫質。成果：323,186 次造訪（超出目標 223%）、平均停留 2 分 56 秒、全國新聞 earned reach 超過 200 萬。",
@@ -115,6 +120,11 @@ const casesData = [
         boardImage: "boards/claude-a-time-and-a-place.jpg",
         filmUrl: "https://lion.box.com/s/6cezofm8uaofsow0z6myve5r14c9nqk7",
         awards: { gp: 1, gold: 1, silver: 2, bronze: 0 },
+        stills: {
+            background: 'assets/stills/claude-01.jpg',
+            idea: 'assets/stills/claude-02.jpg',
+            execution: 'assets/stills/claude-03.jpg'
+        },
         background: "Anthropic 的宗旨不是行銷定位——公司創立原則是 AI 應安全、有益、誠實。Claude 的「constitution」是一套公開的價值準則，明確把有幫助放在參與度之上。「A Time and a Place」讓這個結構性真相被看見：與其宣告價值，影片展示當這些價值缺席時會發生什麼，用反面來說明 Claude 的宗旨。",
         idea: "用世界最大的廣告舞台主張：有些地方根本不該出現廣告。四支黑色喜劇想像近未來——廣告滲透進 AI 對話最脆弱的時刻：療程被交友網站廣告打斷、創辦人機密商業計畫被拿來賣融資、學生學習被置入行銷劫持、私人教練課被用來賣增高鞋墊。",
         execution: "開賽前五天以 earned media 突擊，連同 The Wall Street Journal 與 Good Morning America 的獨家敘事（含共同創辦人 Daniela Amodei 訪談）預先釋出四支影片。比賽當天兩支廣告策略性投放在 Super Bowl Kickoff Show 與第一節，直接質問 1.23 億觀眾：廣告是否屬於任何地方？成果：2,100+ 篇 earned media、83 億次總曝光、七天週期 94% 正面／中性；Claude SOV 從 14% 加倍至 28%，包辦超級盃 AI SoV 的 56%；搜尋暴增 7 倍，從 Top 100 以外升至美國 App Store 第 4，下載 +305%。",
@@ -138,6 +148,11 @@ const casesData = [
         boardImage: "boards/pub-refused-to-die.jpg",
         filmUrl: "https://lion.box.com/s/gjjfoxbr9u4mdma2k6l8aqxgyfrk65xk",
         awards: { gp: 1, gold: 0, silver: 0, bronze: 4 },
+        stills: {
+            background: 'assets/stills/pub-refused-to-die-01.jpg',
+            idea: 'assets/stills/pub-refused-to-die-02.jpg',
+            execution: 'assets/stills/pub-refused-to-die-03.jpg'
+        },
         background: "Heineken 的宗旨一直根植於捍衛社交生活——長年平台是 Social Networking Since 1873。品牌視 pub 不只是喝酒的地方，而是社區連結的必要空間。The Pub That Refused to Die 把這層意義說清楚，尤其在愛爾蘭鄉間：一間 pub 關門，往往等於整座社區社交結構的消失。",
         idea: "愛爾蘭有句話說「Is treise an dúil ná an bás」（欲望比死亡更強），在 Kilteely 尤其真實——26 位毫無經驗的居民決定拯救他們最後一間 pub。Heineken 把這個故事變成藍圖，把社區共有做成可複製的模式，對抗愛爾蘭鄉間 pub 消失。案子證明一件簡單的事：要一整個村莊才能救一間 pub，也要一間 pub 才能救一個村莊。",
         execution: "把真實社區故事同時做成影片、也做成可執行的改變藍圖。紀錄片以 Kilteely 26 位居民的深度訪談為骨架，先在 Dublin International Film Festival 首映建立文化位置，再巡迴愛爾蘭鄉間社區放映。螢幕之外，Kilteely 的路程被開源成一步步的實作平台，讓靈感變成行動。成果：一個社區已買下他們最後的 pub、另外兩個進行中、100 萬歐元投入酒吧培訓、2.32 億媒體曝光。",
@@ -162,6 +177,11 @@ const casesData = [
         boardImage: "boards/kitkat-heist.jpg",
         filmUrl: "https://lion.box.com/s/z4w2yxqlq49xfywaj6pha96s5d0vltyd",
         awards: { gp: 1, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/kitkat-01.jpg',
+            idea: 'assets/stills/kitkat-02.jpg',
+            execution: 'assets/stills/kitkat-03.jpg'
+        },
         background: "413,793 條 KitKat 在義大利到波蘭之間消失。時機極糟：最大銷售季的高峰庫存突然沒了。品牌站在十字路口——用傳統危機處理把故事壓下去，還是把復活節的損失，轉成商業與商譽的大幅收穫？",
         idea: "對這場真實危機（失竊 12 噸 KitKat）的回應，成為品牌史上最被討論的一檔。不藏危機，反而把它變成巨大的財務收益。先把事情告訴全世界；再把注意力變成行動——做出 The Stolen KitKat Tracker，讓數百萬滑手機的人變成偵探，核對批號、查自己手上的 KitKat 是不是贓物。",
         execution: "分兩幕。第一幕：新聞稿與聲明，簡單、事實、帶一點品牌玩心。第二幕：The Stolen KitKat Tracker，把圍觀者變成破案偵探。威脅復活節的竊案，反而成為佔領復活節的故事。成果：Tracker 互動超過 220 萬次；6,522 篇文章帶來 8.084 億 earned reach；earned media value 2.24 億美元（花費 $0）；全球社群曝光超過 705 億；日觀看從約 100 萬升到 2,900 萬，高峰是任何競爭對手的 4 倍；全球 115+ 品牌主動做出免費的 KitKat 廣告。",
@@ -180,6 +200,11 @@ const casesData = [
         boardImage: "boards/apple-tv-rebrand.jpg",
         filmUrl: "https://lion.box.com/s/8nfm4zr9r6jbtgtujpuzeix7u6ccjzpm",
         awards: { gp: 1, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/apple-tv-01.jpg',
+            idea: 'assets/stills/apple-tv-02.jpg',
+            execution: 'assets/stills/apple-tv-03.jpg'
+        },
         background: "挑戰是：把一個已經很好、卻還沒拿到應有認可的品牌再抬高一層——而當時娛樂業改版正被廣泛懷疑。也因此，76% 正面情感（娛樂改版中最高）才特別有意義。24 小時內 290 篇報導、4,000 萬次觀看、以及「Apple TV」搜尋量創新高，證實了衝擊。",
         idea: "一套大膽的黑白系統，從戶外看板一直撐到有人打開 App 的那一刻。",
         execution: "起手是一個問題：logo 能不能用玻璃雕塑、全程實拍、完全不靠模擬？五天 R&D 找答案。測試八種透明材料、三種玻璃厚度、四種邊緣斜切、超過 50 組概念構圖；做出八顆客製玻璃 logo（透明、霧面、偏光）。拍攝產生超過 16 TB RAW，每次旋轉都是即時實拍。FINNEAS 同步做聲音；並為這套系統做了從 Apple San Francisco 衍生的專用字體 SF TV。成果：24 小時內 290 則全球報導；自有觀看 1,000 萬、粉絲總觀看 4,000 萬；「Apple TV」搜尋比 Pluribus 大結局還高 59%、為 2025 最高；76% 正面情感；改版帶出 Apple TV 有史以來最佳新訂閱季度——單績效就超過 100 萬、全球 +16%。",
@@ -200,6 +225,11 @@ const casesData = [
         boardImage: "boards/coinbase-your-way-out.jpg",
         filmUrl: "https://lion.box.com/s/fcwas35x6y3d5oexvmfevngczcdcumr9",
         awards: { gp: 1, gold: 2, silver: 2, bronze: 1 },
+        stills: {
+            background: 'assets/stills/coinbase-01.jpg',
+            idea: 'assets/stills/coinbase-02.jpg',
+            execution: 'assets/stills/coinbase-03.jpg'
+        },
         background: "這支片子用一個鼓舞人心的故事，把 Coinbase 定位成奪回掌控、重獲財務自由的路。它發揮了預期效果並在各平台病毒傳播；Rolling Stone、Hypebeast、Fortune 等報導，把 Coinbase 與它的訊息帶到更廣的評論者與品味塑造者面前。",
         idea: "這支影片為電視廣告可以是什麼寫了新的 playbook。它創造一種新的影片類型，質問一支片子可以如何行動、表現、感覺。選在奧斯卡播出，也質問由超級盃建立、主導的現狀。片子的行為就像它的訊息：往前衝、把舊系統拋在身後，換一個更大、更亮的未來。",
         execution: "幾乎全程 in-camera：服裝印成 2D 效果、臉重印到面具上做成低多邊形、場景刻意像素化成遊戲感。燈光完全無影；表演者受過動作邏輯訓練，移動起來像電玩 NPC。頻道策略不只傳統買媒體，而是文化攔截——在奧斯卡夜推出。成果：播出效益比奧斯卡平均高 9%，earned / owned / paid 共 16 億曝光；社群貼文 500 萬曝光（比貼文均高出 126%）、11.2 萬互動。",
@@ -223,6 +253,11 @@ const casesData = [
         boardImage: "boards/heinz-look-familiar.jpg",
         filmUrl: "https://lion.box.com/s/tonlzyjfy7bh8cs10bosqs7jhobj7xgq",
         awards: { gp: 1, gold: 1, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/heinz-01.jpg',
+            idea: 'assets/stills/heinz-02.jpg',
+            execution: 'assets/stills/heinz-03.jpg'
+        },
         background: "Ketchup 和薯條天生一對，但 Heinz 市佔被更便宜的替代品威脅。必須證明：薯條要的不只是番茄醬，而是 Heinz。通膨把消費者推向平價選項時，他們找到一個全球通用的視覺 insight：薯條盒的形狀就是 Heinz logo。",
         idea: "跳出品類慣性，揭開藏在眼前的視覺真相：薯條盒的通用形狀，看起來就像有 150 年歷史的經典 Heinz logo。於是把全球海報戰役，全部押在這只薯條盒上。",
         execution: "在中國、加拿大、巴西、墨西哥、阿聯酋、美國、英國的路邊與地鐵，投放高衝擊海報；並用情境戶外佔領嘴饞當下——例如針對離 McDonald's 中國總部最近的上海地鐵站通勤族。為了把認知接到行動，與 UberEats 合作，每筆薯條訂單加上 Heinz Ketchup。觸及在阿聯酋達 42%、多倫多 33%；美國平台內銷售 +222%。全球 33 個市場：+11.6 億曝光、150+ earned 提及、Heinz 出現在 86% 標題中。",
@@ -244,6 +279,11 @@ const casesData = [
         boardImage: "boards/could-have-been-a-heineken.jpg",
         filmUrl: "https://lion.box.com/s/c2d32gsi95ti00cyjyhnz1xfhb127070",
         awards: { gp: 1, gold: 4, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/heineken-social-01.jpg',
+            idea: 'assets/stills/heineken-social-02.jpg',
+            execution: 'assets/stills/heineken-social-03.jpg'
+        },
         background: "策略建立在清楚的文化洞察，並有資料撐起全球語音訊息使用規模：語音訊息正在取代面對面說話——這股張力對上 Heineken 的社交使命。Promo 試點放在巴西（語音訊息使用量是其他地方的四倍），但設計成能透過不同社群觸點走到全球。",
         idea: "把觀察做成挑釁：語音訊息能不能變成社交的機會？答案是一句簡單的話：「Could have been a Heineken。」野心是讓它變成反射、而不是 slogan——每次收到超長語音，就想到不如見面喝一杯。啟動方式：一個 WhatsApp 體驗，把長語音轉給 bot，換免費啤酒。",
         execution: "核心體驗在 WhatsApp：使用者把語音轉給 Heineken bot。超過 3 分鐘的語音會被自動辨識，獎勵可在指定 Heineken 合作酒吧兌換的啤酒券。只看長度、不看內容，以保護隱私。戶外用原創形式展示「過長語音」，QR code 直接帶進 WhatsApp；並用 sticker 搭配酒券擴散。巴西 bot 處理超過 280 小時語音、換成 1,086 張啤酒券；全球 82 國對話，並登上 The Guardian、The US Sun、The Mirror、Financial Times、Business Insider。",
@@ -269,6 +309,11 @@ const casesData = [
         boardImage: "boards/axa-three-words.jpg",
         filmUrl: "https://lion.box.com/s/zdgi0eemepkfbra40p32fae2os4ybfkz",
         awards: { gp: 1, gold: 1, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/axa-01.jpg',
+            idea: 'assets/stills/axa-02.jpg',
+            execution: 'assets/stills/axa-03.jpg'
+        },
         background: "法國家暴是生死問題：警方紀錄平均每年 21 萬名女性遭受配偶的身體、性或心理暴力；NGO 估計實際接近 100 萬。2024 年法國有 136 名女性被伴侶殺害，另有 773 人因伴侶騷擾自殺。打給 3919（全國求助專線）的電話中，77% 提到需要緊急安置，但收容不足：只有 10,185 個緊急床位，估計需要 35,000。AXA 在 2023 年啟動全球平台「Being a woman shouldn't be a risk」。",
         idea: "「Three Words」是寫進 AXA 住宅保險契約的救命條款。法國家家戶戶依法必須有住宅保險；這類契約原本在火災或水災導致住家不宜居住時提供緊急安置，AXA 只加三個字：「and domestic violence」，幫女性逃出去。受害者打緊急電話，立刻被安置；司機會接她（與孩子）到安全住所（保全飯店）。此條款寫進所有 AXA 住宅保險，並溯及既往。",
         execution: "花了一年多落地。與合作 NGO 一起設計安全、匿名、包容、對孩子友善的救助旅程。為了讓每位女性都知道，以全國大型戰役上市（6.19 億付費曝光），結合戶外、全國電視，以及一支給受害者看、解說救助流程的教育影片。PR 把倖存者與協會領袖的聲音，和 AXA 自己的聲音一起抬高。成果：法國首 12 個月支持 1,576 人；品牌考慮度從第 2 升到第 1；86% 法國人認為這條款應成為產業標準；上市 earned 2.79 億曝光；住宅保險落地頁流量 +321%；淨新增契約年增超過一倍（+113%）。條款已透過企業健康保險再涵蓋 300 萬人；法國以外已在盧森堡上市，並正部署到另外五個 AXA 市場。",
@@ -292,6 +337,11 @@ const casesData = [
         boardImage: "boards/ordinary-periodic-fable.jpg",
         filmUrl: "https://lion.box.com/s/9ab8zs0n62q7ueq5epr3ix9av0uv7nyi",
         awards: { gp: 1, gold: 0, silver: 2, bronze: 1 },
+        stills: {
+            background: 'assets/stills/ordinary-01.jpg',
+            idea: 'assets/stills/ordinary-02.jpg',
+            execution: 'assets/stills/ordinary-03.jpg'
+        },
         background: "The Ordinary 所在的美容品類，被噪音、誇大與行銷扭曲定義。保養溝通常被膨脹宣稱、情緒操弄、偽科學語言主導，賣的是嚮往而不是透明。消費者愈來愈懷疑：「miracle」「medical grade」「eternal youth」已經失去意義，製造的是困惑而不是信任。把行銷語言本身重新框成問題，這檔把 The Ordinary 放在品類裡的校正聲音，而不只是一個保養品牌。",
         idea: "「The Periodic Fable」要鞏固 The Ordinary 作為真相導向聲音的位置——在一個被誇大宣稱與誤導語言淹沒的美容品類裡。解法是建立一套電影系統，讓語言本身成為被批判的對象。透過克制的表演、儀式化的動作、反烏托邦教室，影片視覺化美容消費者如何被重複與炒作制約。",
         execution: "美術指導是概念核心：做出受控、機構感的環境，反映美容行銷語言的僵硬。教室被剝到臨床、略為抽象；從制式座位到放映「Periodic Fable」的無菌投影面，每個元素都有意圖。服裝設計強化齊一、拿掉個性、強調集體行為。被改寫的週期表成為空間焦點，把抽象行銷用語變成可對質的實體。Board 上的數據：49 個誤導行銷詞；一張沒有科學的科學表；影片首 24 小時 100 萬人看過；58% 更可能把品牌視為最值得信任的保養。",
@@ -1169,20 +1219,35 @@ function generateDetailSection(caseData) {
         .map(item => `<li><span class="medal-icon">${item.icon}</span><span>${item.award}</span></li>`)
         .join('');
     
+    const backgroundStillHTML = caseData.stills?.background 
+        ? `<img class="section-still" src="${caseData.stills.background}" alt="背景">` 
+        : '';
+    
+    const ideaStillHTML = caseData.stills?.idea 
+        ? `<img class="section-still" src="${caseData.stills.idea}" alt="想法">` 
+        : '';
+    
+    const executionStillHTML = caseData.stills?.execution 
+        ? `<img class="section-still" src="${caseData.stills.execution}" alt="執行">` 
+        : '';
+    
     return `
         <div class="detail-section">
             <div class="section">
                 <h3 class="section-title">背景</h3>
+                ${backgroundStillHTML}
                 <div class="section-content">${caseData.background}</div>
             </div>
             
             <div class="section">
                 <h3 class="section-title">想法</h3>
+                ${ideaStillHTML}
                 <div class="section-content">${caseData.idea}</div>
             </div>
             
             <div class="section">
                 <h3 class="section-title">執行</h3>
+                ${executionStillHTML}
                 <div class="section-content">${caseData.execution}</div>
             </div>
             
