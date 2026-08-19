@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "haven",
+    "files": [
+      "haven-01.jpg",
+      "haven-02.jpg",
+      "haven-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/haven/SUNCORP INSURANCE - Haven - LEO AUSTRALIA - Cannes Lions 2026 (Case Film from The Work - 1969174-32044036).mp4",
+    "stills": [
+      {
+        "file": "haven-01.jpg",
+        "section": "background",
+        "why": "Aerial suburb with Flood high-risk / Cyclone medium-risk overlays — climate putting homes at risk, the Suncorp problem.",
+        "source_frame": "candidates/haven/03-53.99s.jpg"
+      },
+      {
+        "file": "haven-02.jpg",
+        "section": "idea",
+        "why": "Haven UI: a house ‘speaks’ (‘G’day! It’s me, your home’) over a personalised address risk view.",
+        "source_frame": "candidates/haven/04-74.24s.jpg"
+      },
+      {
+        "file": "haven-03.jpg",
+        "section": "execution",
+        "why": "Laptop + tablet showing the Haven app: WebGL geo map of Australia and a storm-intensity risk view.",
+        "source_frame": "candidates/haven/x-062.0s.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "claude",
+    "files": [
+      "claude-01.jpg",
+      "claude-02.jpg",
+      "claude-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/claude-a-time-and-a-place/CLAUDE - A Time And A Place - MOTHER - Cannes Lions 2026 (Case Film from The Work - 1970038-32068214).mp4",
+    "stills": [
+      {
+        "file": "claude-01.jpg",
+        "section": "background",
+        "why": "CNBC: Anthropic CCO on a ‘conscious decision not to put ads in Claude’ — values made visible when ads are absent.",
+        "source_frame": "candidates/claude/x-018.0s.jpg"
+      },
+      {
+        "file": "claude-02.jpg",
+        "section": "idea",
+        "why": "One of the four black-comedy spots: a trainer in a vulnerable workout moment, the kind of scene ads should not interrupt.",
+        "source_frame": "candidates/claude/03-47.62s.jpg"
+      },
+      {
+        "file": "claude-03.jpg",
+        "section": "execution",
+        "why": "A Super Bowl / TV spot actually playing — diner black comedy with the line ‘Ads are coming to AI.’",
+        "source_frame": "candidates/claude/x-058.0s.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "pub-refused-to-die",
+    "files": [
+      "pub-refused-to-die-01.jpg",
+      "pub-refused-to-die-02.jpg",
+      "pub-refused-to-die-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/pub-refused-to-die/HEINEKEN - The Pub That Refused to Die - LEPUB - Cannes Lions 2026 (Case Film from The Work - 1977773-32067428).mp4",
+    "stills": [
+      {
+        "file": "pub-refused-to-die-01.jpg",
+        "section": "background",
+        "why": "Rural Irish street + ‘9 out of 10 closed pubs are in rural Ireland’ — the pub as the last community centre.",
+        "source_frame": "candidates/pub-refused-to-die/01-16.20s.jpg"
+      },
+      {
+        "file": "pub-refused-to-die-02.jpg",
+        "section": "idea",
+        "why": "Empty pub with stacked chairs and ‘SO WHAT IF A VILLAGE OWNED IT?’ — villagers saving the pub / pub saving the village.",
+        "source_frame": "candidates/pub-refused-to-die/x-028.0s.jpg"
+      },
+      {
+        "file": "pub-refused-to-die-03.jpg",
+        "section": "execution",
+        "why": "Live Kilteely interview inside the actual pub: ‘LOCAL LIMERICK COMMUNITY SAVES LAST PUB’.",
+        "source_frame": "candidates/pub-refused-to-die/x-108.0s.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "kitkat",
+    "files": [
+      "kitkat-01.jpg",
+      "kitkat-02.jpg",
+      "kitkat-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/kitkat-heist/KITKAT - The KitKat Heist - BURSON - Cannes Lions 2026 (Case Film from The Work - 1969849-32051927).mp4",
+    "stills": [
+      {
+        "file": "kitkat-01.jpg",
+        "section": "background",
+        "why": "Press/news type: ‘Over 400,000 KITKAT’ stolen in transit — the 12-tonne crisis.",
+        "source_frame": "candidates/kitkat/01-15.91s.jpg"
+      },
+      {
+        "file": "kitkat-02.jpg",
+        "section": "idea",
+        "why": "People as detectives: Stolen KitKat Tracker UI and users checking 8-digit batch codes.",
+        "source_frame": "candidates/kitkat/04-72.91s.jpg"
+      },
+      {
+        "file": "kitkat-03.jpg",
+        "section": "execution",
+        "why": "Global news wall (GMA, FOX, official statements) — the press execution of the heist story.",
+        "source_frame": "candidates/kitkat/02-33.14s.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "apple-tv",
+    "files": [
+      "apple-tv-01.jpg",
+      "apple-tv-02.jpg",
+      "apple-tv-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/apple-tv-rebrand/APPLE - Apple TV Rebrand - TBWA_MEDIA ARTS LAB - Cannes Lions 2026 (Case Film from The Work - 1975445-32045595).mp4",
+    "stills": [
+      {
+        "file": "apple-tv-01.jpg",
+        "section": "background",
+        "why": "Severance hallway — the entertainment brand being lifted in a widely doubted rebrand moment.",
+        "source_frame": "candidates/apple-tv/x-005.0s.jpg"
+      },
+      {
+        "file": "apple-tv-02.jpg",
+        "section": "idea",
+        "why": "Living-room TV showing the new glass logo — the system arriving at the moment someone opens the app.",
+        "source_frame": "candidates/apple-tv/x-075.0s.jpg"
+      },
+      {
+        "file": "apple-tv-03.jpg",
+        "section": "execution",
+        "why": "Studio BTS of the real glass Apple / + / tv sculptures on stands — in-camera, no CG mock.",
+        "source_frame": "candidates/apple-tv/x-028.0s.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "coinbase",
+    "files": [
+      "coinbase-01.jpg",
+      "coinbase-02.jpg",
+      "coinbase-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/coinbase-your-way-out/COINBASE - Your Way Out - ISLE OF ANY - Cannes Lions 2026 (Film from The Work - 1967487-32017478).mp4",
+    "stills": [
+      {
+        "file": "coinbase-01.jpg",
+        "section": "background",
+        "why": "Endless ‘WAIT HERE’ / ‘TRUSTED INSTITUTION’ queue — the old system you take control back from.",
+        "source_frame": "candidates/coinbase/03-51.49s.jpg"
+      },
+      {
+        "file": "coinbase-02.jpg",
+        "section": "idea",
+        "why": "Hand on glass + glowing triangle over a suited figure — leaving the old system; a new kind of film language.",
+        "source_frame": "candidates/coinbase/05-90.11s.jpg"
+      },
+      {
+        "file": "coinbase-03.jpg",
+        "section": "execution",
+        "why": "Boardroom with in-camera 2D / low-poly NPC costumes — the physical, game-like execution.",
+        "source_frame": "candidates/coinbase/x-080.0s.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "heinz",
+    "files": [
+      "heinz-01.jpg",
+      "heinz-02.jpg",
+      "heinz-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/heinz-look-familiar/HEINZ KETCHUP - Look Familiar_ - RETHINK - Cannes Lions 2026 (Case Film from The Work - 1983154-32019978).mp4",
+    "stills": [
+      {
+        "file": "heinz-01.jpg",
+        "section": "background",
+        "why": "Empty QSR fry boxes on Heinz red — fries + ketchup, and the cheap-alternative landscape.",
+        "source_frame": "candidates/heinz/05-85.79s.jpg"
+      },
+      {
+        "file": "heinz-02.jpg",
+        "section": "idea",
+        "why": "Fry box outlined as the Heinz keystone with ‘LOOK FAMILIAR?’ — the idea in one graphic.",
+        "source_frame": "candidates/heinz/x-038.0s.jpg"
+      },
+      {
+        "file": "heinz-03.jpg",
+        "section": "execution",
+        "why": "NYC street billboard of the fry-box ad (‘IT HAS TO BE’) — outdoor / metro execution.",
+        "source_frame": "candidates/heinz/04-67.41s.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "heineken-social",
+    "files": [
+      "heineken-social-01.jpg",
+      "heineken-social-02.jpg",
+      "heineken-social-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/could-have-been-a-heineken/HEINEKEN - Could Have Been a Heineken - LEPUB - Cannes Lions 2026 (Case Film from The Work - 1969656-32016198).mp4",
+    "stills": [
+      {
+        "file": "heineken-social-01.jpg",
+        "section": "background",
+        "why": "Bored man listening to a very long voice-note waveform — voice notes replacing meeting in person.",
+        "source_frame": "candidates/heineken-social/x-032.0s.jpg"
+      },
+      {
+        "file": "heineken-social-02.jpg",
+        "section": "idea",
+        "why": "WhatsApp bot replies ‘Could have been a Heineken’ and sends free beers — meet for a beer instead.",
+        "source_frame": "candidates/heineken-social/x-070.0s.jpg"
+      },
+      {
+        "file": "heineken-social-03.jpg",
+        "section": "execution",
+        "why": "Outdoor of a giant long voice-note + QR (‘Podia ser uma Heineken’) — the street execution.",
+        "source_frame": "candidates/heineken-social/x-048.0s.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "axa",
+    "files": [
+      "axa-01.jpg",
+      "axa-02.jpg",
+      "axa-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/axa-three-words/AXA FRANCE - Three Words - PUBLICIS CONSEIL - Cannes Lions 2026 (Case Film from The Work - 1997592-32062364).mp4",
+    "stills": [
+      {
+        "file": "axa-01.jpg",
+        "section": "background",
+        "why": "Respectful interview: Beverly Gooden, domestic violence survivor — the need for shelter, not spectacle.",
+        "source_frame": "candidates/axa/x-025.0s.jpg"
+      },
+      {
+        "file": "axa-02.jpg",
+        "section": "idea",
+        "why": "‘three words’ highlighted on a blurred policy: ‘to help women escape’ — the clause added to home insurance.",
+        "source_frame": "candidates/axa/x-065.0s.jpg"
+      },
+      {
+        "file": "axa-03.jpg",
+        "section": "execution",
+        "why": "Quiet hotel/shelter room with suitcase and teddy bear — the journey to safety the campaign explains.",
+        "source_frame": "candidates/axa/x-100.0s.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "ordinary",
+    "files": [
+      "ordinary-01.jpg",
+      "ordinary-02.jpg",
+      "ordinary-03.jpg"
+    ],
+    "source": "/workspace/cannes-library/ordinary-periodic-fable/THE ORDINARY - The Periodic Fable - SMUGGLER - Cannes Lions 2026 (Film from The Work - 1999162-32059898).mp4",
+    "stills": [
+      {
+        "file": "ordinary-01.jpg",
+        "section": "background",
+        "why": "Clips-and-wires face-lift — beauty-marketing hype and fake-science extremes.",
+        "source_frame": "candidates/ordinary/04-34.09s.jpg"
+      },
+      {
+        "file": "ordinary-02.jpg",
+        "section": "idea",
+        "why": "Dystopian classroom facing ‘The Periodic Fable™ / A scientific table with zero science’ — language as the object of critique.",
+        "source_frame": "candidates/ordinary/x-055.0s.jpg"
+      },
+      {
+        "file": "ordinary-03.jpg",
+        "section": "execution",
+        "why": "Clinical classroom grid of uniform students — art direction of the rewritten periodic table world.",
+        "source_frame": "candidates/ordinary/x-038.0s.jpg"
+      }
+    ]
+  }
+]
