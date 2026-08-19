@@ -119,6 +119,8 @@ function getUserState(name) {
   if (!stateSheet) {
     stateSheet = ss.insertSheet(STATE_SHEET);
     stateSheet.appendRow(['Name', 'ViewCount', 'Likes', 'ViewedDays']);
+    // Force ViewedDays column to text format
+    stateSheet.getRange('D:D').setNumberFormat('@');
   }
   
   const stateData = stateSheet.getDataRange().getValues();
@@ -131,7 +133,12 @@ function getUserState(name) {
   if (userRow) {
     viewCount = userRow[1] || 0;
     likes = userRow[2] ? String(userRow[2]).split(',').map(id => parseInt(id)).filter(id => !isNaN(id)) : [];
-    viewedDays = userRow[3] ? String(userRow[3]).split(',') : [];
+    
+    // Normalize ViewedDays - handle Sheets date mangling
+    if (userRow[3]) {
+      const rawDays = String(userRow[3]).split(',');
+      viewedDays = rawDays.map(day => normalizeDay(day.trim())).filter(d => d);
+    }
   }
   
   // Get today's swiped case IDs
@@ -147,6 +154,36 @@ function getUserState(name) {
   };
 }
 
+// Normalize a day value to YYYY-MM-DD
+// Handles Date objects and various string formats from Sheets
+function normalizeDay(value) {
+  if (!value) return null;
+  
+  // If it's a Date object, format it
+  if (value instanceof Date && !isNaN(value.getTime())) {
+    return Utilities.formatDate(value, 'Asia/Taipei', 'yyyy-MM-dd');
+  }
+  
+  const str = String(value).trim();
+  
+  // Already in YYYY-MM-DD format
+  if (/^\d{4}-\d{2}-\d{2}$/.test(str)) {
+    return str;
+  }
+  
+  // Try parsing as a date
+  try {
+    const parsed = new Date(str);
+    if (!isNaN(parsed.getTime())) {
+      return Utilities.formatDate(parsed, 'Asia/Taipei', 'yyyy-MM-dd');
+    }
+  } catch (e) {
+    // Invalid date, skip
+  }
+  
+  return null;
+}
+
 // Get today's swiped cases for a user
 function getTodaySwipedCases(name) {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -160,7 +197,10 @@ function getTodaySwipedCases(name) {
   const data = swipesSheet.getDataRange().getValues();
   
   const todayCases = data.slice(1)
-    .filter(row => row[0] === name && row[3] === today)
+    .filter(row => {
+      const rowDate = normalizeDay(row[3]);
+      return row[0] === name && rowDate === today;
+    })
     .map(row => parseInt(row[1]));
   
   return todayCases;
@@ -174,11 +214,17 @@ function recordSwipe(name, caseId, liked, date) {
   if (!swipesSheet) {
     swipesSheet = ss.insertSheet(SWIPES_SHEET);
     swipesSheet.appendRow(['Name', 'CaseId', 'Liked', 'Date', 'Timestamp']);
+    // Force Date column to text format to prevent Sheets conversion
+    swipesSheet.getRange('D:D').setNumberFormat('@');
   }
   
   // Record the swipe
   const timestamp = new Date().toISOString();
   swipesSheet.appendRow([name, parseInt(caseId), liked === '1' ? 1 : 0, date, timestamp]);
+  
+  // Force text format on the new row's Date cell
+  const newRowIndex = swipesSheet.getLastRow();
+  swipesSheet.getRange(newRowIndex, 4).setNumberFormat('@');
   
   // Update state
   updateUserState(name, parseInt(caseId), liked === '1', date);
@@ -194,6 +240,8 @@ function updateUserState(name, caseId, liked, date) {
   if (!stateSheet) {
     stateSheet = ss.insertSheet(STATE_SHEET);
     stateSheet.appendRow(['Name', 'ViewCount', 'Likes', 'ViewedDays']);
+    // Force ViewedDays column to text format
+    stateSheet.getRange('D:D').setNumberFormat('@');
   }
   
   const data = stateSheet.getDataRange().getValues();
@@ -215,7 +263,14 @@ function updateUserState(name, caseId, liked, date) {
   if (userRow) {
     viewCount = (userRow[1] || 0) + 1;
     likes = userRow[2] ? String(userRow[2]).split(',').map(id => parseInt(id)).filter(id => !isNaN(id)) : [];
-    viewedDays = userRow[3] ? String(userRow[3]).split(',') : [];
+    
+    // Normalize existing viewedDays
+    if (userRow[3]) {
+      const rawDays = String(userRow[3]).split(',');
+      viewedDays = rawDays.map(day => normalizeDay(day.trim())).filter(d => d);
+    } else {
+      viewedDays = [];
+    }
     
     if (liked && !likes.includes(caseId)) {
       likes.push(caseId);
@@ -227,12 +282,22 @@ function updateUserState(name, caseId, liked, date) {
     
     stateSheet.getRange(rowIndex, 2).setValue(viewCount);
     stateSheet.getRange(rowIndex, 3).setValue(likes.join(','));
-    stateSheet.getRange(rowIndex, 4).setValue(viewedDays.join(','));
+    
+    // Force text format for ViewedDays to prevent Sheets date conversion
+    const viewedDaysCell = stateSheet.getRange(rowIndex, 4);
+    viewedDaysCell.setNumberFormat('@');
+    viewedDaysCell.setValue(viewedDays.join(','));
   } else {
     if (liked) {
       likes = [caseId];
     }
+    
+    // Append new row
     stateSheet.appendRow([name, viewCount, likes.join(','), date]);
+    
+    // Force text format on the new row's ViewedDays cell
+    const newRowIndex = stateSheet.getLastRow();
+    stateSheet.getRange(newRowIndex, 4).setNumberFormat('@');
   }
 }
 
