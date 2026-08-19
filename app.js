@@ -335,17 +335,17 @@ let teamMembers = [];
 // Member likes data (will be loaded from API)
 let memberLikesData = {};
 
-// Merch unlock rules: every 2 unique days unlocks one creative item
+// Merch unlock rules: every 1 unique day unlocks one creative item
 // These are accessories/props for a Cannes creative industry lion, not just clothing
 // Note: Only the beret changes the lion character (from naked to wearing hat).
 // Other merch items are shown as unlocked icons in the grid only.
 const merchItems = [
-    { id: 'beret', name: '貝雷帽', daysRequired: 2 },
-    { id: 'sunglasses', name: '墨鏡', daysRequired: 4 },
-    { id: 'necklace', name: '金獅項鍊', daysRequired: 6 },
-    { id: 'bag', name: '創意小包', daysRequired: 8 },
-    { id: 'snowboard', name: '滑雪板', daysRequired: 10 },
-    { id: 'crown', name: '小皇冠', daysRequired: 12 }
+    { id: 'beret', name: '貝雷帽', daysRequired: 1 },
+    { id: 'sunglasses', name: '墨鏡', daysRequired: 2 },
+    { id: 'necklace', name: '金獅項鍊', daysRequired: 3 },
+    { id: 'bag', name: '創意小包', daysRequired: 4 },
+    { id: 'snowboard', name: '滑雪板', daysRequired: 5 },
+    { id: 'crown', name: '小皇冠', daysRequired: 6 }
 ];
 
 // Initialize app
