@@ -8,33 +8,114 @@
 </head>
 <body>
     <div class="app-container">
-        <!-- Card Stack -->
-        <div class="card-stack" id="cardStack">
-            <!-- Cards will be dynamically rendered here -->
+        <!-- Tab Content -->
+        <div class="tab-content" id="bioTab" style="display: none;">
+            <!-- My Bio Tab -->
+            <div class="bio-container">
+                <!-- Streak Headline -->
+                <div class="streak-headline">
+                    <h1>恭喜，您已經連續 <span class="streak-number" id="streakNumber">0</span> 天 都有看案例！</h1>
+                </div>
+
+                <!-- Lion Character -->
+                <div class="lion-character" id="lionCharacter">
+                    <!-- Lion layers will be loaded dynamically -->
+                </div>
+
+                <div class="lion-caption">離創意大獅的路已經不遠了！</div>
+
+                <!-- Next Unlock -->
+                <div class="next-unlock" id="nextUnlock">
+                    <div class="unlock-text">再 <span id="daysToUnlock">2</span> 天即可解鎖：<span id="nextMerchName">貝雷帽</span></div>
+                    
+                    <!-- Progress Track -->
+                    <div class="progress-track">
+                        <div class="track-line"></div>
+                        <div class="track-icon" id="trackIcon">
+                            <div class="merch-icon beret-icon"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Merch Grid -->
+                <div class="merch-grid">
+                    <div class="merch-item" data-merch="beret" data-days="2">
+                        <div class="merch-icon beret-icon"></div>
+                        <div class="merch-label">第1趟</div>
+                        <div class="merch-name">貝雷帽</div>
+                        <div class="check-mark">✓</div>
+                    </div>
+                    <div class="merch-item" data-merch="tee" data-days="4">
+                        <div class="merch-icon tee-icon"></div>
+                        <div class="merch-label">第2趟</div>
+                        <div class="merch-name">白T</div>
+                        <div class="check-mark">✓</div>
+                    </div>
+                    <div class="merch-item" data-merch="sunglasses" data-days="6">
+                        <div class="merch-icon sunglasses-icon"></div>
+                        <div class="merch-label">第3趟</div>
+                        <div class="merch-name">墨鏡</div>
+                        <div class="check-mark">✓</div>
+                    </div>
+                    <div class="merch-item" data-merch="earring" data-days="8">
+                        <div class="merch-icon earring-icon"></div>
+                        <div class="merch-label">第4趟</div>
+                        <div class="merch-name">耳環</div>
+                        <div class="check-mark">✓</div>
+                    </div>
+                    <div class="merch-item" data-merch="jacket" data-days="10">
+                        <div class="merch-icon jacket-icon"></div>
+                        <div class="merch-label">第5趟</div>
+                        <div class="merch-name">外套</div>
+                        <div class="check-mark">✓</div>
+                    </div>
+                    <div class="merch-item" data-merch="crown" data-days="12">
+                        <div class="merch-icon crown-icon"></div>
+                        <div class="merch-label">第6趟</div>
+                        <div class="merch-name">小皇冠</div>
+                        <div class="check-mark">✓</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Empty State -->
-        <div class="empty-state" id="emptyState" style="display: none;">
-            <div class="empty-icon">🎉</div>
-            <h2>今天看完了！</h2>
-            <p>明天再來看更多精彩案例</p>
+        <div class="tab-content active" id="casesTab">
+            <!-- Card Stack -->
+            <div class="card-stack" id="cardStack">
+                <!-- Cards will be dynamically rendered here -->
+            </div>
+
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <div class="empty-icon">🎉</div>
+                <h2>今天看完了！</h2>
+                <p>明天再來看更多精彩案例</p>
+            </div>
+        </div>
+
+        <div class="tab-content" id="scoreboardTab" style="display: none;">
+            <!-- Scoreboard Placeholder -->
+            <div class="placeholder-container">
+                <div class="placeholder-icon">🏆</div>
+                <h2>即將推出</h2>
+            </div>
         </div>
 
         <!-- Bottom Navigation -->
         <nav class="bottom-nav">
-            <button class="nav-item">
+            <button class="nav-item" data-tab="bioTab">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                     <circle cx="12" cy="7" r="4"></circle>
                 </svg>
             </button>
-            <button class="nav-item active">
+            <button class="nav-item active" data-tab="casesTab">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <circle cx="11" cy="11" r="8"></circle>
                     <path d="m21 21-4.35-4.35"></path>
                 </svg>
             </button>
-            <button class="nav-item">
+            <button class="nav-item" data-tab="scoreboardTab">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                     <circle cx="9" cy="7" r="4"></circle>

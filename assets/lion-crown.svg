@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <!-- Crown (За) - Small golden crown -->
+  <g>
+    <!-- Crown base -->
+    <path d="M 75 52 L 78 42 L 85 48 L 92 40 L 100 48 L 108 40 L 115 48 L 122 42 L 125 52 Z" fill="#FFD700" stroke="#FFA500" stroke-width="1.5"/>
+    <!-- Crown band -->
+    <rect x="75" y="52" width="50" height="6" rx="1" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+    <!-- Jewels -->
+    <circle cx="85" cy="48" r="2" fill="#FF1493"/>
+    <circle cx="100" cy="48" r="2" fill="#FF1493"/>
+    <circle cx="115" cy="48" r="2" fill="#FF1493"/>
+  </g>
+</svg>
