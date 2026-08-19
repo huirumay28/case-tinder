@@ -45,8 +45,8 @@ function jsonp(url, params = {}, timeoutMs = 8000) {
 }
 
 // Get date in Asia/Taipei timezone (YYYY-MM-DD)
-function getTaipeiDateString() {
-    const taipeiDate = new Date().toLocaleString('en-US', { 
+function getTaipeiDateString(date = new Date()) {
+    const taipeiDate = date.toLocaleString('en-US', { 
         timeZone: 'Asia/Taipei',
         year: 'numeric',
         month: '2-digit',
@@ -54,6 +54,31 @@ function getTaipeiDateString() {
     });
     const [month, day, year] = taipeiDate.split('/');
     return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+}
+
+// Normalize day value to YYYY-MM-DD format
+// Handles mangled dates from Google Sheets and various formats
+function normalizeDay(value) {
+    if (!value) return null;
+    
+    const str = String(value).trim();
+    
+    // Already in YYYY-MM-DD format
+    if (/^\d{4}-\d{2}-\d{2}$/.test(str)) {
+        return str;
+    }
+    
+    // Try parsing as a Date (handles "Tue Aug 19 2026...", "8/19/2026", etc.)
+    try {
+        const parsed = new Date(str);
+        if (!isNaN(parsed.getTime())) {
+            return getTaipeiDateString(parsed);
+        }
+    } catch (e) {
+        // Invalid date, skip it
+    }
+    
+    return null;
 }
 
 const casesData = [
@@ -335,17 +360,19 @@ let teamMembers = [];
 // Member likes data (will be loaded from API)
 let memberLikesData = {};
 
-// Merch unlock rules: every 1 unique day unlocks one creative item
+// Merch unlock rules: based on consecutive streak days
+// Day 1 (streak === 1): naked lion, no merch
+// Merch starts on day 2 (streak === 2)
 // These are accessories/props for a Cannes creative industry lion, not just clothing
 // Note: Only the beret changes the lion character (from naked to wearing hat).
 // Other merch items are shown as unlocked icons in the grid only.
 const merchItems = [
-    { id: 'beret', name: '貝雷帽', daysRequired: 1 },
-    { id: 'sunglasses', name: '墨鏡', daysRequired: 2 },
-    { id: 'necklace', name: '金獅項鍊', daysRequired: 3 },
-    { id: 'bag', name: '創意小包', daysRequired: 4 },
-    { id: 'snowboard', name: '滑雪板', daysRequired: 5 },
-    { id: 'crown', name: '小皇冠', daysRequired: 6 }
+    { id: 'beret', name: '貝雷帽', daysRequired: 2 },
+    { id: 'sunglasses', name: '墨鏡', daysRequired: 3 },
+    { id: 'necklace', name: '金獅項鍊', daysRequired: 4 },
+    { id: 'bag', name: '創意小包', daysRequired: 5 },
+    { id: 'snowboard', name: '滑雪板', daysRequired: 6 },
+    { id: 'crown', name: '小皇冠', daysRequired: 7 }
 ];
 
 // Initialize app
@@ -500,9 +527,14 @@ async function handleNameSelection(name) {
             likedCases = new Set(data.likes || []);
             todaySwipedCaseIds = new Set(data.todayCaseIds || []);
             
-            // Merge API viewedDays with local
+            // Merge API viewedDays with local, normalizing all dates
             if (data.viewedDays && data.viewedDays.length > 0) {
-                data.viewedDays.forEach(day => viewedDays.add(day));
+                data.viewedDays.forEach(day => {
+                    const normalized = normalizeDay(day);
+                    if (normalized) {
+                        viewedDays.add(normalized);
+                    }
+                });
             }
             
             calculateStreak();
@@ -540,9 +572,14 @@ async function loadUserState() {
             likedCases = new Set(data.likes || []);
             todaySwipedCaseIds = new Set(data.todayCaseIds || []);
             
-            // Merge API viewedDays with local
+            // Merge API viewedDays with local, normalizing all dates
             if (data.viewedDays && data.viewedDays.length > 0) {
-                data.viewedDays.forEach(day => viewedDays.add(day));
+                data.viewedDays.forEach(day => {
+                    const normalized = normalizeDay(day);
+                    if (normalized) {
+                        viewedDays.add(normalized);
+                    }
+                });
             }
             
             calculateStreak();
@@ -585,7 +622,14 @@ async function loadScoreboardData() {
 function loadProgress() {
     const savedDays = localStorage.getItem('casetinder-viewed-days');
     if (savedDays) {
-        viewedDays = new Set(JSON.parse(savedDays));
+        const rawDays = JSON.parse(savedDays);
+        viewedDays = new Set();
+        rawDays.forEach(day => {
+            const normalized = normalizeDay(day);
+            if (normalized) {
+                viewedDays.add(normalized);
+            }
+        });
     }
     
     const savedMerch = localStorage.getItem('casetinder-unlocked-merch');
@@ -615,7 +659,7 @@ function saveProgress() {
     localStorage.setItem('casetinder-view-count', viewCount.toString());
 }
 
-// Calculate streak (consecutive days ending today or yesterday)
+// Calculate streak (consecutive days ending today or yesterday, in Taipei timezone)
 function calculateStreak() {
     if (viewedDays.size === 0) {
         streak = 0;
@@ -623,8 +667,13 @@ function calculateStreak() {
     }
     
     const sortedDays = [...viewedDays].sort().reverse();
-    const today = getLocalDateString();
-    const yesterday = getLocalDateString(new Date(Date.now() - 86400000));
+    const today = getTaipeiDateString();
+    
+    // Calculate yesterday in Taipei timezone
+    const todayDate = new Date(today + 'T00:00:00');
+    const yesterdayDate = new Date(todayDate);
+    yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+    const yesterday = getTaipeiDateString(yesterdayDate);
     
     let currentStreak = 0;
     let checkDate = sortedDays[0] === today ? today : (sortedDays[0] === yesterday ? yesterday : null);
@@ -637,9 +686,9 @@ function calculateStreak() {
     for (let i = 0; i < sortedDays.length; i++) {
         if (sortedDays[i] === checkDate) {
             currentStreak++;
-            const prevDate = new Date(checkDate);
+            const prevDate = new Date(checkDate + 'T00:00:00');
             prevDate.setDate(prevDate.getDate() - 1);
-            checkDate = getLocalDateString(prevDate);
+            checkDate = getTaipeiDateString(prevDate);
         } else {
             break;
         }
@@ -648,28 +697,20 @@ function calculateStreak() {
     streak = currentStreak;
 }
 
-// Calculate unlocks based on total unique days
+// Calculate unlocks based on current streak (recompute from scratch each time)
 function calculateUnlocks() {
-    const totalDays = viewedDays.size;
+    unlockedMerch = new Set();
     
     merchItems.forEach(item => {
-        if (totalDays >= item.daysRequired) {
+        if (streak >= item.daysRequired) {
             unlockedMerch.add(item.id);
         }
     });
 }
 
-// Get local date string (YYYY-MM-DD in local timezone)
-function getLocalDateString(date = new Date()) {
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    return `${year}-${month}-${day}`;
-}
-
-// Record today as a view day
+// Record today as a view day (using Taipei timezone)
 function recordViewDay() {
-    const today = getLocalDateString();
+    const today = getTaipeiDateString();
     
     if (!viewedDays.has(today)) {
         viewedDays.add(today);
@@ -927,13 +968,12 @@ function renderLion() {
     // remain as grid icons only. The old SVG overlays don't work with the 3D lion.
 }
 
-// Update next unlock display
+// Update next unlock display (based on current streak)
 function updateNextUnlock() {
-    const totalDays = viewedDays.size;
-    const nextItem = merchItems.find(item => totalDays < item.daysRequired);
+    const nextItem = merchItems.find(item => streak < item.daysRequired);
     
     if (nextItem) {
-        const daysRemaining = nextItem.daysRequired - totalDays;
+        const daysRemaining = nextItem.daysRequired - streak;
         document.getElementById('daysToUnlock').textContent = daysRemaining;
         document.getElementById('nextMerchName').textContent = nextItem.name;
         
