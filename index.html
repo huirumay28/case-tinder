@@ -7,6 +7,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Sign-in Gate -->
+    <div class="signin-gate" id="signinGate">
+        <div class="signin-container">
+            <h1 class="signin-title">你是誰？</h1>
+            <p class="signin-subtitle">加入 Alien Team</p>
+            
+            <div class="signin-form" id="signinForm">
+                <div class="form-step" id="codeStep">
+                    <input 
+                        type="text" 
+                        class="signin-input" 
+                        id="inviteCodeInput" 
+                        placeholder="邀請碼"
+                        autocomplete="off"
+                    >
+                    <button class="signin-button" id="codeSubmitBtn">繼續</button>
+                </div>
+                
+                <div class="form-step hidden" id="nameStep">
+                    <p class="step-instruction">選擇你的名字</p>
+                    <div class="name-list" id="nameList">
+                        <!-- Names will be loaded from API -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="error-message" id="errorMessage"></div>
+        </div>
+    </div>
+
     <div class="app-container">
         <!-- Tab Content -->
         <div class="tab-content" id="bioTab">

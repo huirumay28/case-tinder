@@ -1,3 +1,45 @@
+// API Configuration
+const CASETINDER_API = 'CASETINDER_API_PLACEHOLDER';
+
+// JSONP Helper
+function jsonp(url, params = {}) {
+    return new Promise((resolve, reject) => {
+        const callbackName = 'jsonp_' + Date.now() + '_' + Math.random().toString(36).substr(2);
+        const queryString = Object.keys(params)
+            .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(params[key])}`)
+            .join('&');
+        const fullUrl = `${url}?${queryString}&callback=${callbackName}`;
+        
+        window[callbackName] = (data) => {
+            delete window[callbackName];
+            document.body.removeChild(script);
+            resolve(data);
+        };
+        
+        const script = document.createElement('script');
+        script.src = fullUrl;
+        script.onerror = () => {
+            delete window[callbackName];
+            document.body.removeChild(script);
+            reject(new Error('JSONP request failed'));
+        };
+        
+        document.body.appendChild(script);
+    });
+}
+
+// Get date in Asia/Taipei timezone (YYYY-MM-DD)
+function getTaipeiDateString() {
+    const taipeiDate = new Date().toLocaleString('en-US', { 
+        timeZone: 'Asia/Taipei',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+    });
+    const [month, day, year] = taipeiDate.split('/');
+    return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+}
+
 const casesData = [
     {
         id: 1,
@@ -233,44 +275,20 @@ let streak = 0;
 let unlockedMerch = new Set();
 
 // Scoreboard state
-let currentUser = localStorage.getItem('casetinder-user') || 'Huiru';
+let currentUser = localStorage.getItem('casetinder-user') || null;
 let likedCases = new Set();
 let viewCount = 0;
 
-// TODO: Later integrate with Google Sheets for team data sync
-// Sheet read: fetch all team members, their view counts, and liked cases
-// Sheet write: update current user's view count and liked cases on each swipe
-const teamMembers = [
-    { name: 'Hao Tseng', viewCount: 0, color: '#FF6B35' },
-    { name: 'Huiru', viewCount: 0, color: '#FF4458' },
-    { name: 'Albert Hsu', viewCount: 0, color: '#3498DB' },
-    { name: 'Eric Lin', viewCount: 0, color: '#9B59B6' },
-    { name: 'Eric Chen', viewCount: 0, color: '#2ECC71' },
-    { name: 'Brian Chen', viewCount: 0, color: '#F39C12' },
-    { name: 'Ona Chen', viewCount: 0, color: '#E91E63' },
-    { name: 'Ping Tseng', viewCount: 0, color: '#1ABC9C' },
-    { name: 'Vivi Tsou', viewCount: 0, color: '#E74C3C' },
-    { name: 'Dane Chang', viewCount: 0, color: '#34495E' },
-    { name: 'Jessie Hong', viewCount: 0, color: '#8E44AD' },
-    { name: 'Clio Wang', viewCount: 0, color: '#16A085' },
-    { name: 'Hugh Huang', viewCount: 0, color: '#D35400' }
-];
+// Sign-in state
+let isSignedIn = false;
+let rosterMembers = [];
+let todaySwipedCaseIds = new Set();
 
-// Placeholder liked cases for other team members
-const otherMembersLikes = {
-    'Hao Tseng': [],
-    'Albert Hsu': [],
-    'Eric Lin': [],
-    'Eric Chen': [],
-    'Brian Chen': [],
-    'Ona Chen': [],
-    'Ping Tseng': [],
-    'Vivi Tsou': [],
-    'Dane Chang': [],
-    'Jessie Hong': [],
-    'Clio Wang': [],
-    'Hugh Huang': []
-};
+// Team members (will be loaded from API)
+let teamMembers = [];
+
+// Member likes data (will be loaded from API)
+let memberLikesData = {};
 
 // Merch unlock rules: every 2 unique days unlocks one creative item
 // These are accessories/props for a Cannes creative industry lion, not just clothing
@@ -284,12 +302,223 @@ const merchItems = [
 ];
 
 // Initialize app
-function init() {
+async function init() {
+    // Check if user is already signed in
+    const savedUser = localStorage.getItem('casetinder-user');
+    
+    if (savedUser) {
+        // Try to load roster and validate user
+        try {
+            await loadRoster();
+            
+            // Check if saved user is in roster
+            const userExists = rosterMembers.some(m => m.name === savedUser);
+            
+            if (userExists) {
+                currentUser = savedUser;
+                await loadUserState();
+                hideSigninGate();
+                startApp();
+                return;
+            } else {
+                // Saved user not in roster, clear and show sign-in
+                localStorage.removeItem('casetinder-user');
+                currentUser = null;
+            }
+        } catch (error) {
+            console.error('Failed to load roster:', error);
+        }
+    }
+    
+    // Show sign-in gate
+    showSigninGate();
+}
+
+// Start the main app after sign-in
+function startApp() {
+    isSignedIn = true;
     loadProgress();
     setupNavigation();
     setupScoreboard();
     renderCard(currentCaseIndex);
     updateBioTab();
+}
+
+// Sign-in gate functions
+function showSigninGate() {
+    document.getElementById('signinGate').classList.remove('hidden');
+    setupSigninHandlers();
+    loadRoster();
+}
+
+function hideSigninGate() {
+    document.getElementById('signinGate').classList.add('hidden');
+}
+
+function setupSigninHandlers() {
+    const codeInput = document.getElementById('inviteCodeInput');
+    const codeSubmitBtn = document.getElementById('codeSubmitBtn');
+    const errorMessage = document.getElementById('errorMessage');
+    
+    codeSubmitBtn.addEventListener('click', () => {
+        const code = codeInput.value.trim().toUpperCase();
+        
+        if (!code) {
+            showError('請輸入邀請碼');
+            return;
+        }
+        
+        if (code === 'ALIEN') {
+            errorMessage.textContent = '';
+            document.getElementById('codeStep').classList.add('hidden');
+            document.getElementById('nameStep').classList.remove('hidden');
+        } else {
+            showError('邀請碼不對');
+        }
+    });
+    
+    codeInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            codeSubmitBtn.click();
+        }
+    });
+}
+
+function showError(message) {
+    const errorMessage = document.getElementById('errorMessage');
+    errorMessage.textContent = message;
+}
+
+async function loadRoster() {
+    try {
+        const data = await jsonp(CASETINDER_API, { action: 'roster' });
+        
+        if (data.ok && data.members) {
+            rosterMembers = data.members;
+            teamMembers = data.members.map(m => ({
+                ...m,
+                viewCount: 0
+            }));
+            renderNameList();
+        }
+    } catch (error) {
+        console.error('Failed to load roster:', error);
+        showError('無法載入名單，請重新整理頁面');
+    }
+}
+
+function renderNameList() {
+    const nameList = document.getElementById('nameList');
+    
+    nameList.innerHTML = rosterMembers.map(member => `
+        <div class="name-item" data-name="${member.name}">
+            <div class="name-avatar" style="background-color: ${member.color}">
+                ${member.name.charAt(0).toUpperCase()}
+            </div>
+            <div class="name-text">${member.name}</div>
+        </div>
+    `).join('');
+    
+    // Add click handlers
+    nameList.querySelectorAll('.name-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const name = item.dataset.name;
+            handleNameSelection(name);
+        });
+    });
+}
+
+async function handleNameSelection(name) {
+    try {
+        const data = await jsonp(CASETINDER_API, { 
+            action: 'login',
+            code: 'ALIEN',
+            name: name
+        });
+        
+        if (data.ok) {
+            // Save user
+            currentUser = data.name;
+            localStorage.setItem('casetinder-user', data.name);
+            
+            // Load initial state from API
+            viewCount = data.viewCount || 0;
+            likedCases = new Set(data.likes || []);
+            todaySwipedCaseIds = new Set(data.todayCaseIds || []);
+            
+            // Merge API viewedDays with local
+            if (data.viewedDays && data.viewedDays.length > 0) {
+                data.viewedDays.forEach(day => viewedDays.add(day));
+            }
+            
+            calculateStreak();
+            calculateUnlocks();
+            saveProgress();
+            
+            hideSigninGate();
+            startApp();
+        } else {
+            showError(data.error === 'bad_code' ? '邀請碼不對' : '找不到這個人');
+        }
+    } catch (error) {
+        console.error('Login failed:', error);
+        showError('登入失敗，請重試');
+    }
+}
+
+async function loadUserState() {
+    if (!currentUser) return;
+    
+    try {
+        const data = await jsonp(CASETINDER_API, {
+            action: 'state',
+            name: currentUser
+        });
+        
+        if (data.ok) {
+            viewCount = data.viewCount || 0;
+            likedCases = new Set(data.likes || []);
+            todaySwipedCaseIds = new Set(data.todayCaseIds || []);
+            
+            // Merge API viewedDays with local
+            if (data.viewedDays && data.viewedDays.length > 0) {
+                data.viewedDays.forEach(day => viewedDays.add(day));
+            }
+            
+            calculateStreak();
+            calculateUnlocks();
+            saveProgress();
+        }
+    } catch (error) {
+        console.error('Failed to load user state:', error);
+    }
+}
+
+async function loadScoreboardData() {
+    try {
+        const data = await jsonp(CASETINDER_API, { action: 'scoreboard' });
+        
+        if (data.ok && data.members) {
+            // Update team members with real data
+            teamMembers = data.members.map(m => {
+                const likesArray = Array.isArray(m.likes) ? m.likes : [];
+                return {
+                    name: m.name,
+                    color: m.color,
+                    viewCount: m.viewCount || 0,
+                    likes: likesArray
+                };
+            });
+            
+            // Build memberLikesData
+            memberLikesData = {};
+            teamMembers.forEach(m => {
+                memberLikesData[m.name] = m.likes || [];
+            });
+        }
+    } catch (error) {
+        console.error('Failed to load scoreboard:', error);
+    }
 }
 
 // Load progress from localStorage
@@ -473,9 +702,12 @@ function showLikedCasesView(memberName) {
 }
 
 // Render ranking list
-function renderRankingList() {
+async function renderRankingList() {
     const rankingList = document.getElementById('rankingList');
     if (!rankingList) return;
+    
+    // Load fresh scoreboard data
+    await loadScoreboardData();
     
     const sortedMembers = [...teamMembers].map(member => {
         if (member.name === currentUser) {
@@ -519,12 +751,12 @@ function getMemberLikedCases(memberName) {
     if (memberName === currentUser) {
         return [...likedCases];
     }
-    return otherMembersLikes[memberName] || [];
+    return memberLikesData[memberName] || [];
 }
 
 // Get random teammates who also liked a case
 function getRandomAlsoLiked(caseId, excludeName) {
-    const allWhoLiked = Object.entries(otherMembersLikes)
+    const allWhoLiked = Object.entries(memberLikesData)
         .filter(([name, likes]) => name !== excludeName && likes.includes(caseId))
         .map(([name]) => name);
     
@@ -573,7 +805,7 @@ function renderLikedCases(memberName, isCurrentUser) {
         return `
             <div class="liked-case-card">
                 <div class="liked-case-image">
-                    ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : caseData.title}
+                    ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:white;">${caseData.title}</div>`}
                 </div>
                 <div class="liked-case-info">
                     ${alsoLikedHTML}
@@ -655,6 +887,12 @@ function updateMerchGrid() {
 function renderCard(index) {
     const cardStack = document.getElementById('cardStack');
     const emptyState = document.getElementById('emptyState');
+    
+    // Skip cards already swiped today
+    while (index < casesData.length && todaySwipedCaseIds.has(casesData[index].id)) {
+        index++;
+        currentCaseIndex = index;
+    }
     
     if (index >= casesData.length) {
         cardStack.innerHTML = '';
@@ -838,6 +1076,14 @@ function setupCardInteractions(card) {
 function handleSwipe(card, action) {
     const caseId = casesData[currentCaseIndex].id;
     
+    // Check if already swiped today
+    if (todaySwipedCaseIds.has(caseId)) {
+        // Skip to next card
+        currentCaseIndex++;
+        renderCard(currentCaseIndex);
+        return;
+    }
+    
     // Record that user viewed a case today (for streak)
     recordViewDay();
     
@@ -845,17 +1091,33 @@ function handleSwipe(card, action) {
     viewCount++;
     
     // If like (swipe right), save to liked cases
-    if (action === 'like') {
+    const liked = action === 'like';
+    if (liked) {
         likedCases.add(caseId);
-        // TODO: Later integrate with Google Sheets
-        // Write liked case to Sheet: append row with [currentUser, caseId, timestamp]
         card.classList.add('swipe-right');
     } else {
         card.classList.add('swipe-left');
     }
     
+    // Add to today's swiped cases
+    todaySwipedCaseIds.add(caseId);
+    
     // Save progress
     saveProgress();
+    
+    // Call API to record swipe
+    if (currentUser) {
+        const taipeiDate = getTaipeiDateString();
+        jsonp(CASETINDER_API, {
+            action: 'swipe',
+            name: currentUser,
+            caseId: caseId,
+            liked: liked ? 1 : 0,
+            date: taipeiDate
+        }).catch(error => {
+            console.error('Failed to record swipe:', error);
+        });
+    }
     
     // Move to next card after animation
     setTimeout(() => {

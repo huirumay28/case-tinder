@@ -726,6 +726,13 @@ body {
     font-size: 28px;
     font-weight: 800;
     color: var(--white);
+    overflow: hidden;
+}
+
+.liked-case-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .liked-case-info {
@@ -800,6 +807,168 @@ body {
 .empty-liked-state p {
     font-size: 15px;
     color: #666;
+}
+
+/* Sign-in Gate Styles */
+.signin-gate {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--white);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.signin-gate.hidden {
+    display: none;
+}
+
+.signin-container {
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+}
+
+.signin-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+
+.signin-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--pink);
+    margin-bottom: 40px;
+}
+
+.signin-form {
+    margin-bottom: 20px;
+}
+
+.form-step {
+    animation: fadeIn 0.3s ease;
+}
+
+.form-step.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.signin-input {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 16px;
+    border: 2px solid #EBEBEB;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    outline: none;
+    transition: border-color 0.2s ease;
+    font-family: inherit;
+}
+
+.signin-input:focus {
+    border-color: var(--pink);
+}
+
+.signin-button {
+    width: 100%;
+    padding: 16px;
+    background: var(--pink);
+    color: var(--white);
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.signin-button:active {
+    transform: scale(0.98);
+}
+
+.signin-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.step-instruction {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.name-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.name-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    background: var(--white);
+    border: 2px solid #EBEBEB;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.name-item:hover {
+    border-color: var(--pink);
+    background: #FFF5F7;
+}
+
+.name-item:active {
+    transform: scale(0.98);
+}
+
+.name-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    flex-shrink: 0;
+}
+
+.name-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+    text-align: left;
+}
+
+.error-message {
+    color: var(--pink);
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 20px;
 }
 
 @media (min-width: 768px) {
