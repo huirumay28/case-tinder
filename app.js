@@ -1,5 +1,5 @@
 // API Configuration
-const CASETINDER_API = 'CASETINDER_API_PLACEHOLDER';
+const CASETINDER_API = 'https://script.google.com/macros/s/AKfycbzTFEmjDjm7YT4585uZn85OtOdGr0_JtQRVeaZPWwkYcx1D9beMTJMjh7ThObGss4JP/exec';
 
 // JSONP Helper
 function jsonp(url, params = {}) {

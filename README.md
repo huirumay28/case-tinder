@@ -136,7 +136,7 @@ This version includes:
 - ✅ Real scoreboard with team leaderboard and liked cases
 - ✅ 10 real Cannes Lions 2026 Grand Prix cases with presentation boards and casefilm links
 - ✅ Google Apps Script backend for data persistence
-- ⚠️ **API URL placeholder** – needs to be replaced with actual deployment URL
+- ✅ API connected and ready to use
 
 ## Tech Stack
 
