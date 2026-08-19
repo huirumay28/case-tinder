@@ -42,18 +42,19 @@ Each day, users get cases to explore:
 
 Track your creative learning journey with a cute lion character:
 
-- **Streak tracking**: See how many consecutive days you've viewed cases
-- **Lion character**: Starts naked and earns creative accessories as you progress
-- **Merch unlocks**: Every 2 unique days with swipes unlocks new accessories:
-  1. 第1趟 貝雷帽 (Beret) - 2 days
-  2. 第2趟 墨鏡 (Sunglasses) - 4 days
-  3. 第3趟 金獅項鍊 (Golden lion necklace) - 6 days
-  4. 第4趟 創意小包 (Creative bag) - 8 days
-  5. 第5趟 滑雪板 (Snowboard) - 10 days
-  6. 第6趟 小皇冠 (Crown) - 12 days
-- **Progress persists**: Your streak and unlocks are saved in localStorage
+- **Streak tracking**: See how many consecutive days you've viewed cases (counts days with at least one swipe in Asia/Taipei timezone)
+- **Lion character**: Starts naked on day 1 and earns creative accessories based on consecutive streak
+- **Merch unlocks**: Based on consecutive streak days:
+  1. Day 1 (streak = 1): Naked lion, no merch yet
+  2. Day 2 (streak = 2): 貝雷帽 (Beret) unlocks - lion now wears the hat!
+  3. Day 3 (streak = 3): 墨鏡 (Sunglasses)
+  4. Day 4 (streak = 4): 金獅項鍊 (Golden lion necklace)
+  5. Day 5 (streak = 5): 創意小包 (Creative bag)
+  6. Day 6 (streak = 6): 滑雪板 (Snowboard)
+  7. Day 7 (streak = 7): 小皇冠 (Crown)
+- **Progress persists**: Your streak and unlocks are saved in localStorage and sync across devices
 
-**Note**: Unlocks are based on total unique days with at least one swipe (skipping a day doesn't remove accessories, but breaks your streak). The lion is a Cannes creative industry character — accessories include playful items like a snowboard and golden necklace, not just clothing!
+**Note**: Streak is based on consecutive days (skipping a day resets your streak to 0, and you'll need to rebuild it). Unlocked merch is recalculated from your current streak, so if your streak drops, accessories come off the lion. The lion is a Cannes creative industry character — accessories include playful items like a snowboard and golden necklace, not just clothing!
 
 ### Bottom Navigation
 
