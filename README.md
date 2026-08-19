@@ -51,10 +51,10 @@ This version includes:
 - ✅ My Bio with animated lion character and merch unlocks
 - ✅ Daily case flashcards with swipe/scroll interface
 - ✅ Progress tracking and localStorage persistence
-- ⏳ Placeholder cases (3 examples)
+- ✅ 10 real Cannes Lions 2026 Grand Prix cases with presentation boards and casefilm links
 - ⏳ Scoreboard (coming soon)
 
-Real Cannes cases and daily case rotation will be added in a future update.
+Each case includes a presentation board image in the `boards/` directory and links to casefilm via Box. All copy is in Traditional Chinese (繁體中文) with English names for brands, agencies, and awards.
 
 ## Tech Stack
 
