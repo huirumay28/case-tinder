@@ -919,7 +919,7 @@ function renderLikedCases(memberName, isCurrentUser) {
         ` : '';
         
         return `
-            <div class="liked-case-card">
+            <div class="liked-case-card" data-case-id="${caseData.id}">
                 <div class="liked-case-image">
                     ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:white;">${caseData.title}</div>`}
                 </div>
@@ -934,6 +934,81 @@ function renderLikedCases(memberName, isCurrentUser) {
     const scrollHint = likedCasesData.length > 1 ? '<div class="scroll-more-hint">下滑查看更多</div>' : '';
     
     container.innerHTML = cardsHTML + scrollHint;
+    
+    // Add click handlers to each liked card
+    const likedCards = container.querySelectorAll('.liked-case-card');
+    likedCards.forEach(card => {
+        card.addEventListener('click', () => {
+            const caseId = parseInt(card.dataset.caseId);
+            openCaseDetailView(caseId, memberName);
+        });
+    });
+}
+
+// Open case detail view overlay
+function openCaseDetailView(caseId, memberName) {
+    const caseData = casesData.find(c => c.id === caseId);
+    if (!caseData) return;
+    
+    // Create overlay
+    const overlay = document.createElement('div');
+    overlay.className = 'case-detail-overlay';
+    
+    const awardsHTML = generateAwardsSummary(caseData.awards);
+    const detailHTML = generateDetailSection(caseData);
+    
+    overlay.innerHTML = `
+        <div class="case-detail-viewer">
+            <div class="detail-viewer-header">
+                <button class="back-button" id="closeCaseDetail">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                </button>
+                <h2 class="detail-title">返回最愛</h2>
+            </div>
+            <div class="case-detail-content">
+                <div class="board-image">
+                    ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : 'BOARD'}
+                </div>
+                
+                <div class="case-header">
+                    <h1 class="case-title">${caseData.title}</h1>
+                    <div class="case-meta">${caseData.year}, ${caseData.brand}${caseData.agency ? ` · ${caseData.agency}` : ''}${caseData.country ? ` · ${caseData.country}` : ''}</div>
+                    <p class="case-summary">${caseData.summary}</p>
+                    
+                    <div class="awards-summary">
+                        ${awardsHTML}
+                    </div>
+                </div>
+                
+                <div class="film-link">
+                    <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
+                </div>
+                
+                ${detailHTML}
+                
+                <div class="film-link">
+                    <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(overlay);
+    
+    // Add close handler
+    const closeButton = overlay.querySelector('#closeCaseDetail');
+    closeButton.addEventListener('click', () => {
+        document.body.removeChild(overlay);
+    });
+    
+    // Close on overlay click
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) {
+            document.body.removeChild(overlay);
+        }
+    });
 }
 
 // Update bio tab UI
@@ -1041,10 +1116,7 @@ function createCardElement(caseData) {
             </div>
             
             <div class="case-header">
-                <div class="title-row">
-                    <h1 class="case-title">${caseData.title}</h1>
-                    <a href="${caseData.filmUrl}" class="film-button" target="_blank" rel="noopener noreferrer">看 casefilm</a>
-                </div>
+                <h1 class="case-title">${caseData.title}</h1>
                 <div class="case-meta">${caseData.year}, ${caseData.brand}${caseData.agency ? ` · ${caseData.agency}` : ''}${caseData.country ? ` · ${caseData.country}` : ''}</div>
                 <p class="case-summary">${caseData.summary}</p>
                 
@@ -1055,6 +1127,7 @@ function createCardElement(caseData) {
             
             <div class="action-buttons">
                 <button class="action-button dislike" data-action="dislike">✕</button>
+                <a href="${caseData.filmUrl}" class="action-button film-button-main" target="_blank" rel="noopener noreferrer">看 casefilm</a>
                 <button class="action-button like" data-action="like">♥</button>
             </div>
             
@@ -1125,7 +1198,7 @@ function generateDetailSection(caseData) {
 
 function setupCardInteractions(card) {
     // Button interactions
-    const buttons = card.querySelectorAll('.action-button');
+    const buttons = card.querySelectorAll('.action-button:not(.film-button-main)');
     buttons.forEach(button => {
         button.addEventListener('click', () => {
             const action = button.dataset.action;
@@ -1133,10 +1206,27 @@ function setupCardInteractions(card) {
         });
     });
     
+    // Prevent film button from triggering swipe
+    const filmButton = card.querySelector('.film-button-main');
+    if (filmButton) {
+        filmButton.addEventListener('mousedown', (e) => e.stopPropagation());
+        filmButton.addEventListener('touchstart', (e) => e.stopPropagation());
+    }
+    
+    // Prevent film link at bottom from triggering swipe
+    const filmLink = card.querySelector('.film-link a');
+    if (filmLink) {
+        filmLink.addEventListener('mousedown', (e) => e.stopPropagation());
+        filmLink.addEventListener('touchstart', (e) => e.stopPropagation());
+    }
+    
     // Touch/mouse swipe interactions
     let startX = 0;
+    let startY = 0;
     let currentX = 0;
+    let currentY = 0;
     let isDragging = false;
+    let isHorizontalSwipe = null;
     
     card.addEventListener('mousedown', startDrag);
     card.addEventListener('touchstart', startDrag);
@@ -1159,7 +1249,9 @@ function setupCardInteractions(card) {
         if (card.scrollTop > 10) return;
         
         isDragging = true;
+        isHorizontalSwipe = null;
         startX = e.type === 'mousedown' ? e.clientX : e.touches[0].clientX;
+        startY = e.type === 'mousedown' ? e.clientY : e.touches[0].clientY;
         card.classList.add('swiping');
     }
     
@@ -1167,11 +1259,31 @@ function setupCardInteractions(card) {
         if (!isDragging) return;
         
         currentX = e.type === 'mousemove' ? e.clientX : e.touches[0].clientX;
+        currentY = e.type === 'mousemove' ? e.clientY : e.touches[0].clientY;
         const deltaX = currentX - startX;
-        const rotation = deltaX * 0.05;
+        const deltaY = currentY - startY;
         
+        // Determine swipe direction after threshold
+        if (isHorizontalSwipe === null && (Math.abs(deltaX) > 10 || Math.abs(deltaY) > 10)) {
+            isHorizontalSwipe = Math.abs(deltaX) > Math.abs(deltaY);
+        }
+        
+        // If vertical scroll, don't apply transform
+        if (isHorizontalSwipe === false) {
+            return;
+        }
+        
+        // Only apply horizontal transform
+        const rotation = deltaX * 0.1;
         card.style.transform = `translateX(${deltaX}px) rotate(${rotation}deg)`;
-        card.style.opacity = 1 - Math.abs(deltaX) / 500;
+        
+        // Show LIKE/NOPE stamps
+        const opacity = Math.min(Math.abs(deltaX) / 120, 1);
+        if (deltaX > 0) {
+            showStamp(card, 'like', opacity);
+        } else if (deltaX < 0) {
+            showStamp(card, 'nope', opacity);
+        }
     }
     
     function endDrag(e) {
@@ -1180,15 +1292,37 @@ function setupCardInteractions(card) {
         isDragging = false;
         const deltaX = currentX - startX;
         card.classList.remove('swiping');
+        hideStamps(card);
         
-        if (Math.abs(deltaX) > 100) {
+        // Commit threshold: 120px
+        if (isHorizontalSwipe && Math.abs(deltaX) > 120) {
             const action = deltaX > 0 ? 'like' : 'dislike';
             handleSwipe(card, action);
         } else {
+            // Snap back
+            card.style.transition = 'transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease';
             card.style.transform = '';
-            card.style.opacity = '';
+            setTimeout(() => {
+                card.style.transition = '';
+            }, 300);
         }
     }
+}
+
+function showStamp(card, type, opacity) {
+    let stamp = card.querySelector(`.swipe-stamp-${type}`);
+    if (!stamp) {
+        stamp = document.createElement('div');
+        stamp.className = `swipe-stamp swipe-stamp-${type}`;
+        stamp.textContent = type === 'like' ? 'LIKE' : 'NOPE';
+        card.querySelector('.board-image').appendChild(stamp);
+    }
+    stamp.style.opacity = opacity;
+}
+
+function hideStamps(card) {
+    const stamps = card.querySelectorAll('.swipe-stamp');
+    stamps.forEach(stamp => stamp.remove());
 }
 
 function handleSwipe(card, action) {

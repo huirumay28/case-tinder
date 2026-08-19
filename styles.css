@@ -59,14 +59,17 @@ body {
 
 .case-card {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
     background: var(--white);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 .case-card.swiping {
@@ -83,6 +86,34 @@ body {
     opacity: 0;
 }
 
+.swipe-stamp {
+    position: absolute;
+    top: 40px;
+    font-size: 56px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    pointer-events: none;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+}
+
+.swipe-stamp-like {
+    left: 40px;
+    color: #4CAF50;
+    border: 6px solid #4CAF50;
+    transform: rotate(-20deg);
+}
+
+.swipe-stamp-nope {
+    right: 40px;
+    color: #F44336;
+    border: 6px solid #F44336;
+    transform: rotate(20deg);
+}
+
 .card-content {
     padding: 20px;
 }
@@ -93,7 +124,7 @@ body {
     max-height: 38vh;
     max-height: 38svh;
     background: var(--pink);
-    border-radius: var(--border-radius);
+    border-radius: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,6 +133,7 @@ body {
     color: var(--white);
     margin-bottom: 24px;
     overflow: hidden;
+    position: relative;
 }
 
 .board-image img {
@@ -174,8 +206,9 @@ body {
 
 .action-buttons {
     display: flex;
-    gap: 16px;
+    gap: 12px;
     justify-content: center;
+    align-items: center;
     margin-bottom: 24px;
 }
 
@@ -192,6 +225,17 @@ body {
     align-items: center;
     justify-content: center;
     transition: transform 0.1s ease;
+    flex-shrink: 0;
+}
+
+.action-button.film-button-main {
+    width: 160px;
+    background: var(--pink);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 20px;
 }
 
 .action-button:active {
@@ -739,6 +783,12 @@ body {
     border-radius: 12px;
     overflow: hidden;
     transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.liked-case-card:active {
+    transform: scale(0.98);
+    border-color: var(--pink);
 }
 
 .liked-case-image {
@@ -832,6 +882,70 @@ body {
 .empty-liked-state p {
     font-size: 15px;
     color: #666;
+}
+
+/* Case Detail Overlay */
+.case-detail-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    animation: fadeIn 0.2s ease;
+}
+
+.case-detail-viewer {
+    width: 100%;
+    max-width: 430px;
+    height: 100vh;
+    height: 100dvh;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.detail-viewer-header {
+    padding: 24px 24px 20px;
+    background: var(--white);
+    border-bottom: 1px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.case-detail-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .case-detail-overlay {
+        padding: 24px;
+    }
+    
+    .case-detail-viewer {
+        height: 90vh;
+        border-radius: 24px;
+        overflow: hidden;
+    }
 }
 
 /* Sign-in Gate Styles */
@@ -1014,6 +1128,11 @@ body {
         font-size: 28px;
     }
     
+    .action-button.film-button-main {
+        width: 140px;
+        font-size: 15px;
+    }
+    
     .action-buttons {
         margin-bottom: 16px;
     }
@@ -1043,6 +1162,12 @@ body {
         width: 56px;
         height: 56px;
         font-size: 24px;
+    }
+    
+    .action-button.film-button-main {
+        width: 130px;
+        font-size: 14px;
+        padding: 0 16px;
     }
     
     .action-buttons {
