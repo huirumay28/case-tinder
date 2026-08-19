@@ -564,6 +564,244 @@ body {
     color: var(--black);
 }
 
+/* Scoreboard Tab Styles */
+.scoreboard-view {
+    display: none;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.scoreboard-view.active {
+    display: flex;
+}
+
+.scoreboard-header {
+    padding: 32px 24px 24px;
+    background: var(--white);
+    border-bottom: 1px solid #EBEBEB;
+    text-align: center;
+}
+
+.scoreboard-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+
+.team-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+.ranking-list {
+    padding: 16px 24px 40px;
+}
+
+.ranking-item {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: var(--white);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    border: 2px solid #EBEBEB;
+    transition: all 0.2s ease;
+}
+
+.ranking-item.current-user {
+    background: #F5F5F5;
+    border-color: var(--pink);
+}
+
+.member-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.member-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white);
+    flex-shrink: 0;
+}
+
+.member-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.view-count {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+    white-space: nowrap;
+}
+
+.view-likes-button {
+    background: var(--black);
+    color: var(--white);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.view-likes-button:active {
+    transform: scale(0.96);
+    background: var(--pink);
+}
+
+.detail-header {
+    padding: 24px 24px 20px;
+    background: var(--white);
+    border-bottom: 1px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease;
+}
+
+.back-button:active {
+    color: var(--pink);
+}
+
+.detail-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+    flex: 1;
+}
+
+.liked-cases-container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.liked-case-card {
+    background: var(--white);
+    border: 2px solid #EBEBEB;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.liked-case-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: var(--pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.liked-case-info {
+    padding: 16px;
+}
+
+.also-liked {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.also-liked-label {
+    font-size: 13px;
+    color: #666;
+    white-space: nowrap;
+}
+
+.also-liked-avatars {
+    display: flex;
+    gap: 4px;
+}
+
+.mini-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.liked-case-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.scroll-more-hint {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    padding: 16px 0 24px;
+}
+
+.empty-liked-state {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.empty-liked-state .icon {
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+
+.empty-liked-state h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+
+.empty-liked-state p {
+    font-size: 15px;
+    color: #666;
+}
+
 @media (min-width: 768px) {
     body {
         display: flex;

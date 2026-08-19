@@ -94,10 +94,30 @@
         </div>
 
         <div class="tab-content" id="scoreboardTab">
-            <!-- Scoreboard Placeholder -->
-            <div class="placeholder-container">
-                <div class="placeholder-icon">🏆</div>
-                <h2>即將推出</h2>
+            <!-- Screen A: Team Ranking -->
+            <div class="scoreboard-view active" id="rankingView">
+                <div class="scoreboard-header">
+                    <h1 class="scoreboard-title">團隊排行榜</h1>
+                    <div class="team-subtitle">ALIEN TEAM</div>
+                </div>
+                <div class="ranking-list" id="rankingList">
+                    <!-- Team members will be rendered here -->
+                </div>
+            </div>
+
+            <!-- Screen B: Liked Cases Detail -->
+            <div class="scoreboard-view" id="likedCasesView">
+                <div class="detail-header">
+                    <button class="back-button" id="backToRanking">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                    </button>
+                    <h2 class="detail-title" id="detailTitle">喜歡的案例</h2>
+                </div>
+                <div class="liked-cases-container" id="likedCasesContainer">
+                    <!-- Liked cases will be rendered here -->
+                </div>
             </div>
         </div>
 

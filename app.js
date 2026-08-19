@@ -76,6 +76,36 @@ let viewedDays = new Set();
 let streak = 0;
 let unlockedMerch = new Set();
 
+// Scoreboard state
+let currentUser = localStorage.getItem('casetinder-user') || 'Huiru';
+let likedCases = new Set();
+let viewCount = 0;
+
+// TODO: Later integrate with Google Sheets for team data sync
+// Sheet read: fetch all team members, their view counts, and liked cases
+// Sheet write: update current user's view count and liked cases on each swipe
+const teamMembers = [
+    { name: 'Huiru', viewCount: 0, color: '#FF4458' },
+    { name: 'Ruhj', viewCount: 47, color: '#9B59B6' },
+    { name: 'Brian', viewCount: 42, color: '#3498DB' },
+    { name: 'Sophia', viewCount: 38, color: '#E74C3C' },
+    { name: 'Alex', viewCount: 35, color: '#F39C12' },
+    { name: 'Emma', viewCount: 31, color: '#1ABC9C' },
+    { name: 'Lucas', viewCount: 28, color: '#34495E' },
+    { name: 'Mia', viewCount: 24, color: '#E91E63' }
+];
+
+// Placeholder liked cases for other team members
+const otherMembersLikes = {
+    'Ruhj': [1, 2],
+    'Brian': [1, 3],
+    'Sophia': [2, 3],
+    'Alex': [1],
+    'Emma': [2],
+    'Lucas': [3],
+    'Mia': [1, 2, 3]
+};
+
 // Merch unlock rules: every 2 unique days unlocks one creative item
 // These are accessories/props for a Cannes creative industry lion, not just clothing
 const merchItems = [
@@ -91,6 +121,7 @@ const merchItems = [
 function init() {
     loadProgress();
     setupNavigation();
+    setupScoreboard();
     renderCard(currentCaseIndex);
     updateBioTab();
 }
@@ -107,6 +138,16 @@ function loadProgress() {
         unlockedMerch = new Set(JSON.parse(savedMerch));
     }
     
+    const savedLikes = localStorage.getItem('casetinder-liked-cases');
+    if (savedLikes) {
+        likedCases = new Set(JSON.parse(savedLikes));
+    }
+    
+    const savedViewCount = localStorage.getItem('casetinder-view-count');
+    if (savedViewCount) {
+        viewCount = parseInt(savedViewCount, 10);
+    }
+    
     calculateStreak();
     calculateUnlocks();
 }
@@ -115,6 +156,8 @@ function loadProgress() {
 function saveProgress() {
     localStorage.setItem('casetinder-viewed-days', JSON.stringify([...viewedDays]));
     localStorage.setItem('casetinder-unlocked-merch', JSON.stringify([...unlockedMerch]));
+    localStorage.setItem('casetinder-liked-cases', JSON.stringify([...likedCases]));
+    localStorage.setItem('casetinder-view-count', viewCount.toString());
 }
 
 // Calculate streak (consecutive days ending today or yesterday)
@@ -215,7 +258,168 @@ function switchTab(tabId) {
     
     if (tabId === 'bioTab') {
         updateBioTab();
+    } else if (tabId === 'scoreboardTab') {
+        renderRankingList();
+        showRankingView();
     }
+}
+
+// Setup scoreboard
+function setupScoreboard() {
+    const backButton = document.getElementById('backToRanking');
+    if (backButton) {
+        backButton.addEventListener('click', showRankingView);
+    }
+}
+
+// Generate avatar color based on name
+function getAvatarColor(name) {
+    const member = teamMembers.find(m => m.name === name);
+    return member ? member.color : '#FF4458';
+}
+
+// Get member's first letter for avatar
+function getAvatarLetter(name) {
+    return name.charAt(0).toUpperCase();
+}
+
+// Show ranking view
+function showRankingView() {
+    document.getElementById('rankingView').classList.add('active');
+    document.getElementById('likedCasesView').classList.remove('active');
+}
+
+// Show liked cases view
+function showLikedCasesView(memberName) {
+    const isCurrentUser = memberName === currentUser;
+    const titleElement = document.getElementById('detailTitle');
+    
+    if (isCurrentUser) {
+        titleElement.textContent = '我喜歡的案例';
+    } else {
+        titleElement.textContent = `${memberName} 喜歡的案例`;
+    }
+    
+    renderLikedCases(memberName, isCurrentUser);
+    
+    document.getElementById('rankingView').classList.remove('active');
+    document.getElementById('likedCasesView').classList.add('active');
+}
+
+// Render ranking list
+function renderRankingList() {
+    const rankingList = document.getElementById('rankingList');
+    if (!rankingList) return;
+    
+    const sortedMembers = [...teamMembers].map(member => {
+        if (member.name === currentUser) {
+            return { ...member, viewCount: viewCount };
+        }
+        return member;
+    }).sort((a, b) => b.viewCount - a.viewCount);
+    
+    rankingList.innerHTML = sortedMembers.map(member => {
+        const isCurrentUser = member.name === currentUser;
+        const avatarColor = getAvatarColor(member.name);
+        const avatarLetter = getAvatarLetter(member.name);
+        
+        return `
+            <div class="ranking-item ${isCurrentUser ? 'current-user' : ''}" data-member="${member.name}">
+                <div class="member-info">
+                    <div class="member-avatar" style="background-color: ${avatarColor}">
+                        ${avatarLetter}
+                    </div>
+                    <div class="member-name">${member.name}</div>
+                </div>
+                <div class="view-count">${member.viewCount}</div>
+                <button class="view-likes-button" data-member="${member.name}">
+                    查看喜愛案例
+                </button>
+            </div>
+        `;
+    }).join('');
+    
+    const viewLikesButtons = rankingList.querySelectorAll('.view-likes-button');
+    viewLikesButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const memberName = button.dataset.member;
+            showLikedCasesView(memberName);
+        });
+    });
+}
+
+// Get liked case IDs for a member
+function getMemberLikedCases(memberName) {
+    if (memberName === currentUser) {
+        return [...likedCases];
+    }
+    return otherMembersLikes[memberName] || [];
+}
+
+// Get random teammates who also liked a case
+function getRandomAlsoLiked(caseId, excludeName) {
+    const allWhoLiked = Object.entries(otherMembersLikes)
+        .filter(([name, likes]) => name !== excludeName && likes.includes(caseId))
+        .map(([name]) => name);
+    
+    const shuffled = allWhoLiked.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 3);
+}
+
+// Render liked cases
+function renderLikedCases(memberName, isCurrentUser) {
+    const container = document.getElementById('likedCasesContainer');
+    if (!container) return;
+    
+    const likedCaseIds = getMemberLikedCases(memberName);
+    
+    if (likedCaseIds.length === 0) {
+        container.innerHTML = `
+            <div class="empty-liked-state">
+                <div class="icon">💝</div>
+                <h3>還沒有喜歡的案例</h3>
+                <p>${isCurrentUser ? '開始滑案例，右滑喜歡的案例吧！' : '這位成員還沒有喜歡任何案例'}</p>
+            </div>
+        `;
+        return;
+    }
+    
+    const likedCasesData = likedCaseIds
+        .map(id => casesData.find(c => c.id === id))
+        .filter(c => c);
+    
+    const cardsHTML = likedCasesData.map(caseData => {
+        const alsoLiked = getRandomAlsoLiked(caseData.id, memberName);
+        
+        const alsoLikedHTML = alsoLiked.length > 0 ? `
+            <div class="also-liked">
+                <div class="also-liked-label">他們也喜歡：</div>
+                <div class="also-liked-avatars">
+                    ${alsoLiked.map(name => `
+                        <div class="mini-avatar" style="background-color: ${getAvatarColor(name)}">
+                            ${getAvatarLetter(name)}
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        ` : '';
+        
+        return `
+            <div class="liked-case-card">
+                <div class="liked-case-image">
+                    ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : caseData.title}
+                </div>
+                <div class="liked-case-info">
+                    ${alsoLikedHTML}
+                    <div class="liked-case-title">${caseData.title}</div>
+                </div>
+            </div>
+        `;
+    }).join('');
+    
+    const scrollHint = likedCasesData.length > 1 ? '<div class="scroll-more-hint">下滑查看更多</div>' : '';
+    
+    container.innerHTML = cardsHTML + scrollHint;
 }
 
 // Update bio tab UI
@@ -463,15 +667,26 @@ function setupCardInteractions(card) {
 }
 
 function handleSwipe(card, action) {
-    // Record that user viewed a case today
+    const caseId = casesData[currentCaseIndex].id;
+    
+    // Record that user viewed a case today (for streak)
     recordViewDay();
     
-    // Add animation class
+    // Increment view count for current user
+    viewCount++;
+    
+    // If like (swipe right), save to liked cases
     if (action === 'like') {
+        likedCases.add(caseId);
+        // TODO: Later integrate with Google Sheets
+        // Write liked case to Sheet: append row with [currentUser, caseId, timestamp]
         card.classList.add('swipe-right');
     } else {
         card.classList.add('swipe-left');
     }
+    
+    // Save progress
+    saveProgress();
     
     // Move to next card after animation
     setTimeout(() => {
