@@ -352,8 +352,277 @@ const casesData = [
             { award: "Shortlisted ×6（Uncommon Creative Studio companion entry）", icon: "○" },
             { award: "Also entered — Health & Wellness: Consumer Products Promotion / OTC Applications", icon: "○" }
         ]
+    },
+    {
+        id: 11,
+        title: "Build Your Own Super Bowl Commercial",
+        year: "2026",
+        brand: "Uber Eats",
+        agency: "Special, Los Angeles",
+        country: "United States",
+        summary: "把超級盃廣告做成可點餐的第二螢幕：球迷在 Uber Eats app 裡自己組一支廣告，換比賽日外送優惠。",
+        boardImage: "boards/uber-eats-super-bowl.jpg",
+        filmUrl: "https://lion.box.com/s/xmzv6t3coqhbetd9sdfx1h48xmft1h0l",
+        awards: { gp: 1, gold: 1, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/uber-eats-super-bowl-01.jpg',
+            idea: 'assets/stills/uber-eats-super-bowl-02.jpg',
+            execution: 'assets/stills/uber-eats-super-bowl-03.jpg'
+        },
+        background: "Uber Eats 連續兩年用同一套半認真的陰謀論打超級盃：美式足球根本是為了賣食物才發明的。Matthew McConaughey 扮演深信不疑的理論家，品牌把這套敘事做成平台。真正的商業問題是另一件事：超級盃是外送一年裡競爭最激烈的一天，傳統 30 秒買媒體只能把人趕到廣告前，很難把人留在自己的 app。",
+        idea: "與其求觀眾看完一支廣告，不如讓他們像組 poke bowl 一樣「點」自己的 Super Bowl commercial。開賽前一週，粉絲進 app 選「食材」——角色、場景、證據、卡司——從 1,000 種以上組合裡拼出專屬版本。做完的片子立刻在 app 裡播放、可分享，並解鎖比賽日外送優惠。評審說這是把產品本身做成傳播平台，把漏斗收成同一次體驗。",
+        execution: "Special 與導演 Steve Rogers（Revolver + Biscuit Filmworks）寫出並拍出可無縫接軌的模組內容：Bradley Cooper、Matthew McConaughey、Addison Rae、Tramell Tillman、Parker Posey 等輪番登場，總片長約 36 小時；每格都是人工撰寫、拍攝、剪接，不用生成式 AI。體驗做在真實 Uber Eats app 裡，完成即送券。成果：325,000 人參加、累計停留 800,000 分鐘；超級盃週增量造訪 370 萬；銷售打破舊紀錄逾 3,600 萬美元；earned media value 超過 2.9 億美元；優惠兌換率 38%，約為過往檔期的 10 倍；超過 40% 參與者不是常客。",
+        awardsDetail: [
+            { award: "Grand Prix — Media, Channels / Retail Media", icon: "🏆" },
+            { award: "Gold Lion — Direct, Digital & Social / Use of Digital Platforms", icon: "🥇" },
+            { award: "Silver Lion — Brand Experience & Activation: Sectors / Travel, Leisure, Retail, Restaurants & Fast-Food Chains", icon: "🥈" },
+            { award: "Shortlisted ×5 — Media Culture & Context: Use of Humour; Media: Sectors; Creative Commerce Commerce Channels: Commerce Media; Creative Strategy Excellence in Creative Strategy: Retail Media; Creative Strategy: Sectors", icon: "○" }
+        ]
+    },
+    {
+        id: 12,
+        title: "Project Genie",
+        year: "2026",
+        brand: "Google",
+        agency: "Google Creative Team, Mountain View",
+        country: "United States",
+        summary: "把 DeepMind 的世界模型做成一般人能玩的介面：用文字、照片或現成世界，即時生成可走進、可重混的場景。",
+        boardImage: "boards/project-genie.jpg",
+        filmUrl: "https://lion.box.com/s/5r2o6uz5wnyr3btjkqpij2ablx69nraz",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/project-genie-01.jpg',
+            idea: 'assets/stills/project-genie-02.jpg',
+            execution: 'assets/stills/project-genie-03.jpg'
+        },
+        background: "2025 年 Google 發表 Genie 3——用文字就能生成可即時探索、接近實拍質感的世界。討論很快從「這是什麼」變成「我什麼時候能用」。研究介面是為展示前沿模型而做，不是為大眾操作而做；從實驗室原型走到消費者工具，中間缺的是一套讓人第一次接觸就懂的體驗。",
+        idea: "Project Genie 的主張很直接：AI 本身就是產品。它是 Genie 3 第一次做成可用的消費端介面，把 DeepMind 的研究接上一般人的想像力。評審說它示範 Digital Craft 該獎勵的事——不只慶祝眼前的技術，而是讓創意把技術變成下一個媒介。",
+        execution: "團隊先生成數千個世界，摸清模型擅長什麼：第三人稱角色控制、世界記憶、即時互動。介面從 vibecode 原型開始迭代，最後收成以「創造」為中心的簡單 UI：用文字細寫角色與環境、在起始圖上 world sketch、上傳自己的照片，或重混 20 多個預製世界。2026 年 1 月以原型對外出——這檔沒有傳統廣告成績單，得獎理由是把前沿研究做成可被創意使用的平台。",
+        awardsDetail: [
+            { award: "Grand Prix — Digital Craft, Data & AI / AI Craft", icon: "🏆" },
+            { award: "Bronze Lion — Digital Craft, Form / UX & Journey Design", icon: "🥉" }
+        ]
+    },
+    {
+        id: 13,
+        title: "Original Forever",
+        year: "2026",
+        brand: "Adidas",
+        agency: "Johannes Leonardo, New York",
+        country: "United States",
+        summary: "Oasis 重聚不是代言時機，而是三十年共有文化的續集：用真實拍攝與檔案感，讓品牌、樂團與粉絲站在同一邊。",
+        boardImage: "boards/original-forever.jpg",
+        filmUrl: "https://lion.box.com/s/tfre0fpgguvyfj72g2p3v36sppve6vca",
+        awards: { gp: 2, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/original-forever-01.jpg',
+            idea: 'assets/stills/original-forever-02.jpg',
+            execution: 'assets/stills/original-forever-03.jpg'
+        },
+        background: "Oasis 與 adidas 從 1990 年代就共享同一套文化 DNA——足球、時裝、音樂。重聚消息一出，粉絲要的不是又一次聯名，而是把那個感覺找回來。品牌沒把鏡頭只對準 Gallagher 兄弟，而是對準一路把樂團文化活下來的幾代人。",
+        idea: "「Original Forever」把重聚做成對粉絲的致敬。核心是一支三分鐘影片，配上重新編曲的〈Live Forever〉：一位 crowd surfer 穿過時間，從 1990 年代初到 Knebworth、Wembley，再到 2025 重聚。Liam 與 Noel Gallagher 十六年來首次一起出現在鏡頭前。同場推出 adidas Originals x Oasis Live ’25，26 件單品取自三十年共享文化，而不是把 logo 印在巡演 T 恤上。",
+        execution: "Johannes Leonardo 用檔案啟發加上新拍畫面，造型與美術都走 vintage adidas 與現場感；英國各地選出 300 多位粉絲入鏡。影片先上全國電視，再作為暖場在 41 場 Oasis 巡演前播放，並用零售、戶外、數位與社群撐住整檔。Adidas 後來把這次合作列為 2025 年 lifestyle revenues 成長 12%、Originals 兩位數成長的因素之一。",
+        awardsDetail: [
+            { award: "Grand Prix — Entertainment, Partnerships / Brand Partnerships, Sponsorships & Collaborations", icon: "🏆" },
+            { award: "Grand Prix — Entertainment Lions For Music, Partnerships / Brand Partnerships, Sponsorships & Collaborations", icon: "🏆" },
+            { award: "Bronze Lion — Film, Screens & Events / Screens & Events", icon: "🥉" },
+            { award: "Shortlisted ×2 — Entertainment Partnerships / Partnerships with Talent; Entertainment Lions For Music, Community / Fan Engagement & Community Building", icon: "○" }
+        ]
+    },
+    {
+        id: 14,
+        title: "Field Barcode",
+        year: "2026",
+        brand: "Mercado Livre",
+        agency: "GUT, São Paulo",
+        country: "Brazil",
+        summary: "把足球場的草皮漆成可掃描條碼：看直播的球迷對準場地，就能立刻去 Mercado Livre 購物。",
+        boardImage: "boards/field-barcode.jpg",
+        filmUrl: "https://lion.box.com/s/f5h9a823lezkeoseb3mcx452jqeam1qx",
+        awards: { gp: 1, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/field-barcode-01.jpg',
+            idea: 'assets/stills/field-barcode-02.jpg',
+            execution: 'assets/stills/field-barcode-03.jpg'
+        },
+        background: "聖保羅 Pacaembu 球場整修爭議剛結束，Mercado Livre 簽下冠名（Mercado Livre Arena Pacaembu）。球場贊助的老問題沒變：看板上的 logo 永遠在背景，目光在球員身上。品牌要的不是再多一塊圍欄廣告，而是讓冠名權在比賽進行時真的被用到。",
+        idea: "GUT 把草皮本身做成廣告，也做成結帳工具。球場是合成草皮，團隊用油漆做出 104 公尺寬、手機相機讀得到的條碼（做法接近 NFL／MLB 場地彩繪）。球迷在座位上、電視上、Disney+ 或轉發畫面裡掃描，打開專用 web app，即時拿到 25% 折扣。比賽不被打斷——沒有疊圖、沒有插播，電商層就嵌在每個觀眾本來就在看的那塊場地裡。",
+        execution: "條碼在球場重開後的一場比賽亮相：Corinthians 對 Boca Juniors，重演 2012 年 Copa Libertadores 決賽，SBT、ESPN、Disney+ 直播。合成草皮以油漆施作，含測試、上色與乾燥共五天；web app 用影像辨識，即使沒掃到完整條碼、不同轉播機位也能讀。成果：53,000 張優惠券被兌換；活動期間平台 session +7%；掃描流量來自巴西 25 州、813 座城市；TGMV R$8.9M（約 US$1.77M）。",
+        awardsDetail: [
+            { award: "Grand Prix — Outdoor, Ambient & Experiential / Live Advertising and Events", icon: "🏆" },
+            { award: "Silver Lion — Media/Direct, Channels / Large-Scale Media", icon: "🥈" },
+            { award: "Bronze Lion — Outdoor, Ambient & Experiential / Special Build", icon: "🥉" },
+            { award: "Shortlisted ×6 — Outdoor Innovation in Outdoor / Ambient Outdoor; Direct: Sectors; Media: Sectors; Insights & Media Strategy / Use of Brand or Product Integration into a Programme or Platform; Brand Experience & Activation: Sectors; Excellence in Brand Experience / Live Brand Experience or Activation", icon: "○" }
+        ]
+    },
+    {
+        id: 15,
+        title: "Copycats Welcome",
+        year: "2026",
+        brand: "Clash Royale",
+        agency: "David, New York",
+        country: "United States",
+        summary: "不打仿冒官司，改發特赦：把山寨遊戲裡的進度、金幣原封不動帶進真正的 Clash Royale。",
+        boardImage: "boards/copycats-welcome.jpg",
+        filmUrl: "https://lion.box.com/s/w8qhx75461b0n8dx86qyq6uuahtuvy99",
+        awards: { gp: 1, gold: 0, silver: 3, bronze: 0 },
+        stills: {
+            background: 'assets/stills/copycats-welcome-01.jpg',
+            idea: 'assets/stills/copycats-welcome-02.jpg',
+            execution: 'assets/stills/copycats-welcome-03.jpg'
+        },
+        background: "Clash Royale 紅了十年，山寨跟著長：名字、畫面、玩法、角色都被抄。數百萬人其實是在找正版體驗，卻卡在「重頭練」這道牆。法律戰又長又遠，幫不了正在玩盜版的人。",
+        idea: "David 把威脅做成招人通道。評審稱為 amnesty：我們看見你，回家，把你累積的東西一起帶來。一支影片讓 Barbarian、Archer 掉進「Bash Royale」「Space Royale」那些廉價鏡像世界，打完仿冒自己再回到真正的競技場。看完就被帶去一個網站：上傳山寨進度與貨幣，換成 Clash Royale 的 gold 與 Wild Cards。",
+        execution: "投放直接打進仿冒遊戲的線上社群（含 subreddit），而不是廣撒正版廣告。網站接受玩家自己提交的證據，把切換成本從「歸零」改成「被承認」。Contagious 記載首三天：230 萬人轉移進度、165 萬個新帳號、540 萬名流失玩家回流。",
+        awardsDetail: [
+            { award: "Grand Prix — Entertainment Lions For Gaming, Challenges & Breakthroughs / Social Behaviour", icon: "🏆" },
+            { award: "Silver Lion — Social & Creator, Social Insights & Engagement / Audience Targeting & Engagement Strategies", icon: "🥈" },
+            { award: "Silver Lion — Direct, Data & Technology / Gaming", icon: "🥈" },
+            { award: "Silver Lion — Creative Commerce, Engagement / Customer Acquisition & Retention", icon: "🥈" },
+            { award: "Shortlisted ×4 — Direct, Digital & Social / Use of Digital Platforms; Direct, Excellence in Direct / Launch-Relaunch; Creative Commerce, Challenges & Breakthroughs / Social Behaviour; Entertainment Lions For Gaming, Gaming-Led Brand Experience / Mobile Games", icon: "○" }
+        ]
+    },
+    {
+        id: 16,
+        title: "Warmer Together",
+        year: "2026",
+        brand: "Moncler",
+        agency: "WeSayHi, Sliema",
+        country: "Malta",
+        summary: "請 Al Pacino 與 Robert De Niro 第一次一起拍時裝廣告：用一輩子的友誼，重寫 Moncler 的「溫暖」。",
+        boardImage: "boards/warmer-together.jpg",
+        filmUrl: "https://lion.box.com/s/37eaq11wrczn4mpz20rr68mm0lvl8cgf",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/warmer-together-01.jpg',
+            idea: 'assets/stills/warmer-together-02.jpg',
+            execution: 'assets/stills/warmer-together-03.jpg'
+        },
+        background: "Moncler 做了七十多年禦寒外套，新的全球平台卻要回答另一個問題：溫暖如果不只是擋風，而是人與人靠近時發生的事，品牌還能不能站得住。Luxury 評審後來的說法是：溫暖從來不在外層，而在裡面發生的事。",
+        idea: "WeSayHi 沒有再拍一件羽絨的功能，而是請兩位認識半世紀的朋友——Al Pacino 與 Robert De Niro——拍他們第一支共同時裝廣告。紐約、黑白、肖像攝影師 Platon：Friendship、Respect、Connection、Trust 等談話與肖像。Maya 70 與 Bretagne 還在畫面裡，但真正被賣的是「溫暖只有分享才成立」。",
+        execution: "2025 年 10 月全球上市，戶外、平面、數位、社群與短片一起鋪；配樂是 Tobe Nwigwe 與 Fat 唱的 Bill Withers〈Lean on Me〉。製作跨 AP Studio、Studio Platon、後製 Arketype / Cult Nation，另有 R/GA London。成果：潛在觸及 31 億、全球互動 4.22 億、1,412 篇報導；外套淨銷售 8,540 萬、營收年增 48%。得獎理由是把奢侈敘事收到最簡單的真實——兩張椅子、兩個老朋友。",
+        awardsDetail: [
+            { award: "Grand Prix — Luxury & Lifestyle, Luxury / 360 Campaign", icon: "🏆" }
+        ]
+    },
+    {
+        id: 17,
+        title: "Lucky Fan Index",
+        year: "2026",
+        brand: "Wisła Kraków Football Club",
+        agency: "VML, Warsaw",
+        country: "Poland",
+        summary: "用 AI 幫每位球迷算一個人專屬的「幸運分數」：來過哪些比賽、場上發生過什麼，都變成可追的平台。",
+        boardImage: "boards/lucky-fan-index.jpg",
+        filmUrl: "https://lion.box.com/s/g4ktljodb2l2kc97opne5y44ma3l5l7a",
+        awards: { gp: 1, gold: 3, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/lucky-fan-index-01.jpg',
+            idea: 'assets/stills/lucky-fan-index-02.jpg',
+            execution: 'assets/stills/lucky-fan-index-03.jpg'
+        },
+        background: "Wisła Kraków 從波蘭頂級聯賽降級之後，要面對的是上座與忠誠一起往下掉。足球迷本來就迷信自己會帶幸運，只是從來沒人能量。俱樂部把這份情緒當真，做成可計算、可比較、也帶得動消費的東西。",
+        idea: "Lucky Fan Index 把出賽紀錄對上 200 多項比賽數據：比分、進球、紅牌、控球，以及該名球迷在場時的攻防與關鍵瞬間。每個人得到一個 100 分制的分數，還能在網站上看算法怎麼算。最「幸運」的人可升等 VIP box；分數低的人在球迷商店拿到折扣——去買一件比較幸運的商品。輸贏都被接回商業。",
+        execution: "系統吃進約 250,000 份球迷檔案、75 場以上比賽與 200 多項賽事指標。即使球隊已降級，這套做法仍把現場出席拉高 42%。它被做成會一直算下去的球迷平台，而不只是一檔促銷。",
+        awardsDetail: [
+            { award: "Grand Prix — Creative Commerce, Engagement / Customer Acquisition & Retention", icon: "🏆" },
+            { award: "Gold Lion — Brand Experience & Activation, Touchpoints & Technology / Tech-Led Brand Experience", icon: "🥇" },
+            { award: "Gold Lion — Creative Commerce, Commerce Channels / Entertainment Commerce", icon: "🥇" },
+            { award: "Gold Lion — Entertainment Lions For Sport, Community / Fan Engagement & Distribution Strategy", icon: "🥇" },
+            { award: "Silver Lion — Creative Data, Specialised Applications / Data Storytelling & Narrative", icon: "🥈" },
+            { award: "Bronze Lion — Direct, Data & Technology / Use of Real-Time Data", icon: "🥉" },
+            { award: "Shortlisted ×3 — Creative Data, Data Strategy & Insights / Data Integration; Entertainment Lions For Sport, Sport-Led Brand Experience / 360 Integrated Brand Experience; Entertainment Lions For Sport, Challenges & Breakthroughs / Social Behaviour", icon: "○" }
+        ]
+    },
+    {
+        id: 18,
+        title: "The Faroe Islands Space Program",
+        year: "2026",
+        brand: "SKF",
+        agency: "NORD DDB, Stockholm",
+        country: "Sweden",
+        summary: "潮汐能本來就在北大西洋運作；SKF 把它說成一場不下地球的太空計畫，用月亮的重力發電。",
+        boardImage: "boards/faroe-islands-space.jpg",
+        filmUrl: "https://lion.box.com/s/zemcdl2e314l02vn34kk5jaxzh9ebin9",
+        awards: { gp: 1, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/faroe-islands-space-01.jpg',
+            idea: 'assets/stills/faroe-islands-space-02.jpg',
+            execution: 'assets/stills/faroe-islands-space-03.jpg'
+        },
+        background: "SKF 是做軸承、減摩擦的瑞典工程公司，對大多數人來說是工業零件，不是能源故事。真實專案已經在法羅群島海域跑著：與潮汐開發商 Minesto、當地公用事業 SEV 合作，把潮汐風箏放進北大西洋。全球同時在談登月與月球資源，地球上這套「月亮拉海水」的技術幾乎沒人聽過。",
+        idea: "潮汐由月球引力驅動——於是潮汐能就是 moon power。NORD 用太空計畫的語言與美學，把水下潮汐風箏說成繞軌道飛行的航天器，計畫本身不下地球。B2B 評審說它完全丟掉規格表，把「Fighting Friction」做成一次看得到的信念。",
+        execution: "水下風箏 Luna 額定 1.2 MW，官方說法是夠 200 戶別墅用一年；下一步是 200 MW 設施，目標供法羅群島 2030 年約 40% 電力。傳播是紀錄片式影片、工程內容、earned media 與獨立網站，而不是產品型錄。成果：8.39 億次曝光、1,441 篇報導（含 BBC、CNBC、The Economist）、網站造訪逾 96 萬、影片觀看 2,500 萬；母市場永續認知 +161%、創新領導 +69%。",
+        awardsDetail: [
+            { award: "Grand Prix — Creative B2B / Craft in B2B", icon: "🏆" },
+            { award: "Gold Lion — Creative Strategy: Sectors / Consumer Services, Business to Business", icon: "🥇" },
+            { award: "Shortlisted ×7 — Titanium; Design, Transformative Design / Sustainability-Focused Design; PR, PR Techniques / Use of Events & Stunts; Innovation / Environmental Innovation; Sustainable Development Goals, Planet / Affordable and Clean Energy; Creative B2B / Corporate Purpose & Social Responsibility; Creative B2B / Challenger Brand", icon: "○" }
+        ]
+    },
+    {
+        id: 19,
+        title: "Tiny Coffee Shops",
+        year: "2026",
+        brand: "De’Longhi",
+        agency: "LOLA, Madrid",
+        country: "Spain",
+        summary: "把全自動咖啡機做成五座手作微型咖啡館：證明最好的一杯，不必離開廚房流理臺。",
+        boardImage: "boards/tiny-coffee-shops.jpg",
+        filmUrl: "https://lion.box.com/s/osrzmrtd09jnflfyajdhctpsd1iaygvz",
+        awards: { gp: 1, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/tiny-coffee-shops-01.jpg',
+            idea: 'assets/stills/tiny-coffee-shops-02.jpg',
+            execution: 'assets/stills/tiny-coffee-shops-03.jpg'
+        },
+        background: "八成以上的咖啡其實在家喝，可是約 72% 的人仍相信「最好的那杯」只存在咖啡館。De’Longhi 的 bean-to-cup 機已經能做出 barista 級的杯子，缺的是感覺——家用電器看起來不像一家店。",
+        idea: "LOLA 把機器變成「世界上最小的咖啡店」。五台全自動機，分別長成米蘭、東京、巴黎、哥本哈根、柏林的店面，請以 Wes Anderson 電影微縮場景知名的模型師 Simon Weisse 用手做，而不是用 CGI 假裝。微型店面是一個實體比喻：咖啡館的體驗，可以直接放到流理臺上。",
+        execution: "Weisse 柏林工作室用傳統模型技法花了超過 1,500 小時雕刻、上色、做舊；每台仍能正常煮咖啡，小窗看得到操作螢幕，屋頂可拆以便加水。官方寫法是先在馬德里開世界上最小的咖啡店快閃（那條街沒有其他咖啡館），再走網紅、戶外、影片與社群，最後在 Milan Design Week 展出。Industry Craft 評審說，當小店的燈亮起來，他們確定這就是 Craft 該長成的樣子。同作另在 Outdoor 拿下 Gold。",
+        awardsDetail: [
+            { award: "Grand Prix — Industry Craft, Art Direction: Outdoor: Ambient", icon: "🏆" },
+            { award: "Gold Lion — Outdoor, Ambient and Experiential, Special Build", icon: "🥇" },
+            { award: "Shortlisted ×2 — Industry Craft, Art Direction: Print and Publishing Standard; Industry Craft, Brand and Communications Design", icon: "○" }
+        ]
+    },
+    {
+        id: 20,
+        title: "Paid Sick Leave For Cows",
+        year: "2026",
+        brand: "Too Good",
+        agency: "The Partnership Agency, Nairobi",
+        country: "Kenya",
+        summary: "牛生病、牛奶依法不能賣的那幾天，品牌用 WhatsApp 補給農友薪水——把乳業做成勞權加農業的新運作方式。",
+        boardImage: "boards/paid-sick-leave-cows.jpg",
+        filmUrl: "https://lion.box.com/s/rw7vv87s37upwnerp46w2ytre84sr771",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/paid-sick-leave-cows-01.jpg',
+            idea: 'assets/stills/paid-sick-leave-cows-02.jpg',
+            execution: 'assets/stills/paid-sick-leave-cows-03.jpg'
+        },
+        background: "肯尼亞是撒哈拉以南人均喝奶最多的國家，約八成產量來自小農。牛打了抗生素，依法要停售三到五天，否則殘留會進食物鏈；一項研究顯示約四分之一樣本仍驗出抗生素。問題不是農友不懂，而是停售等於停收，負責任的選擇最貴。市場價又抬不起來。這是肯尼亞史上第一座 Cannes Grand Prix。",
+        idea: "Too Good 與 The Partnership Agency 不把錯推給農友，而把牛登記成真正的經濟勞動者，而不是牲口。靈感來自病假制度：恢復期不該讓人（或讓這戶人家）賠上收入。農友在 WhatsApp 為生病的牛申請 paid sick leave、附上獸醫文件；品牌核過之後，補上停售期間損失的奶款。勞權邏輯第一次被寫進乳業供應鏈。",
+        execution: "機制刻意低技術：WhatsApp 已經是肯尼亞小農的日常工具，不必再學一套系統。前八個月，方案把 27,000 美元直接退給因停售而少收的農友；Contagious 記載牛奶拒收降到接近零，並撐住品牌「0% antibiotic」主張、協助走進大型通路。評審要的是活動結束後還在運轉的系統——這檔給的是可複製的營運模型，不是一則宣導廣告。",
+        awardsDetail: [
+            { award: "Grand Prix — Sustainable Development Goals, Prosperity / Decent Work and Economic Growth", icon: "🏆" },
+            { award: "Bronze Lion — Creative Strategy: Sectors / Consumer Goods", icon: "🥉" }
+        ]
     }
 ];
+
+
+const DECK_START = '2026-08-19';
+const DAILY_DECK_SIZE = 10;
+
+function getDailyDeck() {
+    const today = getTaipeiDateString();
+    const start = new Date(DECK_START + 'T00:00:00+08:00');
+    const now = new Date(today + 'T00:00:00+08:00');
+    const days = Math.max(0, Math.round((now - start) / 86400000));
+    const numDecks = Math.max(1, Math.ceil(casesData.length / DAILY_DECK_SIZE));
+    const offset = (days % numDecks) * DAILY_DECK_SIZE;
+    return casesData.slice(offset, offset + DAILY_DECK_SIZE);
+}
 
 // Fallback roster when API is unavailable
 const FALLBACK_ROSTER = [
@@ -1130,20 +1399,21 @@ function updateMerchGrid() {
 function renderCard(index) {
     const cardStack = document.getElementById('cardStack');
     const emptyState = document.getElementById('emptyState');
+    const deck = getDailyDeck();
     
     // Skip cards already swiped today
-    while (index < casesData.length && todaySwipedCaseIds.has(casesData[index].id)) {
+    while (index < deck.length && todaySwipedCaseIds.has(deck[index].id)) {
         index++;
         currentCaseIndex = index;
     }
     
-    if (index >= casesData.length) {
+    if (index >= deck.length) {
         cardStack.innerHTML = '';
         emptyState.style.display = 'flex';
         return;
     }
     
-    const caseData = casesData[index];
+    const caseData = deck[index];
     const card = createCardElement(caseData);
     cardStack.innerHTML = '';
     cardStack.appendChild(card);
@@ -1391,7 +1661,8 @@ function hideStamps(card) {
 }
 
 function handleSwipe(card, action) {
-    const caseId = casesData[currentCaseIndex].id;
+    const deck = getDailyDeck();
+    const caseId = deck[currentCaseIndex].id;
     
     // Check if already swiped today
     if (todaySwipedCaseIds.has(caseId)) {

@@ -1,0 +1,312 @@
+[
+  {
+    "slug": "uber-eats-super-bowl",
+    "id": 11,
+    "source_t": [
+      "12.00",
+      "43.00",
+      "64.00"
+    ],
+    "files": [
+      "uber-eats-super-bowl-01.jpg",
+      "uber-eats-super-bowl-02.jpg",
+      "uber-eats-super-bowl-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "uber-eats-super-bowl-01.jpg",
+        "section": "background",
+        "why": "News-style ‘Is Football Really Selling Us Food?’ plus food/cheesehead slices and the subtitle that football was invented to sell food — the two-year Super Bowl conspiracy."
+      },
+      {
+        "file": "uber-eats-super-bowl-02.jpg",
+        "section": "idea",
+        "why": "‘Build Your Own Super Bowl Commercial’ modular cards with + buttons — poke-bowl style ad builder, just like ordering food."
+      },
+      {
+        "file": "uber-eats-super-bowl-03.jpg",
+        "section": "execution",
+        "why": "Six-panel modular cast (Addison, Tramell, Parker and others) each with a food card and + — the 36-hour shoot as selectable ingredients, no results title card."
+      }
+    ]
+  },
+  {
+    "slug": "project-genie",
+    "id": 12,
+    "source_t": [
+      "13.00",
+      "70.50",
+      "83.00"
+    ],
+    "files": [
+      "project-genie-01.jpg",
+      "project-genie-02.jpg",
+      "project-genie-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "project-genie-01.jpg",
+        "section": "background",
+        "why": "Research UI: PROMPT → INTERACTIVE WORLD (skiing Alps) with WASD — Genie 3 demo interface built for the model, not consumers."
+      },
+      {
+        "file": "project-genie-02.jpg",
+        "section": "idea",
+        "why": "Photoreal climber on a snow ridge, no chrome — AI as the product: a walkable world you can step into."
+      },
+      {
+        "file": "project-genie-03.jpg",
+        "section": "execution",
+        "why": "Consumer Create UI: ‘Let’s start by sketching your world’ with Environment / Character text fields and Create sketch."
+      }
+    ]
+  },
+  {
+    "slug": "original-forever",
+    "id": 13,
+    "source_t": [
+      "25.00",
+      "172.00",
+      "144.00"
+    ],
+    "files": [
+      "original-forever-01.jpg",
+      "original-forever-02.jpg",
+      "original-forever-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "original-forever-01.jpg",
+        "section": "background",
+        "why": "Fan in a three-stripe adidas tracksuit in a grainy crowd — 1990s football/fashion/music DNA lived by the generations, not a Gallagher close-up."
+      },
+      {
+        "file": "original-forever-02.jpg",
+        "section": "idea",
+        "why": "Liam and Noel together, low angle, black void, oasis patch — first time the brothers share the frame."
+      },
+      {
+        "file": "original-forever-03.jpg",
+        "section": "execution",
+        "why": "Crowd holding a white adidas sneaker aloft — fans plus the Live ’25 collection, not a tour-screening title."
+      }
+    ]
+  },
+  {
+    "slug": "field-barcode",
+    "id": 14,
+    "source_t": [
+      "20.00",
+      "31.00",
+      "64.00"
+    ],
+    "files": [
+      "field-barcode-01.jpg",
+      "field-barcode-02.jpg",
+      "field-barcode-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "field-barcode-01.jpg",
+        "section": "background",
+        "why": "Packed Pacaembu, Gaviões tifo, no barcode yet — ‘one of Brazil’s most iconic stadiums’ before the naming-rights pitch is used."
+      },
+      {
+        "file": "field-barcode-02.jpg",
+        "section": "idea",
+        "why": "Sunset aerial of the pitch mown as a 104 m barcode. Rejected the FIELD BARCODE title-lockup at 30s."
+      },
+      {
+        "file": "field-barcode-03.jpg",
+        "section": "execution",
+        "why": "Phone in the stands scanning the pitch: Mercado Livre 25% OFF gloves and BUY NOW — live shop from the seats, no broadcast-player chrome."
+      }
+    ]
+  },
+  {
+    "slug": "copycats-welcome",
+    "id": 15,
+    "source_t": [
+      "10.50",
+      "51.00",
+      "64.00"
+    ],
+    "files": [
+      "copycats-welcome-01.jpg",
+      "copycats-welcome-02.jpg",
+      "copycats-welcome-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "copycats-welcome-01.jpg",
+        "section": "background",
+        "why": "Grid of Clash Royale clone icons (Soccer Royale, King Royale, Tiny Clash…) — a decade of name/art/gameplay copies."
+      },
+      {
+        "file": "copycats-welcome-02.jpg",
+        "section": "idea",
+        "why": "Archer, Barbarian and goblin stuck in a cheap BASH ROYALE arena — the amnesty film’s knock-off world, not the KEEP THE GAINS title."
+      },
+      {
+        "file": "copycats-welcome-03.jpg",
+        "section": "execution",
+        "why": "Transfer-site phone: ‘Do you play a Copycat?’, 3+ years, battles/day — evidence form, not a results card."
+      }
+    ]
+  },
+  {
+    "slug": "warmer-together",
+    "id": 16,
+    "source_t": [
+      "50.00",
+      "56.00",
+      "60.00"
+    ],
+    "files": [
+      "warmer-together-01.jpg",
+      "warmer-together-02.jpg",
+      "warmer-together-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "warmer-together-01.jpg",
+        "section": "background",
+        "why": "Two empty rooftop chairs over Manhattan and ‘/ Warmth was never about the outside. /’ — luxury warmth as people coming close, before the duo reveal."
+      },
+      {
+        "file": "warmer-together-02.jpg",
+        "section": "idea",
+        "why": "Platon B&W studio: Pacino and De Niro, Moncler patch, hand on a shoulder — first fashion ad together."
+      },
+      {
+        "file": "warmer-together-03.jpg",
+        "section": "execution",
+        "why": "Urban bus-shelter poster of the duo — campaign in the world (OOH/print), not a ‘Moncler Presents’ title."
+      }
+    ]
+  },
+  {
+    "slug": "lucky-fan-index",
+    "id": 17,
+    "source_t": [
+      "14.00",
+      "38.50",
+      "80.00"
+    ],
+    "files": [
+      "lucky-fan-index-01.jpg",
+      "lucky-fan-index-02.jpg",
+      "lucky-fan-index-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "lucky-fan-index-01.jpg",
+        "section": "background",
+        "why": "Empty Wisła stadium, seats spelling WISŁA / 1906 — relegation and attendance gone, before any luck overlay."
+      },
+      {
+        "file": "lucky-fan-index-02.jpg",
+        "section": "idea",
+        "why": "Cheering fan with LUCKY FAN INDEX 79.7 overlay — a personal 100-point luck score, not the UNIVERSAL FOOTBALL SUPERSTITION title."
+      },
+      {
+        "file": "lucky-fan-index-03.jpg",
+        "section": "execution",
+        "why": "Three phones: category scores, top 8%, possession-when-you-attended — the index platform, cleaner than the VIP BOX title."
+      }
+    ]
+  },
+  {
+    "slug": "faroe-islands-space",
+    "id": 18,
+    "source_t": [
+      "40.00",
+      "48.50",
+      "62.00"
+    ],
+    "files": [
+      "faroe-islands-space-01.jpg",
+      "faroe-islands-space-02.jpg",
+      "faroe-islands-space-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "faroe-islands-space-01.jpg",
+        "section": "background",
+        "why": "Faroe hills, sheep, sea, and Faroe Islands / SKF / Minesto lockup — the real remote tidal project, not a Reuters title."
+      },
+      {
+        "file": "faroe-islands-space-02.jpg",
+        "section": "idea",
+        "why": "Embroidered MOON POWER mission patch on blue kit — tidal energy reframed as an Earth space programme."
+      },
+      {
+        "file": "faroe-islands-space-03.jpg",
+        "section": "execution",
+        "why": "Yellow Luna kite in the water, Faroe Islands Space Program on the wing — the 1.2 MW hardware, not the 40% by 2030 results card."
+      }
+    ]
+  },
+  {
+    "slug": "tiny-coffee-shops",
+    "id": 19,
+    "source_t": [
+      "30.00",
+      "34.50",
+      "106.00"
+    ],
+    "files": [
+      "tiny-coffee-shops-01.jpg",
+      "tiny-coffee-shops-02.jpg",
+      "tiny-coffee-shops-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "tiny-coffee-shops-01.jpg",
+        "section": "background",
+        "why": "Miniature sidewalk café tables and checkered chairs — the café people still believe holds the real cup. Demo film has no 72% home-vs-café graphic."
+      },
+      {
+        "file": "tiny-coffee-shops-02.jpg",
+        "section": "idea",
+        "why": "Japanese Magnifica Kissa machine-as-shop, hand placing a poured cup — the machine is the café, handmade not CGI."
+      },
+      {
+        "file": "tiny-coffee-shops-03.jpg",
+        "section": "execution",
+        "why": "Lineup of all five city shops (Milan, Paris, Tokyo, Berlin, Copenhagen) — the finished handmade set."
+      }
+    ]
+  },
+  {
+    "slug": "paid-sick-leave-cows",
+    "id": 20,
+    "source_t": [
+      "20.20",
+      "55.00",
+      "87.50"
+    ],
+    "files": [
+      "paid-sick-leave-cows-01.jpg",
+      "paid-sick-leave-cows-02.jpg",
+      "paid-sick-leave-cows-03.jpg"
+    ],
+    "sections": [
+      {
+        "file": "paid-sick-leave-cows-01.jpg",
+        "section": "background",
+        "why": "Farmer carrying a milk churn through a Kenyan parlor, cows in stalls, subtitle that antibiotic treatment means a 3–5 day withdrawal — income stops when milk must be withheld."
+      },
+      {
+        "file": "paid-sick-leave-cows-02.jpg",
+        "section": "idea",
+        "why": "Cows and a farmer with feed, plus ‘Sick Leave.’ and the labour-law line that an employee is entitled to seven days’ sick leave with full pay — cows as economic workers."
+      },
+      {
+        "file": "paid-sick-leave-cows-03.jpg",
+        "section": "execution",
+        "why": "WhatsApp in hand, laptop leave dashboard, and APPLICATION DETAILS for Agnes Kabura / Molly64 with prescription uploaded — request, vet docs, and review in one frame."
+      }
+    ]
+  }
+]
