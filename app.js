@@ -297,6 +297,18 @@ const FALLBACK_ROSTER = [
     { name: 'Hugh Huang', color: '#D35400' }
 ];
 
+// Ensure roster is populated with fallback if empty
+function ensureRoster() {
+    if (rosterMembers.length === 0) {
+        rosterMembers = [...FALLBACK_ROSTER];
+        teamMembers = FALLBACK_ROSTER.map(m => ({
+            ...m,
+            viewCount: 0,
+            likes: []
+        }));
+    }
+}
+
 // App state
 let currentCaseIndex = 0;
 let cards = [];
@@ -409,6 +421,8 @@ function setupSigninHandlers() {
         
         if (code === 'ALIEN') {
             errorMessage.textContent = '';
+            ensureRoster();
+            renderNameList();
             document.getElementById('codeStep').classList.add('hidden');
             document.getElementById('nameStep').classList.remove('hidden');
         } else {
@@ -442,7 +456,6 @@ async function loadRoster() {
         }
     } catch (error) {
         console.error('Failed to load roster:', error);
-        showError('無法載入名單，請重新整理頁面');
     }
 }
 
@@ -473,7 +486,7 @@ async function handleNameSelection(name) {
             action: 'login',
             code: 'ALIEN',
             name: name
-        });
+        }, 8000);
         
         if (data.ok) {
             // Save user
@@ -501,7 +514,13 @@ async function handleNameSelection(name) {
         }
     } catch (error) {
         console.error('Login failed:', error);
-        showError('登入失敗，請重試');
+        
+        // If API fails, sign them in locally anyway
+        currentUser = name;
+        localStorage.setItem('casetinder-user', name);
+        
+        hideSigninGate();
+        startApp();
     }
 }
 
