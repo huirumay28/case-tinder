@@ -1,8 +1,8 @@
 // API Configuration
 const CASETINDER_API = 'https://script.google.com/macros/s/AKfycbzTFEmjDjm7YT4585uZn85OtOdGr0_JtQRVeaZPWwkYcx1D9beMTJMjh7ThObGss4JP/exec';
 
-// JSONP Helper
-function jsonp(url, params = {}) {
+// JSONP Helper with timeout
+function jsonp(url, params = {}, timeoutMs = 8000) {
     return new Promise((resolve, reject) => {
         const callbackName = 'jsonp_' + Date.now() + '_' + Math.random().toString(36).substr(2);
         const queryString = Object.keys(params)
@@ -10,7 +10,21 @@ function jsonp(url, params = {}) {
             .join('&');
         const fullUrl = `${url}?${queryString}&callback=${callbackName}`;
         
+        let timedOut = false;
+        const timeoutId = setTimeout(() => {
+            timedOut = true;
+            if (window[callbackName]) {
+                delete window[callbackName];
+            }
+            if (script.parentNode) {
+                document.body.removeChild(script);
+            }
+            reject(new Error('JSONP request timed out'));
+        }, timeoutMs);
+        
         window[callbackName] = (data) => {
+            if (timedOut) return;
+            clearTimeout(timeoutId);
             delete window[callbackName];
             document.body.removeChild(script);
             resolve(data);
@@ -19,6 +33,8 @@ function jsonp(url, params = {}) {
         const script = document.createElement('script');
         script.src = fullUrl;
         script.onerror = () => {
+            if (timedOut) return;
+            clearTimeout(timeoutId);
             delete window[callbackName];
             document.body.removeChild(script);
             reject(new Error('JSONP request failed'));
@@ -264,6 +280,23 @@ const casesData = [
     }
 ];
 
+// Fallback roster when API is unavailable
+const FALLBACK_ROSTER = [
+    { name: 'Hao Tseng', color: '#FF6B35' },
+    { name: 'Huiru', color: '#FF4458' },
+    { name: 'Albert Hsu', color: '#3498DB' },
+    { name: 'Eric Lin', color: '#9B59B6' },
+    { name: 'Eric Chen', color: '#2ECC71' },
+    { name: 'Brian Chen', color: '#F39C12' },
+    { name: 'Ona Chen', color: '#E91E63' },
+    { name: 'Ping Tseng', color: '#1ABC9C' },
+    { name: 'Vivi Tsou', color: '#E74C3C' },
+    { name: 'Dane Chang', color: '#34495E' },
+    { name: 'Jessie Hong', color: '#8E44AD' },
+    { name: 'Clio Wang', color: '#16A085' },
+    { name: 'Hugh Huang', color: '#D35400' }
+];
+
 // App state
 let currentCaseIndex = 0;
 let cards = [];
@@ -307,27 +340,23 @@ async function init() {
     const savedUser = localStorage.getItem('casetinder-user');
     
     if (savedUser) {
-        // Try to load roster and validate user
-        try {
-            await loadRoster();
-            
-            // Check if saved user is in roster
-            const userExists = rosterMembers.some(m => m.name === savedUser);
-            
-            if (userExists) {
-                currentUser = savedUser;
-                await loadUserState();
-                hideSigninGate();
-                startApp();
-                return;
-            } else {
-                // Saved user not in roster, clear and show sign-in
-                localStorage.removeItem('casetinder-user');
-                currentUser = null;
-            }
-        } catch (error) {
-            console.error('Failed to load roster:', error);
-        }
+        // Immediately hide signin gate and start app
+        currentUser = savedUser;
+        hideSigninGate();
+        startApp();
+        
+        // Hydrate from API in the background (don't wait)
+        loadUserState().catch(error => {
+            console.error('Failed to load user state:', error);
+            // Keep localStorage progress even if API fails
+        });
+        
+        loadScoreboardData().catch(error => {
+            console.error('Failed to load scoreboard:', error);
+            // UI will use fallback roster
+        });
+        
+        return;
     }
     
     // Show sign-in gate
@@ -337,6 +366,16 @@ async function init() {
 // Start the main app after sign-in
 function startApp() {
     isSignedIn = true;
+    
+    // Seed teamMembers from fallback if empty
+    if (teamMembers.length === 0) {
+        teamMembers = FALLBACK_ROSTER.map(m => ({
+            ...m,
+            viewCount: 0,
+            likes: []
+        }));
+    }
+    
     loadProgress();
     setupNavigation();
     setupScoreboard();
@@ -706,8 +745,23 @@ async function renderRankingList() {
     const rankingList = document.getElementById('rankingList');
     if (!rankingList) return;
     
-    // Load fresh scoreboard data
-    await loadScoreboardData();
+    // Paint immediately from current teamMembers
+    paintRankingList();
+    
+    // Then refresh from API in background and repaint
+    try {
+        await loadScoreboardData();
+        paintRankingList();
+    } catch (error) {
+        console.error('Failed to refresh scoreboard:', error);
+        // Keep showing the initial paint
+    }
+}
+
+// Helper function to paint the ranking list from teamMembers
+function paintRankingList() {
+    const rankingList = document.getElementById('rankingList');
+    if (!rankingList) return;
     
     const sortedMembers = [...teamMembers].map(member => {
         if (member.name === currentUser) {
