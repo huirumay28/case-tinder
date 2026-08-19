@@ -85,25 +85,35 @@ let viewCount = 0;
 // Sheet read: fetch all team members, their view counts, and liked cases
 // Sheet write: update current user's view count and liked cases on each swipe
 const teamMembers = [
+    { name: 'Hao Tseng', viewCount: 52, color: '#FF6B35' },
     { name: 'Huiru', viewCount: 0, color: '#FF4458' },
-    { name: 'Ruhj', viewCount: 47, color: '#9B59B6' },
-    { name: 'Brian', viewCount: 42, color: '#3498DB' },
-    { name: 'Sophia', viewCount: 38, color: '#E74C3C' },
-    { name: 'Alex', viewCount: 35, color: '#F39C12' },
-    { name: 'Emma', viewCount: 31, color: '#1ABC9C' },
-    { name: 'Lucas', viewCount: 28, color: '#34495E' },
-    { name: 'Mia', viewCount: 24, color: '#E91E63' }
+    { name: 'Albert Hsu', viewCount: 45, color: '#3498DB' },
+    { name: 'Eric Lin', viewCount: 41, color: '#9B59B6' },
+    { name: 'Eric Chen', viewCount: 38, color: '#2ECC71' },
+    { name: 'Brian Chen', viewCount: 35, color: '#F39C12' },
+    { name: 'Ona Chen', viewCount: 32, color: '#E91E63' },
+    { name: 'Ping Tseng', viewCount: 29, color: '#1ABC9C' },
+    { name: 'Vivi Tsou', viewCount: 26, color: '#E74C3C' },
+    { name: 'Dane Chang', viewCount: 23, color: '#34495E' },
+    { name: 'Jessie Hong', viewCount: 20, color: '#8E44AD' },
+    { name: 'Clio Wang', viewCount: 17, color: '#16A085' },
+    { name: 'Hugh Huang', viewCount: 14, color: '#D35400' }
 ];
 
 // Placeholder liked cases for other team members
 const otherMembersLikes = {
-    'Ruhj': [1, 2],
-    'Brian': [1, 3],
-    'Sophia': [2, 3],
-    'Alex': [1],
-    'Emma': [2],
-    'Lucas': [3],
-    'Mia': [1, 2, 3]
+    'Hao Tseng': [1, 2],
+    'Albert Hsu': [1, 3],
+    'Eric Lin': [2],
+    'Eric Chen': [1],
+    'Brian Chen': [3],
+    'Ona Chen': [2, 3],
+    'Ping Tseng': [1, 2, 3],
+    'Vivi Tsou': [1],
+    'Dane Chang': [2],
+    'Jessie Hong': [3],
+    'Clio Wang': [1, 2],
+    'Hugh Huang': [2, 3]
 };
 
 // Merch unlock rules: every 2 unique days unlocks one creative item
