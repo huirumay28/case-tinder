@@ -1128,6 +1128,11 @@ body {
         font-size: 28px;
     }
     
+    .action-button.film-button-main {
+        width: 140px;
+        font-size: 15px;
+    }
+    
     .action-buttons {
         margin-bottom: 16px;
     }
@@ -1157,6 +1162,12 @@ body {
         width: 56px;
         height: 56px;
         font-size: 24px;
+    }
+    
+    .action-button.film-button-main {
+        width: 130px;
+        font-size: 14px;
+        padding: 0 16px;
     }
     
     .action-buttons {
