@@ -13,6 +13,12 @@
     --button-radius: 24px;
 }
 
+html, body {
+    height: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
     background: var(--light-gray);
@@ -25,6 +31,8 @@ body {
     max-width: 430px;
     margin: 0 auto;
     height: 100vh;
+    height: 100svh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     background: var(--white);
@@ -54,7 +62,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 60px;
+    bottom: 0;
     background: var(--white);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
@@ -82,6 +90,8 @@ body {
 .board-image {
     width: 100%;
     aspect-ratio: 16 / 9;
+    max-height: 38vh;
+    max-height: 38svh;
     background: var(--pink);
     border-radius: var(--border-radius);
     display: flex;
@@ -301,6 +311,7 @@ body {
 }
 
 .bottom-nav {
+    flex-shrink: 0;
     height: 60px;
     background: var(--white);
     border-top: 1px solid #EBEBEB;
@@ -308,6 +319,9 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 0 20px;
+    padding-bottom: env(safe-area-inset-bottom);
+    z-index: 100;
+    position: relative;
 }
 
 .nav-item {
@@ -980,6 +994,65 @@ body {
     font-size: 14px;
     font-weight: 600;
     min-height: 20px;
+}
+
+/* Short screen optimizations */
+@media (max-height: 700px) {
+    .board-image {
+        max-height: 32vh;
+        max-height: 32svh;
+        margin-bottom: 16px;
+    }
+    
+    .case-title {
+        font-size: 24px;
+    }
+    
+    .action-button {
+        width: 60px;
+        height: 60px;
+        font-size: 28px;
+    }
+    
+    .action-buttons {
+        margin-bottom: 16px;
+    }
+    
+    .scroll-hint {
+        margin-bottom: 16px;
+        font-size: 13px;
+    }
+    
+    .card-content {
+        padding: 16px;
+    }
+}
+
+@media (max-height: 600px) {
+    .board-image {
+        max-height: 28vh;
+        max-height: 28svh;
+        margin-bottom: 12px;
+    }
+    
+    .case-title {
+        font-size: 22px;
+    }
+    
+    .action-button {
+        width: 56px;
+        height: 56px;
+        font-size: 24px;
+    }
+    
+    .action-buttons {
+        margin-bottom: 12px;
+        gap: 12px;
+    }
+    
+    .awards-summary {
+        margin-bottom: 16px;
+    }
 }
 
 @media (min-width: 768px) {
