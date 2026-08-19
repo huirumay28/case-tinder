@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <!-- Base Lion Body - Naked -->
+  
+  <!-- Mane -->
+  <circle cx="100" cy="80" r="50" fill="#8B4513" opacity="0.3"/>
+  <circle cx="70" cy="65" r="20" fill="#8B4513" opacity="0.4"/>
+  <circle cx="130" cy="65" r="20" fill="#8B4513" opacity="0.4"/>
+  <circle cx="60" cy="85" r="22" fill="#8B4513" opacity="0.4"/>
+  <circle cx="140" cy="85" r="22" fill="#8B4513" opacity="0.4"/>
+  <circle cx="70" cy="105" r="18" fill="#8B4513" opacity="0.3"/>
+  <circle cx="130" cy="105" r="18" fill="#8B4513" opacity="0.3"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="80" r="40" fill="#FDB44B"/>
+  
+  <!-- Ears -->
+  <circle cx="75" cy="55" r="12" fill="#FDB44B"/>
+  <circle cx="125" cy="55" r="12" fill="#FDB44B"/>
+  <circle cx="75" cy="55" r="7" fill="#8B4513" opacity="0.2"/>
+  <circle cx="125" cy="55" r="7" fill="#8B4513" opacity="0.2"/>
+  
+  <!-- Eyes -->
+  <circle cx="88" cy="75" r="5" fill="#000"/>
+  <circle cx="112" cy="75" r="5" fill="#000"/>
+  <circle cx="90" cy="73" r="2" fill="#FFF"/>
+  <circle cx="114" cy="73" r="2" fill="#FFF"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="88" rx="8" ry="6" fill="#000"/>
+  
+  <!-- Mouth -->
+  <path d="M 100 88 Q 95 95 90 93" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 100 88 Q 105 95 110 93" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="35" ry="45" fill="#FDB44B"/>
+  
+  <!-- Arms -->
+  <ellipse cx="70" cy="145" rx="12" ry="28" fill="#FDB44B"/>
+  <ellipse cx="130" cy="145" rx="12" ry="28" fill="#FDB44B"/>
+  
+  <!-- Legs -->
+  <ellipse cx="85" cy="195" rx="10" ry="22" fill="#FDB44B"/>
+  <ellipse cx="115" cy="195" rx="10" ry="22" fill="#FDB44B"/>
+  
+  <!-- Paws -->
+  <circle cx="85" cy="210" r="10" fill="#FDB44B"/>
+  <circle cx="115" cy="210" r="10" fill="#FDB44B"/>
+  
+  <!-- Tail -->
+  <path d="M 135 160 Q 150 170 145 185" fill="none" stroke="#FDB44B" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="145" cy="185" r="8" fill="#8B4513" opacity="0.4"/>
+</svg>

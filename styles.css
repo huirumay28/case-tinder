@@ -31,6 +31,17 @@ body {
     position: relative;
 }
 
+.tab-content {
+    flex: 1;
+    overflow: hidden;
+    display: none;
+}
+
+.tab-content.active {
+    display: flex;
+    flex-direction: column;
+}
+
 .card-stack {
     flex: 1;
     position: relative;
@@ -313,6 +324,243 @@ body {
 
 .nav-item svg {
     display: block;
+}
+
+/* Bio Tab Styles */
+.bio-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 32px 24px 40px;
+    text-align: center;
+}
+
+.streak-headline {
+    margin-bottom: 40px;
+}
+
+.streak-headline h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--black);
+}
+
+.streak-number {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--pink);
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.lion-character {
+    width: 200px;
+    height: 220px;
+    margin: 0 auto 16px;
+    position: relative;
+    animation: lionBounce 2s ease-in-out infinite;
+}
+
+@keyframes lionBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.lion-character img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.lion-caption {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 32px;
+}
+
+.next-unlock {
+    margin-bottom: 48px;
+}
+
+.unlock-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.unlock-text span {
+    font-weight: 700;
+    color: var(--black);
+}
+
+.progress-track {
+    position: relative;
+    height: 40px;
+    margin: 0 40px;
+}
+
+.track-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--black);
+    transform: translateY(-50%);
+}
+
+.track-line::before,
+.track-line::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--black);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.track-line::before {
+    left: 0;
+}
+
+.track-line::after {
+    right: 0;
+}
+
+.track-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    background: var(--white);
+    border: 2px solid var(--black);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.merch-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.merch-item {
+    background: var(--white);
+    border: 2px solid #EBEBEB;
+    border-radius: 12px;
+    padding: 16px 12px;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.merch-item.unlocked {
+    border-color: var(--pink);
+    background: #FFF5F7;
+}
+
+.merch-item.locked {
+    opacity: 0.4;
+}
+
+.merch-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 8px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.beret-icon {
+    background-image: url('assets/lion-beret.svg');
+}
+
+.sunglasses-icon {
+    background-image: url('assets/lion-sunglasses.svg');
+}
+
+.necklace-icon {
+    background-image: url('assets/lion-necklace.svg');
+}
+
+.bag-icon {
+    background-image: url('assets/lion-bag.svg');
+}
+
+.snowboard-icon {
+    background-image: url('assets/lion-snowboard.svg');
+}
+
+.crown-icon {
+    background-image: url('assets/lion-crown.svg');
+}
+
+.merch-label {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 4px;
+}
+
+.merch-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.check-mark {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    background: var(--pink);
+    color: var(--white);
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.merch-item.unlocked .check-mark {
+    display: flex;
+}
+
+.placeholder-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.placeholder-icon {
+    font-size: 80px;
+    margin-bottom: 24px;
+}
+
+.placeholder-container h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--black);
 }
 
 @media (min-width: 768px) {

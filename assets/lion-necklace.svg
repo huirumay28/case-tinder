@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <!-- Golden Lion Necklace (ÑEJ) - Cannes Lions inspired -->
+  <g>
+    <!-- Chain -->
+    <path d="M 85 95 Q 88 100 92 103" fill="none" stroke="#FFD700" stroke-width="2"/>
+    <path d="M 115 95 Q 112 100 108 103" fill="none" stroke="#FFD700" stroke-width="2"/>
+    <circle cx="86" cy="96" r="1.5" fill="#FFD700"/>
+    <circle cx="88" cy="99" r="1.5" fill="#FFD700"/>
+    <circle cx="90" cy="101" r="1.5" fill="#FFD700"/>
+    <circle cx="110" cy="101" r="1.5" fill="#FFD700"/>
+    <circle cx="112" cy="99" r="1.5" fill="#FFD700"/>
+    <circle cx="114" cy="96" r="1.5" fill="#FFD700"/>
+    
+    <!-- Lion pendant - mini golden lion head -->
+    <circle cx="100" cy="108" r="8" fill="#FFD700"/>
+    <!-- Mane detail -->
+    <circle cx="95" cy="105" r="3" fill="#FFA500" opacity="0.6"/>
+    <circle cx="105" cy="105" r="3" fill="#FFA500" opacity="0.6"/>
+    <circle cx="93" cy="108" r="2.5" fill="#FFA500" opacity="0.6"/>
+    <circle cx="107" cy="108" r="2.5" fill="#FFA500" opacity="0.6"/>
+    
+    <!-- Face details -->
+    <circle cx="97" cy="107" r="1" fill="#000"/>
+    <circle cx="103" cy="107" r="1" fill="#000"/>
+    <circle cx="100" cy="110" r="1.5" fill="#8B4513"/>
+  </g>
+</svg>

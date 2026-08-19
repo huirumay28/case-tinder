@@ -70,9 +70,216 @@ const casesData = [
 let currentCaseIndex = 0;
 let cards = [];
 
+// Progress tracking state
+// Tracks unique calendar days with at least one swipe (local date string 'YYYY-MM-DD')
+let viewedDays = new Set();
+let streak = 0;
+let unlockedMerch = new Set();
+
+// Merch unlock rules: every 2 unique days unlocks one creative item
+// These are accessories/props for a Cannes creative industry lion, not just clothing
+const merchItems = [
+    { id: 'beret', name: '貝雷帽', daysRequired: 2, layer: 'assets/lion-beret.svg' },
+    { id: 'sunglasses', name: '墨鏡', daysRequired: 4, layer: 'assets/lion-sunglasses.svg' },
+    { id: 'necklace', name: '金獅項鍊', daysRequired: 6, layer: 'assets/lion-necklace.svg' },
+    { id: 'bag', name: '創意小包', daysRequired: 8, layer: 'assets/lion-bag.svg' },
+    { id: 'snowboard', name: '滑雪板', daysRequired: 10, layer: 'assets/lion-snowboard.svg' },
+    { id: 'crown', name: '小皇冠', daysRequired: 12, layer: 'assets/lion-crown.svg' }
+];
+
 // Initialize app
 function init() {
+    loadProgress();
+    setupNavigation();
     renderCard(currentCaseIndex);
+    updateBioTab();
+}
+
+// Load progress from localStorage
+function loadProgress() {
+    const savedDays = localStorage.getItem('casetinder-viewed-days');
+    if (savedDays) {
+        viewedDays = new Set(JSON.parse(savedDays));
+    }
+    
+    const savedMerch = localStorage.getItem('casetinder-unlocked-merch');
+    if (savedMerch) {
+        unlockedMerch = new Set(JSON.parse(savedMerch));
+    }
+    
+    calculateStreak();
+    calculateUnlocks();
+}
+
+// Save progress to localStorage
+function saveProgress() {
+    localStorage.setItem('casetinder-viewed-days', JSON.stringify([...viewedDays]));
+    localStorage.setItem('casetinder-unlocked-merch', JSON.stringify([...unlockedMerch]));
+}
+
+// Calculate streak (consecutive days ending today or yesterday)
+function calculateStreak() {
+    if (viewedDays.size === 0) {
+        streak = 0;
+        return;
+    }
+    
+    const sortedDays = [...viewedDays].sort().reverse();
+    const today = getLocalDateString();
+    const yesterday = getLocalDateString(new Date(Date.now() - 86400000));
+    
+    let currentStreak = 0;
+    let checkDate = sortedDays[0] === today ? today : (sortedDays[0] === yesterday ? yesterday : null);
+    
+    if (!checkDate) {
+        streak = 0;
+        return;
+    }
+    
+    for (let i = 0; i < sortedDays.length; i++) {
+        if (sortedDays[i] === checkDate) {
+            currentStreak++;
+            const prevDate = new Date(checkDate);
+            prevDate.setDate(prevDate.getDate() - 1);
+            checkDate = getLocalDateString(prevDate);
+        } else {
+            break;
+        }
+    }
+    
+    streak = currentStreak;
+}
+
+// Calculate unlocks based on total unique days
+function calculateUnlocks() {
+    const totalDays = viewedDays.size;
+    
+    merchItems.forEach(item => {
+        if (totalDays >= item.daysRequired) {
+            unlockedMerch.add(item.id);
+        }
+    });
+}
+
+// Get local date string (YYYY-MM-DD in local timezone)
+function getLocalDateString(date = new Date()) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+// Record today as a view day
+function recordViewDay() {
+    const today = getLocalDateString();
+    
+    if (!viewedDays.has(today)) {
+        viewedDays.add(today);
+        calculateStreak();
+        calculateUnlocks();
+        saveProgress();
+        updateBioTab();
+    }
+}
+
+// Setup navigation
+function setupNavigation() {
+    const navButtons = document.querySelectorAll('.nav-item');
+    
+    navButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const targetTab = button.dataset.tab;
+            switchTab(targetTab);
+        });
+    });
+}
+
+// Switch tabs
+function switchTab(tabId) {
+    const allTabs = document.querySelectorAll('.tab-content');
+    const allNavItems = document.querySelectorAll('.nav-item');
+    
+    allTabs.forEach(tab => {
+        tab.classList.remove('active');
+        if (tab.id === tabId) {
+            tab.classList.add('active');
+        }
+    });
+    
+    allNavItems.forEach(item => {
+        item.classList.remove('active');
+        if (item.dataset.tab === tabId) {
+            item.classList.add('active');
+        }
+    });
+    
+    if (tabId === 'bioTab') {
+        updateBioTab();
+    }
+}
+
+// Update bio tab UI
+function updateBioTab() {
+    document.getElementById('streakNumber').textContent = streak;
+    
+    renderLion();
+    updateNextUnlock();
+    updateMerchGrid();
+}
+
+// Render lion with unlocked layers
+function renderLion() {
+    const lionContainer = document.getElementById('lionCharacter');
+    lionContainer.innerHTML = '';
+    
+    const baseLion = document.createElement('img');
+    baseLion.src = 'assets/lion-base.svg';
+    baseLion.alt = 'Lion';
+    lionContainer.appendChild(baseLion);
+    
+    merchItems.forEach(item => {
+        if (unlockedMerch.has(item.id)) {
+            const layer = document.createElement('img');
+            layer.src = item.layer;
+            layer.alt = item.name;
+            lionContainer.appendChild(layer);
+        }
+    });
+}
+
+// Update next unlock display
+function updateNextUnlock() {
+    const totalDays = viewedDays.size;
+    const nextItem = merchItems.find(item => totalDays < item.daysRequired);
+    
+    if (nextItem) {
+        const daysRemaining = nextItem.daysRequired - totalDays;
+        document.getElementById('daysToUnlock').textContent = daysRemaining;
+        document.getElementById('nextMerchName').textContent = nextItem.name;
+        
+        const trackIcon = document.querySelector('.track-icon .merch-icon');
+        trackIcon.className = 'merch-icon';
+        trackIcon.classList.add(`${nextItem.id}-icon`);
+    } else {
+        document.getElementById('nextUnlock').style.display = 'none';
+    }
+}
+
+// Update merch grid
+function updateMerchGrid() {
+    const merchElements = document.querySelectorAll('.merch-item');
+    
+    merchElements.forEach(element => {
+        const merchId = element.dataset.merch;
+        
+        if (unlockedMerch.has(merchId)) {
+            element.classList.add('unlocked');
+            element.classList.remove('locked');
+        } else {
+            element.classList.add('locked');
+            element.classList.remove('unlocked');
+        }
+    });
 }
 
 function renderCard(index) {
@@ -256,6 +463,9 @@ function setupCardInteractions(card) {
 }
 
 function handleSwipe(card, action) {
+    // Record that user viewed a case today
+    recordViewDay();
+    
     // Add animation class
     if (action === 'like') {
         card.classList.add('swipe-right');
