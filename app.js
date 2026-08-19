@@ -76,13 +76,14 @@ let viewedDays = new Set();
 let streak = 0;
 let unlockedMerch = new Set();
 
-// Merch unlock rules: every 2 unique days unlocks one item
+// Merch unlock rules: every 2 unique days unlocks one creative item
+// These are accessories/props for a Cannes creative industry lion, not just clothing
 const merchItems = [
     { id: 'beret', name: '貝雷帽', daysRequired: 2, layer: 'assets/lion-beret.svg' },
-    { id: 'tee', name: '白T', daysRequired: 4, layer: 'assets/lion-tee.svg' },
-    { id: 'sunglasses', name: '墨鏡', daysRequired: 6, layer: 'assets/lion-sunglasses.svg' },
-    { id: 'earring', name: '耳環', daysRequired: 8, layer: 'assets/lion-earring.svg' },
-    { id: 'jacket', name: '外套', daysRequired: 10, layer: 'assets/lion-jacket.svg' },
+    { id: 'sunglasses', name: '墨鏡', daysRequired: 4, layer: 'assets/lion-sunglasses.svg' },
+    { id: 'necklace', name: '金獅項鍊', daysRequired: 6, layer: 'assets/lion-necklace.svg' },
+    { id: 'bag', name: '創意小包', daysRequired: 8, layer: 'assets/lion-bag.svg' },
+    { id: 'snowboard', name: '滑雪板', daysRequired: 10, layer: 'assets/lion-snowboard.svg' },
     { id: 'crown', name: '小皇冠', daysRequired: 12, layer: 'assets/lion-crown.svg' }
 ];
 

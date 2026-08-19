@@ -26,17 +26,17 @@ Each day, users get cases to explore:
 Track your creative learning journey with a cute lion character:
 
 - **Streak tracking**: See how many consecutive days you've viewed cases
-- **Lion character**: Starts naked and earns clothes as you progress
-- **Merch unlocks**: Every 2 unique days with swipes unlocks new clothing:
+- **Lion character**: Starts naked and earns creative accessories as you progress
+- **Merch unlocks**: Every 2 unique days with swipes unlocks new accessories:
   1. 第1趟 貝雷帽 (Beret) - 2 days
-  2. 第2趟 白T (White tee) - 4 days
-  3. 第3趟 墨鏡 (Sunglasses) - 6 days
-  4. 第4趟 耳環 (Earring) - 8 days
-  5. 第5趟 外套 (Jacket) - 10 days
+  2. 第2趟 墨鏡 (Sunglasses) - 4 days
+  3. 第3趟 金獅項鍊 (Golden lion necklace) - 6 days
+  4. 第4趟 創意小包 (Creative bag) - 8 days
+  5. 第5趟 滑雪板 (Snowboard) - 10 days
   6. 第6趟 小皇冠 (Crown) - 12 days
 - **Progress persists**: Your streak and unlocks are saved in localStorage
 
-**Note**: Unlocks are based on total unique days with at least one swipe (skipping a day doesn't remove clothes, but breaks your streak).
+**Note**: Unlocks are based on total unique days with at least one swipe (skipping a day doesn't remove accessories, but breaks your streak). The lion is a Cannes creative industry character — accessories include playful items like a snowboard and golden necklace, not just clothing!
 
 ### Bottom Navigation
 

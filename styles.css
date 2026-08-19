@@ -490,20 +490,20 @@ body {
     background-image: url('assets/lion-beret.svg');
 }
 
-.tee-icon {
-    background-image: url('assets/lion-tee.svg');
-}
-
 .sunglasses-icon {
     background-image: url('assets/lion-sunglasses.svg');
 }
 
-.earring-icon {
-    background-image: url('assets/lion-earring.svg');
+.necklace-icon {
+    background-image: url('assets/lion-necklace.svg');
 }
 
-.jacket-icon {
-    background-image: url('assets/lion-jacket.svg');
+.bag-icon {
+    background-image: url('assets/lion-bag.svg');
+}
+
+.snowboard-icon {
+    background-image: url('assets/lion-snowboard.svg');
 }
 
 .crown-icon {

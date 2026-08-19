@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <!-- Creative Tote Bag (u) - Stylish tote with Cannes colors -->
+  <g>
+    <!-- Bag body - hanging on left side -->
+    <rect x="60" y="155" width="20" height="25" rx="2" fill="#FF4458"/>
+    
+    <!-- Strap over shoulder -->
+    <path d="M 68 130 Q 65 140 67 155" fill="none" stroke="#FF4458" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Logo/design on bag - abstract creative symbol -->
+    <circle cx="70" cy="167" r="4" fill="#FFF" opacity="0.9"/>
+    <path d="M 68 167 L 72 167 M 70 165 L 70 169" stroke="#FF4458" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Bag bottom accent -->
+    <rect x="60" y="178" width="20" height="2" fill="#DC143C"/>
+    
+    <!-- Handles/straps detail -->
+    <path d="M 63 155 Q 63 150 68 150 Q 73 150 73 155" fill="none" stroke="#DC143C" stroke-width="1.5"/>
+  </g>
+</svg>
