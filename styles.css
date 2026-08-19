@@ -281,6 +281,15 @@ body {
     letter-spacing: 0.5px;
 }
 
+.section-still {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    display: block;
+    object-fit: cover;
+}
+
 .section-content {
     font-size: 16px;
     line-height: 1.7;
