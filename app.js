@@ -337,13 +337,15 @@ let memberLikesData = {};
 
 // Merch unlock rules: every 2 unique days unlocks one creative item
 // These are accessories/props for a Cannes creative industry lion, not just clothing
+// Note: Only the beret changes the lion character (from naked to wearing hat).
+// Other merch items are shown as unlocked icons in the grid only.
 const merchItems = [
-    { id: 'beret', name: '貝雷帽', daysRequired: 2, layer: 'assets/lion-beret.svg' },
-    { id: 'sunglasses', name: '墨鏡', daysRequired: 4, layer: 'assets/lion-sunglasses.svg' },
-    { id: 'necklace', name: '金獅項鍊', daysRequired: 6, layer: 'assets/lion-necklace.svg' },
-    { id: 'bag', name: '創意小包', daysRequired: 8, layer: 'assets/lion-bag.svg' },
-    { id: 'snowboard', name: '滑雪板', daysRequired: 10, layer: 'assets/lion-snowboard.svg' },
-    { id: 'crown', name: '小皇冠', daysRequired: 12, layer: 'assets/lion-crown.svg' }
+    { id: 'beret', name: '貝雷帽', daysRequired: 2 },
+    { id: 'sunglasses', name: '墨鏡', daysRequired: 4 },
+    { id: 'necklace', name: '金獅項鍊', daysRequired: 6 },
+    { id: 'bag', name: '創意小包', daysRequired: 8 },
+    { id: 'snowboard', name: '滑雪板', daysRequired: 10 },
+    { id: 'crown', name: '小皇冠', daysRequired: 12 }
 ];
 
 // Initialize app
@@ -902,24 +904,27 @@ function updateBioTab() {
     updateMerchGrid();
 }
 
-// Render lion with unlocked layers
+// Render lion with unlocked merch
 function renderLion() {
     const lionContainer = document.getElementById('lionCharacter');
     lionContainer.innerHTML = '';
     
-    const baseLion = document.createElement('img');
-    baseLion.src = 'assets/lion-base.svg';
-    baseLion.alt = 'Lion';
-    lionContainer.appendChild(baseLion);
+    const lionImg = document.createElement('img');
     
-    merchItems.forEach(item => {
-        if (unlockedMerch.has(item.id)) {
-            const layer = document.createElement('img');
-            layer.src = item.layer;
-            layer.alt = item.name;
-            lionContainer.appendChild(layer);
-        }
-    });
+    // If beret is unlocked, show the lion wearing the hat
+    // Otherwise show the naked lion
+    if (unlockedMerch.has('beret')) {
+        lionImg.src = 'assets/lion-hat.png';
+        lionImg.alt = 'Lion with beret';
+    } else {
+        lionImg.src = 'assets/lion-naked.png';
+        lionImg.alt = 'Lion';
+    }
+    
+    lionContainer.appendChild(lionImg);
+    
+    // Note: Other merch items (sunglasses, necklace, bag, snowboard, crown)
+    // remain as grid icons only. The old SVG overlays don't work with the 3D lion.
 }
 
 // Update next unlock display
