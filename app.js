@@ -1442,14 +1442,6 @@ function getLayerPath(itemId) {
 }
 
 function getIconPath(itemId) {
-    const fallback = {
-        bag: 'assets/lion-bag.svg',
-        sunglasses: 'assets/lion-sunglasses.svg',
-        necklace: 'assets/lion-necklace.svg',
-        snowboard: 'assets/lion-snowboard.svg',
-        crown: 'assets/lion-crown.svg'
-    };
-    if (fallback[itemId]) return fallback[itemId];
     return `assets/icons/${itemId}.png`;
 }
 
