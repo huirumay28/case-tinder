@@ -1442,11 +1442,12 @@ const layerMetadata = {
 
 function getLayerPath(itemId) {
     const metadata = layerMetadata[itemId];
-    return metadata ? metadata.path : `assets/layers/${itemId}.png`;
+    const path = metadata ? metadata.path : `assets/layers/${itemId}.png`;
+    return `${path}?v=20260820p`;
 }
 
 function getIconPath(itemId) {
-    return `assets/icons/${itemId}.png`;
+    return `assets/icons/${itemId}.png?v=20260820p`;
 }
 
 function renderLion() {
@@ -1465,7 +1466,7 @@ function renderLionStack(container, equippedSet) {
     
     // Base lion stays the official arms-down pose. Arm-out was 跑版 (third arm / seam).
     const base = document.createElement('img');
-    base.src = 'assets/lion-naked.png';
+    base.src = 'assets/lion-naked.png?v=20260820p';
     base.alt = 'Lion';
     base.style.position = 'absolute';
     base.style.inset = '0';
