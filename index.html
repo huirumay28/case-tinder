@@ -51,69 +51,51 @@
                     <h1>恭喜，您已經連續 <span class="streak-number" id="streakNumber">0</span> 天 都有看案例！</h1>
                 </div>
 
+                <!-- Lion Character -->
+                <div class="lion-character" id="lionCharacter">
+                    <!-- Lion image will be loaded dynamically -->
+                </div>
+                
+                <!-- Customize Button -->
+                <button class="customize-button" id="customizeButton">客製我的大獅</button>
+
+                <!-- Next Unlock Section -->
+                <div class="next-unlock-section" id="nextUnlockSection">
+                    <div class="unlock-caption">離創意大獅的路已經不遠了！</div>
+                    <div class="unlock-info">
+                        <span>再 <strong id="daysToUnlock">1</strong> 天即可解鎖</span>
+                        <div class="unlock-merch">
+                            <div class="merch-icon-small" id="nextMerchIcon"></div>
+                            <span id="nextMerchName">貝雷帽</span>
+                        </div>
+                    </div>
+                    <div class="scroll-more-hint">下滑查看更多</div>
+                </div>
+
+                <!-- Awards Unlock Section -->
+                <div class="awards-section">
+                    <h2 class="section-heading">創意大獅之路 - 獎項解鎖</h2>
+                    <div class="day-grid" id="dayGrid">
+                        <!-- Day grid will be rendered dynamically -->
+                    </div>
+                </div>
+
+                <!-- Stats Section -->
+                <div class="stats-section">
+                    <div class="stat-item">
+                        <span>目前已累積觀看 <strong id="totalViewCount">0</strong> 個案例</span>
+                    </div>
+                    <div class="stat-item">
+                        <span>其中，有 <strong id="totalLikeCount">0</strong> 個符合您的喜好</span>
+                    </div>
+                </div>
+
+                <!-- View Liked Cases Button -->
+                <button class="view-liked-button" id="viewLikedButton">查看我喜愛的案例</button>
+
                 <!-- Bio Instruction -->
                 <div class="bio-instruction">
                     點擊下方 🔍 開始看案例
-                </div>
-
-                <!-- Lion Character -->
-                <div class="lion-character" id="lionCharacter">
-                    <!-- Lion layers will be loaded dynamically -->
-                </div>
-
-                <div class="lion-caption">離創意大獅的路已經不遠了！</div>
-
-                <!-- Next Unlock -->
-                <div class="next-unlock" id="nextUnlock">
-                    <div class="unlock-text">再 <span id="daysToUnlock">2</span> 天即可解鎖：<span id="nextMerchName">貝雷帽</span></div>
-                    
-                    <!-- Progress Track -->
-                    <div class="progress-track">
-                        <div class="track-line"></div>
-                        <div class="track-icon" id="trackIcon">
-                            <div class="merch-icon beret-icon"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Merch Grid -->
-                <div class="merch-grid">
-                    <div class="merch-item" data-merch="beret" data-days="2">
-                        <div class="merch-icon beret-icon"></div>
-                        <div class="merch-label">第1天</div>
-                        <div class="merch-name">貝雷帽</div>
-                        <div class="check-mark">✓</div>
-                    </div>
-                    <div class="merch-item" data-merch="sunglasses" data-days="3">
-                        <div class="merch-icon sunglasses-icon"></div>
-                        <div class="merch-label">第2天</div>
-                        <div class="merch-name">墨鏡</div>
-                        <div class="check-mark">✓</div>
-                    </div>
-                    <div class="merch-item" data-merch="necklace" data-days="4">
-                        <div class="merch-icon necklace-icon"></div>
-                        <div class="merch-label">第3天</div>
-                        <div class="merch-name">金獅項鍊</div>
-                        <div class="check-mark">✓</div>
-                    </div>
-                    <div class="merch-item" data-merch="bag" data-days="5">
-                        <div class="merch-icon bag-icon"></div>
-                        <div class="merch-label">第4天</div>
-                        <div class="merch-name">創意小包</div>
-                        <div class="check-mark">✓</div>
-                    </div>
-                    <div class="merch-item" data-merch="snowboard" data-days="6">
-                        <div class="merch-icon snowboard-icon"></div>
-                        <div class="merch-label">第5天</div>
-                        <div class="merch-name">滑雪板</div>
-                        <div class="check-mark">✓</div>
-                    </div>
-                    <div class="merch-item" data-merch="crown" data-days="7">
-                        <div class="merch-icon crown-icon"></div>
-                        <div class="merch-label">第6天</div>
-                        <div class="merch-name">小皇冠</div>
-                        <div class="check-mark">✓</div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -187,6 +169,51 @@
                 </svg>
             </button>
         </nav>
+    </div>
+
+    <!-- Customize Overlay -->
+    <div class="customize-overlay" id="customizeOverlay">
+        <div class="customize-container">
+            <div class="customize-header">
+                <button class="back-button" id="customizeBackButton">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                </button>
+                <div class="customize-title-section">
+                    <h2 class="customize-title">我的創意大獅</h2>
+                    <div class="customize-username" id="customizeUsername">User</div>
+                </div>
+            </div>
+            
+            <div class="customize-content">
+                <!-- Lion Preview -->
+                <div class="lion-preview" id="lionPreview">
+                    <!-- Lion image will be rendered here -->
+                </div>
+                
+                <!-- Item Selection Row -->
+                <div class="item-selection" id="itemSelection">
+                    <!-- Items will be rendered here based on selected category -->
+                </div>
+                
+                <!-- Category Tabs -->
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="帽子">帽子</button>
+                    <button class="category-tab" data-category="臉部">臉部</button>
+                    <button class="category-tab" data-category="手">手</button>
+                    <button class="category-tab" data-category="腳">腳</button>
+                    <button class="category-tab" data-category="上身">上身</button>
+                    <button class="category-tab" data-category="下身">下身</button>
+                </div>
+                
+                <!-- Action Buttons -->
+                <div class="customize-actions">
+                    <button class="action-pill-button secondary" id="resetButton">脫光光</button>
+                    <button class="action-pill-button primary" id="saveButton">就這套</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Board Image Lightbox -->

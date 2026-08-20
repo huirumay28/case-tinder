@@ -662,6 +662,7 @@ let cards = [];
 let viewedDays = new Set();
 let streak = 0;
 let unlockedMerch = new Set();
+let equippedMerch = new Set(); // Separate from unlocks: what the lion is currently wearing
 
 // Scoreboard state
 let currentUser = localStorage.getItem('casetinder-user') || null;
@@ -680,19 +681,22 @@ let teamMembers = [];
 let memberLikesData = {};
 
 // Merch unlock rules: based on consecutive streak days
-// Day 1 (streak === 1): naked lion, no merch
-// Merch starts on day 2 (streak === 2)
+// NEW MECHANISM: Every Taipei day with ≥1 case viewed unlocks ONE merch
+// Streak 1 unlocks merch 1 (貝雷帽), streak 2 unlocks merch 2 (墨鏡), etc.
+// Unlocking does NOT auto-dress the lion — equipping is separate
 // These are accessories/props for a Cannes creative industry lion, not just clothing
 // Note: Only the beret changes the lion character (from naked to wearing hat).
 // Other merch items are shown as unlocked icons in the grid only.
 const merchItems = [
-    { id: 'beret', name: '貝雷帽', daysRequired: 2 },
-    { id: 'sunglasses', name: '墨鏡', daysRequired: 3 },
-    { id: 'necklace', name: '金獅項鍊', daysRequired: 4 },
-    { id: 'bag', name: '創意小包', daysRequired: 5 },
-    { id: 'snowboard', name: '滑雪板', daysRequired: 6 },
-    { id: 'crown', name: '小皇冠', daysRequired: 7 }
+    { id: 'beret', name: '貝雷帽', daysRequired: 1, category: '帽子' },
+    { id: 'sunglasses', name: '墨鏡', daysRequired: 2, category: '臉部' },
+    { id: 'necklace', name: '金獅項鍊', daysRequired: 3, category: '上身' },
+    { id: 'bag', name: '創意小包', daysRequired: 4, category: '手' },
+    { id: 'snowboard', name: '滑雪板', daysRequired: 5, category: '腳' },
+    { id: 'crown', name: '小皇冠', daysRequired: 6, category: '帽子' }
 ];
+
+const merchCategories = ['帽子', '臉部', '手', '腳', '上身', '下身'];
 
 // Initialize app
 async function init() {
@@ -739,6 +743,7 @@ function startApp() {
     loadProgress();
     setupNavigation();
     setupScoreboard();
+    setupCustomizeHandlers();
     renderCard(currentCaseIndex);
     updateBioTab();
 }
@@ -970,6 +975,11 @@ function loadProgress() {
         unlockedMerch = new Set(JSON.parse(savedMerch));
     }
     
+    const savedEquipped = localStorage.getItem('casetinder-equipped-merch');
+    if (savedEquipped) {
+        equippedMerch = new Set(JSON.parse(savedEquipped));
+    }
+    
     const savedLikes = localStorage.getItem('casetinder-liked-cases');
     if (savedLikes) {
         likedCases = new Set(JSON.parse(savedLikes));
@@ -988,6 +998,7 @@ function loadProgress() {
 function saveProgress() {
     localStorage.setItem('casetinder-viewed-days', JSON.stringify([...viewedDays]));
     localStorage.setItem('casetinder-unlocked-merch', JSON.stringify([...unlockedMerch]));
+    localStorage.setItem('casetinder-equipped-merch', JSON.stringify([...equippedMerch]));
     localStorage.setItem('casetinder-liked-cases', JSON.stringify([...likedCases]));
     localStorage.setItem('casetinder-view-count', viewCount.toString());
 }
@@ -1371,19 +1382,20 @@ function updateBioTab() {
     
     renderLion();
     updateNextUnlock();
-    updateMerchGrid();
+    updateDayGrid();
+    updateStats();
 }
 
-// Render lion with unlocked merch
+// Render lion with equipped merch
 function renderLion() {
     const lionContainer = document.getElementById('lionCharacter');
     lionContainer.innerHTML = '';
     
     const lionImg = document.createElement('img');
     
-    // If beret is unlocked, show the lion wearing the hat
+    // If beret is EQUIPPED (not just unlocked), show the lion wearing the hat
     // Otherwise show the naked lion
-    if (unlockedMerch.has('beret')) {
+    if (equippedMerch.has('beret')) {
         lionImg.src = 'assets/lion-hat.png';
         lionImg.alt = 'Lion with beret';
     } else {
@@ -1397,38 +1409,249 @@ function renderLion() {
     // remain as grid icons only. The old SVG overlays don't work with the 3D lion.
 }
 
-// Update next unlock display (based on current streak)
+// Update next unlock display
 function updateNextUnlock() {
     const nextItem = merchItems.find(item => streak < item.daysRequired);
+    const nextUnlockSection = document.getElementById('nextUnlockSection');
     
     if (nextItem) {
+        nextUnlockSection.style.display = 'block';
         const daysRemaining = nextItem.daysRequired - streak;
         document.getElementById('daysToUnlock').textContent = daysRemaining;
         document.getElementById('nextMerchName').textContent = nextItem.name;
         
-        const trackIcon = document.querySelector('.track-icon .merch-icon');
-        trackIcon.className = 'merch-icon';
-        trackIcon.classList.add(`${nextItem.id}-icon`);
+        const nextMerchIcon = document.getElementById('nextMerchIcon');
+        nextMerchIcon.className = 'merch-icon-small';
+        nextMerchIcon.classList.add(`${nextItem.id}-icon`);
     } else {
-        document.getElementById('nextUnlock').style.display = 'none';
+        // All unlocked
+        nextUnlockSection.style.display = 'none';
     }
 }
 
-// Update merch grid
-function updateMerchGrid() {
-    const merchElements = document.querySelectorAll('.merch-item');
+// Update day grid
+function updateDayGrid() {
+    const dayGrid = document.getElementById('dayGrid');
+    const totalDays = 12; // Show 12 days in grid
     
-    merchElements.forEach(element => {
-        const merchId = element.dataset.merch;
+    let gridHTML = '';
+    for (let day = 1; day <= totalDays; day++) {
+        const merch = merchItems.find(item => item.daysRequired === day);
+        const isUnlocked = merch && unlockedMerch.has(merch.id);
         
-        if (unlockedMerch.has(merchId)) {
-            element.classList.add('unlocked');
-            element.classList.remove('locked');
+        gridHTML += `
+            <div class="day-cell ${isUnlocked ? 'unlocked' : 'locked'}">
+                <div class="day-label">DAY ${day}</div>
+                ${merch ? `
+                    <div class="day-merch-icon ${merch.id}-icon"></div>
+                    <div class="day-merch-name">${merch.name}</div>
+                ` : `
+                    <div class="day-merch-placeholder">🔒</div>
+                `}
+            </div>
+        `;
+    }
+    
+    dayGrid.innerHTML = gridHTML;
+}
+
+// Update stats
+function updateStats() {
+    document.getElementById('totalViewCount').textContent = viewCount;
+    document.getElementById('totalLikeCount').textContent = likedCases.size;
+}
+
+// Setup customize overlay handlers
+function setupCustomizeHandlers() {
+    const customizeButton = document.getElementById('customizeButton');
+    const customizeBackButton = document.getElementById('customizeBackButton');
+    const viewLikedButton = document.getElementById('viewLikedButton');
+    const resetButton = document.getElementById('resetButton');
+    const saveButton = document.getElementById('saveButton');
+    
+    if (customizeButton) {
+        customizeButton.addEventListener('click', openCustomizeOverlay);
+    }
+    
+    if (customizeBackButton) {
+        customizeBackButton.addEventListener('click', closeCustomizeOverlay);
+    }
+    
+    if (viewLikedButton) {
+        viewLikedButton.addEventListener('click', () => {
+            switchTab('scoreboardTab');
+            showLikedCasesView(currentUser);
+        });
+    }
+    
+    if (resetButton) {
+        resetButton.addEventListener('click', handleResetEquipment);
+    }
+    
+    if (saveButton) {
+        saveButton.addEventListener('click', handleSaveEquipment);
+    }
+    
+    // Category tabs
+    const categoryTabs = document.querySelectorAll('.category-tab');
+    categoryTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const category = tab.dataset.category;
+            handleCategoryChange(category);
+        });
+    });
+}
+
+// Open customize overlay
+function openCustomizeOverlay() {
+    const overlay = document.getElementById('customizeOverlay');
+    const username = document.getElementById('customizeUsername');
+    
+    if (username) {
+        username.textContent = currentUser || 'User';
+    }
+    
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    
+    // Render initial state
+    renderCustomizeLion();
+    handleCategoryChange('帽子'); // Default to first category
+}
+
+// Close customize overlay
+function closeCustomizeOverlay() {
+    const overlay = document.getElementById('customizeOverlay');
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Render lion in customize preview
+function renderCustomizeLion() {
+    const lionPreview = document.getElementById('lionPreview');
+    lionPreview.innerHTML = '';
+    
+    const lionImg = document.createElement('img');
+    
+    // Show equipped lion (if beret is equipped, show hat version)
+    if (equippedMerch.has('beret')) {
+        lionImg.src = 'assets/lion-hat.png';
+        lionImg.alt = 'Lion with beret';
+    } else {
+        lionImg.src = 'assets/lion-naked.png';
+        lionImg.alt = 'Lion';
+    }
+    
+    lionPreview.appendChild(lionImg);
+}
+
+// Handle category tab change
+function handleCategoryChange(category) {
+    // Update active tab
+    const categoryTabs = document.querySelectorAll('.category-tab');
+    categoryTabs.forEach(tab => {
+        if (tab.dataset.category === category) {
+            tab.classList.add('active');
         } else {
-            element.classList.add('locked');
-            element.classList.remove('unlocked');
+            tab.classList.remove('active');
         }
     });
+    
+    // Render items for this category
+    renderItemSelection(category);
+}
+
+// Render item selection for a category
+function renderItemSelection(category) {
+    const itemSelection = document.getElementById('itemSelection');
+    const categoryItems = merchItems.filter(item => item.category === category);
+    
+    let html = '';
+    
+    // Show unlocked items first
+    const unlockedItems = categoryItems.filter(item => unlockedMerch.has(item.id));
+    const lockedItems = categoryItems.filter(item => !unlockedMerch.has(item.id));
+    
+    unlockedItems.forEach(item => {
+        const isEquipped = equippedMerch.has(item.id);
+        html += `
+            <div class="item-slot unlocked ${isEquipped ? 'equipped' : ''}" data-item-id="${item.id}">
+                <div class="item-icon ${item.id}-icon"></div>
+                <div class="item-name">${item.name}</div>
+                ${isEquipped ? '<div class="equipped-badge">✓</div>' : ''}
+            </div>
+        `;
+    });
+    
+    // Add locked slots (up to 3 slots per category)
+    const totalSlots = Math.max(3, unlockedItems.length + lockedItems.length);
+    for (let i = unlockedItems.length; i < totalSlots; i++) {
+        html += `
+            <div class="item-slot locked">
+                <div class="locked-label">未解鎖</div>
+            </div>
+        `;
+    }
+    
+    itemSelection.innerHTML = html;
+    
+    // Add click handlers to unlocked items
+    const itemSlots = itemSelection.querySelectorAll('.item-slot.unlocked');
+    itemSlots.forEach(slot => {
+        slot.addEventListener('click', () => {
+            const itemId = slot.dataset.itemId;
+            handleItemClick(itemId);
+        });
+    });
+}
+
+// Handle item click (equip/unequip)
+function handleItemClick(itemId) {
+    const item = merchItems.find(m => m.id === itemId);
+    if (!item) return;
+    
+    // Toggle equip state
+    if (equippedMerch.has(itemId)) {
+        // Unequip
+        equippedMerch.delete(itemId);
+    } else {
+        // Unequip other items in same category first (only one item per category)
+        const categoryItems = merchItems.filter(m => m.category === item.category);
+        categoryItems.forEach(catItem => {
+            equippedMerch.delete(catItem.id);
+        });
+        
+        // Equip this item
+        equippedMerch.add(itemId);
+    }
+    
+    // Update UI
+    renderCustomizeLion();
+    renderItemSelection(item.category);
+}
+
+// Reset all equipment (脫光光)
+function handleResetEquipment() {
+    equippedMerch.clear();
+    
+    // Re-render
+    renderCustomizeLion();
+    const activeTab = document.querySelector('.category-tab.active');
+    if (activeTab) {
+        renderItemSelection(activeTab.dataset.category);
+    }
+}
+
+// Save equipment (就這套)
+function handleSaveEquipment() {
+    // Save to localStorage
+    saveProgress();
+    
+    // Update main bio lion
+    renderLion();
+    
+    // Close overlay
+    closeCustomizeOverlay();
 }
 
 function renderCard(index) {
