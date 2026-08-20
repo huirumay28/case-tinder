@@ -685,9 +685,13 @@ let memberLikesData = {};
 // Streak 1 unlocks merch 1 (貝雷帽), streak 2 unlocks merch 2, etc.
 // Unlocking does NOT auto-dress the lion — equipping is separate
 // All items are transparent PNG layers that stack on top of the base naked lion
+//
+// IMPORTANT: '性感吊嘎' is a DISPLAY NAME ONLY. The actual garment is a plain white
+// sleeveless tank/undershirt — not sexy, not cropped, not lacy. When creating assets,
+// prompts, or documentation, describe it as a simple white tank, NOT a sexy tank.
 const merchItems = [
     { id: 'beret', name: '貝雷帽', daysRequired: 1, category: '帽子' },
-    { id: 'tank', name: '性感吊嘎', daysRequired: 2, category: '上身' },
+    { id: 'tank', name: '性感吊嘎', daysRequired: 2, category: '上身' },  // Display name only; actual item: plain white tank
     { id: 'shorts', name: '短褲', daysRequired: 3, category: '下身' },
     { id: 'sneakers', name: '球鞋', daysRequired: 4, category: '腳' },
     { id: 'bag', name: '創意小包', daysRequired: 5, category: '手' },
@@ -1420,9 +1424,10 @@ const categoryZIndex = {
 };
 
 // Layer metadata: all merch layers are pixel-aligned full-frame overlays on assets/lion-naked.png
+// NOTE: 'tank' (性感吊嘎) should be a plain white sleeveless undershirt, NOT a sexy/cropped tank
 const layerMetadata = {
     'beret': { type: 'pixel-aligned', path: 'assets/layers/beret.png' },
-    'tank': { type: 'pixel-aligned', path: 'assets/layers/tank.png' },
+    'tank': { type: 'pixel-aligned', path: 'assets/layers/tank.png' },  // Plain white tank, not sexy
     'shorts': { type: 'pixel-aligned', path: 'assets/layers/shorts.png' },
     'sneakers': { type: 'pixel-aligned', path: 'assets/layers/sneakers.png' },
     'bag': { type: 'pixel-aligned', path: 'assets/layers/bag.png' },
