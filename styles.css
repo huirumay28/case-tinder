@@ -723,15 +723,17 @@ body {
 }
 
 .lion-preview .lion-stack {
+    position: relative;
     width: 100%;
     height: 100%;
 }
 
-.lion-preview img {
-    display: none;
+.lion-preview .lion-stack {
+    position: relative;
 }
 
 .lion-preview .lion-stack img {
+    display: block;
     position: absolute;
     inset: 0;
     width: 100%;
@@ -741,26 +743,26 @@ body {
 
 .item-selection {
     display: flex;
-    gap: 12px;
+    gap: 10px;
     justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
-    min-height: 192px;
-    max-height: 192px;
-    overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     flex-shrink: 0;
 }
 
 .item-slot {
-    width: 90px;
-    padding: 12px 8px;
-    border-radius: 8px;
+    width: 88px;
+    height: auto;
+    padding: 10px 6px 8px;
+    border-radius: 10px;
     border: 2px solid #EBEBEB;
     background: var(--white);
     text-align: center;
     cursor: pointer;
     transition: all 0.2s ease;
     position: relative;
+    align-self: flex-start;
 }
 
 .item-slot.unlocked {
