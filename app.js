@@ -1442,11 +1442,12 @@ const layerMetadata = {
 
 function getLayerPath(itemId) {
     const metadata = layerMetadata[itemId];
-    return metadata ? metadata.path : `assets/layers/${itemId}.png`;
+    const path = metadata ? metadata.path : `assets/layers/${itemId}.png`;
+    return `${path}?v=20260820s`;
 }
 
 function getIconPath(itemId) {
-    return `assets/icons/${itemId}.png`;
+    return `assets/icons/${itemId}.png?v=20260820s`;
 }
 
 function renderLion() {
@@ -1467,7 +1468,7 @@ function renderLionStack(container, equippedSet) {
     // Bag hangs on the shoulder of the official combo; hammer/beer sit on the down-arm paw.
     // Arm-out base was a bolted-on third limb — do not swap.
     const base = document.createElement('img');
-    base.src = 'assets/lion-naked.png';
+    base.src = 'assets/lion-naked.png?v=20260820s';
     base.alt = 'Lion';
     base.style.position = 'absolute';
     base.style.inset = '0';
