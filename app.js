@@ -419,9 +419,9 @@ const casesData = [
             idea: 'assets/stills/original-forever-02.jpg',
             execution: 'assets/stills/original-forever-03.jpg'
         },
-        background: "Oasis 與 adidas 從 1990 年代就共享同一套文化 DNA——足球、時裝、音樂。重聚消息一出，粉絲要的不是又一次聯名，而是把那個感覺找回來。品牌沒把鏡頭只對準 Gallagher 兄弟，而是對準一路把樂團文化活下來的幾代人。",
+        background: "adidas 與 Oasis 從 90 年代就有無法分開的關係，但要以一種方式證明：品牌如何對既是懷舊狂熱、又是新世代消費者與超級年輕世代的文化訴求——而不是只做傳統代言。",
         idea: "「Original Forever」把重聚做成對粉絲的致敬。核心是一支三分鐘影片，配上重新編曲的〈Live Forever〉：一位 crowd surfer 穿過時間，從 1990 年代初到 Knebworth、Wembley，再到 2025 重聚。Liam 與 Noel Gallagher 十六年來首次一起出現在鏡頭前。同場推出 adidas Originals x Oasis Live ’25，26 件單品取自三十年共享文化，而不是把 logo 印在巡演 T 恤上。",
-        execution: "Johannes Leonardo 用檔案啟發加上新拍畫面，造型與美術都走 vintage adidas 與現場感；英國各地選出 300 多位粉絲入鏡。影片先上全國電視，再作為暖場在 41 場 Oasis 巡演前播放，並用零售、戶外、數位與社群撐住整檔。Adidas 後來把這次合作列為 2025 年 lifestyle revenues 成長 12%、Originals 兩位數成長的因素之一。",
+        execution: "四個 visuals 讓 41 stages 橫跨全球穿過時間。全國電視、41 場 Oasis 演出前暖場、零售、戶外、數位、社群。成果：#1 搜尋、85% 全球媒體含 adidas、100% adidas 提及佔所有 stock、33% 收入歸因、創紀錄銷售（每秒 1 次成交）。",
         awardsDetail: [
             { award: "Grand Prix — Entertainment, Partnerships / Brand Partnerships, Sponsorships & Collaborations", icon: "🏆" },
             { award: "Grand Prix — Entertainment Lions For Music, Partnerships / Brand Partnerships, Sponsorships & Collaborations", icon: "🏆" },
@@ -445,9 +445,9 @@ const casesData = [
             idea: 'assets/stills/field-barcode-02.jpg',
             execution: 'assets/stills/field-barcode-03.jpg'
         },
-        background: "聖保羅 Pacaembu 球場整修爭議剛結束，Mercado Livre 簽下冠名（Mercado Livre Arena Pacaembu）。球場贊助的老問題沒變：看板上的 logo 永遠在背景，目光在球員身上。品牌要的不是再多一塊圍欄廣告，而是讓冠名權在比賽進行時真的被用到。",
-        idea: "GUT 把草皮本身做成廣告，也做成結帳工具。球場是合成草皮，團隊用油漆做出 104 公尺寬、手機相機讀得到的條碼（做法接近 NFL／MLB 場地彩繪）。球迷在座位上、電視上、Disney+ 或轉發畫面裡掃描，打開專用 web app，即時拿到 25% 折扣。比賽不被打斷——沒有疊圖、沒有插播，電商層就嵌在每個觀眾本來就在看的那塊場地裡。",
-        execution: "條碼在球場重開後的一場比賽亮相：Corinthians 對 Boca Juniors，重演 2012 年 Copa Libertadores 決賽，SBT、ESPN、Disney+ 直播。合成草皮以油漆施作，含測試、上色與乾燥共五天；web app 用影像辨識，即使沒掃到完整條碼、不同轉播機位也能讀。成果：53,000 張優惠券被兌換；活動期間平台 session +7%；掃描流量來自巴西 25 州、813 座城市；TGMV R$8.9M（約 US$1.77M）。",
+        background: "Mercado Livre 買下 Pacaembu 球場冠名權。球場贊助的老問題：球場上的 logo 在比賽進行中永遠只是背景，無法吸引目光與互動。品牌想讓冠名權在比賽時真正被使用——不只是又一塊看板。",
+        idea: "一個簡單洞察：透過傳統草坪線條，我們把球場草皮變成一個可掃描條碼。透過 AI 圖樣辨識，無論任何角度、任何媒體，解鎖 25% 折扣優惠券——在不打斷比賽的情況下，把商業層嵌入每個觀眾本來就在看的場地。",
+        execution: "在一場比賽中亮相（Corinthians vs Boca Juniors）。成果：813 座城市、25 州掃描；53,000 張優惠券兌換；平台 session +7%；USD $1.78MM 銷售。",
         awardsDetail: [
             { award: "Grand Prix — Outdoor, Ambient & Experiential / Live Advertising and Events", icon: "🏆" },
             { award: "Silver Lion — Media/Direct, Channels / Large-Scale Media", icon: "🥈" },
@@ -471,9 +471,9 @@ const casesData = [
             idea: 'assets/stills/copycats-welcome-02.jpg',
             execution: 'assets/stills/copycats-welcome-03.jpg'
         },
-        background: "Clash Royale 紅了十年，山寨跟著長：名字、畫面、玩法、角色都被抄。數百萬人其實是在找正版體驗，卻卡在「重頭練」這道牆。法律戰又長又遠，幫不了正在玩盜版的人。",
-        idea: "David 把威脅做成招人通道。評審稱為 amnesty：我們看見你，回家，把你累積的東西一起帶來。一支影片讓 Barbarian、Archer 掉進「Bash Royale」「Space Royale」那些廉價鏡像世界，打完仿冒自己再回到真正的競技場。看完就被帶去一個網站：上傳山寨進度與貨幣，換成 Clash Royale 的 gold 與 Wild Cards。",
-        execution: "投放直接打進仿冒遊戲的線上社群（含 subreddit），而不是廣撒正版廣告。網站接受玩家自己提交的證據，把切換成本從「歸零」改成「被承認」。Contagious 記載首三天：230 萬人轉移進度、165 萬個新帳號、540 萬名流失玩家回流。",
+        background: "過去十年 Clash Royale 一直是最成功的手遊之一。但成功也讓山寨長出來——他們抄名字、抄遊戲玩法、抄角色。數百萬人其實想找正版，但被「重頭開始」這道牆擋住。",
+        idea: "與其起訴山寨，我們承認他們付出的努力——邀請他們把 copycat 進度轉到 Clash Royale，讓數百萬玩家在維持進度的情況下，進入正版體驗。然後我們得到玩家把轉換他們 copycat 數據到正版遊戲的獎勵。",
+        execution: "首三天：230 萬人轉移進度、165 萬新帳號、540 萬流失玩家回流。",
         awardsDetail: [
             { award: "Grand Prix — Entertainment Lions For Gaming, Challenges & Breakthroughs / Social Behaviour", icon: "🏆" },
             { award: "Silver Lion — Social & Creator, Social Insights & Engagement / Audience Targeting & Engagement Strategies", icon: "🥈" },
