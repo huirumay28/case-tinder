@@ -27,6 +27,10 @@
                 
                 <div class="form-step hidden" id="nameStep">
                     <p class="step-instruction">選擇你的名字</p>
+                    <div class="name-loading" id="nameLoading">
+                        <div class="loading-spinner"></div>
+                        <div class="loading-text">載入中…</div>
+                    </div>
                     <div class="name-list" id="nameList">
                         <!-- Names will be loaded from API -->
                     </div>
@@ -45,6 +49,11 @@
                 <!-- Streak Headline -->
                 <div class="streak-headline">
                     <h1>恭喜，您已經連續 <span class="streak-number" id="streakNumber">0</span> 天 都有看案例！</h1>
+                </div>
+
+                <!-- Bio Instruction -->
+                <div class="bio-instruction">
+                    點擊下方 🔍 開始看案例
                 </div>
 
                 <!-- Lion Character -->
@@ -130,6 +139,10 @@
                     <h1 class="scoreboard-title">團隊排行榜</h1>
                     <div class="team-subtitle">ALIEN TEAM</div>
                 </div>
+                <div class="ranking-loading" id="rankingLoading">
+                    <div class="loading-spinner"></div>
+                    <div class="loading-text">載入中…</div>
+                </div>
                 <div class="ranking-list" id="rankingList">
                     <!-- Team members will be rendered here -->
                 </div>
@@ -174,6 +187,12 @@
                 </svg>
             </button>
         </nav>
+    </div>
+
+    <!-- Board Image Lightbox -->
+    <div class="board-lightbox" id="boardLightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="關閉">×</button>
+        <img class="lightbox-image" id="lightboxImage" src="" alt="Board Image">
     </div>
 
     <script src="app.js"></script>
