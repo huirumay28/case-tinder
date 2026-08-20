@@ -704,7 +704,14 @@ const merchItems = [
     { id: 'gloves', name: '金手套', daysRequired: 12, category: '手' }
 ];
 
-const merchCategories = ['帽子', '臉部', '飾品', '上身', '下身', '包', '手', '腳'];
+const merchCategories = ['帽子', '臉部', '飾品', '包'];
+
+// Clothes / held / feet still unlock in the closet later — they do not go on the lion.
+const wearableMerch = new Set(['beret', 'sunglasses', 'necklace', 'bag', 'crown']);
+
+function keepWearableEquipped() {
+    equippedMerch = new Set([...equippedMerch].filter(id => wearableMerch.has(id)));
+}
 
 // Initialize app
 async function init() {
@@ -987,6 +994,7 @@ function loadProgress() {
     const savedEquipped = localStorage.getItem('casetinder-equipped-merch');
     if (savedEquipped) {
         equippedMerch = new Set(JSON.parse(savedEquipped));
+        keepWearableEquipped();
     }
     
     const savedLikes = localStorage.getItem('casetinder-liked-cases');
@@ -1445,11 +1453,11 @@ const layerMetadata = {
 function getLayerPath(itemId) {
     const metadata = layerMetadata[itemId];
     const path = metadata ? metadata.path : `assets/layers/${itemId}.png`;
-    return `${path}?v=20260820t`;
+    return `${path}?v=20260820u`;
 }
 
 function getIconPath(itemId) {
-    return `assets/icons/${itemId}.png?v=20260820t`;
+    return `assets/icons/${itemId}.png?v=20260820u`;
 }
 
 function renderLion() {
@@ -1470,7 +1478,7 @@ function renderLionStack(container, equippedSet) {
     // Bag hangs on the shoulder of the official combo; hammer/beer sit on the down-arm paw.
     // Arm-out base was a bolted-on third limb — do not swap.
     const base = document.createElement('img');
-    base.src = 'assets/lion-naked.png?v=20260820t';
+    base.src = 'assets/lion-naked.png?v=20260820u';
     base.alt = 'Lion';
     base.style.position = 'absolute';
     base.style.inset = '0';
@@ -1480,7 +1488,7 @@ function renderLionStack(container, equippedSet) {
     stack.appendChild(base);
     
     // Sort equipped items by z-index (category order)
-    const equippedItems = merchItems.filter(item => equippedSet.has(item.id));
+    const equippedItems = merchItems.filter(item => equippedSet.has(item.id) && wearableMerch.has(item.id));
     equippedItems.sort((a, b) => categoryZIndex[a.category] - categoryZIndex[b.category]);
     
     // Add each layer as pixel-aligned overlay
@@ -1709,6 +1717,7 @@ function renderItemSelection(category) {
 function handleItemClick(itemId) {
     const item = merchItems.find(m => m.id === itemId);
     if (!item) return;
+    if (!wearableMerch.has(itemId)) return;
     
     // Toggle equip state
     if (equippedMerch.has(itemId)) {
