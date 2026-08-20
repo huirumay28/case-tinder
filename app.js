@@ -682,18 +682,22 @@ let memberLikesData = {};
 
 // Merch unlock rules: based on consecutive streak days
 // NEW MECHANISM: Every Taipei day with ≥1 case viewed unlocks ONE merch
-// Streak 1 unlocks merch 1 (貝雷帽), streak 2 unlocks merch 2 (墨鏡), etc.
+// Streak 1 unlocks merch 1 (貝雷帽), streak 2 unlocks merch 2, etc.
 // Unlocking does NOT auto-dress the lion — equipping is separate
-// These are accessories/props for a Cannes creative industry lion, not just clothing
-// Note: Only the beret changes the lion character (from naked to wearing hat).
-// Other merch items are shown as unlocked icons in the grid only.
+// All items are transparent PNG layers that stack on top of the base naked lion
 const merchItems = [
     { id: 'beret', name: '貝雷帽', daysRequired: 1, category: '帽子' },
-    { id: 'sunglasses', name: '墨鏡', daysRequired: 2, category: '臉部' },
-    { id: 'necklace', name: '金獅項鍊', daysRequired: 3, category: '上身' },
-    { id: 'bag', name: '創意小包', daysRequired: 4, category: '手' },
-    { id: 'snowboard', name: '滑雪板', daysRequired: 5, category: '腳' },
-    { id: 'crown', name: '小皇冠', daysRequired: 6, category: '帽子' }
+    { id: 'tank', name: '性感吊嘎', daysRequired: 2, category: '上身' },
+    { id: 'shorts', name: '短褲', daysRequired: 3, category: '下身' },
+    { id: 'sneakers', name: '球鞋', daysRequired: 4, category: '腳' },
+    { id: 'bag', name: '創意小包', daysRequired: 5, category: '手' },
+    { id: 'sunglasses', name: '墨鏡', daysRequired: 6, category: '臉部' },
+    { id: 'hammer', name: '雷神之鎚', daysRequired: 7, category: '手' },
+    { id: 'necklace', name: '金獅項鍊', daysRequired: 8, category: '上身' },
+    { id: 'snowboard', name: '滑雪板', daysRequired: 9, category: '腳' },
+    { id: 'crown', name: '小皇冠', daysRequired: 10, category: '帽子' },
+    { id: 'beer', name: '18 天生啤酒', daysRequired: 11, category: '手' },
+    { id: 'gloves', name: '金手套', daysRequired: 12, category: '手' }
 ];
 
 const merchCategories = ['帽子', '臉部', '手', '腳', '上身', '下身'];
@@ -1386,32 +1390,122 @@ function updateBioTab() {
     updateStats();
 }
 
-// Render lion with equipped merch
+// Render lion with equipped merch layers (Sims-style stacking)
+// Z-index order (back to front): 腳 -> 下身 -> 上身 -> 手 -> 臉部 -> 帽子
+const categoryZIndex = {
+    '腳': 1,      // snowboard, sneakers
+    '下身': 2,    // shorts
+    '上身': 3,    // tank, necklace
+    '手': 4,      // bag, hammer, beer, gloves
+    '臉部': 5,    // sunglasses
+    '帽子': 6     // beret, crown
+};
 
-function wornLionSrc() {
-    const worn = {
-        crown: 'assets/lion-crown.png',
-        beret: 'assets/lion-hat.png',
-        sunglasses: 'assets/lion-sunglasses.png',
-        necklace: 'assets/lion-necklace.png',
-        bag: 'assets/lion-bag.png',
-        snowboard: 'assets/lion-snowboard.png'
-    };
-    const order = ['crown', 'beret', 'sunglasses', 'necklace', 'bag', 'snowboard'];
-    for (const id of order) {
-        if (equippedMerch.has(id) && worn[id]) return worn[id];
-    }
-    return 'assets/lion-naked.png';
+// Layer metadata: pixel-aligned (full 1254x1254) vs merch-only stickers (need CSS positioning)
+const layerMetadata = {
+    'beret': { type: 'pixel-aligned', path: 'assets/layers/beret.png' },
+    'tank': { type: 'sticker', path: 'assets/layers/tank.png', position: { top: '35%', left: '50%', width: '45%', transform: 'translate(-50%, -50%)' } },
+    'shorts': { type: 'sticker', path: 'assets/layers/shorts.png', position: { top: '65%', left: '50%', width: '40%', transform: 'translate(-50%, -50%)' } },
+    'sneakers': { type: 'sticker', path: 'assets/layers/sneakers.png', position: { bottom: '5%', left: '50%', width: '50%', transform: 'translateX(-50%)' } },
+    'hammer': { type: 'sticker', path: 'assets/layers/hammer.png', position: { top: '40%', right: '10%', width: '35%' } },
+    'beer': { type: 'sticker', path: 'assets/layers/beer.png', position: { top: '50%', left: '15%', width: '25%' } },
+    'gloves': { type: 'sticker', path: 'assets/layers/gloves.png', position: { top: '55%', left: '50%', width: '60%', transform: 'translateX(-50%)' } },
+    // Missing layers: use existing assets as fallback
+    'bag': { type: 'fallback', path: 'assets/lion-bag.svg' },
+    'sunglasses': { type: 'fallback', path: 'assets/lion-sunglasses.svg' },
+    'necklace': { type: 'fallback', path: 'assets/lion-necklace.svg' },
+    'snowboard': { type: 'fallback', path: 'assets/lion-snowboard.svg' },
+    'crown': { type: 'fallback', path: 'assets/lion-crown.svg' }
+};
+
+function getLayerPath(itemId) {
+    const metadata = layerMetadata[itemId];
+    return metadata ? metadata.path : `assets/layers/${itemId}.png`;
+}
+
+function getIconPath(itemId) {
+    // Icon files: assets/icons/<id>.png
+    return `assets/icons/${itemId}.png`;
 }
 
 function renderLion() {
     const lionContainer = document.getElementById('lionCharacter');
     lionContainer.innerHTML = '';
+    renderLionStack(lionContainer, equippedMerch);
+}
+
+function renderLionStack(container, equippedSet) {
+    // Create position:relative wrapper
+    const stack = document.createElement('div');
+    stack.className = 'lion-stack';
+    stack.style.position = 'relative';
+    stack.style.width = '100%';
+    stack.style.height = '100%';
     
-    const lionImg = document.createElement('img');
-    lionImg.src = wornLionSrc();
-    lionImg.alt = 'Lion';
-    lionContainer.appendChild(lionImg);
+    // Base lion (always visible)
+    const base = document.createElement('img');
+    base.src = 'assets/lion-naked.png';
+    base.alt = 'Lion';
+    base.style.width = '100%';
+    base.style.height = '100%';
+    base.style.objectFit = 'contain';
+    base.style.display = 'block';
+    stack.appendChild(base);
+    
+    // Sort equipped items by z-index (category order)
+    const equippedItems = merchItems.filter(item => equippedSet.has(item.id));
+    equippedItems.sort((a, b) => categoryZIndex[a.category] - categoryZIndex[b.category]);
+    
+    // Add each layer
+    equippedItems.forEach(item => {
+        const metadata = layerMetadata[item.id];
+        const layer = document.createElement('img');
+        layer.src = getLayerPath(item.id);
+        layer.alt = item.name;
+        layer.style.position = 'absolute';
+        layer.style.pointerEvents = 'none';
+        layer.style.zIndex = categoryZIndex[item.category].toString();
+        
+        // Apply positioning based on layer type
+        if (metadata && metadata.type === 'pixel-aligned') {
+            // Full-size pixel-aligned layer (like beret)
+            layer.style.top = '0';
+            layer.style.left = '0';
+            layer.style.width = '100%';
+            layer.style.height = '100%';
+            layer.style.objectFit = 'contain';
+        } else if (metadata && metadata.type === 'sticker' && metadata.position) {
+            // Merch-only sticker: apply CSS positioning
+            Object.entries(metadata.position).forEach(([key, value]) => {
+                layer.style[key] = value;
+            });
+            layer.style.objectFit = 'contain';
+        } else if (metadata && metadata.type === 'fallback') {
+            // Fallback to existing asset (centered, smaller)
+            layer.style.top = '50%';
+            layer.style.left = '50%';
+            layer.style.transform = 'translate(-50%, -50%)';
+            layer.style.maxWidth = '80%';
+            layer.style.maxHeight = '80%';
+            layer.style.objectFit = 'contain';
+        } else {
+            // Default: full-size
+            layer.style.top = '0';
+            layer.style.left = '0';
+            layer.style.width = '100%';
+            layer.style.height = '100%';
+            layer.style.objectFit = 'contain';
+        }
+        
+        // Hide if image fails to load (file not yet uploaded)
+        layer.onerror = () => {
+            layer.style.display = 'none';
+        };
+        
+        stack.appendChild(layer);
+    });
+    
+    container.appendChild(stack);
 }
 
 // Update next unlock display
@@ -1426,8 +1520,9 @@ function updateNextUnlock() {
         document.getElementById('nextMerchName').textContent = nextItem.name;
         
         const nextMerchIcon = document.getElementById('nextMerchIcon');
+        const iconSrc = getIconPath(nextItem.id);
         nextMerchIcon.className = 'merch-icon-small';
-        nextMerchIcon.classList.add(`${nextItem.id}-icon`);
+        nextMerchIcon.innerHTML = `<img src="${iconSrc}" alt="${nextItem.name}" onerror="this.parentElement.classList.add('${nextItem.id}-icon')">`;
     } else {
         // All unlocked
         nextUnlockSection.style.display = 'none';
@@ -1444,17 +1539,25 @@ function updateDayGrid() {
         const merch = merchItems.find(item => item.daysRequired === day);
         const isUnlocked = merch && unlockedMerch.has(merch.id);
         
-        gridHTML += `
-            <div class="day-cell ${isUnlocked ? 'unlocked' : 'locked'}">
-                <div class="day-label">DAY ${day}</div>
-                ${merch ? `
-                    <div class="day-merch-icon ${merch.id}-icon"></div>
+        if (merch) {
+            const iconSrc = getIconPath(merch.id);
+            gridHTML += `
+                <div class="day-cell ${isUnlocked ? 'unlocked' : 'locked'}">
+                    <div class="day-label">DAY ${day}</div>
+                    <div class="day-merch-icon">
+                        <img src="${iconSrc}" alt="${merch.name}" onerror="this.parentElement.classList.add('${merch.id}-icon')">
+                    </div>
                     <div class="day-merch-name">${merch.name}</div>
-                ` : `
+                </div>
+            `;
+        } else {
+            gridHTML += `
+                <div class="day-cell locked">
+                    <div class="day-label">DAY ${day}</div>
                     <div class="day-merch-placeholder">🔒</div>
-                `}
-            </div>
-        `;
+                </div>
+            `;
+        }
     }
     
     dayGrid.innerHTML = gridHTML;
@@ -1535,11 +1638,7 @@ function closeCustomizeOverlay() {
 function renderCustomizeLion() {
     const lionPreview = document.getElementById('lionPreview');
     lionPreview.innerHTML = '';
-    
-    const lionImg = document.createElement('img');
-    lionImg.src = wornLionSrc();
-    lionImg.alt = 'Lion';
-    lionPreview.appendChild(lionImg);
+    renderLionStack(lionPreview, equippedMerch);
 }
 
 // Handle category tab change
@@ -1571,17 +1670,20 @@ function renderItemSelection(category) {
     
     unlockedItems.forEach(item => {
         const isEquipped = equippedMerch.has(item.id);
+        const iconSrc = getIconPath(item.id);
         html += `
             <div class="item-slot unlocked ${isEquipped ? 'equipped' : ''}" data-item-id="${item.id}">
-                <div class="item-icon ${item.id}-icon"></div>
+                <div class="item-icon">
+                    <img src="${iconSrc}" alt="${item.name}" onerror="this.parentElement.classList.add('${item.id}-icon')">
+                </div>
                 <div class="item-name">${item.name}</div>
                 ${isEquipped ? '<div class="equipped-badge">✓</div>' : ''}
             </div>
         `;
     });
     
-    // Add locked slots (up to 3 slots per category)
-    const totalSlots = Math.max(3, unlockedItems.length + lockedItems.length);
+    // Add locked slots (up to max items in category)
+    const totalSlots = Math.max(3, categoryItems.length);
     for (let i = unlockedItems.length; i < totalSlots; i++) {
         html += `
             <div class="item-slot locked">
@@ -1602,7 +1704,7 @@ function renderItemSelection(category) {
     });
 }
 
-// Handle item click (equip/unequip)
+// Handle item click (equip/unequip) - Sims-style slots
 function handleItemClick(itemId) {
     const item = merchItems.find(m => m.id === itemId);
     if (!item) return;
@@ -1612,7 +1714,7 @@ function handleItemClick(itemId) {
         // Unequip
         equippedMerch.delete(itemId);
     } else {
-        // Unequip other items in same category first (only one item per category)
+        // Unequip other items in same category first (only one item per category slot)
         const categoryItems = merchItems.filter(m => m.category === item.category);
         categoryItems.forEach(catItem => {
             equippedMerch.delete(catItem.id);
