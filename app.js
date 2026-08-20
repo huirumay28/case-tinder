@@ -1463,9 +1463,10 @@ function renderLionStack(container, equippedSet) {
     stack.style.width = '100%';
     stack.style.height = '100%';
     
-    // Base lion (always visible)
+    // Base lion. Held items (beer / hammer / bag) use the arm-out pose.
     const base = document.createElement('img');
-    base.src = 'assets/lion-naked.png';
+    const useArmOut = equippedSet.has('beer') || equippedSet.has('hammer') || equippedSet.has('bag');
+    base.src = useArmOut ? 'assets/lion-arm-out.png' : 'assets/lion-naked.png';
     base.alt = 'Lion';
     base.style.position = 'absolute';
     base.style.inset = '0';
