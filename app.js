@@ -1442,12 +1442,11 @@ const layerMetadata = {
 
 function getLayerPath(itemId) {
     const metadata = layerMetadata[itemId];
-    const path = metadata ? metadata.path : `assets/layers/${itemId}.png`;
-    return `${path}?v=20260820p`;
+    return metadata ? metadata.path : `assets/layers/${itemId}.png`;
 }
 
 function getIconPath(itemId) {
-    return `assets/icons/${itemId}.png?v=20260820p`;
+    return `assets/icons/${itemId}.png`;
 }
 
 function renderLion() {
@@ -1464,9 +1463,11 @@ function renderLionStack(container, equippedSet) {
     stack.style.width = '100%';
     stack.style.height = '100%';
     
-    // Base lion stays the official arms-down pose. Arm-out was 跑版 (third arm / seam).
+    // Base lion is always the official arms-down pose.
+    // Bag hangs on the shoulder of the official combo; hammer/beer sit on the down-arm paw.
+    // Arm-out base was a bolted-on third limb — do not swap.
     const base = document.createElement('img');
-    base.src = 'assets/lion-naked.png?v=20260820p';
+    base.src = 'assets/lion-naked.png';
     base.alt = 'Lion';
     base.style.position = 'absolute';
     base.style.inset = '0';
