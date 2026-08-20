@@ -1463,10 +1463,9 @@ function renderLionStack(container, equippedSet) {
     stack.style.width = '100%';
     stack.style.height = '100%';
     
-    // Base lion. Held items (beer / hammer / bag) use the arm-out pose.
+    // Base lion stays the official arms-down pose. Arm-out was 跑版 (third arm / seam).
     const base = document.createElement('img');
-    const useArmOut = equippedSet.has('beer') || equippedSet.has('hammer') || equippedSet.has('bag');
-    base.src = useArmOut ? 'assets/lion-arm-out.png' : 'assets/lion-naked.png';
+    base.src = 'assets/lion-naked.png';
     base.alt = 'Lion';
     base.style.position = 'absolute';
     base.style.inset = '0';
