@@ -936,7 +936,7 @@ async function loadUserState() {
             }
             
             calculateStreak();
-            applyTesterUnlocks();
+            calculateUnlocks();
             saveProgress();
             updateBioTab();
         }
@@ -1008,7 +1008,7 @@ function loadProgress() {
     }
     
     calculateStreak();
-    applyTesterUnlocks();
+    calculateUnlocks();
 }
 
 // Save progress to localStorage
@@ -1060,20 +1060,6 @@ function calculateStreak() {
 
 // Calculate unlocks based on current streak (recompute from scratch each time)
 
-const TESTER_STREAK = {
-    'Huiru': 13,
-    'Brian Chen': 13,
-    'Ping Tseng': 13,
-    'Vivi Tsou': 13
-};
-
-function applyTesterUnlocks() {
-    const forced = TESTER_STREAK[currentUser];
-    if (forced) {
-        streak = Math.max(streak, forced);
-        calculateUnlocks();
-    }
-}
 
 function calculateUnlocks() {
     unlockedMerch = new Set();
@@ -1411,7 +1397,7 @@ function openCaseDetailView(caseId, memberName) {
 
 // Update bio tab UI
 function updateBioTab() {
-    applyTesterUnlocks();
+    calculateUnlocks();
     document.getElementById('streakNumber').textContent = streak;
     
     renderLion();
@@ -1453,11 +1439,11 @@ const layerMetadata = {
 function getLayerPath(itemId) {
     const metadata = layerMetadata[itemId];
     const path = metadata ? metadata.path : `assets/layers/${itemId}.png`;
-    return `${path}?v=20260820u`;
+    return `${path}?v=20260821a`;
 }
 
 function getIconPath(itemId) {
-    return `assets/icons/${itemId}.png?v=20260820u`;
+    return `assets/icons/${itemId}.png?v=20260821a`;
 }
 
 function renderLion() {
@@ -1478,7 +1464,7 @@ function renderLionStack(container, equippedSet) {
     // Bag hangs on the shoulder of the official combo; hammer/beer sit on the down-arm paw.
     // Arm-out base was a bolted-on third limb — do not swap.
     const base = document.createElement('img');
-    base.src = 'assets/lion-naked.png?v=20260820u';
+    base.src = 'assets/lion-naked.png?v=20260821a';
     base.alt = 'Lion';
     base.style.position = 'absolute';
     base.style.inset = '0';
