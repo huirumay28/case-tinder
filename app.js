@@ -98,9 +98,9 @@ const casesData = [
             idea: 'assets/stills/haven-02.jpg',
             execution: 'assets/stills/haven-03.jpg'
         },
-        background: "Suncorp Group 的企業宗旨是「Building futures and protecting what matters」，Suncorp Haven 是這項宗旨的具體化。它證明保險公司不必坐等氣候變遷推高保費、把人趕出保險市場，而可以成為解方——讓住宅更能抵禦日益嚴重的極端天氣。",
-        idea: "澳洲保險公司 Suncorp 帶動產業從「Recovery」轉向「Resilience」。Haven 是這個獲獎韌性平台的下一章：把海量、令人不知所措的資料，變成每戶一份簡單、個人化的行動計畫。它是全球首創、以資料驅動的數位平台，為澳洲 1,100 萬戶住宅各做一份獨特風險評估，告訴屋主面對暴雨、叢林大火或洪水該做什麼；資訊還以「這棟房子自己的聲音」呈現。這也是保險公司首次公開分享自家資料與洞察，協助降低每位澳洲人的風險。",
-        execution: "Haven 為澳洲 1,100 萬戶住宅提供個人化極端天氣風險評估。App 以進階 WebGL 地理視覺化呈現大規模資料集，包含 Suncorp 自身的災害風險資料與洞察；結合 NASA AMMOS 與新釋出的 Google 3D Tiles，達到 Google 現成 API 無法比擬的電影級畫質。成果：323,186 次造訪（超出目標 223%）、平均停留 2 分 56 秒、全國新聞 earned reach 超過 200 萬。",
+        background: "到 2025 年，氣候變遷影響可能讓 10% 澳洲住宅變成「不可保」。但 84% 理賠案都有可避免的損害，答案在於災害發生前就保護住宅。儘管 81% 澳洲人經歷過極端天氣，只有 17% 有保護住家的計畫。",
+        idea: "澳洲保險公司 Suncorp 引領產業從「復原」轉向「韌性」，而 Suncorp Haven 是這個獲獎韌性平台的下一章。Suncorp Haven 把淹沒人的海量資料，轉化成單一、聚焦行動的計畫，讓韌性變成可實踐的行為。這是全球首創、以資料驅動的數位平台，為澳洲 1,100 萬戶住宅提供獨一無二的風險評估，告訴屋主需要做什麼來保護住家免受任何單一氣候威脅——不論是暴風雨、叢林大火或洪水。",
+        execution: "這是保險公司首次分享自己的資料與洞察，協助降低每位澳洲人的風險。成果：323,000 名訪客、平均停留 2 分 56 秒、200 萬人次全國新聞 earned reach、79% 使用者會在使用 Haven 後讓住家更有韌性。",
         awardsDetail: [
             { award: "Titanium Grand Prix — Titanium / Titanium", icon: "🏆" },
             { award: "[Cannes] Brand Experience & Activation: Sectors / Consumer Services/Business to Business — Silver Lion", icon: "🥈" },
@@ -125,9 +125,9 @@ const casesData = [
             idea: 'assets/stills/claude-02.jpg',
             execution: 'assets/stills/claude-03.jpg'
         },
-        background: "Anthropic 的宗旨不是行銷定位——公司創立原則是 AI 應安全、有益、誠實。Claude 的「constitution」是一套公開的價值準則，明確把有幫助放在參與度之上。「A Time and a Place」讓這個結構性真相被看見：與其宣告價值，影片展示當這些價值缺席時會發生什麼，用反面來說明 Claude 的宗旨。",
-        idea: "用世界最大的廣告舞台主張：有些地方根本不該出現廣告。四支黑色喜劇想像近未來——廣告滲透進 AI 對話最脆弱的時刻：療程被交友網站廣告打斷、創辦人機密商業計畫被拿來賣融資、學生學習被置入行銷劫持、私人教練課被用來賣增高鞋墊。",
-        execution: "開賽前五天以 earned media 突擊，連同 The Wall Street Journal 與 Good Morning America 的獨家敘事（含共同創辦人 Daniela Amodei 訪談）預先釋出四支影片。比賽當天兩支廣告策略性投放在 Super Bowl Kickoff Show 與第一節，直接質問 1.23 億觀眾：廣告是否屬於任何地方？成果：2,100+ 篇 earned media、83 億次總曝光、七天週期 94% 正面／中性；Claude SOV 從 14% 加倍至 28%，包辦超級盃 AI SoV 的 56%；搜尋暴增 7 倍，從 Top 100 以外升至美國 App Store 第 4，下載 +305%。",
+        background: "廣告即將進入 AI，但 Claude 不會。Anthropic 承諾讓 Claude 保持無廣告。超級盃——全球都在期待廣告的那一刻——是向世界宣告、強迫展開品類對話的平台，而這場對話過去不存在。",
+        idea: "有些時刻、有些地方，廣告根本不該存在。四支黑色喜劇，想像 AI 對話中最脆弱的時刻——治療被交友 app 廣告打斷、創業機密計畫被拿來賣融資、學生學習被置入行銷綁架、私人健身課被拿來推銷增高鞋墊——展示當廣告滲透這些對話時會發生什麼。",
+        execution: "賽前五天率先以 earned media 出擊，包括 The Wall Street Journal 與 Good Morning America 的獨家報導與共同創辦人 Daniela Amodei 訪談，先行釋出四支影片。比賽當天兩支廣告策略性投放在超級盃開場與第一節，直接向 1.23 億觀眾提問：廣告真的應該無處不在嗎？成果：Claude 在超級盃話題中的份額從 14% 翻倍至 28%，包辦超級盃 AI 話題的 56%；搜尋量暴增 7 倍；從 Top 100 外衝上美國 App Store 第 4；下載量 +305%。",
         awardsDetail: [
             { award: "Grand Prix", icon: "🏆" },
             { award: "[Cannes] Gold Lion", icon: "🥇" },
@@ -153,9 +153,9 @@ const casesData = [
             idea: 'assets/stills/pub-refused-to-die-02.jpg',
             execution: 'assets/stills/pub-refused-to-die-03.jpg'
         },
-        background: "Heineken 的宗旨一直根植於捍衛社交生活——長年平台是 Social Networking Since 1873。品牌視 pub 不只是喝酒的地方，而是社區連結的必要空間。The Pub That Refused to Die 把這層意義說清楚，尤其在愛爾蘭鄉間：一間 pub 關門，往往等於整座社區社交結構的消失。",
-        idea: "愛爾蘭有句話說「Is treise an dúil ná an bás」（欲望比死亡更強），在 Kilteely 尤其真實——26 位毫無經驗的居民決定拯救他們最後一間 pub。Heineken 把這個故事變成藍圖，把社區共有做成可複製的模式，對抗愛爾蘭鄉間 pub 消失。案子證明一件簡單的事：要一整個村莊才能救一間 pub，也要一間 pub 才能救一個村莊。",
-        execution: "把真實社區故事同時做成影片、也做成可執行的改變藍圖。紀錄片以 Kilteely 26 位居民的深度訪談為骨架，先在 Dublin International Film Festival 首映建立文化位置，再巡迴愛爾蘭鄉間社區放映。螢幕之外，Kilteely 的路程被開源成一步步的實作平台，讓靈感變成行動。成果：一個社區已買下他們最後的 pub、另外兩個進行中、100 萬歐元投入酒吧培訓、2.32 億媒體曝光。",
+        background: "在愛爾蘭鄉間，pub 不只是喝酒的地方——它是社區的社交心臟。但成本上漲導致 pub 每 24 小時關掉一間。當社區共同擁有權成為 pub 唯一的出路，社區也需要知道怎麼做。",
+        idea: "Heineken 把一個村莊的真實故事變成拯救鄉間 pub 的大師課。Kilteely 26 位居民幫助拯救最後一間 pub 之後，Heineken 決定把他們的故事做成一部短紀錄片，啟發其他社區做同樣的事。首映在 DIFF；並附帶實體培訓課程，加上一個開源線上平台，把啟發變成行動。",
+        execution: "這不只是一部紀錄片，更是一場可複製的改變。一個旅行大師課，橫跨愛爾蘭鄉間 pub，為社區播映影片、直接帶來 Kilteely 故事中的主角與 Heineken 在地網絡，並實地提供社區接管的步驟式指引、培訓計畫、募資與法律支援。成果：一個社區已買下他們最後的 pub、另外兩個正在進行中、100 萬歐元已投入酒吧培訓、2.32 億媒體曝光。",
         awardsDetail: [
             { award: "Grand Prix — Creative Strategy, Challenges & Breakthroughs / Cultural Engagement", icon: "🏆" },
             { award: "[Cannes] Direct: Sectors / Consumer Goods — Bronze Lion", icon: "🥉" },
@@ -182,9 +182,9 @@ const casesData = [
             idea: 'assets/stills/kitkat-02.jpg',
             execution: 'assets/stills/kitkat-03.jpg'
         },
-        background: "413,793 條 KitKat 在義大利到波蘭之間消失。時機極糟：最大銷售季的高峰庫存突然沒了。品牌站在十字路口——用傳統危機處理把故事壓下去，還是把復活節的損失，轉成商業與商譽的大幅收穫？",
-        idea: "對這場真實危機（失竊 12 噸 KitKat）的回應，成為品牌史上最被討論的一檔。不藏危機，反而把它變成巨大的財務收益。先把事情告訴全世界；再把注意力變成行動——做出 The Stolen KitKat Tracker，讓數百萬滑手機的人變成偵探，核對批號、查自己手上的 KitKat 是不是贓物。",
-        execution: "分兩幕。第一幕：新聞稿與聲明，簡單、事實、帶一點品牌玩心。第二幕：The Stolen KitKat Tracker，把圍觀者變成破案偵探。威脅復活節的竊案，反而成為佔領復活節的故事。成果：Tracker 互動超過 220 萬次；6,522 篇文章帶來 8.084 億 earned reach；earned media value 2.24 億美元（花費 $0）；全球社群曝光超過 705 億；日觀看從約 100 萬升到 2,900 萬，高峰是任何競爭對手的 4 倍；全球 115+ 品牌主動做出免費的 KitKat 廣告。",
+        background: "一週就是復活節——KitKat 一年中最大的銷售季——一貨櫃 12 噸的 KitKat 在義大利到波蘭之間被偷了。但品牌沒有隱瞞。",
+        idea: "一場真實危機的回應，成為危機 PR 的教科書案例。不只是單純「與大眾說實話」——先把整件事告訴全世界，再把關注轉換成行動。The Stolen KitKat Tracker 讓數百萬人變成偵探，核對批號、查手上的 KitKat 是不是贓物。",
+        execution: "一個可能威脅復活節的竊案，反而成了主導復活節的故事。成果：Tracker 互動超過 220 萬次；6,522 篇報導帶來 8.084 億 earned reach；earned media value 2.24 億美元（廣告花費 $0）；社群曝光 70.5 億；日觀看從平時約 100 萬暴增到 2,900 萬、是任何競爭對手的 4 倍；全球 115 個以上品牌自願做出免費 KitKat 廣告。",
         awardsDetail: [
             { award: "Grand Prix — PR, Excellence in PR Craft / Crisis Communications & Issue Management", icon: "🏆" }
         ]
@@ -205,9 +205,9 @@ const casesData = [
             idea: 'assets/stills/apple-tv-02.jpg',
             execution: 'assets/stills/apple-tv-03.jpg'
         },
-        background: "挑戰是：把一個已經很好、卻還沒拿到應有認可的品牌再抬高一層——而當時娛樂業改版正被廣泛懷疑。也因此，76% 正面情感（娛樂改版中最高）才特別有意義。24 小時內 290 篇報導、4,000 萬次觀看、以及「Apple TV」搜尋量創新高，證實了衝擊。",
-        idea: "一套大膽的黑白系統，從戶外看板一直撐到有人打開 App 的那一刻。",
-        execution: "起手是一個問題：logo 能不能用玻璃雕塑、全程實拍、完全不靠模擬？五天 R&D 找答案。測試八種透明材料、三種玻璃厚度、四種邊緣斜切、超過 50 組概念構圖；做出八顆客製玻璃 logo（透明、霧面、偏光）。拍攝產生超過 16 TB RAW，每次旋轉都是即時實拍。FINNEAS 同步做聲音；並為這套系統做了從 Apple San Francisco 衍生的專用字體 SF TV。成果：24 小時內 290 則全球報導；自有觀看 1,000 萬、粉絲總觀看 4,000 萬；「Apple TV」搜尋比 Pluribus 大結局還高 59%、為 2025 最高；76% 正面情感；改版帶出 Apple TV 有史以來最佳新訂閱季度——單績效就超過 100 萬、全球 +16%。",
+        background: "Apple TV+ 擁有串流界評價最高的原創節目，但品牌一直沒有得到應有的認可。改版正被廣泛懷疑的時刻，76% 正面情感（娛樂改版中最高）才特別有意義。",
+        idea: "一套大膽的黑白設計系統，讓電影感貫穿所有接觸點——從戶外看板到打開 app 的那一刻。",
+        execution: "一個手工打造、完全實拍、用玻璃雕塑的 logo。八種透明材質測試、三種玻璃厚度、四種邊緣切法、超過 50 組概念構圖；最終做出八顆訂製玻璃 logo（透明、霧面、偏光）。產生 16TB 以上 RAW 影像、150 小時 R&D、2 位攝影、3 個破損 logo。FINNEAS 同步做音效。為這套系統創造一個專屬字體（從 Apple San Francisco 衍生的 SF TV）。成果：24 小時內 290 則全球報導；自家觀看 1,000 萬、粉絲總觀看 4,000 萬；「Apple TV」搜尋高過 Silo 大結局 59%、創 2025 最高；改版帶動 Apple TV+ 有史以來最佳新訂閱季度——單季績效破 100 萬、全球 +16%。",
         awardsDetail: [
             { award: "Grand Prix — Design", icon: "🏆" },
             { award: "Shortlisted ×2", icon: "○" },
@@ -230,9 +230,9 @@ const casesData = [
             idea: 'assets/stills/coinbase-02.jpg',
             execution: 'assets/stills/coinbase-03.jpg'
         },
-        background: "這支片子用一個鼓舞人心的故事，把 Coinbase 定位成奪回掌控、重獲財務自由的路。它發揮了預期效果並在各平台病毒傳播；Rolling Stone、Hypebeast、Fortune 等報導，把 Coinbase 與它的訊息帶到更廣的評論者與品味塑造者面前。",
-        idea: "這支影片為電視廣告可以是什麼寫了新的 playbook。它創造一種新的影片類型，質問一支片子可以如何行動、表現、感覺。選在奧斯卡播出，也質問由超級盃建立、主導的現狀。片子的行為就像它的訊息：往前衝、把舊系統拋在身後，換一個更大、更亮的未來。",
-        execution: "幾乎全程 in-camera：服裝印成 2D 效果、臉重印到面具上做成低多邊形、場景刻意像素化成遊戲感。燈光完全無影；表演者受過動作邏輯訓練，移動起來像電玩 NPC。頻道策略不只傳統買媒體，而是文化攔截——在奧斯卡夜推出。成果：播出效益比奧斯卡平均高 9%，earned / owned / paid 共 16 億曝光；社群貼文 500 萬曝光（比貼文均高出 126%）、11.2 萬互動。",
+        background: "這支片用一個勵志故事，把 Coinbase 定位成奪回掌控、重獲財務自由的路。它如預期發揮效果、在各平台病毒傳播，並被 Rolling Stone、Hypebeast、Fortune 報導，把 Coinbase 與訊息帶到更廣的評論者與品味製造者面前。",
+        idea: "這支片為電視廣告寫下新的 playbook。它創造一種新的影片類型，質問一支片可以如何行動、表現、感覺。選在奧斯卡播出，也質問由超級盃建立、主導的現狀。片子的行為就像它的訊息：往前衝、把舊系統拋在身後，換一個更大、更亮的未來。",
+        execution: "幾乎完全 in-camera 拍攝：服裝以 2D 形式印製、演員臉以低多邊形重製到面具上、場景刻意像素化成遊戲感、燈光完全無影、演員接受訓練讓動作看起來像 NPC。頻道策略不只買媒體，更是文化攔截——選在奧斯卡夜推出。成果：播出效益比奧斯卡平均高 9%；earned / owned / paid 合計 16 億曝光；社群貼文 500 萬曝光（比平均高 126%）、11.2 萬互動。",
         awardsDetail: [
             { award: "Grand Prix — Film Craft, Production / Direction", icon: "🏆" },
             { award: "[Cannes] Production / Production Design/Art Direction — Gold Lion", icon: "🥇" },
@@ -258,9 +258,9 @@ const casesData = [
             idea: 'assets/stills/heinz-02.jpg',
             execution: 'assets/stills/heinz-03.jpg'
         },
-        background: "Ketchup 和薯條天生一對，但 Heinz 市佔被更便宜的替代品威脅。必須證明：薯條要的不只是番茄醬，而是 Heinz。通膨把消費者推向平價選項時，他們找到一個全球通用的視覺 insight：薯條盒的形狀就是 Heinz logo。",
-        idea: "跳出品類慣性，揭開藏在眼前的視覺真相：薯條盒的通用形狀，看起來就像有 150 年歷史的經典 Heinz logo。於是把全球海報戰役，全部押在這只薯條盒上。",
-        execution: "在中國、加拿大、巴西、墨西哥、阿聯酋、美國、英國的路邊與地鐵，投放高衝擊海報；並用情境戶外佔領嘴饞當下——例如針對離 McDonald's 中國總部最近的上海地鐵站通勤族。為了把認知接到行動，與 UberEats 合作，每筆薯條訂單加上 Heinz Ketchup。觸及在阿聯酋達 42%、多倫多 33%；美國平台內銷售 +222%。全球 33 個市場：+11.6 億曝光、150+ earned 提及、Heinz 出現在 86% 標題中。",
+        background: "所有人都知道薯條和番茄醬天生一對，但 Heinz 曾經數十年主導的品類，正被更便宜的替代品威脅。最近番茄醬成本上漲，Heinz 市佔開始下滑，把 Heinz 在消費者心智中的地位推向邊緣。「薯條配番茄醬」必須變成「薯條配 Heinz」。",
+        idea: "我們找到一個藏在眼前的真相：薯條盒的形狀看起來就像有 150 年歷史的經典 Heinz logo。於是把整場海報戰役押在這一只薯條盒上，用一句簡單的視覺問題讓全球通用的薯條形狀變成 Heinz 專屬。",
+        execution: "高衝擊海報投放在路邊與地鐵——中國、加拿大、巴西、墨西哥、阿聯、美國、英國。並用情境戶外佔領嘴饞當下，例如上海地鐵離 McDonald's 中國總部最近的通勤站。為了把認知變成行動，與 Uber Eats 合作，每筆薯條訂單加上 Heinz Ketchup。成果：阿聯觸及 42%、多倫多 33%；美國平台內銷售 +222%；全球 33 市場 +16 億曝光、150+ earned 提及、Heinz 出現在 86% 標題中。",
         awardsDetail: [
             { award: "Grand Prix — Print & Publishing, Culture & Context / Market Disruption", icon: "🏆" },
             { award: "[Cannes] Outdoor, Billboards: Sectors / Consumer Goods（Coincidence?）— Gold Lion", icon: "🥇" },
@@ -284,9 +284,9 @@ const casesData = [
             idea: 'assets/stills/heineken-social-02.jpg',
             execution: 'assets/stills/heineken-social-03.jpg'
         },
-        background: "策略建立在清楚的文化洞察，並有資料撐起全球語音訊息使用規模：語音訊息正在取代面對面說話——這股張力對上 Heineken 的社交使命。Promo 試點放在巴西（語音訊息使用量是其他地方的四倍），但設計成能透過不同社群觸點走到全球。",
-        idea: "把觀察做成挑釁：語音訊息能不能變成社交的機會？答案是一句簡單的話：「Could have been a Heineken。」野心是讓它變成反射、而不是 slogan——每次收到超長語音，就想到不如見面喝一杯。啟動方式：一個 WhatsApp 體驗，把長語音轉給 bot，換免費啤酒。",
-        execution: "核心體驗在 WhatsApp：使用者把語音轉給 Heineken bot。超過 3 分鐘的語音會被自動辨識，獎勵可在指定 Heineken 合作酒吧兌換的啤酒券。只看長度、不看內容，以保護隱私。戶外用原創形式展示「過長語音」，QR code 直接帶進 WhatsApp；並用 sticker 搭配酒券擴散。巴西 bot 處理超過 280 小時語音、換成 1,086 張啤酒券；全球 82 國對話，並登上 The Guardian、The US Sun、The Mirror、Financial Times、Business Insider。",
+        background: "我們花 150 小時錄語音、發語音，但隨後我們說「我們沒有時間見面聊天」。",
+        idea: "把長語音變成見面喝一杯的藉口。Heineken 把長語音變成真實啤酒——首個以 WhatsApp 為基礎的語音轉啤酒 bot。把 3+ 分鐘語音轉給 bot，就能在酒吧兌換免費啤酒。這個活動用 WhatsApp sticker 與 QR code 戶外放大，QR code 直接帶進機制；並透過酒券讓 sticker 伴隨優惠擴散。",
+        execution: "bot 只檢查長度、不讀內容，保護隱私。透過 OOH 與 WhatsApp sticker 擴散；創造原創形式展示過長語音，帶進機制。成果：280 小時語音轉成 1,086 張啤酒券；全球 82 國對話；登上 The Guardian、The US Sun、The Mirror、Financial Times、Business Insider。",
         awardsDetail: [
             { award: "Grand Prix — Social & Creator", icon: "🏆" },
             { award: "[Cannes] Social & Creator: Culture & Context / Social Behaviour — Gold Lion", icon: "🥇" },
@@ -314,9 +314,9 @@ const casesData = [
             idea: 'assets/stills/axa-02.jpg',
             execution: 'assets/stills/axa-03.jpg'
         },
-        background: "法國家暴是生死問題：警方紀錄平均每年 21 萬名女性遭受配偶的身體、性或心理暴力；NGO 估計實際接近 100 萬。2024 年法國有 136 名女性被伴侶殺害，另有 773 人因伴侶騷擾自殺。打給 3919（全國求助專線）的電話中，77% 提到需要緊急安置，但收容不足：只有 10,185 個緊急床位，估計需要 35,000。AXA 在 2023 年啟動全球平台「Being a woman shouldn't be a risk」。",
-        idea: "「Three Words」是寫進 AXA 住宅保險契約的救命條款。法國家家戶戶依法必須有住宅保險；這類契約原本在火災或水災導致住家不宜居住時提供緊急安置，AXA 只加三個字：「and domestic violence」，幫女性逃出去。受害者打緊急電話，立刻被安置；司機會接她（與孩子）到安全住所（保全飯店）。此條款寫進所有 AXA 住宅保險，並溯及既往。",
-        execution: "花了一年多落地。與合作 NGO 一起設計安全、匿名、包容、對孩子友善的救助旅程。為了讓每位女性都知道，以全國大型戰役上市（6.19 億付費曝光），結合戶外、全國電視，以及一支給受害者看、解說救助流程的教育影片。PR 把倖存者與協會領袖的聲音，和 AXA 自己的聲音一起抬高。成果：法國首 12 個月支持 1,576 人；品牌考慮度從第 2 升到第 1；86% 法國人認為這條款應成為產業標準；上市 earned 2.79 億曝光；住宅保險落地頁流量 +321%；淨新增契約年增超過一倍（+113%）。條款已透過企業健康保險再涵蓋 300 萬人；法國以外已在盧森堡上市，並正部署到另外五個 AXA 市場。",
+        background: "法國有 77% 家暴受害女性最大的緊迫需求，是安全住所。但她們往往在離開伴侶前就被困在自己家裡。身為法國領導保險公司，AXA 想展示在受害女性緊急重新安置上能提供什麼幫助。",
+        idea: "只加三個字「and domestic violence」到住宅保險單，AXA 正式讓家暴成為承保風險。這讓受害女性與其他災害一樣可被重新安置——無需額外費用，且溯及既往。自動納入所有 AXA 住宅保險契約。",
+        execution: "一場完整的國家級戰役上市，結合戶外、全國電視、PR，以及一支教育影片告訴受害者流程。成果：首年幫助 1,576 人；品牌考慮度從第 2 升到第 1；86% 法國人認為這應成為產業標準；上市 earned 2.79 億曝光；住宅保險落地頁流量 +321%；淨新契約年增翻倍（+113%）。條款已透過企業健康保險涵蓋 300 萬人；並已推到盧森堡、進行中的五個 AXA 市場。",
         awardsDetail: [
             { award: "Grand Prix — Creative Effectiveness", icon: "🏆" },
             { award: "[Cannes] Creative Effectiveness: Culture & Context / Market Disruption — Gold Lion", icon: "🥇" },
@@ -342,9 +342,9 @@ const casesData = [
             idea: 'assets/stills/ordinary-02.jpg',
             execution: 'assets/stills/ordinary-03.jpg'
         },
-        background: "The Ordinary 所在的美容品類，被噪音、誇大與行銷扭曲定義。保養溝通常被膨脹宣稱、情緒操弄、偽科學語言主導，賣的是嚮往而不是透明。消費者愈來愈懷疑：「miracle」「medical grade」「eternal youth」已經失去意義，製造的是困惑而不是信任。把行銷語言本身重新框成問題，這檔把 The Ordinary 放在品類裡的校正聲音，而不只是一個保養品牌。",
-        idea: "「The Periodic Fable」要鞏固 The Ordinary 作為真相導向聲音的位置——在一個被誇大宣稱與誤導語言淹沒的美容品類裡。解法是建立一套電影系統，讓語言本身成為被批判的對象。透過克制的表演、儀式化的動作、反烏托邦教室，影片視覺化美容消費者如何被重複與炒作制約。",
-        execution: "美術指導是概念核心：做出受控、機構感的環境，反映美容行銷語言的僵硬。教室被剝到臨床、略為抽象；從制式座位到放映「Periodic Fable」的無菌投影面，每個元素都有意圖。服裝設計強化齊一、拿掉個性、強調集體行為。被改寫的週期表成為空間焦點，把抽象行銷用語變成可對質的實體。Board 上的數據：49 個誤導行銷詞；一張沒有科學的科學表；影片首 24 小時 100 萬人看過；58% 更可能把品牌視為最值得信任的保養。",
+        background: "80% 美容宣稱不實或誇大。美容產業靠虛構建立、以非科學行銷用語主導。The Ordinary 用事實說話——有機化合物、SBR、現在列為「品類中最值得信任的保養」。",
+        idea: "一個新工具去打破美容產業。The Ordinary 創造「The Periodic Fable」：49 個誤導行銷用語、一張沒有科學的科學表，設計用來打造更好的產業。這部片由一百萬人在前 24 小時看過，因其用視覺呈現美容宣稱如何調教消費者——透過有機化學元素週期表，把流行的美容行銷術語放上 index，揭露它們根本沒內容，而且現在被列為「品類嗡鳴詞」。",
+        execution: "影片首 24 小時 100 萬人看過；58% 更可能視品牌為最值得信任的保養。",
         awardsDetail: [
             { award: "Grand Prix — Health & Wellness: Health Awareness & Advocacy / Brand-Led Education & Awareness（Smuggler）", icon: "🏆" },
             { award: "[Cannes] Silver Lion ×2（Uncommon Creative Studio companion entry）", icon: "🥈" },
@@ -369,9 +369,9 @@ const casesData = [
             idea: 'assets/stills/uber-eats-super-bowl-02.jpg',
             execution: 'assets/stills/uber-eats-super-bowl-03.jpg'
         },
-        background: "Uber Eats 連續兩年用同一套半認真的陰謀論打超級盃：美式足球根本是為了賣食物才發明的。Matthew McConaughey 扮演深信不疑的理論家，品牌把這套敘事做成平台。真正的商業問題是另一件事：超級盃是外送一年裡競爭最激烈的一天，傳統 30 秒買媒體只能把人趕到廣告前，很難把人留在自己的 app。",
-        idea: "與其求觀眾看完一支廣告，不如讓他們像組 poke bowl 一樣「點」自己的 Super Bowl commercial。開賽前一週，粉絲進 app 選「食材」——角色、場景、證據、卡司——從 1,000 種以上組合裡拼出專屬版本。做完的片子立刻在 app 裡播放、可分享，並解鎖比賽日外送優惠。評審說這是把產品本身做成傳播平台，把漏斗收成同一次體驗。",
-        execution: "Special 與導演 Steve Rogers（Revolver + Biscuit Filmworks）寫出並拍出可無縫接軌的模組內容：Bradley Cooper、Matthew McConaughey、Addison Rae、Tramell Tillman、Parker Posey 等輪番登場，總片長約 36 小時；每格都是人工撰寫、拍攝、剪接，不用生成式 AI。體驗做在真實 Uber Eats app 裡，完成即送券。成果：325,000 人參加、累計停留 800,000 分鐘；超級盃週增量造訪 370 萬；銷售打破舊紀錄逾 3,600 萬美元；earned media value 超過 2.9 億美元；優惠兌換率 38%，約為過往檔期的 10 倍；超過 40% 參與者不是常客。",
+        background: "Uber Eats 把 app 本身重新設計成娛樂目的地、打破創紀錄銷售。讓產品成為生態系統中心。",
+        idea: "從打造墨西哥捲餅碗到打造超級盃廣告：Uber Eats 翻轉最競爭的外送時刻，把他們的敘事打造成互動體驗。與其只在超級盃投廣告、把觀眾趕出 app 看廣告，他們在 app 裡給你機會「點」自己專屬的「Super Bowl」廣告——用超過 1,000 種排列組合、選角色、場景、陰謀證據、卡司。完成時在 app 裡播放、並解鎖比賽日外送優惠券。",
+        execution: "把商業管道變成互動娛樂中心。最競爭的外送時刻，Uber Eats 把消費者變成共創者，在產品內解鎖創紀錄銷售。成果：370 萬超級盃週新增造訪；銷售打破紀錄、超過 $36M；earned media value $290M+；38% 優惠兌換（比過往促銷高 10 倍）；40% 以上參與者是非常客。",
         awardsDetail: [
             { award: "Grand Prix — Media, Channels / Retail Media", icon: "🏆" },
             { award: "Gold Lion — Direct, Digital & Social / Use of Digital Platforms", icon: "🥇" },
@@ -395,9 +395,9 @@ const casesData = [
             idea: 'assets/stills/project-genie-02.jpg',
             execution: 'assets/stills/project-genie-03.jpg'
         },
-        background: "2025 年 Google 發表 Genie 3——用文字就能生成可即時探索、接近實拍質感的世界。討論很快從「這是什麼」變成「我什麼時候能用」。研究介面是為展示前沿模型而做，不是為大眾操作而做；從實驗室原型走到消費者工具，中間缺的是一套讓人第一次接觸就懂的體驗。",
-        idea: "Project Genie 的主張很直接：AI 本身就是產品。它是 Genie 3 第一次做成可用的消費端介面，把 DeepMind 的研究接上一般人的想像力。評審說它示範 Digital Craft 該獎勵的事——不只慶祝眼前的技術，而是讓創意把技術變成下一個媒介。",
-        execution: "團隊先生成數千個世界，摸清模型擅長什麼：第三人稱角色控制、世界記憶、即時互動。介面從 vibecode 原型開始迭代，最後收成以「創造」為中心的簡單 UI：用文字細寫角色與環境、在起始圖上 world sketch、上傳自己的照片，或重混 20 多個預製世界。2026 年 1 月以原型對外出——這檔沒有傳統廣告成績單，得獎理由是把前沿研究做成可被創意使用的平台。",
+        background: "把前沿世界模型研究轉化成一般人可操作的直覺數位產品。Google 生成式世界模型把文字或影像輸入，即時轉化成可互動 3D 世界，並記住你走過的地方。但這是研究原型——不是為大眾使用而設計。",
+        idea: "讓第一次使用技術的體驗簡單、直觀、好玩、不複雜或技術化。絕大多數人不知道生成式世界模型是什麼。就算知道，他們可能不知道怎麼用。Project Genie 體驗簡化並直觀化世界建造——透過文字詳細描述角色與環境、在起始圖上 world sketch、上傳照片，或重混 20 幾個預製世界。",
+        execution: "Project Genie 建立 UK 採用創造世界的範式，讓任何人都能玩無限多樣化的世界——單是透過用 sphere 為新場景語言、world sketching 帶提示到視覺層、repres diffusion（以調色板為基礎的顏色命名讓模型產生一致螢幕）、以及每世界有數千色彩讓操作更直接且更擴張。",
         awardsDetail: [
             { award: "Grand Prix — Digital Craft, Data & AI / AI Craft", icon: "🏆" },
             { award: "Bronze Lion — Digital Craft, Form / UX & Journey Design", icon: "🥉" }
@@ -809,6 +809,20 @@ async function loadRoster() {
 
 function renderNameList() {
     const nameList = document.getElementById('nameList');
+    const nameLoading = document.getElementById('nameLoading');
+    
+    // Hide loading if visible
+    if (nameLoading) {
+        nameLoading.classList.add('hidden');
+    }
+    
+    // If no roster members yet, show loading
+    if (rosterMembers.length === 0) {
+        if (nameLoading) {
+            nameLoading.classList.remove('hidden');
+        }
+        return;
+    }
     
     nameList.innerHTML = rosterMembers.map(member => `
         <div class="name-item" data-name="${member.name}">
@@ -1124,18 +1138,39 @@ function showLikedCasesView(memberName) {
 // Render ranking list
 async function renderRankingList() {
     const rankingList = document.getElementById('rankingList');
+    const rankingLoading = document.getElementById('rankingLoading');
     if (!rankingList) return;
     
-    // Paint immediately from current teamMembers
-    paintRankingList();
+    // If teamMembers is empty or hasn't been loaded, show loading
+    const shouldShowLoading = teamMembers.length === 0;
+    if (shouldShowLoading && rankingLoading) {
+        rankingLoading.classList.remove('hidden');
+        rankingList.style.display = 'none';
+    }
+    
+    // Paint immediately from current teamMembers (if any)
+    if (!shouldShowLoading) {
+        paintRankingList();
+    }
     
     // Then refresh from API in background and repaint
     try {
         await loadScoreboardData();
+        if (rankingLoading) {
+            rankingLoading.classList.add('hidden');
+        }
+        rankingList.style.display = '';
         paintRankingList();
     } catch (error) {
         console.error('Failed to refresh scoreboard:', error);
-        // Keep showing the initial paint
+        if (rankingLoading) {
+            rankingLoading.classList.add('hidden');
+        }
+        rankingList.style.display = '';
+        // Keep showing the initial paint or fallback
+        if (!shouldShowLoading) {
+            paintRankingList();
+        }
     }
 }
 
@@ -1714,5 +1749,51 @@ function handleSwipe(card, action) {
     }, 300);
 }
 
+// Board Image Lightbox
+function initBoardLightbox() {
+    const lightbox = document.getElementById('boardLightbox');
+    const lightboxImage = document.getElementById('lightboxImage');
+    const lightboxClose = document.getElementById('lightboxClose');
+    
+    if (!lightbox || !lightboxImage || !lightboxClose) return;
+    
+    // Close lightbox
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    
+    // Close button
+    lightboxClose.addEventListener('click', closeLightbox);
+    
+    // Close on background click
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+    
+    // Close on escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            closeLightbox();
+        }
+    });
+    
+    // Open lightbox when board image is clicked
+    document.addEventListener('click', (e) => {
+        const boardImage = e.target.closest('.board-image');
+        if (boardImage) {
+            const img = boardImage.querySelector('img');
+            if (img && img.src) {
+                lightboxImage.src = img.src;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+    });
+}
+
 // Start the app
 init();
+initBoardLightbox();
