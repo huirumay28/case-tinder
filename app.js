@@ -1387,26 +1387,31 @@ function updateBioTab() {
 }
 
 // Render lion with equipped merch
+
+function wornLionSrc() {
+    const worn = {
+        crown: 'assets/lion-crown.png',
+        beret: 'assets/lion-hat.png',
+        sunglasses: 'assets/lion-sunglasses.png',
+        necklace: 'assets/lion-necklace.png',
+        bag: 'assets/lion-bag.png',
+        snowboard: 'assets/lion-snowboard.png'
+    };
+    const order = ['crown', 'beret', 'sunglasses', 'necklace', 'bag', 'snowboard'];
+    for (const id of order) {
+        if (equippedMerch.has(id) && worn[id]) return worn[id];
+    }
+    return 'assets/lion-naked.png';
+}
+
 function renderLion() {
     const lionContainer = document.getElementById('lionCharacter');
     lionContainer.innerHTML = '';
     
     const lionImg = document.createElement('img');
-    
-    // If beret is EQUIPPED (not just unlocked), show the lion wearing the hat
-    // Otherwise show the naked lion
-    if (equippedMerch.has('beret')) {
-        lionImg.src = 'assets/lion-hat.png';
-        lionImg.alt = 'Lion with beret';
-    } else {
-        lionImg.src = 'assets/lion-naked.png';
-        lionImg.alt = 'Lion';
-    }
-    
+    lionImg.src = wornLionSrc();
+    lionImg.alt = 'Lion';
     lionContainer.appendChild(lionImg);
-    
-    // Note: Other merch items (sunglasses, necklace, bag, snowboard, crown)
-    // remain as grid icons only. The old SVG overlays don't work with the 3D lion.
 }
 
 // Update next unlock display
@@ -1532,16 +1537,8 @@ function renderCustomizeLion() {
     lionPreview.innerHTML = '';
     
     const lionImg = document.createElement('img');
-    
-    // Show equipped lion (if beret is equipped, show hat version)
-    if (equippedMerch.has('beret')) {
-        lionImg.src = 'assets/lion-hat.png';
-        lionImg.alt = 'Lion with beret';
-    } else {
-        lionImg.src = 'assets/lion-naked.png';
-        lionImg.alt = 'Lion';
-    }
-    
+    lionImg.src = wornLionSrc();
+    lionImg.alt = 'Lion';
     lionPreview.appendChild(lionImg);
 }
 
