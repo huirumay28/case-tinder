@@ -607,6 +607,263 @@ const casesData = [
             { award: "Grand Prix — Sustainable Development Goals, Prosperity / Decent Work and Economic Growth", icon: "🏆" },
             { award: "Bronze Lion — Creative Strategy: Sectors / Consumer Goods", icon: "🥉" }
         ]
+    },
+    {
+        id: 21,
+        title: "600K NETWORK",
+        year: "2026",
+        brand: "Comando Con Venezuela",
+        agency: "Rainbow Lobster, Mexico City",
+        country: "Mexico",
+        summary: "把選票上的 QR code 做成去中心化驗票系統：60 萬公民用手機即時採集 30,026 張計票單。",
+        boardImage: "boards/600k-network.jpg",
+        filmUrl: "https://lion.box.com/s/zn1vaulw3lem603qp0i0f95q52r6waa0",
+        awards: { gp: 1, gold: 2, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/600k-network-01.jpg',
+            idea: 'assets/stills/600k-network-02.jpg',
+            execution: 'assets/stills/600k-network-03.jpg'
+        },
+        background: "委內瑞拉 2024 年總統大選在高壓下舉行：主要反對派人士被法院禁止參選、國際觀察被拒、選務機關由政權掌控。官方寫法是：要向世界證明真相，必須在官方宣布前取得可被國際機構驗證的即時資料。每張官方選票自 2021 年起都印有 QR code——政權無意中把可驗證紀錄留在每張選票上。",
+        idea: "把 QR code 轉成去中心化選舉驗證系統。Comando Con Venezuela 建了 app、採集協議與技術節點，讓數十萬委內瑞拉人只用手機就能當驗證者。創意來自沒有權力的那一方：政權寫下所有規則，聯盟從下面讀出那道縫，把它做成真相通往世界的入口。",
+        execution: "秘密訓練 60 萬志工，覆蓋 15,000 個投票所、30,000 張桌子；選當天部署 100 個靠發電機與衛星運作的地下技術節點。當夜採集 40%；隔日 73%；兩日內 85.18% 在 resultadosconvzla.com 逐桌公開。AP、Carter Center、Washington Post 驗證資料；49 國在聯合國要求透明；2025 年 Nobel Peace Prize 表彰這場以手機守住真相的公民動員。",
+        awardsDetail: [
+            { award: "Grand Prix for Good — Grand Prix for Good / Grand Prix for Good", icon: "🏆" },
+            { award: "Titanium Lion — Titanium / Titanium", icon: "🏅" },
+            { award: "Gold Lion — PR, Culture & Context / Breakthrough on a Budget", icon: "🥇" },
+            { award: "Gold Lion — Creative Data Lions, Core Data-Driven Creativity / Real-Time & Dynamic Creative", icon: "🥇" },
+            { award: "Shortlisted ×1 — Sustainable Development Goals, Peace / Peace, Justice and Strong Institutions", icon: "○" }
+        ]
+    },
+    {
+        id: 22,
+        title: "Nigrum Corpus",
+        year: "2026",
+        brand: "IDOMED & Instituto YDUQS",
+        agency: "ARTPLAN, Sao Paulo",
+        country: "Brazil",
+        summary: "把醫療種族偏見寫成可診斷的「病」：一本用 680 小時病患證詞做成的醫學書，訓練未來醫師看見黑人病患。",
+        boardImage: "boards/nigrum-corpus.jpg",
+        filmUrl: "https://lion.box.com/s/cz8i5xu7rob2kn4gdq9p99qtj5d16zel",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/nigrum-corpus-01.jpg',
+            idea: 'assets/stills/nigrum-corpus-02.jpg',
+            execution: 'assets/stills/nigrum-corpus-03.jpg'
+        },
+        background: "巴西 55.5% 人口是黑人與混血，但黑人病患醫療疏失可達 6 倍、問診更短、診斷延遲、專科更難進入。IDOMED 是 YDUQS 教育集團的醫學院校網絡，官方寫法是：醫學教育必須超越技術卓越，面對照護裡的系統性不平等。盤點多年，仍缺一本能讓未來醫師真正認出結構性種族主義如何進入診斷與治療的工具。",
+        idea: "Nigrum Corpus 不把種族主義當社會議題，而當臨床問題。交叉分析醫療研究、醫院資料、醫學教育研究與超過 680 小時病患證詞，把反覆出現的偏見模式翻譯成 20 多種「疾病」，放進第一本此類醫學書，讓未來醫師學會辨識、診斷、處理醫療中的種族主義。",
+        execution: "書以臨床語言、病例與視覺呈現寫成，直接進入巴西大學、醫學院與醫療機構的日常訓練。超過 11,000 名醫學生、10 多州；19 所大學表示有意納入課程；現已進入 World Health Organization 館藏。評審給的是 Glass Grand Prix：把偏見做成醫生本來就會讀的格式。",
+        awardsDetail: [
+            { award: "Grand Prix — Glass: The Lion For Change / Product/Service", icon: "🏆" },
+            { award: "Bronze Lion — Creative Data Lions, Responsible Data Practices / Purpose-Driven Data Solutions", icon: "🥉" }
+        ]
+    },
+    {
+        id: 23,
+        title: "Supernova Adaptive",
+        year: "2026",
+        brand: "Adidas",
+        agency: "TBWA\\CANADA, Toronto",
+        country: "Canada",
+        summary: "一雙為唐氏症社群設計、也為更廣障礙者測試的量產跑鞋：把「沒鞋可穿」變成可以上場。",
+        boardImage: "boards/supernova-adaptive.jpg",
+        filmUrl: "https://lion.box.com/s/eoccf4d8lv5uclmgpjtcpbix9bbrympf",
+        awards: { gp: 1, gold: 2, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/supernova-adaptive-01.jpg',
+            idea: 'assets/stills/supernova-adaptive-02.jpg',
+            execution: 'assets/stills/supernova-adaptive-03.jpg'
+        },
+        background: "每年設計數千雙運動鞋，卻沒有一雙符合數百萬唐氏症者的腳型。基因差異讓腳型不同，再加上認知與手部靈活度，機能鞋對許多障礙者根本不實用。Adidas 品牌宗旨是 Through sport, we have the power to change lives；官方寫法是：沒有適合的鞋，運動與社會參與都被關上。",
+        idea: "Adidas 第一雙受唐氏症社群啟發、並與他們共同設計的機能跑鞋。靈感來自品牌首位全球唐氏症贊助選手 Chris Nikic——他到德國總部告訴產品與設計團隊：偏見是障礙，但更根本的是腳會痛。66% 唐氏症者找不到合腳的鞋。過去 adaptive 多停在生活鞋，沒解決運動參與缺口。",
+        execution: "三年、六個原型、數百英里實測；Chris Nikic 穿原型跑完世界六大馬，個人最佳進步 30 分鐘。設計含加寬楦頭、磁吸扣、加固後跟、減壓鞋帶。2026 年 3 月 21 日 World Down Syndrome Day 在 29 國上市，取得 GAMUT Seal of Approval。adidas.com 美國首週銷售為上市基準 1.5 倍，42% 是首次購買 Adidas 的人。",
+        awardsDetail: [
+            { award: "Grand Prix — Innovation / Societal Innovation", icon: "🏆" },
+            { award: "Gold Lion — Design, Brand Design / Product Design", icon: "🥇" },
+            { award: "Gold Lion — Health and Wellness, Health Awareness & Advocacy / Brand-Led Education & Awareness", icon: "🥇" },
+            { award: "Silver Lion — Entertainment Lions For Sport, Challenges & Breakthroughs / Diversity & Inclusion in Sport", icon: "🥈" },
+            { award: "Shortlisted ×5 — Direct Culture & Context Corporate Purpose & Social Responsibility; Design Transformative Design Inclusive Design; Health and Wellness Brand-Led Education & Awareness; Glass Product/Service; Entertainment Lions For Sport Community Influencer & Co-Creation", icon: "○" }
+        ]
+    },
+    {
+        id: 24,
+        title: "The Wedding Rice",
+        year: "2026",
+        brand: "Wikifarmer",
+        agency: "McCANN ATHENS",
+        country: "Greece",
+        summary: "把婚禮撒米從浪費改成生意：用被外觀標準退貨的米，做成專供婚禮的新品類。",
+        boardImage: "boards/wedding-rice.jpg",
+        filmUrl: "https://lion.box.com/s/fmn8ysw4meivr9mrsp9gx4w7hwjm2c0r",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/wedding-rice-01.jpg',
+            idea: 'assets/stills/wedding-rice-02.jpg',
+            execution: 'assets/stills/wedding-rice-03.jpg'
+        },
+        background: "希臘婚禮撒米是祝福傳統，每年約 53,000 場婚禮浪費超過 200 噸可食用米。同時約 30% 稻米因外觀標準上不了架，農業部門因此少收 €24.3 million。Wikifarmer 是連接農民與企業的數位市集，官方寫法是：問題不在品質，而在「能用」被定義錯了——婚禮米本來就不是拿來吃的。",
+        idea: "不做系統內減廢，而是把新行為嵌進真實儀式。The Wedding Rice 全用被退貨的穀粒、專為婚禮設計；平台與超市、希臘最大婚展讓產品出現在決策當下。把米從食物改成象徵，儀式本身不變，數千場婚禮變成集體減廢。",
+        execution: "以短紀錄片推出，上架 Wikifarmer marketplace，並在 theweddingrice.com 開放模式；再到全國超市通路（Masoutis）。一年賣出 41 噸、覆蓋逾 10,000 場婚禮（希臘約 11%）、530 位農民從原本無價值庫存收得到錢；平台稻米銷售 +430%，12 個月擴到 3 個出口市場；110+ 媒體、23 國。Creative Business Transformation Grand Prix。",
+        awardsDetail: [
+            { award: "Grand Prix — Creative Business Transformation, Customer Experience Design / Brand Purpose & Impact", icon: "🏆" },
+            { award: "Shortlisted ×3 — Brand Experience and Activation Excellence in Brand Experience Launch/Relaunch; Brand Experience & Activation: Sectors Consumer Services/Business to Business; Creative Strategy Insights & Research Audience Insight", icon: "○" }
+        ]
+    },
+    {
+        id: 25,
+        title: "Uva Uva Bombón",
+        year: "2026",
+        brand: "UVA App",
+        agency: "DE LA CRUZ OGILVY, San Juan",
+        country: "Puerto Rico",
+        summary: "Bad Bunny 在超級盃中場唱出「UVA」，波多黎各外送 app 立刻變成 $1 店——13% 市占拿下 92.7% 類別互動。",
+        boardImage: "boards/uva-uva-bombon.jpg",
+        filmUrl: "https://lion.box.com/s/yl2mnaljs324gmacus10de8z7zsanbh0",
+        awards: { gp: 1, gold: 0, silver: 3, bronze: 1 },
+        stills: {
+            background: 'assets/stills/uva-uva-bombon-01.jpg',
+            idea: 'assets/stills/uva-uva-bombon-02.jpg',
+            execution: 'assets/stills/uva-uva-bombon-03.jpg'
+        },
+        background: "世界第一的藝人是波多黎各人，UVA 也是。在島上「uva」也是「很棒」的俚語。DoorDash 與 Uber Eats 用付費媒體搶超級盃，UVA 用他們買不到的東西：Bad Bunny 在 Tití Me Preguntó 裡把品牌名唱了三次。市占約 13% 的挑戰者，把一句歌詞做成整檔 Super Bowl 戰役，用來推出新版 app。",
+        idea: "大膽承諾：若世界第一藝人在大賽現場說出 UVA，app 就變成 $1 店。先公開會降到 $1 的品項，再讓人在 app 裡點歌、在社群逼他唱。2 月 8 日他在 1.35 億觀眾面前把 UVA 唱了三次。庫存在中場結束前售罄。",
+        execution: "律師帶頭的公告走 PR、社群與 app；中場以 AI 監聽直播，唱到「UVA」立刻開 $1 店。Tití Me Preguntó 開場。成果：超級盃當日活躍用戶 +173%；期間下載 +71%；2/8–14 週活躍用戶 +54.1%；交易 +13.2%；earned media value $53,577；類別互動佔比 92.7%（2,338 vs 對手合計 174），效率是下一品牌 10 倍、DoorDash 的 50 倍。",
+        awardsDetail: [
+            { award: "Grand Prix — Direct, Culture & Context / Challenger Brand", icon: "🏆" },
+            { award: "Silver Lion — Social and Creator, Social Content Marketing / Social Commerce", icon: "🥈" },
+            { award: "Silver Lion — Direct, Digital & Social / Real-Time Response", icon: "🥈" },
+            { award: "Silver Lion — Media, Culture & Context / Social Behaviour", icon: "🥈" },
+            { award: "Bronze Lion — Entertainment Lions For Music, Challenges & Breakthroughs / Challenger Brand", icon: "🥉" },
+            { award: "Shortlisted ×5 — Audio & Radio Culture & Context Challenger Brand; Social and Creator Culture & Context Challenger Brand; Social Insights & Engagement Real-Time Response; Direct Excellence in Direct Launch/Relaunch; Creative Commerce User Experience End-to-End Commerce", icon: "○" }
+        ]
+    },
+    {
+        id: 26,
+        title: "SOS POS",
+        year: "2026",
+        brand: "BCP",
+        agency: "CIRCUS GREY, Lima",
+        country: "Peru",
+        summary: "把店家刷卡機做成緊急鎖帳點：手機被搶後，到最近雜貨店輸入身分證與 PIN 就能鎖住帳戶。",
+        boardImage: "boards/sos-pos.jpg",
+        filmUrl: "https://lion.box.com/s/m4glskkgouamxfk8ztjbu32gmais0h9r",
+        awards: { gp: 1, gold: 3, silver: 1, bronze: 2 },
+        stills: {
+            background: 'assets/stills/sos-pos-01.jpg',
+            idea: 'assets/stills/sos-pos-02.jpg',
+            execution: 'assets/stills/sos-pos-03.jpg'
+        },
+        background: "祕魯每天超過 4,000 支手機被偷。犯人幾分鐘就能解鎖、從銀行 app 把錢轉走。每家銀行都有免費緊急專線，但官方問題是：沒有手機，要怎麼打電話鎖帳戶？BCP 是祕魯最大銀行，也收到最多失竊投訴。許多客戶住在搶案高、分行遠的外圍地區。",
+        idea: "把 POS 從收款工具改成手機被搶後的支援點。開發把 POS 接到銀行後台的前端 API；被搶後到最近店家，輸入國民身分證號與卡片四碼 PIN，就能在機台上鎖住所有帳戶。不需要打電話。",
+        execution: "先對準搶案熱區，與小型商家合作，放進 17,500 個鎖帳點，熱點不到兩分鐘可到。用全國收視最高的肥皂劇演主角被搶與下一步，再靠網紅與地方媒體放大；並與電信商提供 24 期零利率新手機。四個月保護超過 US$7.8 million，月投訴 -48%，品牌正面情緒 +83%。承諾 2026 年擴到 120,000 點，開源後可接到全國 130 萬台 POS。",
+        awardsDetail: [
+            { award: "Grand Prix — Creative Data Lions, Responsible Data Practices / Ethical Data & Privacy Innovation", icon: "🏆" },
+            { award: "Gold Lion — Brand Experience and Activation, Touchpoints & Technology / Use of Mobile & Devices", icon: "🥇" },
+            { award: "Gold Lion — Creative Data Lions, Responsible Data Practices / Purpose-Driven Data Solutions", icon: "🥇" },
+            { award: "Gold Lion — Digital Craft, Technology / Innovative Use of Technology", icon: "🥇" },
+            { award: "Silver Lion — Brand Experience & Activation: Sectors / Consumer Services/Business to Business", icon: "🥈" },
+            { award: "Bronze Lion — Direct, Culture & Context / Market Disruption", icon: "🥉" },
+            { award: "Bronze Lion — Innovation / Brand-Led Innovation", icon: "🥉" },
+            { award: "Shortlisted ×9 — Direct Local Brand; Retail Experience & Activation（兩項）; Titanium; Innovation Societal Innovation; Creative Data Data-Driven Creative Strategy; Creative Data Retail Media; Digital Craft Real-Time Usage & Targeting; Digital Craft Native & Built-In Feature Integration", icon: "○" }
+        ]
+    },
+    {
+        id: 27,
+        title: "Rosalía ft. Björk, Yves Tumor - Berghain",
+        year: "2026",
+        brand: "Rosalía",
+        agency: "CANADA, Barcelona",
+        country: "Spain",
+        summary: "把流行音樂錄影帶做成黑暗奇幻的三角色敘事：Rosalía、Björk、Yves Tumor 在華沙實景裡變成精神體。",
+        boardImage: "boards/berghain.jpg",
+        filmUrl: "https://lion.box.com/s/havnndp2cfm74f8bt4ta296rgkgnqkoj",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/berghain-01.jpg',
+            idea: 'assets/stills/berghain-02.jpg',
+            execution: 'assets/stills/berghain-03.jpg'
+        },
+        background: "官方 Background：Rosalía 從傳統 flamenco 走到音樂創新者，這支作品標誌她轉向 avant-pop。邀請 Björk 與 Yves Tumor，是為了離開主流流行套路、走向高藝術美學。在西語世界與全球另類場景同步推出，用超現實對上她既有的流行形象。",
+        idea: "把超現實織進日常：一支影子樂團跟著 Rosalía 移動。視覺借 Hildegarda Von Bingen 的生平與 Eyvind Earle 的畫面，用「白雪公主」框架把三位客座藝人當成不同精神體。宗教象徵與 Krzysztof Kieślowski 的色盤，讓品牌不再只是音樂，而是全球前衛藝術。",
+        execution: "在波蘭華沙把破舊空間改成場景：客廳與臥室極簡，好讓 Rosalía 與樂團成為焦點；改造窗戶加橫樑做成十字；廚房與浴室從零搭建；過渡走廊呈現兩種時間狀態。YouTube 24 小時 7 million views、兩個月 35 million；The Fader 稱 2025 最驚人影像，Pitchfork 讀者票選年度歌曲第一。Entertainment Lions For Music Grand Prix。無 Case Film，使用官方 Original Content。",
+        awardsDetail: [
+            { award: "Grand Prix — Entertainment Lions For Music, Branded Content for Music / Excellence in Music Video", icon: "🏆" }
+        ]
+    },
+    {
+        id: 28,
+        title: "Relax Your Tight End",
+        year: "2026",
+        brand: "Novartis",
+        agency: "FALLON, Minneapolis",
+        country: "United States",
+        summary: "用 NFL tight end 雙關，在超級盃告訴 4,000 萬逃避篩檢的男人：攝護腺癌篩檢從抽血開始。",
+        boardImage: "boards/relax-your-tight-end.jpg",
+        filmUrl: "https://lion.box.com/s/vbg4dyzssf6wwl173a6ghhjps84wem8w",
+        awards: { gp: 1, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/relax-your-tight-end-01.jpg',
+            idea: 'assets/stills/relax-your-tight-end-02.jpg',
+            execution: 'assets/stills/relax-your-tight-end-03.jpg'
+        },
+        background: "美國每 8 名男性就有 1 人會成為攝護腺癌患者，但 4,000 萬人聽到「指檢」就緊繃、不篩。多數人不知道經醫師開立的 PSA 抽血即可篩檢，也可追蹤病程。CDC 因準確度建議 PSA，多數醫生卻仍依賴舊檢查。主要對象是 40 歲以上高風險、因恐懼與污名逃避篩檢的男性。",
+        idea: "借用 NFL 合作，劫持 tight end 的雙關。把最傳奇的 NFL tight ends 帶到超級盃做最不預期的事——放鬆。前列腺癌倖存教練 Bruce Arians 用可信度把幽默落地：篩檢從抽血開始。把禁忌變成大家都懂的笑話，並用各隊在地賽前篩檢活動把人帶去抽血。",
+        execution: "所有路徑指向 relaxitsabloodtest.com；與倡議團體降低受管制檢測的門檻；NFL 球隊現場可直接抽血。TODAY Show 首播（2.32MM impressions）、超級盃第三節、Delta 飛舊金山航班。官方頁面：171 則 earned、USA Today Ad Meter #7（製藥品牌最高）、付費 409M+ impressions、YouTube 1M+；65 歲以上男性廣告認知 +167%；PSA 預約 9.8 倍。Board 另列 2.9B total impressions、PSA 排程 +980%。Pharma Grand Prix。使用官方 Film，不是 Case Film。",
+        awardsDetail: [
+            { award: "Grand Prix — Pharma, Direct to Consumer / Unbranded Product or Service Promotion", icon: "🏆" },
+            { award: "Silver Lion — Pharma, Direct to Consumer / Unbranded Product or Service Promotion", icon: "🥈" },
+            { award: "Shortlisted ×2 — Pharma Direct to Consumer Unbranded Product or Service Promotion; Entertainment Lions For Sport Partnerships / Partnerships with Sports Talent", icon: "○" }
+        ]
+    },
+    {
+        id: 29,
+        title: "Vehicle of Hope",
+        year: "2026",
+        brand: "Caritas",
+        agency: "DIFFER, Stockholm",
+        country: "Sweden",
+        summary: "把教宗方濟各的 popemobile 改成加薩兒童巡迴診所：用買不到的象徵，讓被擋住的人道援助被全世界看見。",
+        boardImage: "boards/vehicle-of-hope.jpg",
+        filmUrl: "https://lion.box.com/s/2cckx6t14rwrvs3n99g9tb20f0a55bdt",
+        awards: { gp: 1, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/vehicle-of-hope-01.jpg',
+            idea: 'assets/stills/vehicle-of-hope-02.jpg',
+            execution: 'assets/stills/vehicle-of-hope-03.jpg'
+        },
+        background: "Caritas 在加薩經營 10 座醫療診所、雇用 126 人。官方 Background：以色列阻擋多數人道與醫療物資進入，兒童因此患上可預防、可治療的疾病。Caritas 要讓被限制的人道通道被看見。Vehicle of Hope 是對加薩醫療體系近乎全面崩潰的直接、實作、也具象徵的回應。",
+        idea: "把方濟各 2014 年西岸之行使用的 popemobile 改造成加薩兒童行動診所。方濟各在去世前祝福此案；The New York Times 在葬禮一週後把計畫變成全球新聞。2025 年 11 月改裝車在伯利恆向國際媒體亮相。方濟各坐過的座位，每天可為 200 名兒童施打疫苗與給藥。",
+        execution: "方濟各病逝後、樞機會議前只剩十天對外公布。投稿給 NYT 耶路撒冷記者，2025 年 5 月 4 日刊出；Vatican News 同日、全球 300 家媒體跟進。11 月 25 日 Cardinal Anders Arborelius 在伯利恆記者會，BBC、AP、Reuters 報導。Meltwater：潛在 earned reach 70 billion、5,600 篇文章、2,900 則電視廣播、103 國、$648M earned media value。啟發其他 NGO 再建七座巡迴診所；方濟各與教宗良十四世都祝福。Lions Health Grand Prix for Good。",
+        awardsDetail: [
+            { award: "Grand Prix for Good — Lions Health Grand Prix For Good", icon: "🏆" },
+            { award: "Gold Lion — Health and Wellness, Health Awareness & Advocacy / Non-profit Health Education, Advocacy & Fundraising", icon: "🥇" },
+            { award: "Shortlisted ×5 — Titanium; PR: Sectors Not-for-Profit / Charity / Government; PR Techniques Media Relations; PR Culture & Context Breakthrough on a Budget; Glass Initiatives", icon: "○" }
+        ]
+    },
+    {
+        id: 30,
+        title: "Coquí Alarmed",
+        year: "2026",
+        brand: "Hyundai",
+        agency: "BBDO PUERTO RICO, Guaynabo",
+        country: "Puerto Rico",
+        summary: "把租車鎖車嗶聲換成瀕危 coquí 的叫聲：遊客一按鑰匙，就聽見波多黎各的夜曲。",
+        boardImage: "boards/coqui-alarmed.jpg",
+        filmUrl: "https://lion.box.com/s/6yeyxcgp0bgm3irve44cz7f1bbqyvyzh",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/coqui-alarmed-01.jpg',
+            idea: 'assets/stills/coqui-alarmed-02.jpg',
+            execution: 'assets/stills/coqui-alarmed-03.jpg'
+        },
+        background: "在波多黎各，coquí 不只是青蛙，是國家圖騰與島嶼夜間聲景。2025 年 5 月一名遊客在 Reddit 問怎麼除掉這隻「吵」的青蛙。對他是噪音，對波多黎各人是攻擊認同、也是對瀕危物種的威脅。社群憤怒反擊；Hyundai 選擇用驕傲與行動回應。品牌在當地深耕逾 20 年。",
+        idea: "與租車公司合作，在遊客開始探索島嶼的那一刻攔截：把 Hyundai 租車鎖車的出廠「嗶嗶」換成 coquí 求偶叫聲。功能配備變成媒介。每台車附掛卡解釋文化與生態意義，聲音不只被聽見，也被理解。59% 訪客租車——這是接觸遊客的第一接觸點。",
+        execution: "更換警報裝置線材、裝回車輛、測試新聲。五週觸及逾 7,000 名遊客。官方成果：首兩週 9M impressions、社群 3M reach、正面情緒 +98%、總觀看 8,639,519、engagements +120%。波多黎各人開始要求出廠就有 coquí 聲的 Hyundai。Audio & Radio Grand Prix。",
+        awardsDetail: [
+            { award: "Grand Prix — Audio & Radio, Culture & Context / Single-Market Campaign", icon: "🏆" },
+            { award: "Shortlisted ×2 — Audio & Radio Culture & Context Corporate Purpose & Social Responsibility; Audio & Radio Innovation in Audio & Radio / Use of Audio & Radio as a Medium", icon: "○" }
+        ]
     }
 ];
 
