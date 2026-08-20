@@ -708,16 +708,17 @@ body {
 
 .customize-content {
     flex: 1;
-    overflow-y: auto;
-    padding: 24px 24px 0;
+    min-height: 0;
+    overflow: hidden;
+    padding: 16px 20px 0;
     display: flex;
     flex-direction: column;
 }
 
 .lion-preview {
-    width: 200px;
-    height: 240px;
-    margin: 0 auto 24px;
+    width: 180px;
+    height: 200px;
+    margin: 0 auto 12px;
     position: relative;
     flex-shrink: 0;
 }
@@ -747,8 +748,10 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-bottom: 16px;
-    flex-shrink: 0;
+    margin-bottom: 8px;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
 }
 
 .item-slot {
@@ -823,27 +826,30 @@ body {
 
 .category-tabs {
     display: flex;
-    gap: 8px;
+    gap: 6px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-shrink: 0;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .category-tab {
-    padding: 10px 16px;
+    padding: 8px 12px;
     border-radius: 20px;
     border: 2px solid #EBEBEB;
     background: var(--white);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     color: #666;
     cursor: pointer;
     transition: all 0.2s ease;
-    min-height: 44px;
+    min-height: 40px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .category-tab.active {
@@ -860,7 +866,7 @@ body {
     display: flex;
     gap: 16px;
     justify-content: center;
-    padding: 20px 24px 24px;
+    padding: 12px 0 calc(16px + env(safe-area-inset-bottom, 0px));
     flex-shrink: 0;
 }
 
