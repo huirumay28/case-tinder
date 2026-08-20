@@ -1419,21 +1419,20 @@ const categoryZIndex = {
     '帽子': 6     // beret, crown
 };
 
-// Layer metadata: pixel-aligned (full 1254x1254) vs merch-only stickers (need CSS positioning)
+// Layer metadata: all merch layers are pixel-aligned full-frame overlays on assets/lion-naked.png
 const layerMetadata = {
     'beret': { type: 'pixel-aligned', path: 'assets/layers/beret.png' },
-    'tank': { type: 'sticker', path: 'assets/layers/tank.png', position: { top: '35%', left: '50%', width: '45%', transform: 'translate(-50%, -50%)' } },
-    'shorts': { type: 'sticker', path: 'assets/layers/shorts.png', position: { top: '65%', left: '50%', width: '40%', transform: 'translate(-50%, -50%)' } },
-    'sneakers': { type: 'sticker', path: 'assets/layers/sneakers.png', position: { bottom: '5%', left: '50%', width: '50%', transform: 'translateX(-50%)' } },
-    'hammer': { type: 'sticker', path: 'assets/layers/hammer.png', position: { top: '40%', right: '10%', width: '35%' } },
-    'beer': { type: 'sticker', path: 'assets/layers/beer.png', position: { top: '50%', left: '15%', width: '25%' } },
-    'gloves': { type: 'sticker', path: 'assets/layers/gloves.png', position: { top: '55%', left: '50%', width: '60%', transform: 'translateX(-50%)' } },
-    // Missing layers: use existing assets as fallback
-    'bag': { type: 'fallback', path: 'assets/lion-bag.svg' },
-    'sunglasses': { type: 'fallback', path: 'assets/lion-sunglasses.svg' },
-    'necklace': { type: 'fallback', path: 'assets/lion-necklace.svg' },
-    'snowboard': { type: 'fallback', path: 'assets/lion-snowboard.svg' },
-    'crown': { type: 'fallback', path: 'assets/lion-crown.svg' }
+    'tank': { type: 'pixel-aligned', path: 'assets/layers/tank.png' },
+    'shorts': { type: 'pixel-aligned', path: 'assets/layers/shorts.png' },
+    'sneakers': { type: 'pixel-aligned', path: 'assets/layers/sneakers.png' },
+    'bag': { type: 'pixel-aligned', path: 'assets/layers/bag.png' },
+    'sunglasses': { type: 'pixel-aligned', path: 'assets/layers/sunglasses.png' },
+    'hammer': { type: 'pixel-aligned', path: 'assets/layers/hammer.png' },
+    'necklace': { type: 'pixel-aligned', path: 'assets/layers/necklace.png' },
+    'snowboard': { type: 'pixel-aligned', path: 'assets/layers/snowboard.png' },
+    'crown': { type: 'pixel-aligned', path: 'assets/layers/crown.png' },
+    'beer': { type: 'pixel-aligned', path: 'assets/layers/beer.png' },
+    'gloves': { type: 'pixel-aligned', path: 'assets/layers/gloves.png' }
 };
 
 function getLayerPath(itemId) {
@@ -1463,58 +1462,31 @@ function renderLionStack(container, equippedSet) {
     const base = document.createElement('img');
     base.src = 'assets/lion-naked.png';
     base.alt = 'Lion';
+    base.style.position = 'absolute';
+    base.style.inset = '0';
     base.style.width = '100%';
     base.style.height = '100%';
     base.style.objectFit = 'contain';
-    base.style.display = 'block';
     stack.appendChild(base);
     
     // Sort equipped items by z-index (category order)
     const equippedItems = merchItems.filter(item => equippedSet.has(item.id));
     equippedItems.sort((a, b) => categoryZIndex[a.category] - categoryZIndex[b.category]);
     
-    // Add each layer
+    // Add each layer as pixel-aligned overlay
     equippedItems.forEach(item => {
-        const metadata = layerMetadata[item.id];
         const layer = document.createElement('img');
         layer.src = getLayerPath(item.id);
         layer.alt = item.name;
         layer.style.position = 'absolute';
+        layer.style.inset = '0';
+        layer.style.width = '100%';
+        layer.style.height = '100%';
+        layer.style.objectFit = 'contain';
         layer.style.pointerEvents = 'none';
         layer.style.zIndex = categoryZIndex[item.category].toString();
         
-        // Apply positioning based on layer type
-        if (metadata && metadata.type === 'pixel-aligned') {
-            // Full-size pixel-aligned layer (like beret)
-            layer.style.top = '0';
-            layer.style.left = '0';
-            layer.style.width = '100%';
-            layer.style.height = '100%';
-            layer.style.objectFit = 'contain';
-        } else if (metadata && metadata.type === 'sticker' && metadata.position) {
-            // Merch-only sticker: apply CSS positioning
-            Object.entries(metadata.position).forEach(([key, value]) => {
-                layer.style[key] = value;
-            });
-            layer.style.objectFit = 'contain';
-        } else if (metadata && metadata.type === 'fallback') {
-            // Fallback to existing asset (centered, smaller)
-            layer.style.top = '50%';
-            layer.style.left = '50%';
-            layer.style.transform = 'translate(-50%, -50%)';
-            layer.style.maxWidth = '80%';
-            layer.style.maxHeight = '80%';
-            layer.style.objectFit = 'contain';
-        } else {
-            // Default: full-size
-            layer.style.top = '0';
-            layer.style.left = '0';
-            layer.style.width = '100%';
-            layer.style.height = '100%';
-            layer.style.objectFit = 'contain';
-        }
-        
-        // Hide if image fails to load (file not yet uploaded)
+        // Hide if image fails to load
         layer.onerror = () => {
             layer.style.display = 'none';
         };
@@ -1699,15 +1671,17 @@ function renderItemSelection(category) {
         `;
     });
     
-    // Add locked slots (up to max items in category)
-    const totalSlots = Math.max(3, categoryItems.length);
-    for (let i = unlockedItems.length; i < totalSlots; i++) {
+    // Add locked slots for real items that aren't unlocked yet
+    lockedItems.forEach(item => {
         html += `
             <div class="item-slot locked">
+                <div class="item-icon">
+                    <img src="${getIconPath(item.id)}" alt="${item.name}" onerror="this.parentElement.classList.add('${item.id}-icon')">
+                </div>
                 <div class="locked-label">未解鎖</div>
             </div>
         `;
-    }
+    });
     
     itemSelection.innerHTML = html;
     
