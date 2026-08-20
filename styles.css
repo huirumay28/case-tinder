@@ -456,6 +456,11 @@ body {
     }
 }
 
+.lion-character .lion-stack {
+    width: 100%;
+    height: 100%;
+}
+
 .lion-character img {
     position: absolute;
     top: 50%;
@@ -721,6 +726,11 @@ body {
     position: relative;
 }
 
+.lion-preview .lion-stack {
+    width: 100%;
+    height: 100%;
+}
+
 .lion-preview img {
     position: absolute;
     top: 50%;
@@ -888,6 +898,16 @@ body {
 }
 
 /* Merch Icon Styles */
+/* Icons now use img tags with fallback to background-image for missing files */
+.item-icon img,
+.merch-icon-small img,
+.day-merch-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Fallback background icons when img fails to load */
 .beret-icon,
 .merch-icon-small.beret-icon,
 .day-merch-icon.beret-icon,
@@ -895,11 +915,39 @@ body {
     background-image: url('assets/merch-hat.png');
 }
 
+.tank-icon,
+.merch-icon-small.tank-icon,
+.day-merch-icon.tank-icon,
+.item-icon.tank-icon {
+    background-image: url('assets/icons/tank.png');
+}
+
+.shorts-icon,
+.merch-icon-small.shorts-icon,
+.day-merch-icon.shorts-icon,
+.item-icon.shorts-icon {
+    background-image: url('assets/icons/shorts.png');
+}
+
+.sneakers-icon,
+.merch-icon-small.sneakers-icon,
+.day-merch-icon.sneakers-icon,
+.item-icon.sneakers-icon {
+    background-image: url('assets/icons/sneakers.png');
+}
+
 .sunglasses-icon,
 .merch-icon-small.sunglasses-icon,
 .day-merch-icon.sunglasses-icon,
 .item-icon.sunglasses-icon {
     background-image: url('assets/lion-sunglasses.svg');
+}
+
+.hammer-icon,
+.merch-icon-small.hammer-icon,
+.day-merch-icon.hammer-icon,
+.item-icon.hammer-icon {
+    background-image: url('assets/icons/hammer.png');
 }
 
 .necklace-icon,
@@ -928,6 +976,20 @@ body {
 .day-merch-icon.crown-icon,
 .item-icon.crown-icon {
     background-image: url('assets/lion-crown.svg');
+}
+
+.beer-icon,
+.merch-icon-small.beer-icon,
+.day-merch-icon.beer-icon,
+.item-icon.beer-icon {
+    background-image: url('assets/icons/beer.png');
+}
+
+.gloves-icon,
+.merch-icon-small.gloves-icon,
+.day-merch-icon.gloves-icon,
+.item-icon.gloves-icon {
+    background-image: url('assets/icons/gloves.png');
 }
 
 .placeholder-container {
