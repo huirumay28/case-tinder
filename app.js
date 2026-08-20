@@ -1425,6 +1425,12 @@ const categoryZIndex = {
 
 // Layer metadata: all merch layers are pixel-aligned full-frame overlays on assets/lion-naked.png
 // NOTE: 'tank' (性感吊嘎) should be a plain white sleeveless undershirt, NOT a sexy/cropped tank
+//
+// ASSET COMPRESSION REQUIREMENTS for GitHub Pages iPhone performance:
+// - Icons (assets/icons/): ≤512px, target ~80KB per file
+// - Layers (assets/layers/): ≤768px, target ~150KB per file
+// - Use PNG-8 with alpha when possible, PNG-24 only if needed for gradients
+// - Run through ImageOptim / TinyPNG before committing
 const layerMetadata = {
     'beret': { type: 'pixel-aligned', path: 'assets/layers/beret.png' },
     'tank': { type: 'pixel-aligned', path: 'assets/layers/tank.png' },  // Plain white tank, not sexy
