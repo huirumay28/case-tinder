@@ -716,8 +716,8 @@ body {
 
 .lion-preview {
     width: 200px;
-    height: 230px;
-    margin: 0 auto 20px;
+    height: 240px;
+    margin: 0 auto 24px;
     position: relative;
     flex-shrink: 0;
 }
@@ -744,10 +744,10 @@ body {
     gap: 12px;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 200px;
-    max-height: 220px;
+    min-height: 192px;
+    max-height: 192px;
     overflow: hidden;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     flex-shrink: 0;
 }
 
@@ -783,9 +783,9 @@ body {
 }
 
 .item-icon {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto 6px;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 8px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -829,7 +829,7 @@ body {
 }
 
 .category-tab {
-    padding: 8px 16px;
+    padding: 10px 16px;
     border-radius: 20px;
     border: 2px solid #EBEBEB;
     background: var(--white);
@@ -838,6 +838,10 @@ body {
     color: #666;
     cursor: pointer;
     transition: all 0.2s ease;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .category-tab.active {
@@ -852,20 +856,24 @@ body {
 
 .customize-actions {
     display: flex;
-    gap: 12px;
+    gap: 16px;
     justify-content: center;
-    padding: 16px 24px 24px;
+    padding: 20px 24px 24px;
     flex-shrink: 0;
 }
 
 .action-pill-button {
-    padding: 12px 28px;
+    padding: 14px 32px;
     border-radius: 24px;
     border: none;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .action-pill-button.primary {
