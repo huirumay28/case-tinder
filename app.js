@@ -880,15 +880,14 @@ async function handleNameSelection(name) {
             likedCases = new Set(data.likes || []);
             todaySwipedCaseIds = new Set(data.todayCaseIds || []);
             
-            // Merge API viewedDays with local, normalizing all dates
-            if (data.viewedDays && data.viewedDays.length > 0) {
-                data.viewedDays.forEach(day => {
-                    const normalized = normalizeDay(day);
-                    if (normalized) {
-                        viewedDays.add(normalized);
-                    }
-                });
-            }
+            // Sheet is source of truth. Drop the Aug 8–18 tester seed days.
+            viewedDays = new Set();
+            (data.viewedDays || []).forEach(day => {
+                const normalized = normalizeDay(day);
+                if (normalized && normalized >= '2026-08-19') {
+                    viewedDays.add(normalized);
+                }
+            });
             
             calculateStreak();
             calculateUnlocks();
@@ -925,15 +924,14 @@ async function loadUserState() {
             likedCases = new Set(data.likes || []);
             todaySwipedCaseIds = new Set(data.todayCaseIds || []);
             
-            // Merge API viewedDays with local, normalizing all dates
-            if (data.viewedDays && data.viewedDays.length > 0) {
-                data.viewedDays.forEach(day => {
-                    const normalized = normalizeDay(day);
-                    if (normalized) {
-                        viewedDays.add(normalized);
-                    }
-                });
-            }
+            // Sheet is source of truth. Drop the Aug 8–18 tester seed days.
+            viewedDays = new Set();
+            (data.viewedDays || []).forEach(day => {
+                const normalized = normalizeDay(day);
+                if (normalized && normalized >= '2026-08-19') {
+                    viewedDays.add(normalized);
+                }
+            });
             
             calculateStreak();
             calculateUnlocks();
@@ -1439,11 +1437,11 @@ const layerMetadata = {
 function getLayerPath(itemId) {
     const metadata = layerMetadata[itemId];
     const path = metadata ? metadata.path : `assets/layers/${itemId}.png`;
-    return `${path}?v=20260821a`;
+    return `${path}?v=20260821b`;
 }
 
 function getIconPath(itemId) {
-    return `assets/icons/${itemId}.png?v=20260821a`;
+    return `assets/icons/${itemId}.png?v=20260821b`;
 }
 
 function renderLion() {
@@ -1464,7 +1462,7 @@ function renderLionStack(container, equippedSet) {
     // Bag hangs on the shoulder of the official combo; hammer/beer sit on the down-arm paw.
     // Arm-out base was a bolted-on third limb — do not swap.
     const base = document.createElement('img');
-    base.src = 'assets/lion-naked.png?v=20260821a';
+    base.src = 'assets/lion-naked.png?v=20260821b';
     base.alt = 'Lion';
     base.style.position = 'absolute';
     base.style.inset = '0';
