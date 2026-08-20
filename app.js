@@ -694,17 +694,17 @@ const merchItems = [
     { id: 'tank', name: '性感吊嘎', daysRequired: 2, category: '上身' },  // Display name only; actual item: plain white tank
     { id: 'shorts', name: '短褲', daysRequired: 3, category: '下身' },
     { id: 'sneakers', name: '球鞋', daysRequired: 4, category: '腳' },
-    { id: 'bag', name: '創意小包', daysRequired: 5, category: '手' },
+    { id: 'bag', name: '創意小包', daysRequired: 5, category: '包' },
     { id: 'sunglasses', name: '墨鏡', daysRequired: 6, category: '臉部' },
     { id: 'hammer', name: '雷神之鎚', daysRequired: 7, category: '手' },
-    { id: 'necklace', name: '金獅項鏈', daysRequired: 8, category: '上身' },
+    { id: 'necklace', name: '金獅項鏈', daysRequired: 8, category: '飾品' },
     { id: 'snowboard', name: '滑雪板', daysRequired: 9, category: '腳' },
     { id: 'crown', name: '小皇冠', daysRequired: 10, category: '帽子' },
     { id: 'beer', name: '18 天生啤酒', daysRequired: 11, category: '手' },
     { id: 'gloves', name: '金手套', daysRequired: 12, category: '手' }
 ];
 
-const merchCategories = ['帽子', '臉部', '手', '腳', '上身', '下身'];
+const merchCategories = ['帽子', '臉部', '飾品', '上身', '下身', '包', '手', '腳'];
 
 // Initialize app
 async function init() {
@@ -1417,10 +1417,12 @@ function updateBioTab() {
 const categoryZIndex = {
     '腳': 1,      // snowboard, sneakers
     '下身': 2,    // shorts
-    '上身': 3,    // tank, necklace
-    '手': 4,      // bag, hammer, beer, gloves
-    '臉部': 5,    // sunglasses
-    '帽子': 6     // beret, crown
+    '上身': 3,    // tank
+    '包': 4,      // bag (shoulder tote, stacks with held items)
+    '手': 5,      // hammer, beer, gloves
+    '飾品': 6,    // necklace (stacks with tank)
+    '臉部': 7,    // sunglasses
+    '帽子': 8     // beret, crown
 };
 
 // Layer metadata: all merch layers are pixel-aligned full-frame overlays on assets/lion-naked.png
@@ -1443,11 +1445,11 @@ const layerMetadata = {
 function getLayerPath(itemId) {
     const metadata = layerMetadata[itemId];
     const path = metadata ? metadata.path : `assets/layers/${itemId}.png`;
-    return `${path}?v=20260820s`;
+    return `${path}?v=20260820t`;
 }
 
 function getIconPath(itemId) {
-    return `assets/icons/${itemId}.png?v=20260820s`;
+    return `assets/icons/${itemId}.png?v=20260820t`;
 }
 
 function renderLion() {
@@ -1468,7 +1470,7 @@ function renderLionStack(container, equippedSet) {
     // Bag hangs on the shoulder of the official combo; hammer/beer sit on the down-arm paw.
     // Arm-out base was a bolted-on third limb — do not swap.
     const base = document.createElement('img');
-    base.src = 'assets/lion-naked.png?v=20260820s';
+    base.src = 'assets/lion-naked.png?v=20260820t';
     base.alt = 'Lion';
     base.style.position = 'absolute';
     base.style.inset = '0';
