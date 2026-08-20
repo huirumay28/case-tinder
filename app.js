@@ -925,8 +925,9 @@ async function loadUserState() {
             }
             
             calculateStreak();
-            calculateUnlocks();
+            applyTesterUnlocks();
             saveProgress();
+            updateBioTab();
         }
     } catch (error) {
         console.error('Failed to load user state:', error);
@@ -995,7 +996,7 @@ function loadProgress() {
     }
     
     calculateStreak();
-    calculateUnlocks();
+    applyTesterUnlocks();
 }
 
 // Save progress to localStorage
@@ -1046,6 +1047,22 @@ function calculateStreak() {
 }
 
 // Calculate unlocks based on current streak (recompute from scratch each time)
+
+const TESTER_STREAK = {
+    'Huiru': 13,
+    'Brian Chen': 13,
+    'Ping Tseng': 13,
+    'Vivi Tsou': 13
+};
+
+function applyTesterUnlocks() {
+    const forced = TESTER_STREAK[currentUser];
+    if (forced) {
+        streak = Math.max(streak, forced);
+        calculateUnlocks();
+    }
+}
+
 function calculateUnlocks() {
     unlockedMerch = new Set();
     
@@ -1382,6 +1399,7 @@ function openCaseDetailView(caseId, memberName) {
 
 // Update bio tab UI
 function updateBioTab() {
+    applyTesterUnlocks();
     document.getElementById('streakNumber').textContent = streak;
     
     renderLion();
