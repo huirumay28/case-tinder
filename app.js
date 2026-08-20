@@ -693,7 +693,7 @@ const merchItems = [
     { id: 'bag', name: '創意小包', daysRequired: 5, category: '手' },
     { id: 'sunglasses', name: '墨鏡', daysRequired: 6, category: '臉部' },
     { id: 'hammer', name: '雷神之鎚', daysRequired: 7, category: '手' },
-    { id: 'necklace', name: '金獅項鍊', daysRequired: 8, category: '上身' },
+    { id: 'necklace', name: '金獅項鏈', daysRequired: 8, category: '上身' },
     { id: 'snowboard', name: '滑雪板', daysRequired: 9, category: '腳' },
     { id: 'crown', name: '小皇冠', daysRequired: 10, category: '帽子' },
     { id: 'beer', name: '18 天生啤酒', daysRequired: 11, category: '手' },
@@ -1442,7 +1442,14 @@ function getLayerPath(itemId) {
 }
 
 function getIconPath(itemId) {
-    // Icon files: assets/icons/<id>.png
+    const fallback = {
+        bag: 'assets/lion-bag.svg',
+        sunglasses: 'assets/lion-sunglasses.svg',
+        necklace: 'assets/lion-necklace.svg',
+        snowboard: 'assets/lion-snowboard.svg',
+        crown: 'assets/lion-crown.svg'
+    };
+    if (fallback[itemId]) return fallback[itemId];
     return `assets/icons/${itemId}.png`;
 }
 
