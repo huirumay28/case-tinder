@@ -1521,7 +1521,7 @@ function renderCommentSection(caseId) {
             <div class="comment-composer">
                 <textarea 
                     class="comment-input" 
-                    placeholder="說一句…" 
+                    placeholder="覺得勒" 
                     maxlength="200"
                     rows="1"
                 ></textarea>
