@@ -937,6 +937,10 @@ let teamMembers = [];
 // Member likes data (will be loaded from API)
 let memberLikesData = {};
 
+// Comments cache
+let commentsCache = {};
+let commentCountsCache = {};
+
 // Merch unlock rules: based on consecutive streak days
 // NEW MECHANISM: Every Taipei day with ≥1 case viewed unlocks ONE merch
 // Streak 1 unlocks merch 1 (貝雷帽), streak 2 unlocks merch 2, etc.
@@ -1397,6 +1401,238 @@ function getAvatarLetter(name) {
     return name.charAt(0).toUpperCase();
 }
 
+// Fetch comments for a case
+async function fetchComments(caseId) {
+    try {
+        const data = await jsonp(CASETINDER_API, { 
+            action: 'comments',
+            caseId: caseId
+        });
+        
+        if (data.ok) {
+            commentsCache[caseId] = data.comments || [];
+            return data.comments || [];
+        }
+        
+        return [];
+    } catch (err) {
+        console.error('Error fetching comments:', err);
+        return [];
+    }
+}
+
+// Fetch comment counts for all cases
+async function fetchCommentCounts() {
+    try {
+        const data = await jsonp(CASETINDER_API, { 
+            action: 'comments'
+        });
+        
+        if (data.ok) {
+            commentCountsCache = data.counts || {};
+            return data.counts || {};
+        }
+        
+        return {};
+    } catch (err) {
+        console.error('Error fetching comment counts:', err);
+        return {};
+    }
+}
+
+// Post a comment
+async function postComment(caseId, text) {
+    if (!currentUser) return null;
+    
+    try {
+        const data = await jsonp(CASETINDER_API, {
+            action: 'comment',
+            name: currentUser,
+            caseId: caseId,
+            text: text
+        });
+        
+        if (data.ok && data.comment) {
+            // Update cache
+            if (!commentsCache[caseId]) {
+                commentsCache[caseId] = [];
+            }
+            commentsCache[caseId].push(data.comment);
+            
+            // Update count cache
+            const caseIdStr = String(caseId);
+            commentCountsCache[caseIdStr] = (commentCountsCache[caseIdStr] || 0) + 1;
+            
+            return data.comment;
+        }
+        
+        return null;
+    } catch (err) {
+        console.error('Error posting comment:', err);
+        return null;
+    }
+}
+
+// Format timestamp for display
+function formatCommentTime(timestamp) {
+    const date = new Date(timestamp);
+    const now = new Date();
+    const diffMs = now - date;
+    const diffMins = Math.floor(diffMs / 60000);
+    
+    if (diffMins < 1) return '剛剛';
+    if (diffMins < 60) return `${diffMins}分鐘前`;
+    
+    const diffHours = Math.floor(diffMins / 60);
+    if (diffHours < 24) return `${diffHours}小時前`;
+    
+    const diffDays = Math.floor(diffHours / 24);
+    if (diffDays < 7) return `${diffDays}天前`;
+    
+    return date.toLocaleDateString('zh-TW', { month: 'numeric', day: 'numeric' });
+}
+
+// Render comment section
+function renderCommentSection(caseId) {
+    const comments = commentsCache[caseId] || [];
+    
+    const threadHTML = comments.length > 0 
+        ? comments.map(comment => {
+            const isMine = comment.name === currentUser;
+            return `
+                <div class="comment-bubble ${isMine ? 'mine' : ''}">
+                    <div class="comment-avatar" style="background-color: ${getAvatarColor(comment.name)}">
+                        ${getAvatarLetter(comment.name)}
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-meta">
+                            <span class="comment-name">${comment.name}</span>
+                            <span class="comment-time">${formatCommentTime(comment.timestamp)}</span>
+                        </div>
+                        <div class="comment-text">${escapeHtml(comment.text)}</div>
+                    </div>
+                </div>
+            `;
+        }).join('')
+        : '<div class="comment-empty">還沒有留言</div>';
+    
+    const composerHTML = currentUser 
+        ? `
+            <div class="comment-composer">
+                <textarea 
+                    class="comment-input" 
+                    placeholder="覺得勒" 
+                    maxlength="200"
+                    rows="1"
+                ></textarea>
+                <button class="comment-send-btn" title="送出">➤</button>
+            </div>
+        `
+        : '';
+    
+    return `
+        <div class="comment-section" data-case-id="${caseId}">
+            <div class="comment-thread">
+                ${threadHTML}
+            </div>
+            ${composerHTML}
+        </div>
+    `;
+}
+
+// Escape HTML to prevent XSS
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// Setup comment interactions (posting, preventing swipe)
+function setupCommentInteractions(container, caseId) {
+    const commentSection = container.querySelector('.comment-section');
+    if (!commentSection) return;
+    
+    // Prevent swipe on comment section
+    commentSection.addEventListener('mousedown', (e) => e.stopPropagation());
+    commentSection.addEventListener('touchstart', (e) => e.stopPropagation());
+    
+    const input = commentSection.querySelector('.comment-input');
+    const sendBtn = commentSection.querySelector('.comment-send-btn');
+    
+    if (!input || !sendBtn) return;
+    
+    // Auto-resize textarea
+    input.addEventListener('input', () => {
+        input.style.height = 'auto';
+        input.style.height = Math.min(input.scrollHeight, 80) + 'px';
+        
+        sendBtn.disabled = input.value.trim().length === 0;
+    });
+    
+    // Send comment
+    const sendComment = async () => {
+        const text = input.value.trim();
+        if (!text || !currentUser) return;
+        
+        sendBtn.disabled = true;
+        input.disabled = true;
+        
+        const comment = await postComment(caseId, text);
+        
+        if (comment) {
+            // Re-render comment thread
+            const thread = commentSection.querySelector('.comment-thread');
+            const isMine = comment.name === currentUser;
+            
+            const newBubbleHTML = `
+                <div class="comment-bubble ${isMine ? 'mine' : ''}">
+                    <div class="comment-avatar" style="background-color: ${getAvatarColor(comment.name)}">
+                        ${getAvatarLetter(comment.name)}
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-meta">
+                            <span class="comment-name">${comment.name}</span>
+                            <span class="comment-time">${formatCommentTime(comment.timestamp)}</span>
+                        </div>
+                        <div class="comment-text">${escapeHtml(comment.text)}</div>
+                    </div>
+                </div>
+            `;
+            
+            // Remove empty state if it exists
+            const emptyState = thread.querySelector('.comment-empty');
+            if (emptyState) {
+                emptyState.remove();
+            }
+            
+            thread.insertAdjacentHTML('beforeend', newBubbleHTML);
+            
+            // Clear input
+            input.value = '';
+            input.style.height = 'auto';
+            
+            // Scroll to new comment
+            const bubbles = thread.querySelectorAll('.comment-bubble');
+            if (bubbles.length > 0) {
+                bubbles[bubbles.length - 1].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }
+        
+        input.disabled = false;
+        sendBtn.disabled = false;
+        input.focus();
+    };
+    
+    sendBtn.addEventListener('click', sendComment);
+    
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            sendComment();
+        }
+    });
+}
+
 // Show ranking view
 function showRankingView() {
     document.getElementById('rankingView').classList.add('active');
@@ -1520,9 +1756,12 @@ function getRandomAlsoLiked(caseId, excludeName) {
 }
 
 // Render liked cases
-function renderLikedCases(memberName, isCurrentUser) {
+async function renderLikedCases(memberName, isCurrentUser) {
     const container = document.getElementById('likedCasesContainer');
     if (!container) return;
+    
+    // Fetch comment counts
+    await fetchCommentCounts();
     
     const likedCaseIds = getMemberLikedCases(memberName);
     
@@ -1543,6 +1782,7 @@ function renderLikedCases(memberName, isCurrentUser) {
     
     const cardsHTML = likedCasesData.map(caseData => {
         const alsoLiked = getRandomAlsoLiked(caseData.id, memberName);
+        const commentCount = commentCountsCache[String(caseData.id)] || 0;
         
         const alsoLikedHTML = alsoLiked.length > 0 ? `
             <div class="also-liked">
@@ -1554,8 +1794,13 @@ function renderLikedCases(memberName, isCurrentUser) {
                         </div>
                     `).join('')}
                 </div>
+                ${commentCount > 0 ? `<span class="comment-count-badge"><span class="emoji">💬</span>${commentCount}</span>` : ''}
             </div>
-        ` : '';
+        ` : (commentCount > 0 ? `
+            <div class="also-liked">
+                <span class="comment-count-badge"><span class="emoji">💬</span>${commentCount}</span>
+            </div>
+        ` : '');
         
         return `
             <div class="liked-case-card" data-case-id="${caseData.id}">
@@ -1585,9 +1830,12 @@ function renderLikedCases(memberName, isCurrentUser) {
 }
 
 // Open case detail view overlay
-function openCaseDetailView(caseId, memberName) {
+async function openCaseDetailView(caseId, memberName) {
     const caseData = casesData.find(c => c.id === caseId);
     if (!caseData) return;
+    
+    // Fetch comments for this case
+    await fetchComments(caseId);
     
     // Create overlay
     const overlay = document.createElement('div');
@@ -1595,6 +1843,7 @@ function openCaseDetailView(caseId, memberName) {
     
     const awardsHTML = generateAwardsSummary(caseData.awards);
     const detailHTML = generateDetailSection(caseData);
+    const commentsHTML = renderCommentSection(caseData.id);
     
     overlay.innerHTML = `
         <div class="case-detail-viewer">
@@ -1630,11 +1879,16 @@ function openCaseDetailView(caseId, memberName) {
                 <div class="film-link">
                     <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
                 </div>
+                
+                ${commentsHTML}
             </div>
         </div>
     `;
     
     document.body.appendChild(overlay);
+    
+    // Setup comment interactions
+    setupCommentInteractions(overlay, caseData.id);
     
     // Add close handler
     const closeButton = overlay.querySelector('#closeCaseDetail');
@@ -2004,7 +2258,7 @@ function handleSaveEquipment() {
     closeCustomizeOverlay();
 }
 
-function renderCard(index) {
+async function renderCard(index) {
     const cardStack = document.getElementById('cardStack');
     const emptyState = document.getElementById('emptyState');
     const deck = getDailyDeck();
@@ -2022,6 +2276,10 @@ function renderCard(index) {
     }
     
     const caseData = deck[index];
+    
+    // Fetch comments for this case
+    await fetchComments(caseData.id);
+    
     const card = createCardElement(caseData);
     cardStack.innerHTML = '';
     cardStack.appendChild(card);
@@ -2036,6 +2294,7 @@ function createCardElement(caseData) {
     
     const awardsHTML = generateAwardsSummary(caseData.awards);
     const detailHTML = generateDetailSection(caseData);
+    const commentsHTML = renderCommentSection(caseData.id);
     
     card.innerHTML = `
         <div class="card-content">
@@ -2069,8 +2328,13 @@ function createCardElement(caseData) {
             <div class="film-link">
                 <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
             </div>
+            
+            ${commentsHTML}
         </div>
     `;
+    
+    // Setup comment interactions after card is created
+    setupCommentInteractions(card, caseData.id);
     
     return card;
 }
