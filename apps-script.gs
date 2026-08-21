@@ -9,6 +9,7 @@ const INVITE_CODE = 'ALIEN';
 const ROSTER_SHEET = 'Roster';
 const SWIPES_SHEET = 'Swipes';
 const STATE_SHEET = 'State';
+const COMMENTS_SHEET = 'Comments';
 
 // Main entry point for GET requests
 function doGet(e) {
@@ -33,6 +34,12 @@ function doGet(e) {
         break;
       case 'scoreboard':
         result = getScoreboard();
+        break;
+      case 'comments':
+        result = getComments(e.parameter.caseId);
+        break;
+      case 'comment':
+        result = postComment(e.parameter.name, e.parameter.caseId, e.parameter.text);
         break;
       default:
         result = { ok: false, error: 'unknown_action' };
@@ -348,4 +355,101 @@ function getTaipeiDateString() {
   const now = new Date();
   const taipeiTime = Utilities.formatDate(now, 'Asia/Taipei', 'yyyy-MM-dd');
   return taipeiTime;
+}
+
+// Get comments for a case (or counts for all cases)
+function getComments(caseId) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  let commentsSheet = ss.getSheetByName(COMMENTS_SHEET);
+  
+  if (!commentsSheet) {
+    commentsSheet = ss.insertSheet(COMMENTS_SHEET);
+    commentsSheet.appendRow(['Name', 'CaseId', 'Text', 'Timestamp']);
+    // Force columns to text format
+    commentsSheet.getRange('A:A').setNumberFormat('@');
+    commentsSheet.getRange('C:C').setNumberFormat('@');
+    commentsSheet.getRange('D:D').setNumberFormat('@');
+  }
+  
+  const data = commentsSheet.getDataRange().getValues();
+  
+  // If caseId is provided, return comments for that case
+  if (caseId) {
+    const caseComments = data.slice(1)
+      .filter(row => String(row[1]) === String(caseId))
+      .map(row => ({
+        name: row[0],
+        caseId: parseInt(row[1]),
+        text: row[2],
+        timestamp: row[3]
+      }));
+    
+    return { ok: true, comments: caseComments };
+  }
+  
+  // Otherwise, return counts per case
+  const counts = {};
+  data.slice(1).forEach(row => {
+    const id = String(row[1]);
+    counts[id] = (counts[id] || 0) + 1;
+  });
+  
+  return { ok: true, counts: counts };
+}
+
+// Post a new comment
+function postComment(name, caseId, text) {
+  // Validate inputs
+  if (!name || !caseId || !text) {
+    return { ok: false, error: 'missing_params' };
+  }
+  
+  // Trim and validate text
+  const trimmedText = String(text).trim();
+  if (trimmedText.length === 0) {
+    return { ok: false, error: 'empty_text' };
+  }
+  
+  if (trimmedText.length > 200) {
+    return { ok: false, error: 'text_too_long' };
+  }
+  
+  // Verify name is in roster
+  const roster = getRoster();
+  const member = roster.members.find(m => m.name === name);
+  if (!member) {
+    return { ok: false, error: 'unknown_name' };
+  }
+  
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  let commentsSheet = ss.getSheetByName(COMMENTS_SHEET);
+  
+  if (!commentsSheet) {
+    commentsSheet = ss.insertSheet(COMMENTS_SHEET);
+    commentsSheet.appendRow(['Name', 'CaseId', 'Text', 'Timestamp']);
+    // Force columns to text format
+    commentsSheet.getRange('A:A').setNumberFormat('@');
+    commentsSheet.getRange('C:C').setNumberFormat('@');
+    commentsSheet.getRange('D:D').setNumberFormat('@');
+  }
+  
+  // Append comment
+  const timestamp = new Date().toISOString();
+  commentsSheet.appendRow([name, parseInt(caseId), trimmedText, timestamp]);
+  
+  // Force text format on the new row
+  const newRowIndex = commentsSheet.getLastRow();
+  commentsSheet.getRange(newRowIndex, 1).setNumberFormat('@');
+  commentsSheet.getRange(newRowIndex, 3).setNumberFormat('@');
+  commentsSheet.getRange(newRowIndex, 4).setNumberFormat('@');
+  
+  return { 
+    ok: true, 
+    comment: {
+      name: name,
+      caseId: parseInt(caseId),
+      text: trimmedText,
+      timestamp: timestamp
+    }
+  };
 }
