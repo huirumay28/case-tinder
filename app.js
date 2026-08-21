@@ -1492,11 +1492,11 @@ function formatCommentTime(timestamp) {
     return date.toLocaleDateString('zh-TW', { month: 'numeric', day: 'numeric' });
 }
 
-// Render comment section
-function renderCommentSection(caseId) {
+// Render comment thread HTML
+function renderCommentThreadHTML(caseId) {
     const comments = commentsCache[caseId] || [];
     
-    const threadHTML = comments.length > 0 
+    return comments.length > 0 
         ? comments.map(comment => {
             const isMine = comment.name === currentUser;
             return `
@@ -1515,6 +1515,11 @@ function renderCommentSection(caseId) {
             `;
         }).join('')
         : '<div class="comment-empty">還沒有留言</div>';
+}
+
+// Render comment section
+function renderCommentSection(caseId) {
+    const threadHTML = renderCommentThreadHTML(caseId);
     
     const composerHTML = currentUser 
         ? `
@@ -1538,6 +1543,17 @@ function renderCommentSection(caseId) {
             ${composerHTML}
         </div>
     `;
+}
+
+// Update comment thread in DOM without rebuilding the whole card
+function updateCommentThread(container, caseId) {
+    const commentSection = container.querySelector('.comment-section');
+    if (!commentSection) return;
+    
+    const thread = commentSection.querySelector('.comment-thread');
+    if (!thread) return;
+    
+    thread.innerHTML = renderCommentThreadHTML(caseId);
 }
 
 // Escape HTML to prevent XSS
@@ -1834,10 +1850,7 @@ async function openCaseDetailView(caseId, memberName) {
     const caseData = casesData.find(c => c.id === caseId);
     if (!caseData) return;
     
-    // Fetch comments for this case
-    await fetchComments(caseId);
-    
-    // Create overlay
+    // Create overlay immediately with cached or empty comments
     const overlay = document.createElement('div');
     overlay.className = 'case-detail-overlay';
     
@@ -1889,6 +1902,11 @@ async function openCaseDetailView(caseId, memberName) {
     
     // Setup comment interactions
     setupCommentInteractions(overlay, caseData.id);
+    
+    // Fetch comments in background and update thread when ready
+    fetchComments(caseId).then(() => {
+        updateCommentThread(overlay, caseId);
+    });
     
     // Add close handler
     const closeButton = overlay.querySelector('#closeCaseDetail');
@@ -2277,15 +2295,24 @@ async function renderCard(index) {
     
     const caseData = deck[index];
     
-    // Fetch comments for this case
-    await fetchComments(caseData.id);
-    
+    // Render card immediately with cached or empty comments
     const card = createCardElement(caseData);
     cardStack.innerHTML = '';
     cardStack.appendChild(card);
     cards[index] = card;
     
     setupCardInteractions(card);
+    
+    // Fetch comments in background and update thread when ready
+    fetchComments(caseData.id).then(() => {
+        updateCommentThread(card, caseData.id);
+    });
+    
+    // Prefetch next card's comments for instant loading
+    const nextIndex = index + 1;
+    if (nextIndex < deck.length && !todaySwipedCaseIds.has(deck[nextIndex].id)) {
+        fetchComments(deck[nextIndex].id);
+    }
 }
 
 function createCardElement(caseData) {
