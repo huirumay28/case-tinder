@@ -864,7 +864,263 @@ const casesData = [
             { award: "Grand Prix — Audio & Radio, Culture & Context / Single-Market Campaign", icon: "🏆" },
             { award: "Shortlisted ×2 — Audio & Radio Culture & Context Corporate Purpose & Social Responsibility; Audio & Radio Innovation in Audio & Radio / Use of Audio & Radio as a Medium", icon: "○" }
         ]
+    },
+    {
+        id: 31,
+        title: "The Period Uniform",
+        year: "2026",
+        brand: "Somos Martina",
+        agency: "Serviceplan Germany / Serviceplan Munich",
+        country: "Germany",
+        summary: "把生理褲寫進正式校服清單：Somos Martina 用校服基礎設施，讓經期照護變成不必開口求助的標準配備。",
+        boardImage: "boards/period-uniform.jpg",
+        filmUrl: "https://lion.box.com/s/mx5cw9oqzuvmg9izet7grwsgt491czs9",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 3 },
+        stills: {
+            background: 'assets/stills/period-uniform-01.jpg',
+            idea: 'assets/stills/period-uniform-02.jpg',
+            execution: 'assets/stills/period-uniform-03.jpg'
+        },
+        background: "拉丁美洲每 4 個女孩就有 1 個在經期缺課，因為買不到生理用品。根深蒂固的污名也讓很多人不敢求助，只好待在家裡避開滲漏與羞恥，教育與未來一起受損。",
+        idea: "在哥倫比亞，校服長期被用來推動平等。Somos Martina 把同一原則延伸到經期照護：與學校合作，把生理褲列為正式校服必備。Period Uniform 拿掉「必須開口求助」的負擔，讓經期照護成為標準、去污名的校園日常。生理褲長期也比拋棄式產品更划算；這套模式還能借既有校服供應鏈放大配送。",
+        execution: "在哥倫比亞教育部副部長與 NGO Poderosas（35+ 據點、超過 700 名受訓教師）支持下推出。至今已發放 Somos Martina 年庫存的 43%，出勤率提升 37%。另以短片、網站與教育課程推廣。",
+        awardsDetail: [
+            { award: "Gold Lion — Sustainable Development Goals", icon: "🥇" },
+            { award: "Bronze Lion — Brand Experience and Activation, Culture & Context / Cultural Engagement", icon: "🥉" },
+            { award: "Bronze Lion — Creative Commerce, Challenges & Breakthroughs / Cultural Engagement", icon: "🥉" },
+            { award: "Bronze Lion — Creative Strategy, Challenges & Breakthroughs / Corporate Purpose & Social Responsibility", icon: "🥉" }
+        ]
+    },
+    {
+        id: 32,
+        title: "T-Rex Leather",
+        year: "2026",
+        brand: "Lab-Grown Leather",
+        agency: "VML Paris",
+        country: "France",
+        summary: "讓實驗室皮革變得「無可複製」：用 6,600 萬年前的 T-Rex 皮，把永續材料做成博物館級奢華文物。",
+        boardImage: "boards/t-rex-leather.jpg",
+        filmUrl: "https://lion.box.com/s/g8pmbkt6mo0cgthzj6y78pf9sp9fgc2y",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 2 },
+        stills: {
+            background: 'assets/stills/t-rex-leather-01.jpg',
+            idea: 'assets/stills/t-rex-leather-02.jpg',
+            execution: 'assets/stills/t-rex-leather-03.jpg'
+        },
+        background: "為了解奢華業的永續悖論，B2B 創新者 LGL 用設計讓倫理科技變得令人渴望。問題是：實驗室皮革被看成沒靈魂的替代品。Jean-Noël Kapferer（《The Luxury Strategy》）寫道：當一種材料能在實驗室無限完美複製，它就不再是奢華。解法：設計一種帶有永遠無法複製故事的永續材料。",
+        idea: "策略不是設計一只包，而是設計一種以前不可能存在的材料——在生物層級工程化，起源故事長達 6,600 萬年。終極訂製：不是 one of one，而是 one of none。皮革本身就是設計，手袋只是載體。Lab-Grown Leather 推出 T-Rex Leather：復活暴龍的皮膚。",
+        execution: "2025 年以暴龍骨化石蛋白碎片訓練複雜 AI 補齊缺口，史上首次做成完整蛋白序列，再在實驗室長成真正的 T-Rex leather；tech-fashion 品牌 Enfin Levé 做成獨一無二手袋，於博物館揭幕，完成文化文物轉型。成果：4.63 billion 媒體曝光、奢華品牌與設計師興趣 X10、Lab-Grown Leather Ltd. 股價 +279%。",
+        awardsDetail: [
+            { award: "Gold Lion — PR", icon: "🥇" },
+            { award: "Silver Lion — PR", icon: "🥈" },
+            { award: "Bronze Lion — Creative B2B / Market Disruption", icon: "🥉" },
+            { award: "Bronze Lion — Innovation / Environmental", icon: "🥉" }
+        ]
+    },
+    {
+        id: 33,
+        title: "Based on a True Story",
+        year: "2026",
+        brand: "Missing People",
+        agency: "BBH London",
+        country: "United Kingdom",
+        summary: "用一間冷血編劇室，揭開 true crime 如何把失蹤案當娛樂：讓真實悲劇重新被當成真實人生。",
+        boardImage: "boards/missing-people.jpg",
+        filmUrl: "https://lion.box.com/s/bqmf7tewzeeaj21qq2rusoxts8biia2n",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/missing-people-01.jpg',
+            idea: 'assets/stills/missing-people-02.jpg',
+            execution: 'assets/stills/missing-people-03.jpg'
+        },
+        background: "Missing People 是英國慈善機構：每年不只搜尋約 170,000 名失蹤者，更為留下來的家人朋友提供情感安全網。洞察：英國 43% 的人每天看 true crime，已經對案件麻木，把它當娛樂，而不是某人的真實人生。",
+        idea: "舉鏡照社會——顯示人們的人生如何被「娛樂價值」評判。",
+        execution: "Based on a True Story 顛覆 true crime 類型，拆解對失蹤的麻木。核心是編劇室黑色喜劇：高層冷酷拆解「劇情點」的戲劇潛力，最後揭示每個案子都是真實悲劇。對白全來自真實世界對這些案件的評論；卡司含 BAFTA 得主 Sharon Horgan 召集的真實編劇。另有空殼盒裝（被媒體忽略的故事）與引用真實標題的 OOH，暴露受害者被評判的殘酷方式。影響力到達政府最高層，首相 Sir Keir Starmer 支持 Responsible Narratives Pledge。前兩週 3.7 billion 媒體曝光；16 位主要媒體人物承諾以真實尊重對待真實故事。",
+        awardsDetail: [
+            { award: "Gold Lion — Film / Use of Humour", icon: "🥇" }
+        ]
+    },
+    {
+        id: 34,
+        title: "Oreo Cows",
+        year: "2026",
+        brand: "Oreo",
+        agency: "VML New York / VML Mexico City",
+        country: "USA",
+        summary: "把天生像 Oreo 的 Belted Galloway 變成官方沾牛奶：特瓶、紙盒與影片，讓墨西哥重新學會 dunk。",
+        boardImage: "boards/oreo-cows.jpg",
+        filmUrl: "https://lion.box.com/s/k9lteoordmy2qr3078lzc9wpb9k684rr",
+        awards: { gp: 0, gold: 2, silver: 2, bronze: 2 },
+        stills: {
+            background: 'assets/stills/oreo-cows-01.jpg',
+            idea: 'assets/stills/oreo-cows-02.jpg',
+            execution: 'assets/stills/oreo-cows-03.jpg'
+        },
+        background: "Oreo 與牛奶天生一對。為了在以麵包沾醬為主的墨西哥證明這件事，團隊直搗源頭——Belted Galloway，也就是 Oreo Cow：一眼看見的 Oreo。",
+        idea: "與墨西哥深受喜愛的乳品品牌 Santa Clara 合作，把設計做成可規模化的零售包裝，全國通路的牛奶紙盒緊挨 Oreo 陳列，讓所有人重新發現 dunk 的樂趣。再把每頭牛獨特的白色腰帶做成限量瓶，附上玩心細節與連到影片的 QR。",
+        execution: "影片裡 20 頭獨特的牛，對應 20 款獨特瓶身；寄給網紅與媒體引發討論，並邀請墨西哥用牛奶沾 Oreo。從牛到設計、到限量瓶、再到可規模零售包裝。Titanium Lion 等多枚獎項。",
+        awardsDetail: [
+            { award: "Titanium Lion — Titanium", icon: "🏅" },
+            { award: "Gold Lion — Direct", icon: "🥇" },
+            { award: "Gold Lion — Brand Experience and Activation", icon: "🥇" },
+            { award: "Silver Lion — Brand Experience and Activation", icon: "🥈" },
+            { award: "Silver Lion — Creative Commerce", icon: "🥈" },
+            { award: "Bronze Lion — Direct", icon: "🥉" },
+            { award: "Bronze Lion — Film Craft", icon: "🥉" }
+        ]
+    },
+    {
+        id: 35,
+        title: "I Think of You Dying",
+        year: "2026",
+        brand: "Life360",
+        agency: "ALTO New York",
+        country: "USA",
+        summary: "母親節黑暗喜劇迷你音樂劇：媽媽甜蜜情歌一路滑進女兒可能死去的每一種方式——解方是 Life360。",
+        boardImage: "boards/i-think-of-you-dying.jpg",
+        filmUrl: "https://lion.box.com/s/3ahgt83q3ivhbsen2u7vexvxqqmb0vul",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/i-think-of-you-dying-01.jpg',
+            idea: 'assets/stills/i-think-of-you-dying-02.jpg',
+            execution: 'assets/stills/i-think-of-you-dying-03.jpg'
+        },
+        background: "2023 年美國 Surgeon General 因家長焦慮飆升發布家長心理健康諮詢。研究顯示家長每週花 37 小時擔心孩子——幾乎一整份全職工作，都在想像最壞結局。母親節，Life360 把這份焦慮做成娛樂。",
+        idea: "媽媽對女兒唱甜蜜的歌，說有多愛她；曲風一轉，她承認每次女兒出門，就想像她死去的各種方式——鱷魚、碎木機、甚至器官盜取。觀眾墜入媽媽想像的黑暗動畫世界；女兒求邏輯，媽媽仍被侵入思緒捲走，想像與現實開始交疊。女兒看著媽媽崩潰，終於懂她晚歸或不回訊時媽媽經歷什麼，於是提出用 Life360 追蹤——兩人都終於平安。",
+        execution: "為 YouTube 與 TikTok 設計；以歌曲與懷舊動畫鉤住觀看，上線後 28MM 自然曝光。TikTok 創作者 Jane Park、Nicole Deroy、Sarah Jane Underwood 用自己的為人父母焦慮，配上〈I Think of You (Dying)〉歌詞。風格靈感來自 Disney's Golden Age 平面 2D 與細緻背景。成果：月活躍用戶 YoY +17%、訂閱 YoY +23%、Life360 知名度 YoY +50%、家長品牌信任 YoY +16%。",
+        awardsDetail: [
+            { award: "Gold Lion — Film", icon: "🥇" },
+            { award: "Silver Lion — Film", icon: "🥈" }
+        ]
+    },
+    {
+        id: 36,
+        title: "Sleep Talk Reviews",
+        year: "2026",
+        brand: "IKEA",
+        agency: "Rethink Toronto",
+        country: "Canada",
+        summary: "把夢話做成床墊評論：IKEA 店內兩日過夜，用無意識呢喃證明「真的睡得很沉」。",
+        boardImage: "boards/sleep-talk-reviews.jpg",
+        filmUrl: "https://lion.box.com/s/rotti6bg66w32m6y86h2aaqxzyagv4ym",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 2 },
+        stills: {
+            background: 'assets/stills/sleep-talk-reviews-01.jpg',
+            idea: 'assets/stills/sleep-talk-reviews-02.jpg',
+            execution: 'assets/stills/sleep-talk-reviews-03.jpg'
+        },
+        background: "線上產品評論本該有用，卻不可信——超過 40% 是假的。若要人相信 IKEA 床墊真能帶來好眠，就必須讓人相信那些評論。",
+        idea: "為證明 IKEA 床墊真的舒服，邀請真人到 IKEA 店內參加兩日過夜；仔細為陳列床鋪佈線收音，用各式麥克風錄下睡眠每個細節。然後他們開始說話——捕捉每一聲鼾、呢喃與語無倫次，再把錄音做成整檔戰役，用多通路攔截床墊買家研究旅程的每一站：廣播、Spotify、影片、OOH、社群。",
+        execution: "錄下 90+ 小時夢話；胡言亂語變成正式評論，放到人們搜尋產品評價的媒體裡。信任 +12%、線上造訪 +9.1%、品牌渴望 +13%。",
+        awardsDetail: [
+            { award: "Gold Lion — Audio & Radio", icon: "🥇" },
+            { award: "Bronze Lion — Outdoor", icon: "🥉" },
+            { award: "Bronze Lion — Health and Wellness", icon: "🥉" }
+        ]
+    },
+    {
+        id: 37,
+        title: "Lime Guides",
+        year: "2026",
+        brand: "Corona",
+        agency: "GREY New York",
+        country: "USA",
+        summary: "全球首創在青檸上雷射刻切割線：讓世界最經典的啤酒儀式，再也不用硬塞。",
+        boardImage: "boards/lime-guides.jpg",
+        filmUrl: "https://lion.box.com/s/kr355tuw71ifmls73c0s4awc8kjit77q",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 3 },
+        stills: {
+            background: 'assets/stills/lime-guides-01.jpg',
+            idea: 'assets/stills/lime-guides-02.jpg',
+            execution: 'assets/stills/lime-guides-03.jpg'
+        },
+        background: "你試過把青檸塞進 Corona，卻怎麼都塞不進嗎？你不是唯一一個。世上最輕鬆的啤酒，不能讓它的招牌儀式讓人哪怕有一點壓力。",
+        idea: "史上第一顆會告訴你該從哪裡切的青檸，永遠剛好塞進 Corona。以 100% 永續 UV 雷射標記，Lime Guides 有不同設計，對應全球每一款 Corona 包裝。在阿根廷、巴西、中國與南非的超市、酒鋪、酒吧、餐廳、外送 App 與音樂祭販售。並創造新消費行為：看到青檸才去買 Corona，而不只是反過來。",
+        execution: "雷射機出貨、青檸客製、接入供應鏈、四國上線、依包裝客製導引。58 家全球零售商；每天印製超過 6,000 顆青檸；第一個佔領水果區的啤酒品牌；首月超過 320K 次毫不費力的青檸儀式；社群曝光 +66M；銷量 +19%。",
+        awardsDetail: [
+            { award: "Gold Lion — Direct", icon: "🥇" },
+            { award: "Silver Lion — Direct", icon: "🥈" },
+            { award: "Bronze Lion — Design", icon: "🥉" },
+            { award: "Bronze Lion — Outdoor", icon: "🥉" },
+            { award: "Bronze Lion — Brand Experience and Activation", icon: "🥉" },
+            { award: "Shortlisted ×4 — Outdoor; Creative Commerce; Brand Experience ×2", icon: "○" }
+        ]
+    },
+    {
+        id: 38,
+        title: "Heinz Dipper",
+        year: "2026",
+        brand: "Heinz Ketchup",
+        agency: "Rethink Toronto",
+        country: "Canada",
+        summary: "第一個為沾醬而生的薯條盒：用 Heinz logo 的 keystone 形狀，在盒上長出醬料口袋。",
+        boardImage: "boards/heinz-dipper.jpg",
+        filmUrl: "https://lion.box.com/s/5ahpa515whost5jaj2y2nyob65nkanjk",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/heinz-dipper-01.jpg',
+            idea: 'assets/stills/heinz-dipper-02.jpg',
+            execution: 'assets/stills/heinz-dipper-03.jpg'
+        },
+        background: "薯條盒幾十年沒變，卻有一個大缺陷：沒地方放番茄醬。這是真實消費問題——導致 80% 薯條食用者會考慮乾脆不沾醬，以免搞得一團糟。Heinz 必須做點什麼。",
+        idea: "做出 Heinz Dipper：革命性薯條盒，內建醬料口袋。再把盒子送到合作球場、餐廳與得來速，覆蓋 12 國（含美國 6 大城市），在關鍵外出場合接觸薯條族。造型直接取自 Heinz Logo——完美的功能形狀，讓品牌本身成為解方的一部分。",
+        execution: "+1.1 billion 曝光；12 國且持續增加；+900 家 Heinz verified operators。",
+        awardsDetail: [
+            { award: "Gold Lion — Direct", icon: "🥇" },
+            { award: "Silver Lion — Direct", icon: "🥈" },
+            { award: "Bronze Lion — Outdoor", icon: "🥉" }
+        ]
+    },
+    {
+        id: 39,
+        title: "One More Question",
+        year: "2026",
+        brand: "LALCEC",
+        agency: "GREY Argentina, Buenos Aires",
+        country: "Argentina",
+        summary: "記者會最後再問一句「你做過年度攝護腺檢查了嗎？」——讓禁忌從新聞裡面長成新聞。",
+        boardImage: "boards/one-more-question.jpg",
+        filmUrl: "https://lion.box.com/s/6xwr90jsayn3oaxx2zv3crj11e741506",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/one-more-question-01.jpg',
+            idea: 'assets/stills/one-more-question-02.jpg',
+            execution: 'assets/stills/one-more-question-03.jpg'
+        },
+        background: "LALCEC 是阿根廷最知名、最有聲望的抗癌 NGO 之一。攝護腺癌是阿根廷男性最常見腫瘤、癌症死亡第三大原因；但統計顯示每 10 名阿根廷男性有 7 人默默錯過關鍵檢查，降低康復機會。大男人文化與檢查禁忌讓話題討論有限、沉默蔓延，許多人跳過年度檢查。攝護腺癌意識月，LALCEC 要打破沉默、把議題硬推進媒體議程。",
+        idea: "「你做過年度攝護腺檢查了嗎？」用最古老的 PR 工具——一句簡單卻有力、卻出乎意料地脫離場面的問題——在體育、娛樂、政治知名人士（已到每年該檢查的年紀）的記者會與訪談中攪動場面。純粹 PR 動作，借傳統媒體現場的自然牽引力，從新聞內部長成新聞，逼出男人通常迴避的對話。",
+        execution: "單一問題成為全國主要記者會與新聞報導焦點。PR 觸及較 LALCEC 以往任何攝護腺癌戰役 +82%；攝護腺檢查預約較 2024 同期 +31%。",
+        awardsDetail: [
+            { award: "Gold Lion — PR", icon: "🥇" },
+            { award: "Silver Lion — Direct", icon: "🥈" }
+        ]
+    },
+    {
+        id: 40,
+        title: "Defining Help",
+        year: "2026",
+        brand: "Kids Help Phone",
+        agency: "McCann Canada, Toronto",
+        country: "Canada",
+        summary: "用超過 5,000 萬筆匿名對話，寫出 1,028 種「求助」定義——讓大人看見青少年隱形的心理危機。",
+        boardImage: "boards/defining-help.jpg",
+        filmUrl: "https://lion.box.com/s/62uqwjzqobmtkgo37dazwlouf5w7rn97",
+        awards: { gp: 0, gold: 2, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/defining-help-01.jpg',
+            idea: 'assets/stills/defining-help-02.jpg',
+            execution: 'assets/stills/defining-help-03.jpg'
+        },
+        background: "94% 加拿大父母把孩子心理健康評為「良好」；現實卻是每 2 名青少年就有 1 人獨自掙扎。Kids Help Phone（KHP）是加拿大唯一全國、免費、24/7 青少年心理健康服務，主要靠捐款。KHP 需要更多大人看見身邊這場隱形危機，並在財務上支持服務。",
+        idea: "把年輕人的感受變成 1,028 個獨特的求助定義，讓父母看見 Kids Help Phone 如何陪伴青少年。戰役取自超過 5,000 萬個經匿名與匯總以保護隱私的對話數據點；再用對話資料指導媒體計畫，依感受最集中的地方投放定義。",
+        execution: "募款額 YoY +87%——KHP 戰役期間史上最高；捐款目標族群信任度上升 9 點，優於品類平均。戰役後 IMI 研究顯示，大人視 KHP 為孩子的必要服務。",
+        awardsDetail: [
+            { award: "Gold Lion — Media / Data Integration", icon: "🥇" },
+            { award: "Gold Lion — Media / Use of Data & Analytics", icon: "🥇" },
+            { award: "Silver Lion — Media / Audience Insights", icon: "🥈" }
+        ]
     }
+
 ];
 
 
@@ -872,13 +1128,13 @@ const DECK_START = '2026-08-19';
 const DAILY_DECK_SIZE = 10;
 
 function getDailyDeck() {
-    const today = getTaipeiDateString();
-    const start = new Date(DECK_START + 'T00:00:00+08:00');
-    const now = new Date(today + 'T00:00:00+08:00');
-    const days = Math.max(0, Math.round((now - start) / 86400000));
-    const numDecks = Math.max(1, Math.ceil(casesData.length / DAILY_DECK_SIZE));
-    const offset = (days % numDecks) * DAILY_DECK_SIZE;
-    return casesData.slice(offset, offset + DAILY_DECK_SIZE);
+    // Always show the newest complete batch of 10.
+    // Keep DECK_START (first publish 2026-08-19). Rotation by days-since-start
+    // missed the 8/22–8/23 publishes; after this append, length=40 so numDecks=4
+    // and Taipei 2026-08-24 days=5 → offset 10 would have shown ids 11–20.
+    const complete = Math.floor(casesData.length / DAILY_DECK_SIZE);
+    if (complete < 1) return casesData.slice(0, DAILY_DECK_SIZE);
+    return casesData.slice((complete - 1) * DAILY_DECK_SIZE, complete * DAILY_DECK_SIZE);
 }
 
 // Fallback roster when API is unavailable
