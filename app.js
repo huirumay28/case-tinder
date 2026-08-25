@@ -1524,6 +1524,9 @@ function startApp() {
     setupCustomizeHandlers();
     renderCard(currentCaseIndex);
     updateBioTab();
+    
+    // Default to flashcards tab after sign-in
+    switchTab('casesTab');
 }
 
 // Sign-in gate functions
