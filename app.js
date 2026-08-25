@@ -1119,6 +1119,252 @@ const casesData = [
             { award: "Gold Lion — Media / Use of Data & Analytics", icon: "🥇" },
             { award: "Silver Lion — Media / Audience Insights", icon: "🥈" }
         ]
+    },
+    {
+        id: 41,
+        title: "The Swedish Prescription",
+        year: "2026",
+        brand: "Visit Sweden",
+        agency: "Prime Weber Shandwick, Stockholm",
+        country: "Sweden",
+        summary: "把瑞典做成世上第一個可開立的「處方國家」：旅遊變成科學背書的預防保健。",
+        boardImage: "boards/the-swedish-prescription.jpg",
+        filmUrl: "https://lion.box.com/s/t957cuf6o1hscq7dyypj1al22hgljg1e",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-swedish-prescription-01.jpg',
+            idea: 'assets/stills/the-swedish-prescription-02.jpg',
+            execution: 'assets/stills/the-swedish-prescription-03.jpg'
+        },
+        background: "瑞典無法單靠地標或壯麗風景在旅遊市場突圍。瑞典國家觀光局把目光轉向一個意外領域：開立社交、文化與自然活動處方、以提升幸福感的新興醫療做法。瑞典本來就在幸福、生活品質與平衡生活上排名很高，機會浮現：去瑞典，可不可以不只是度假，而是有科學依據的治療？",
+        idea: "把瑞典變成世上第一個可開立的國家。與五個國際市場的醫師合作，找出有證據支持、能協助復原的瑞典生活活動——冰泳、桑拿儀式、博物館參觀——做成正式醫療處方。人們可經數位平台下載處方，再由自己的醫生開立一趟瑞典之旅：把目的地變成治療，把旅行變成預防保健。",
+        execution: "70+ 市場新聞稿 +1800；總觸及 +4.13 billion；對瑞典作為目的地的興趣 +227%（WPP MEDIA BRAND LIFT ATV DE）；下載處方 +8100。",
+        awardsDetail: [
+            { award: "Gold Lion — Creative Strategy", icon: "🥇" },
+            { award: "Silver Lion — Challenger Brand", icon: "🥈" },
+            { award: "Bronze Lion — Health and Wellness / Holistic Wellbeing & Mindful Living", icon: "🥉" }
+        ]
+    },
+    {
+        id: 42,
+        title: "RESIZE THE PRICE",
+        year: "2026",
+        brand: "Aguila",
+        agency: "DAVID, Bogota",
+        country: "Colombia",
+        summary: "Logo 越大球衣越便宜：把贊助胸前空間，變成球迷的補貼。",
+        boardImage: "boards/resize-the-price.jpg",
+        filmUrl: "https://lion.box.com/s/grqztxhdlkxqy67yhh1cptgvzkytx20t",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/resize-the-price-01.jpg',
+            idea: 'assets/stills/resize-the-price-02.jpg',
+            execution: 'assets/stills/resize-the-price-03.jpg'
+        },
+        background: "2026 世界盃成為史上最貴一屆。哥倫比亞官方球衣飆到 $150 USD，將近平均月薪的 25%。等了 8 年才想穿上那件招牌黃衫的球迷，直接被價格排除在外。",
+        idea: "作為哥倫比亞國家隊官方贊助商，Aguila 擁有把 logo 印上球衣的合約權利，於是拿這份授權直接跟球迷談：讓我們用你胸前的官方空間，我們替你付錢。動態定價：同意印的 Aguila logo 越大，價格越低——從 $150 一路滑到 $20。法律上的贊助資產，變成球迷補貼；你越挺 Aguila，Aguila 越挺你。",
+        execution: "10,254 註冊用戶；轉換率是過往最成功戰役的 17 倍；成為與國家隊聯想第 1 的品牌；Brand Power 15.4→15.6；96% 正面情緒；93% 的人點了最大 logo。",
+        awardsDetail: [
+            { award: "Gold Lion — Entertainment Lions for Sport", icon: "🥇" },
+            { award: "Bronze Lion — Consumer Goods", icon: "🥉" }
+        ]
+    },
+    {
+        id: 43,
+        title: "Dove r/eal reviews",
+        year: "2026",
+        brand: "Dove",
+        agency: "DAVID, London",
+        country: "United Kingdom",
+        summary: "把前 50 則 Reddit 真實評論原汁原味做成廣告：證明誠實才是最強 influencer。",
+        boardImage: "boards/dove-real-reviews.jpg",
+        filmUrl: "https://lion.box.com/s/3natcnog22ozrxm4zt8kvvhgxi6busvr",
+        awards: { gp: 0, gold: 2, silver: 1, bronze: 3 },
+        stills: {
+            background: 'assets/stills/dove-real-reviews-01.jpg',
+            idea: 'assets/stills/dove-real-reviews-02.jpg',
+            execution: 'assets/stills/dove-real-reviews-03.jpg'
+        },
+        background: "網紅行銷時代，信任被掏空。觀眾對每則產品評價都喊「amazing」「perfect」的業配已經麻木。相對地，Reddit 這類未過濾空間成了可信的真相來源——真人分享好壞意見。沒有付錢讚美，沒有議程，只有誠實。",
+        idea: "Dove 以「r/eal reviews」回應——建立在徹底透明上。史上第一次，一個大品牌完全交出控制權：把 10-in-1 hair mask 的前 50 則 Reddit 評論，完全未過濾、未腳本，透過 OOH 與影片大規模放送。再延伸到網紅行銷，改寫創作者 brief，鼓勵批評也鼓勵讚美，並用這份誠實形塑未來產品開發。",
+        execution: "552M earned reach；+1 billion earned impressions；AI 推薦 #1；銷量較去年 +108%。",
+        awardsDetail: [
+            { award: "Gold Lion — Creative Strategy / Insight", icon: "🥇" },
+            { award: "Gold Lion — Social & Creator", icon: "🥇" },
+            { award: "Silver Lion — Brand Experience and Activation", icon: "🥈" },
+            { award: "Bronze Lion — Creative Strategy", icon: "🥉" },
+            { award: "Bronze Lion — Social & Creator", icon: "🥉" },
+            { award: "Bronze Lion — Media", icon: "🥉" }
+        ]
+    },
+    {
+        id: 44,
+        title: "The Relationship Aid",
+        year: "2026",
+        brand: "Specsavers",
+        agency: "Golin Ketchum, London",
+        country: "United Kingdom",
+        summary: "情人節把助聽器重塑成 2026 最熱成人親密裝置：從「失去」改成「相愛」。",
+        boardImage: "boards/the-relationship-aid.jpg",
+        filmUrl: "https://lion.box.com/s/1cb53mcmhe9b75fyjm54ip75xbgl1c0l",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-relationship-aid-01.jpg',
+            idea: 'assets/stills/the-relationship-aid-02.jpg',
+            execution: 'assets/stills/the-relationship-aid-03.jpg'
+        },
+        background: "超過一半 55+ 英國人有聽力損失，卻有三分之一的案例未被發現、未治療。伴侶深受影響，造成浪漫斷聯。這群人需要助聽器，卻因污名——助聽器被當成衰老衰退的不性感象徵——而避而不用；反而每年花 £11 billion 在成人親密產品上，想把火花找回來。洞察：一方配戴助聽器的伴侶中，三分之一回報肢體親密上升。",
+        idea: "情人節前後，Specsavers 把世上最不性感的產品——助聽器——重塑成 2026 最熱成人親密裝置。把聽力對話從「loss」轉向「love」，並把聽力檢查重新定位成最重要的情侶約會。",
+        execution: "預熱以 Married At First Sight 的 Paul C. Brunson 領軍。情人節揭曉裝置就是助聽器。助聽器銷售 +69%；聽力污名 -41%；英國與愛爾蘭 1136 間門市；17.4M earned views。",
+        awardsDetail: [
+            { award: "Gold Lion — PR / Healthcare", icon: "🥇" },
+            { award: "Silver Lion — PR / Creative Content & Production", icon: "🥈" }
+        ]
+    },
+    {
+        id: 45,
+        title: "Protect the Peanut",
+        year: "2026",
+        brand: "M&M'S",
+        agency: "BBDO, Chicago",
+        country: "USA",
+        summary: "為整條花生產業培育氣候韌性品種：定序 DNA、傳統育種，再開源給全世界。",
+        boardImage: "boards/protect-the-peanut.jpg",
+        filmUrl: "https://lion.box.com/s/1dprdejwbfk7kawup9786toc6d8wnxxk",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/protect-the-peanut-01.jpg',
+            idea: 'assets/stills/protect-the-peanut-02.jpg',
+            execution: 'assets/stills/protect-the-peanut-03.jpg'
+        },
+        background: "美國最大花生糖果 M&M'S 出事了：Reddit 上酸敗風味客訴堆積的速度，快過所有其他 Mars 糖果客訴加總。問題比糖果本身更大——乾旱、極端天氣、病害與氣候變遷，正威脅我們所知的花生存續。身為全球最大花生買家之一，M&M'S 必須出手。",
+        idea: "與 University of Georgia 合作，開發能更好承受氣候危害的新花生品種生物藍圖。定序超過 2.5 billion 對花生 DNA 鹼基，找出抗旱、抗病、抗蟲等關鍵性狀，再用傳統育種把這些性狀自然組合成更強、更能在全球不同地區存活的韌性花生。",
+        execution: "新品種已在 Senegal、Argentina、China 等嚴苛條件下證明存活。至 2030 投資 $15m；Peanut M&M'S 客訴少 90%；支付農民轉型 $12m；帶動超過 $1 Billion Peanut M&M'S 銷售；9 國種植新品種。",
+        awardsDetail: [
+            { award: "Gold Lion — Creative Business Transformation", icon: "🥇" },
+            { award: "Bronze Lion — Direct", icon: "🥉" }
+        ]
+    },
+    {
+        id: 46,
+        title: "The Trojan Fax",
+        year: "2026",
+        brand: "IUCN French Committee x Fujifilm Print",
+        agency: "BETC, Paris",
+        country: "France",
+        summary: "駭進市長府傳真機：用 1970 年代通道，推動 2020 年代自然保護。",
+        boardImage: "boards/the-trojan-fax.jpg",
+        filmUrl: "https://lion.box.com/s/cadzg4y1rtkro7t7bpr5khb1buiupqhg",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-trojan-fax-01.jpg',
+            idea: 'assets/stills/the-trojan-fax-02.jpg',
+            execution: 'assets/stills/the-trojan-fax-03.jpg'
+        },
+        background: "在法國，市長有權把自然區域登錄到 IUCN Green List——自然保護最高標準。問題是：市長不知道它存在。怎麼不請自來進他們辦公室？用法國行政體系必須保持開啟、即使沒人再用的那扇門：傳真機。",
+        idea: "IUCN 與 Fujifilm Print 劫持法國市長的傳真機——零競爭頻道。插著電卻休眠多年，一則旨在動員市長為生物多樣性行動的傳輸把它們叫醒。每份傳輸含 QR code，讓市長把自然區域登錄到 Green List。1970 年代科技，保護 2020 年代自然。",
+        execution: "傳真送往全法各區。每份以 ASCII 插畫呈現區域生物多樣性。765 份直接送到目標桌上；碳足跡比 OOH 低 39.7 倍；轉換率 26%（email 戰役僅 2.3%）。",
+        awardsDetail: [
+            { award: "Gold Lion — Print & Publishing", icon: "🥇" },
+            { award: "Silver Lion — Creative B2B", icon: "🥈" }
+        ]
+    },
+    {
+        id: 47,
+        title: "Vaseline and The Real Nigerian Prince",
+        year: "2026",
+        brand: "Vaseline",
+        agency: "LEO, Singapore",
+        country: "Singapore",
+        summary: "翻轉世上最有名騙局：真實奈及利亞王子 + WhatsApp，讓人當場驗真假 Vaseline。",
+        boardImage: "boards/vaseline-and-the-real-nigerian-prince.jpg",
+        filmUrl: "https://lion.box.com/s/9ezmzivh6x6ok5mpx6pdxwezg81fmye3",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/vaseline-and-the-real-nigerian-prince-01.jpg',
+            idea: 'assets/stills/vaseline-and-the-real-nigerian-prince-02.jpg',
+            execution: 'assets/stills/vaseline-and-the-real-nigerian-prince-03.jpg'
+        },
+        background: "奈及利亞假貨危機到了臨界點。假 Vaseline 淹沒貨架，真假難辨。人們上社群求答案，連信任的 KOL 都在不知情下把假貨當真貨展示。錯誤資訊擴散，消費者不再知道該信什麼、什麼是真的。",
+        idea: "把世上最有名的騙局翻成真相來源。真實奈及利亞王子 Chris Okagbue 成為 Vaseline 的真實之聲。他經 WhatsApp 給奈及利亞人一條直達確定性的線，立刻查驗 Vaseline Body Oil 是否為真。",
+        execution: "Prince Chris 的 Instagram 領軍。OOH、超市店內 QR、社群全部導向 WhatsApp 查驗。前 10 天：5,472 次互動；抽查瓶中 7 成是假貨；2.8M 自然觀看；互動率是 Vaseline Nigeria 最佳巨型 KOL 貼文的 5 倍；94% 正面情緒。",
+        awardsDetail: [
+            { award: "Gold Lion — Social & Creator", icon: "🥇" },
+            { award: "Bronze Lion — Social & Creator", icon: "🥉" }
+        ]
+    },
+    {
+        id: 48,
+        title: "UberLÂNDIA E.C.",
+        year: "2026",
+        brand: "Uber",
+        agency: "Wieden+Kennedy, Sao Paulo",
+        country: "Brazil",
+        summary: "冠名權卻不改隊名：只把 UBERLÂNDIA 裡的 Uber 亮出來。",
+        boardImage: "boards/uberlandia-ec.jpg",
+        filmUrl: "https://lion.box.com/s/ynw6hr6rn3iog1rjiir4mdhv0vrhvupj",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/uberlandia-ec-01.jpg',
+            idea: 'assets/stills/uberlandia-ec-02.jpg',
+            execution: 'assets/stills/uberlandia-ec-03.jpg'
+        },
+        background: "現代足球什麼都能賣。品牌選一支球隊、買下冠名權，然後改掉一切——連隊名。俱樂部變有錢，球迷變憤怒。Uber 進足球也照做：買下巴西一支百年歷史、第四級聯賽球隊的冠名權，然後……",
+        idea: "做出一筆什麼都沒改、卻又改變一切的冠名權交易。只把 UBERLÂNDIA E.C. 寫成 UberLÂNDIA E.C.。不宣稱擁有、不抹掉歷史、不改寫文化。一種為參與而設計的新贊助模式。",
+        execution: "只靠在名字裡揭示品牌，UberLÂNDIA 成為社群巨獸。1.27 billion impressions；earned media ROI 6,000%；438k 社群互動；Zero Fans Pissed Off。",
+        awardsDetail: [
+            { award: "Gold Lion — Social & Creator / Sponsorship & Brand Partnership", icon: "🥇" }
+        ]
+    },
+    {
+        id: 49,
+        title: "Welcome Back, Paisano",
+        year: "2026",
+        brand: "Tecate",
+        agency: "LePub, Mexico City",
+        country: "Mexico",
+        summary: "歡迎歸國同胞：用遣返墨西哥人重開 SIX 便利店，把人力缺口變成就業平台。",
+        boardImage: "boards/welcome-back-paisano.jpg",
+        filmUrl: "https://lion.box.com/s/t5qui4hrgbvlfrq0yoreymrts12dlvej",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/welcome-back-paisano-01.jpg',
+            idea: 'assets/stills/welcome-back-paisano-02.jpg',
+            execution: 'assets/stills/welcome-back-paisano-03.jpg'
+        },
+        background: "超過 150,000 名從美國遣返的墨西哥人回到家鄉，一切從零開始。同時，Tecate 的便利店連鎖 SIX——墨西哥第二大零售商——因人力短缺關閉多家門市。",
+        idea: "Tecate 平台為遭遣返的墨西哥人提供就業：重開店舖，並給他們經營自己便利店的機會；只要現任美國政府仍在，就持續擴張。若世上最好的勞動力之一正在回來，我們對他們說：「Welcome Back」。",
+        execution: "正面情緒 +91%；+81M impressions；+37M reach；+$5M earned media。",
+        awardsDetail: [
+            { award: "Gold Lion — Brand Experience and Activation", icon: "🥇" },
+            { award: "Silver Lion — Brand Experience and Activation", icon: "🥈" }
+        ]
+    },
+    {
+        id: 50,
+        title: "I'm Not Remarkable",
+        year: "2026",
+        brand: "Apple",
+        agency: "Apple, Cupertino",
+        country: "USA",
+        summary: "拒絕「勇敢／了不起」標籤：用音樂劇呈現身心障礙學生，就是普通大學生。",
+        boardImage: "boards/im-not-remarkable.jpg",
+        filmUrl: "https://lion.box.com/s/xl9xyyltzvwb4s63k9eslvmgkanq39gx",
+        awards: { gp: 0, gold: 2, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/im-not-remarkable-01.jpg',
+            idea: 'assets/stills/im-not-remarkable-02.jpg',
+            execution: 'assets/stills/im-not-remarkable-03.jpg'
+        },
+        background: "Apple 四十年無障礙承諾：為 International Day of Persons with Disabilities，推出展示為學生設計之內建無障礙功能的戰役。身心障礙學生一再說，只是去上大學就被貼上「brave」或「remarkable」的標籤，他們已經厭倦。",
+        idea: "正面拆解這套「inspiration trope」：呈現卡司真實樣貌——跟其他學生一樣，學業成功值得被肯定，也有權利搞砸或睡過頭錯過課。",
+        execution: "從一開始就與卡司共創：依他們如何使用產品啟發場景，寫出代表整組多元卡司真實經驗的歌。全唱跳音樂劇。上線 48 小時觀看破 10 million；全球累計超過 23 million。",
+        awardsDetail: [
+            { award: "Gold Lion — Film Craft / Casting", icon: "🥇" },
+            { award: "Gold Lion — Entertainment Lions for Music / Diversity & Inclusion in Music", icon: "🥇" },
+            { award: "Silver Lion — Film / Corporate Purpose & Social Responsibility", icon: "🥈" },
+            { award: "Bronze Lion — Film Craft / Use of Original Music", icon: "🥉" }
+        ]
     }
 
 ];
