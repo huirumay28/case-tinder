@@ -1365,8 +1365,246 @@ const casesData = [
             { award: "Silver Lion — Film / Corporate Purpose & Social Responsibility", icon: "🥈" },
             { award: "Bronze Lion — Film Craft / Use of Original Music", icon: "🥉" }
         ]
+    },
+{
+        id: 51,
+        title: "Expensive Sh*t",
+        year: "2026",
+        brand: "Huggies",
+        agency: "McCann New York",
+        country: "USA",
+        summary: "18 個寶寶在近 50 萬美元奢侈品上拉屎一小時：實況驗證 Huggies 防爆便。",
+        boardImage: "boards/expensive-sht.jpg",
+        filmUrl: "https://lion.box.com/s/8l3h6zd0pbn0ah6t17i64qyb32obyc33",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 2 },
+        stills: {
+            background: 'assets/stills/expensive-sht-01.jpg',
+            idea: 'assets/stills/expensive-sht-02.jpg',
+            execution: 'assets/stills/expensive-sht-03.jpg'
+        },
+        background: "爆便（blowout）是寶寶尿布沒包住排便、漏到衣物、家具與周圍表面。難以預測、很髒，是育兒最普遍的恐懼之一。尿布雖號稱能防，父母卻不完全相信。Huggies Little Snugglers 號稱最高 100% 防爆便，但每個品牌都在喊保護，說不夠。對父母來說，信任不是靠告訴他們，而是靠展示。",
+        idea: "把產品宣稱從廣告台詞，變成一小時社群＋現場娛樂：Expensive Sh*t。最不可預測的力量——寶寶——在近 $500,000 物品上爬、玩、拉屎。擋在這些貴重物與徹底災難之間的，只有 Huggies Little Snugglers。沒有重拍，沒有安全網。",
+        execution: "一小時活動在 TikTok Live、Instagram Live、YouTube Live 同步實況。18 個寶寶、物品約 $452,500。11 次拉屎、0 次爆便；157MM earned media impressions；觀看時長是 TikTok 平台平均的 16 倍；留言率是產業平均的 30 倍；看完戰役後購買考量 93%。",
+        awardsDetail: [
+            { award: "Gold Lion — Brand Experience and Activation", icon: "🥇" },
+            { award: "Silver Lion — Social & Creator", icon: "🥈" },
+            { award: "Bronze Lion — Brand Experience and Activation", icon: "🥉" },
+            { award: "Bronze Lion — Media", icon: "🥉" }
+        ]
+    },
+    {
+        id: 52,
+        title: "Kyle F*cking Connor",
+        year: "2026",
+        brand: "KFC",
+        agency: "Courage, Toronto",
+        country: "Canada",
+        summary: "Winnipeg 全白季後賽＋Kyle F*cking Connor 的縮寫＝KFC：把炸雞桶變成冰球迷的帽子。",
+        boardImage: "boards/kyle-fcking-connor.jpg",
+        filmUrl: "https://lion.box.com/s/l666zihvoo4d2xc7rzq4zs41w0aggnzy",
+        awards: { gp: 0, gold: 1, silver: 3, bronze: 0 },
+        stills: {
+            background: 'assets/stills/kyle-fcking-connor-01.jpg',
+            idea: 'assets/stills/kyle-fcking-connor-02.jpg',
+            execution: 'assets/stills/kyle-fcking-connor-03.jpg'
+        },
+        background: "在 Winnipeg，季後賽就是全面 Whiteout——全場球迷從頭到腳穿白。中心人物是 Jets 球星 Kyle F*cking Connor，縮寫剛好是 KFC。",
+        idea: "把 Winnipeg 兩大季後賽傳統——Whiteout 與 Kyle F*cking Connor——合成一次難忘接管，讓 KFC 成為加拿大冰球最被談論的品牌。",
+        execution: "派全身白衣的 Colonel Sanders 闖入 Whiteout。Kyle Connor 注意到，於是簽約，把一家當地 KFC 重塑成「KFC」。再投下 10,000 個 Whiteout 桶給球迷場內戴。店內銷售 +22%；品牌好感 +358%；earned media value $364M。",
+        awardsDetail: [
+            { award: "Gold Lion — Brand Experience and Activation / Sponsorship & Brand Partnership", icon: "🥇" },
+            { award: "Silver Lion — Brand Experience and Activation / Single-Market Campaign", icon: "🥈" },
+            { award: "Silver Lion — PR / Single-Market Campaign", icon: "🥈" },
+            { award: "Silver Lion — Entertainment Lions for Sport / Fan Engagement & Distribution Strategy", icon: "🥈" }
+        ]
+    },
+    {
+        id: 53,
+        title: "Who's waiting for you?",
+        year: "2026",
+        brand: "Cerveza Victoria",
+        agency: "Wieden+Kennedy, Mexico City",
+        country: "Mexico",
+        summary: "亡靈節不做裝飾片：用神聖墨西哥犬 Xoloitzcuintle，拍一則無對白的來世故事。",
+        boardImage: "boards/whos-waiting-for-you.jpg",
+        filmUrl: "https://lion.box.com/s/fti6wxzfh0wh2e8wn8g6ij4w23l10n1e",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/whos-waiting-for-you-01.jpg',
+            idea: 'assets/stills/whos-waiting-for-you-02.jpg',
+            execution: 'assets/stills/whos-waiting-for-you-03.jpg'
+        },
+        background: "在墨西哥，Día de Muertos 不是裝飾，是虔誠。全球散播後，意象好抄、真義難懂。傳統本身也在變：獻給狗的祭壇成長超過 500%。塑造傳統 10 年後，Cerveza Victoria 要用當下生活的故事，重新接上情感核心。",
+        idea: "不講另一個人類故事，聚焦人與狗日漸變強的羈絆。創作 Who's Waiting for You?——受被相信能引導靈魂前往來世的神聖墨西哥犬 Xoloitzcuintle 啟發的當代故事。",
+        execution: "不當廣告、當娛樂：無對白，沉默、聲音與影像承載情緒。品牌自然在場、從不打斷敘事。+55M 跨媒體觀看；分享到 +10 國；當季被提及最多的品牌。",
+        awardsDetail: [
+            { award: "Gold Lion — Entertainment", icon: "🥇" },
+            { award: "Bronze Lion — Film Craft", icon: "🥉" }
+        ]
+    },
+    {
+        id: 54,
+        title: "Utrecht Energized",
+        year: "2026",
+        brand: "Renault",
+        agency: "Publicis, Amsterdam",
+        country: "Netherlands",
+        summary: "500 輛共享 Renault 5 把電還給城市：Utrecht 做成世上第一個大規模雙向充電共享網。",
+        boardImage: "boards/utrecht-energized.jpg",
+        filmUrl: "https://lion.box.com/s/wgpe8sv7jcgxd8atzetyugnr53ammcmh",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/utrecht-energized-01.jpg',
+            idea: 'assets/stills/utrecht-energized-02.jpg',
+            execution: 'assets/stills/utrecht-energized-03.jpg'
+        },
+        background: "荷蘭電網承壓：白天太陽能與風電過剩，晚上需求過高。失衡提高停電風險，甚至拖延 Utrecht 等城市的新住宅。新 Renault 5 具備 Vehicle-to-Grid (V2G)，不只充電，需要時也能把電還給電網。",
+        idea: "Renault 推出 Utrecht Energized：用 500 輛共享車協助平衡 Utrecht 電網。車上 52kWh 電池依即時能源需求充電或放電，讓 Utrecht 成為世上第一個擁有大規模雙向充電共享車網絡的城市。",
+        execution: "Renault、MyWheels 與 We Drive Solar 合作，在 Utrecht 投放 500 輛共享 Renault 5。190,000 戶受惠於穩定電網；7M PR net reach；100,000 kWh 回饋電網。",
+        awardsDetail: [
+            { award: "Gold Lion — Innovation", icon: "🥇" }
+        ]
+    },
+    {
+        id: 55,
+        title: "Art's Missing Period",
+        year: "2026",
+        brand: "Kotex",
+        agency: "DAVID, London",
+        country: "United Kingdom",
+        summary: "用經血改寫 35,000 年藝術史：把被審查的「生命之血」送到美術館門口。",
+        boardImage: "boards/arts-missing-period.jpg",
+        filmUrl: "https://lion.box.com/s/0gs2cytnwatci65t9zxdlhg6dp0993sd",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/arts-missing-period-01.jpg',
+            idea: 'assets/stills/arts-missing-period-02.jpg',
+            execution: 'assets/stills/arts-missing-period-03.jpg'
+        },
+        background: "幾個世紀以來，藝術歌頌血液——戰爭、暴力、死亡填滿全世界博物館。但生命之血——經血——被系統性審查出藝術經典。",
+        idea: "Art's Missing Period 要糾正歷史錯誤。與檔案工作者合作，挖出世人沒見過的經血藝術，跨越文化與大陸、從史前到今日。",
+        execution: "高衝擊 OOH 出現在 The Met、MoMA、Guggenheim 外。Emmy® 導演 Kathryn Everett 紀錄片同步上線。+150M impressions；畫廊訪客來自 89 國；50 件作品被恢復。",
+        awardsDetail: [
+            { award: "Gold Lion — Health and Wellness / OTC Products", icon: "🥇" },
+            { award: "Bronze Lion — Brand Experience and Activation", icon: "🥉" }
+        ]
+    },
+    {
+        id: 56,
+        title: "Soil Stay",
+        year: "2026",
+        brand: "Tra Mongkut Fertilizer",
+        agency: "VML, Bangkok",
+        country: "Thailand",
+        summary: "像 Airbnb，但用土壤樣本換住宿：依土型配對農場，讓農人休耕期免費學地。",
+        boardImage: "boards/soil-stay.jpg",
+        filmUrl: "https://lion.box.com/s/hu4kirexdbumuqpkl4jd6wc3pzq6pxu3",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/soil-stay-01.jpg',
+            idea: 'assets/stills/soil-stay-02.jpg',
+            execution: 'assets/stills/soil-stay-03.jpg'
+        },
+        background: "泰國超過 1,300 萬人務農。UN 數據：近 40% 泰國農人對土壤理解不足。超過 300 種土壤，不能再靠習慣。許多人每年更辛苦，卻產量下滑——因為不真正認識腳下的地。",
+        idea: "Tra Mongkut Fertilizer 研究土壤超過 10 年。像 Airbnb，但農人用土壤樣本加入；用 300+ 土型資料庫，配到相同土況的真實農場，休耕期休息、學習、試驗。",
+        execution: "全國採樣、分析，配對同土型示範農場。休耕期免費住宿。10,000 農人已受教育；一作季產量 +57%；產出品質 +17%；每 rai 利潤 3 倍。",
+        awardsDetail: [
+            { award: "Gold Lion — Creative B2B", icon: "🥇" }
+        ]
+    },
+    {
+        id: 57,
+        title: "Dancebook Brasil",
+        year: "2026",
+        brand: "Bradesco",
+        agency: "Lovely, Sao Paulo",
+        country: "Brazil",
+        summary: "史上第一部巴西舞蹈記譜總集：用設計把被排除的身體語言變成可讀、可教、可保存。",
+        boardImage: "boards/dancebook-brasil.jpg",
+        filmUrl: "https://lion.box.com/s/of7f6e2uitueqbgznytb1mojagm2xdqt",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/dancebook-brasil-01.jpg',
+            idea: 'assets/stills/dancebook-brasil-02.jpg',
+            execution: 'assets/stills/dancebook-brasil-03.jpg'
+        },
+        background: "一個多世紀以來，舞蹈記譜只用在被視為「高文化」的古典舞蹈。巴西舞蹈被表演、被分享、在實踐中演化，卻從未被正式系統承認。文化上強大，制度上缺席。",
+        idea: "Dancebook Brasil 做成完整編輯系統，把巴西舞蹈譯成可讀、有結構的格式。書不是資訊容器，而是引導詮釋的系統；每一跨頁的視覺進程鏡像編舞。",
+        execution: "做成收藏級物件。已被倫敦 Royal Academy of Dance 與巴黎 Conservatoire National Supérieur de Musique et de Danse 接受。+400 頁；+700 張照片；75 個動作編目；20 位編舞家、記譜師與舞者。",
+        awardsDetail: [
+            { award: "Gold Lion — Design", icon: "🥇" },
+            { award: "Bronze Lion — Industry Craft", icon: "🥉" }
+        ]
+    },
+    {
+        id: 58,
+        title: "Viagra Blue Brands",
+        year: "2026",
+        brand: "Viatris",
+        agency: "Ogilvy, Shanghai",
+        country: "China",
+        summary: "中國禁藥品廣告：把 Viagra 註冊成 16 類日常品牌，讓藍色自己說話。",
+        boardImage: "boards/viagra-blue-brands.jpg",
+        filmUrl: "https://lion.box.com/s/urh4ha5k9qs5li1dhbugdqcwkkn5oy0r",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/viagra-blue-brands-01.jpg',
+            idea: 'assets/stills/viagra-blue-brands-02.jpg',
+            execution: 'assets/stills/viagra-blue-brands-03.jpg'
+        },
+        background: "中國嚴格禁止藥品直接對消費者廣告。Viagra 不能宣傳品牌名或醫療功能。",
+        idea: "把 Viagra 做成別的東西。把商標註冊到 16 類——從髮蠟、行動電源到法國麵包——全部合法可廣告。現在 Viagra 有權說話。",
+        execution: "推出 Viagra Blue Brands 真廣告。從未提 ED、從未秀藥丸。104.3M total impressions；品牌好感 +48%；電商造訪 1.5X。",
+        awardsDetail: [
+            { award: "Gold Lion — Pharma", icon: "🥇" }
+        ]
+    },
+    {
+        id: 59,
+        title: "Everyone Wants a Piece",
+        year: "2026",
+        brand: "LEGO",
+        agency: "Our LEGO Agency, Billund",
+        country: "Denmark",
+        summary: "找來 4 位足球偶像給粉絲玩：一支生來就被二創的 AI 迷因廣告。",
+        boardImage: "boards/everyone-wants-a-piece.jpg",
+        filmUrl: "https://lion.box.com/s/y7v2hvfhlb440s68rutvsqoq61o0r50n",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/everyone-wants-a-piece-01.jpg',
+            idea: 'assets/stills/everyone-wants-a-piece-02.jpg',
+            execution: 'assets/stills/everyone-wants-a-piece-03.jpg'
+        },
+        background: "2026 年 FIFA World Cup 成為史上最大、最競爭的舞台。LEGO® 要用只有自己做得到的方式現身：擁抱玩，並接上年輕球迷的語言。",
+        idea: "找來 4 位賽場偶像，給粉絲可以玩的東西：一支被設計成完全由粉絲自行重新詮釋、混剪的影片。",
+        execution: "全球參與把點子變成文化現象、第一支真正的 AI-memed ad。前 7 天：470M 線上觀看；520M 粉絲反應觀看；990M 總觀看；3.92B earned PR reach。",
+        awardsDetail: [
+            { award: "Gold Lion — Social & Creator", icon: "🥇" }
+        ]
+    },
+    {
+        id: 60,
+        title: "The Volvo Cars Safety Standard",
+        year: "2026",
+        brand: "Volvo",
+        agency: "Volvo Cars, Goteborg",
+        country: "Sweden",
+        summary: "給下一個百年安全一個名字與品牌系統：字體、色盤、安全中心，再發明一次安全帶。",
+        boardImage: "boards/the-volvo-cars-safety-standard.jpg",
+        filmUrl: "https://lion.box.com/s/rgoi6zdnphahu0dv1r5j3edgvbvmi5o8",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-volvo-cars-safety-standard-01.jpg',
+            idea: 'assets/stills/the-volvo-cars-safety-standard-02.jpg',
+            execution: 'assets/stills/the-volvo-cars-safety-standard-03.jpg'
+        },
+        background: "世界走向自駕車，安全變成愈來愈搶手的定位。100 年來安全是 Volvo 指導原則，卻從未被收進統一傘下。現在，超越產業標準保護人的承諾，有了名字與品牌系統。",
+        idea: "The Volvo Cars Safety Standard。為掃視閱讀減視覺噪音的字體；受測試中提高可見度啟發的色盤；前所未見的 Volvo Cars Safety Centre；再一次重新發明安全帶。",
+        execution: "在「提供安全創新以保護人」上，Volvo 在 SE、DE、FR、UK、US 都高於所有競爭者。Volvo 安全創新估計已救超過 100 萬條命。No. 1 Safety brand image；1,000+ 篇文章。",
+        awardsDetail: [
+            { award: "Gold Lion — Design", icon: "🥇" }
+        ]
     }
-
 ];
 
 
