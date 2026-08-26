@@ -1604,6 +1604,237 @@ const casesData = [
         awardsDetail: [
             { award: "Gold Lion — Design", icon: "🥇" }
         ]
+    },
+    {
+        id: 61,
+        title: "Tocayos",
+        year: "2026",
+        brand: "Heineken",
+        agency: "LePub, Milan",
+        country: "Italy",
+        summary: "Heineken 把門上同名做成 namesake franchise：Tocayos Inc. 給西班牙獨立酒吧連鎖級基礎設施。",
+        boardImage: "boards/tocayos.jpg",
+        filmUrl: "https://lion.box.com/s/250wryojvxkdi301toi5g9eb199jpbja",
+        awards: { gp: 0, gold: 2, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/tocayos-01.jpg',
+            idea: 'assets/stills/tocayos-02.jpg',
+            execution: 'assets/stills/tocayos-03.jpg'
+        },
+        background: "在西班牙，社區酒吧不只是生意，是社交錨點。連鎖競爭讓獨立酒吧更難存活。但若他們能分享的不只是同樣的困境？全西班牙數千間酒吧共用常見名字：Paco、Pepe、Luis、Manolo……一個藏在眼前的網絡。",
+        idea: "Heineken 把門上的名字變成競爭優勢，做成 Tocayos Inc.：把連鎖級基礎設施帶給小型獨立酒吧。第一次，同名酒吧能共享的是未來。",
+        execution: "邀請全西班牙同名酒吧加入平台。用真實酒吧老闆的戰役，把這個模式做到全國可見，證明他們從不孤單。透過 Tocayos，酒吧得到：能見度與推廣、訓練與經營工具、吸引新客的共享身份。板上圖示：Centralised Marketing、Shared Operations、Economies Of Scale。€677k media value；12,000 間酒吧可加入；銷售 YoY +20%。La Provincia：「Heineken preserves the culture of local bars」；EL MUNDO：「Let's save Bar Paco」。",
+        awardsDetail: [
+            { award: "Gold Lion — Direct / Challenges & Breakthroughs: Cultural Engagement", icon: "🥇" },
+            { award: "Gold Lion — Creative B2B", icon: "🥇" }
+        ]
+    },
+    {
+        id: 62,
+        title: "Dark Mode Ads",
+        year: "2026",
+        brand: "Plenitude",
+        agency: "LePub, Milan",
+        country: "Italy",
+        summary: "Plenitude 把數位廣告做成 Dark Mode：智能調色最多省 74% 電，工具免費開放給任何品牌。",
+        boardImage: "boards/dark-mode-ads.jpg",
+        filmUrl: "https://lion.box.com/s/v09ryiq6v2w9q93427oi6q2uabii7tow",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/dark-mode-ads-01.jpg',
+            idea: 'assets/stills/dark-mode-ads-02.jpg',
+            execution: 'assets/stills/dark-mode-ads-03.jpg'
+        },
+        background: "每年，單一數位看板耗電約等於 23 戶家庭。廣告真的需要用掉那麼多電才看得見嗎？獨立研究發現：LED 螢幕上的廣告直接影響耗電；畫面愈暗，LED 愈省電。",
+        idea: "Dark Mode Ads 是以智能色彩優化驅動的工具，最多可減 74% 耗電、不犧牲可見度。對任何品牌開放且免費。副標：THE INNOVATION THAT MAKES DIGITAL ADVERTISING MORE SUSTAINABLE。",
+        execution: "流程：分析廣告每個元素，選擇性套用 Dark Mode，再上刊。數週內歐洲大品牌採用，58M+ views，上刊第一週省 7,105 kWh。若規模化，一年可省 18 billion kWh。6 個品牌已用 Dark Mode 跑廣告（板上可見 PayPal、Heineken、Renault、Whirlpool 等）。Beko Europe Rachel Niemoller：「A shift where brand goals and sustainability goals align perfectly」；Heineken：「Will pitch Dark Mode Ads to our media agency」；Renault：「Genius idea」；Marvis Francesca Galassi：「Love the idea. Happy to take part in the initiative」。網站 darkmodeads.com。",
+        awardsDetail: [
+            { award: "Gold Lion — Media / Culture & Context: Market Disruption", icon: "🥇" }
+        ]
+    },
+    {
+        id: 63,
+        title: "dear difference",
+        year: "2026",
+        brand: "Nikka Whisky",
+        agency: "Dentsu Inc., Tokyo",
+        country: "Japan",
+        summary: "TAKETSURU PURE MALT 不做酒瓶照：用手作 analog dots 重做品牌，把 dear difference 做成整套設計系統。",
+        boardImage: "boards/dear-difference.jpg",
+        filmUrl: "https://lion.box.com/s/t0wnqzaumg6duet4ofdhjfellhae4jt9",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/dear-difference-01.jpg',
+            idea: 'assets/stills/dear-difference-02.jpg',
+            execution: 'assets/stills/dear-difference-03.jpg'
+        },
+        background: "NIKKA WHISKY 創辦人 Masataka Taketsuru 是日本威士忌之父。以他為名的巔峰品牌 TAKETSURU PURE MALT，因陳年麥芽長期短缺而流失市場存在感。要把它救成現代奢華 icon，核心來自兩個不變事實：一是純麥 vatting——把強烈不同的風味調和成和諧；二是創辦人一生追求差異。",
+        idea: "概念是 dear difference。人的本能會被陌生吸引；異質元素結合會出現未預見的創新，給威士忌深度，也讓生活有喜悅。為了直覺傳達，完全拿掉秀酒瓶的品類慣例，把不同元素碰撞、調和的過程拆到最小單位——點——再重建成滲透每個顧客接觸點的設計系統。",
+        execution: "把顏料與溶劑當威士忌的核心元素，做超過 1,000 次實體實驗；利用黏度與表面張力，手作獨一無二的 analog dots。從海報、collateral 到空間，跟著每種媒介的物理性做嚴謹 art direction。不秀一瓶酒，直接刺激人對非凡事物的渴望。創辦人 Masataka Taketsuru (1894–1979) 1918 赴蘇格蘭：外國求學、當時極罕見的國際婚姻、兩座酒廠建在氣候對比的地區——一生連接 differences，正是把強烈差異調和成單一、更優整體的純麥哲學。觸點含 tabloid newspaper、story books、mini bottle shopping bags、poster、events。YoY 銷售成長 267%（2026 年 1–3 月 vs 2025 年 1–3 月）；獨家裝置滿意度 80.6%（2025 年 12 月 9–21 日裝置來賓調查）。",
+        awardsDetail: [
+            { award: "Gold Lion — Design: Brand & Communications Design", icon: "🥇" }
+        ]
+    },
+    {
+        id: 64,
+        title: "Vaseline Originals",
+        year: "2026",
+        brand: "Vaseline",
+        agency: "Ogilvy, Singapore",
+        country: "Singapore",
+        summary: "把 3.5M 則 Vaseline hack 追回原創者，做成官方產品線：每賣一項，OG 都有署名與分潤。",
+        boardImage: "boards/vaseline-originals.jpg",
+        filmUrl: "https://lion.box.com/s/w15l69vluiedvb67isxzwijcp7zr072b",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/vaseline-originals-01.jpg',
+            idea: 'assets/stills/vaseline-originals-02.jpg',
+            execution: 'assets/stills/vaseline-originals-03.jpg'
+        },
+        background: "多年來 Vaseline 被社群形塑：線上超過 3.5M 則自然產生的 hacks。但網路獎勵病毒、不獎勵原創；點子被轉貼、重混，原創者失去署名、淹沒在轉發裡。",
+        idea: "不只驗證最紅的 hacks，而是找到發起的人、建立真正合作。把他們的 hacks 做成官方產品，依用途調整配方。每一筆銷售都署名並付費給背後的創作者。雙贏：把網路創意變成品牌與創作者的商業成果。",
+        execution: "分析 3.5M+ 社群貼文找原創 Vaseline hack 創作者；取得內容權利，正式命名 Vaseline OGs；與 OG 合作推出受 Verified Hacks 啟發的產品線；用 TikTok Live／TikTok Shop 上線，創作者站在最前面；擴大 OG 網絡與產品線，OG 從每筆銷售分成。板上可見 Jen Chae @FRMHEADTOTOE Brow Tamer Hack、Lauren Luke @PANACEA81 Primer Hack（時間軸可見 2008）。+466% 銷量超過 Vaseline Jelly；每 2 秒賣出 1 件產品；新 hacks 發布 +24%。Financial Times：「VASELINE SETS A NEW STANDARD FOR CREATOR COLLABORATION」；ELLE、L'OFFICIEL：「AN IMPORTANT STEP IN THE INFLUENCER EQUITY INDUSTRY」。頭條：THE CREATOR ECONOMY ENTERS A NEW ERA: CO-OWNERSHIP。",
+        awardsDetail: [
+            { award: "Gold Lion — Social & Creator: Creator Collaboration", icon: "🥇" }
+        ]
+    },
+    {
+        id: 65,
+        title: "Pocket-sized Halftime Show",
+        year: "2026",
+        brand: "Clash Royale (Supercell)",
+        agency: "Uncommon Creative Studio, Stockholm",
+        country: "Sweden",
+        summary: "Clash Royale 做 Cultural Judo：把 Lil Wayne 被 Super Bowl 拒絕的中場秀，搬進口袋尺寸的 Arena。",
+        boardImage: "boards/pocket-sized-halftime-show.jpg",
+        filmUrl: "https://lion.box.com/s/x8z1ws3fapn1vej12b0vzb7vpy5uzgmw",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/pocket-sized-halftime-show-01.jpg',
+            idea: 'assets/stills/pocket-sized-halftime-show-02.jpg',
+            execution: 'assets/stills/pocket-sized-halftime-show-03.jpg'
+        },
+        background: "Clash Royale 下載逾 1.5B，要維持文化主導得衝出遊戲圈。雙重挑戰：Super Bowl 是一年最貴、最擠的媒體週，傳統廣告對手機品牌幾乎看不見；同時 hip-hop icon Lil Wayne 在家鄉 New Orleans 被官方中場秀排除，成為巨大文化爭議。品牌需要文化火花，藝術家需要「復仇」舞台：把遊戲變成全球舞台，給社群獨家娛樂、給 Wayne 他該有的年輕觀眾，用原生 in-app 活動繞過 30 秒電視廣告、接管整個週末對話。",
+        idea: "Cultural Judo：給 Lil Wayne 被拒絕的中場秀，但舞台是口袋尺寸的 Arena。真人 live-action Wayne 站在 hip-hop 風 Giants 與 Goblins 旁邊；一部分是 MV、一部分是 boss fight、一部分是文化聲明。突破在反差：世上最大的藝術家，在世上最小（卻最容易進入）的舞台。",
+        execution: "高保真 live-action 合成進自製 hip-hop Arena，Wayne 表演「A Milli」，不用典型 CGI 虛擬人。Supercell 工程師做全新 synchronized in-app video player，2 月 6 日在數百萬裝置近乎同時全球首映；遊戲角色當 hype men。結果：24 小時內 50M+ in-game views；164M social impressions；2,251 則編輯稿、約 775M reach；傳統電視 $0。",
+        awardsDetail: [
+            { award: "Gold Lion — Brand Experience & Activation: Brand Partnerships, Sponsorships & Collaborations", icon: "🥇" }
+        ]
+    },
+    {
+        id: 66,
+        title: "Camera Rolls",
+        year: "2026",
+        brand: "McDonald's",
+        agency: "Leo, London",
+        country: "United Kingdom",
+        summary: "把粉絲真實相機膠卷做成全球戰役：再好的夜晚，最後一格常常是 McDonald's。",
+        boardImage: "boards/camera-rolls.jpg",
+        filmUrl: "https://lion.box.com/s/ez750huvx3cwnss3n5eopzfhaa26az7v",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/camera-rolls-01.jpg',
+            idea: 'assets/stills/camera-rolls-02.jpg',
+            execution: 'assets/stills/camera-rolls-03.jpg'
+        },
+        background: "Insight：我們的相機膠卷在說所有最棒的夜晚。從粉絲分享的貼文看出：不管夜從哪開始、跟誰、做什麼，最後常常停在同一個地方……McDonald's。",
+        idea: "把粉絲真實 camera rolls 變成全球戰役，慶祝 McDonald's 無所不在，以及它在我們所有夜晚裡的真實角色。",
+        execution: "從世界各地群眾募集 camera rolls，呈現品牌如何真實出現在所有夜晚：保齡、派對、甚至婚禮。戰役在英國一年最高調的夜晚之一 Brit Awards 推出，證明連知名粉絲的夜晚也停在 McDonald's。The Drum：「McDonald's turns real camera rolls into a late-night campaign」；Famous Campaigns：「McDonald's turns fans' camera rolls into campaign」；Creative Review：「McDonald's embraces late night munchies in new campaign」。",
+        awardsDetail: [
+            { award: "Gold Lion — Print & Publishing: Posters (Travel/Leisure/Retail/Restaurants)", icon: "🥇" }
+        ]
+    },
+    {
+        id: 67,
+        title: "Pedigree Caramelo",
+        year: "2026",
+        brand: "Pedigree",
+        agency: "AlmapBBDO, Sao Paulo",
+        country: "Brazil",
+        summary: "巴西最常見、最難被領養的雜交犬 Caramelo：Pedigree 給牠品種、血統證書與自己的包裝。",
+        boardImage: "boards/pedigree-caramelo.jpg",
+        filmUrl: "https://lion.box.com/s/sib9ypbm1ff4zh893q0np5hj7wqv4h35",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/pedigree-caramelo-01.jpg',
+            idea: 'assets/stills/pedigree-caramelo-02.jpg',
+            execution: 'assets/stills/pedigree-caramelo-03.jpg'
+        },
+        background: "Challenge：Caramelo 是巴西最心愛的狗，到處都是——影片、迷因、歌曲，還在國家非物質文化遺產名單上——悲哀的是，也在每一間收容所。牠們是巴西收容所裡最常見的狗；因為是 mutts，被領養機會比純種低 90%。（來源：Instituto Qualibest；ONG Arca de Noé Brazil）",
+        idea: "如果人們想要一隻有 pedigree 的狗，Pedigree 就給巴西最被愛的雜交犬一隻。Introducing Pedigree Caramelo。",
+        execution: "從巴西巨星 Tata Werneck 開始：她的 Caramelo 因「沒有品種」被狗展拒絕，一支影片引爆網路。品牌回應正義呼聲，宣布要給 Caramelo 一個品種。展開史上最大規模之一的雜交犬研究：在全國收容所做 DNA 檢測，並把檢測包寄給全巴西的 Caramelo（包括 Tata 的）。用研究創造 Caramelo 品種，給每隻自己的 pedigree 證書，以及純種有的一切：第一個 Caramelo Kennel Club；第一場 Caramelo Show（能見度與領養的舞台）；以及 Caramelo 自己的 Pedigree 包裝——史上第一款放上雜交犬的包裝。人們站在同一邊，收容所最常見的 mutt 成為巴西被領養最多的品種。FCI（全球最大純種犬組織）介入：此後允許 Caramelo 與雜交犬參加狗展。擁抱 Caramelo 打開市場、帶動轉型成長，也影響 Pedigree 在巴西與全球的品牌做法。99% positive reactions；1.39B impressions；organic engagement +400%；領養 YoY +22%；從下滑銷售到戰役後淨銷售 +22%；看完戰役後與領養議題的連結 +26.5%；市佔 +2.2pp；銷量 +15%。",
+        awardsDetail: [
+            { award: "Gold Lion — Creative Effectiveness: Sectors (Consumer Goods)", icon: "🥇" }
+        ]
+    },
+    {
+        id: 68,
+        title: "Donate to Play",
+        year: "2026",
+        brand: "Grupo Pulsa",
+        agency: "Publicis Brasil, Sao Paulo",
+        country: "Brazil",
+        summary: "巴西捐血依法可帶薪休假：Grupo Pulsa × Ubisoft 把公民權利做成遊戲上市日的 game pass。",
+        boardImage: "boards/donate-to-play.jpg",
+        filmUrl: "https://lion.box.com/s/7yr01lw1e6fall4g6ga5zjjpkydwve7g",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/donate-to-play-01.jpg',
+            idea: 'assets/stills/donate-to-play-02.jpg',
+            execution: 'assets/stills/donate-to-play-03.jpg'
+        },
+        background: "對玩家來說，沒有比遊戲上市日更重要。人人都想在 day one 第一個玩當下最熱的作品。問題是：上市日落在平日，玩家要上班，幾乎不可能在發行當天玩。但巴西勞工法：捐血者有權帶薪休假一天。南美最大血庫 Grupo Pulsa 與 Ubisoft 合作，以此接觸巴西新一代捐血者。",
+        idea: "Grupo Pulsa 與 Ubisoft 請玩家 save the day：去捐血再玩，把公民權利做成真實世界品牌體驗。告訴玩家：若在遊戲上市日捐血，就能休假、在發行當天玩最愛的遊戲，同時助人、救命。",
+        execution: "在最被期待的上市週，用招牌 Ubisoft 角色與受 2026 年大作啟發的角色召喚玩家。也與關鍵網紅合作，既拉高 day one 熱度，也帶人在上市日捐血。Grupo Pulsa 捐血中心成為戰役實體接觸點。Donate to Play 把上市熱度做成可參與的真實體驗。副標：Turning a civic right into a game pass to play on day one。Pulsa Group 血庫捐血 +13.6%；74% engagement rate；The Division Resurgence 在 Ubisoft 下載量為第 2 名國家；22% more shareability。RECORD TV：「A DIFFERENT CAMPAIGN TO ATTRACT YOUNGER DONORS。」OMELETE：「DONATING BLOOD GETS YOU A DAY OFF ON GAME LAUNCH DAYS。」底部圖說：THE LAUNCH CALENDAR、CHARACTER CALL、GAMERS SPREAD THE MESSAGE、INDUSTRY PRESS、DONATIONS AT GRUPO PULSA。",
+        awardsDetail: [
+            { award: "Gold Lion — Health & Wellness / Health Services & Facilities", icon: "🥇" }
+        ]
+    },
+    {
+        id: 69,
+        title: "Language of Bedwetting",
+        year: "2026",
+        brand: "Autism Society",
+        agency: "McCann New York",
+        country: "USA",
+        summary: "給數百萬非口語自閉症兒童的第一套夜尿詞彙：461 個符號，可下載進他們已在用的 AAC。",
+        boardImage: "boards/language-of-bedwetting.jpg",
+        filmUrl: "https://lion.box.com/s/e62uhvy03q1qiybndng9d45x004oabcj",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/language-of-bedwetting-01.jpg',
+            idea: 'assets/stills/language-of-bedwetting-02.jpg',
+            execution: 'assets/stills/language-of-bedwetting-03.jpg'
+        },
+        background: "Problem：夜尿是最常見、卻最少被說出口的童年經驗之一。對非口語自閉症兒童更難——很多人沒有語言去說發生了什麼、感覺如何、接下來需要什麼。數百萬人靠 AAC（Augmentative and Alternative Communication）溝通；但夜尿這種最脆弱的日常時刻，以前沒有詞。既有符號系統太寬、太含糊，不是為這經驗而建。沒有清楚語言，溝通就斷，需要被理解的時刻變成混亂與痛苦。",
+        idea: "Opportunity：Autism Society of America 支持自閉症者與家庭的日常生活各面向，因而發現缺口：非口語自閉症兒童的夜尿溝通。許多方案處理身體層面，情緒現實常沒被說出口，尤其孩子完全依賴結構化系統才能被理解時。需要安撫與照顧的時刻，家庭只能解讀訊號，而不是回應清楚溝通。機會不是提高意識，而是創造讓這些孩子被理解的方法。",
+        execution: "Solution：與語言治療師、自閉症專家與家庭共同開發，Autism Society of America 做成第一套可相容 AAC 的夜尿詞彙。把沒被說出口的經驗譯成孩子能表達的東西；數百個專用符號讓孩子能說發生了什麼、感覺如何、接下來需要什麼。可直接下載進他們已在用的 AAC 平台，活在日常互動裡。完整語言系統（語意、句法、構詞；可單獨用或數千種組合）；免費、易導入，無縫進任何可自訂 AAC app；加符號只需數秒、不必學全新行為；與專攻自閉症的語言治療師 Sydney Lima, MA, CCC-SLP 共創；低認知負荷、從主流 AAC 繪圖風格合成；117 個核心符號、86 個人形符號 × 五種膚色＝461 unique symbols，性別中立；另有免費 printable coreboard 給臥室與浴室。超過 2 million AAC users 可用；接觸者 94% 會使用或推薦；孩子第一次能表達「help change underwear」「why am I wet?」。FOX：「This tool was needed」；Financial Times：「Giving Autistic children the words they've never had」；CBS：「Simple and intuitive」；NBC：「Empowering」；abc：「Designed to help」；Portland Tribune：「A comprehensive symbol system」。",
+        awardsDetail: [
+            { award: "Gold Lion — Digital Craft / Form: UX & Journey Design", icon: "🥇" }
+        ]
+    },
+    {
+        id: 70,
+        title: "Pope Yes",
+        year: "2026",
+        brand: "Popeyes Louisiana Kitchen",
+        agency: "GUT, Miami",
+        country: "USA",
+        summary: "Popeyes 即時慶祝第一位美國教宗：品牌名加一格，在 X 發出「pope yes」。",
+        boardImage: "boards/pope-yes.jpg",
+        filmUrl: "https://lion.box.com/s/b7f238uvkd6o9lpdhngrt0aoilza6ygx",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/pope-yes-01.jpg',
+            idea: 'assets/stills/pope-yes-02.jpg',
+            execution: 'assets/stills/pope-yes-03.jpg'
+        },
+        background: "板上時間軸：2025 年 4 月 21 日 12:35 AM Pope Francis 逝世 → 5 月 7 日 10:46 AM conclave 開始 → 5 月 8 日 11:06 AM 西斯汀教堂白煙 → 12:12 宣布即將有新教宗 → 12:23 Pope Leo XIV 登上陽台——史上第一位美國教宗。副標：An American brand reacted in real time to celebrate the first American Pope.",
+        idea: "把 Popeyes 品牌名中間加一格空白，變成即時 CTA「pope yes」。一則只有這兩個字的 tweet 式貼文，時間戳 01:23pm。",
+        execution: "5 月 8 日 1:23 PM 在 X @Popeyes 發出「pope yes」。$16MM earned media；1.7B organic media impressions；$0 budget；比梵蒂岡宣布高出 55%；+8% top of mind（Q2 vs Q1）。535K engagements；Linda Yaccarino 稱讚。The Guardian：「The internet exploded with humor」；San Francisco Chronicle：「A playful nod」；Yahoo：「Tweet of the year」；Purity Group：「A resounding yes」。板上媒體 logo：BuzzFeed、AdAge、Parade、REVOLT、RetailWire、Campaign US、Know Your Meme。",
+        awardsDetail: [
+            { award: "Gold Lion — Social & Creator / Culture & Context: Breakthrough on a Budget", icon: "🥇" }
+        ]
     }
 ];
 
