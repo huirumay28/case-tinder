@@ -2066,6 +2066,238 @@ const casesData = [
         awardsDetail: [
             { award: "Silver Lion — Social & Creator / Excellence in Social & Creator: Social Purpose", icon: "🥈" }
         ]
+    },
+    {
+        id: 81,
+        title: "Iconic Home",
+        year: "2026",
+        brand: "Dunkin' At Home",
+        agency: "BBH, New York",
+        country: "United States",
+        summary: "America Runs on Dunkin'，但很多人不知道也能在家喝：把包裝裁成房子剪影，一句 AT HOME 就把 at-home coffee 說清楚。",
+        boardImage: "boards/iconic-home.jpg",
+        filmUrl: "https://lion.box.com/s/3dnn8o7fum1kv7e8sfmjnafnyq4fhovy",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/iconic-home-01.jpg',
+            idea: 'assets/stills/iconic-home-02.jpg',
+            execution: 'assets/stills/iconic-home-03.jpg'
+        },
+        background: "板上寫：America runs on Dunkin'. It’s the coffee they love and know. But what they don’t know... is that they can have it at home, too. Dunkin’ 是美國路上咖啡的日常；板上的任務是讓人知道，同一杯也能在家。",
+        idea: "Our solution was beautifully simple. Crop the pack just right, and it becomes a home. Set it against gradient skies—one for each flavor, mood, and moment coffee is enjoyed. And voila! With a pack and two words, we said everything. 標題：DUNKIN’ AT HOME；副標：Sometimes a pack shot is all you need.",
+        execution: "板上呈現 French Vanilla、Hazelnut、White Chocolate Peppermint、Dunkin’ Midnight 等口味：包裝頂角裁成 A-frame 房子，配不同漸層天空。落地含街頭大板、地鐵直式螢幕與城市廣場數位看板。Simple. Iconic. And unapologetically... a pack shot. 底列媒體含 Ad Age、Adweek、Lürzer’s Archive、The Drum、BuzzFeed 等。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" }
+        ]
+    },
+    {
+        id: 82,
+        title: "Let It Fly",
+        year: "2026",
+        brand: "Saudia Airlines",
+        agency: "Publicis KSA, Jeddah",
+        country: "Saudi Arabia",
+        summary: "Saudia 把最常被抱怨的行李超重，變成帶沙烏地文化回家的獎勵：貼上文化貼紙就能解鎖額外行李額度。",
+        boardImage: "boards/let-it-fly.jpg",
+        filmUrl: "https://lion.box.com/s/5ponfyyfr0d8803i9ezghkse68963nb3",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/let-it-fly-01.jpg',
+            idea: 'assets/stills/let-it-fly-02.jpg',
+            execution: 'assets/stills/let-it-fly-03.jpg'
+        },
+        background: "板上 CONTEXT：More than half of travellers report buying fewer souvenirs due to baggage limits. 同時沙烏地門戶對世界打開，旅客想帶走文化物件，卻在 check-in 變成 added baggage weight。Saudia 作為國家航空，不想讓 Saudi culture 被當成超重。",
+        idea: "Creating the first luggage stickers that turn cultural souvenirs into extra baggage allowance. 限量系列靈感來自 Saudi arts, crafts, and symbols，找區域與全球藝術家設計。REMOVING ONE OF TRAVEL’S MOST COMMON FRUSTRATIONS／TURNS LUGGAGE INTO CULTURAL STORYTELLING／A PRACTICAL & MEANINGFUL WAY FOR TRAVELLERS TO SUPPORT LOCAL CULTURE。",
+        execution: "HOW DOES IT WORK：Spend 50 SAR on cultural pieces → get a sticker → stick onto luggage → scan at check-in → unlock extra baggage allowance。Culture travelled lighter. Suitcases became media. Travellers became ambassadors. 板上結果含 partner retailers 銷售、participants、extra allowance、cultural items carried per journey、culture travelled；標籤 #SAUDIALETITFLY。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 83,
+        title: "Showroom on Ice",
+        year: "2026",
+        brand: "Loods 5",
+        agency: "Ogilvy, Amsterdam",
+        country: "Netherlands",
+        summary: "荷蘭人學滑冰靠舊椅子：Loods 5 把新椅系列搬上博物館廣場冰場，讓初學者邊滑邊逛家具。",
+        boardImage: "boards/showroom-on-ice.jpg",
+        filmUrl: "https://lion.box.com/s/j7z86f1rp696qn0o1ay9lshxdvbl7jna",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/showroom-on-ice-01.jpg',
+            idea: 'assets/stills/showroom-on-ice-02.jpg',
+            execution: 'assets/stills/showroom-on-ice-03.jpg'
+        },
+        background: "CULTURAL CONTEXT：Ice skating is a national sport and passion in the Netherlands. For over a century, the Dutch have learned their first glides using old chairs for balance. A tradition everyone in the country knows. Loods 5 是荷蘭家居設計零售，正在推新椅系列，但不是每個人都知道。",
+        idea: "So we brought it to the country’s most iconic ice rink and swapped the old chairs with our newest designs, introducing the first-ever Showroom on Ice. FROM OLD CHAIRS HELPING BEGINNERS TO NEW CHAIRS ATTRACTING CUSTOMERS。",
+        execution: "For 10 days straight, beginners learned to glide using our collection. Each chair featured a QR code to shop instantly, with an exclusive 15% gliding discount, and the option to buy directly on-site for immediate pickup. 板上結果含相對 2025 同期與網站流量（如 +750 vs same week in 2025、website visitors compared to average traffic）。社群留言：Absolutely brilliant!／Applause to whoever came up with this／Love this modern take on the tradition.",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 84,
+        title: "Firecatchers",
+        year: "2026",
+        brand: "Sapeurs Pompiers de France",
+        agency: "Havas Play, Paris",
+        country: "France",
+        summary: "法國南部野火監視鏡頭看不完：把 Twitch「即將開始」等候畫面，變成即時森林監視網，讓玩家幫消防員找煙。",
+        boardImage: "boards/firecatchers.jpg",
+        filmUrl: "https://lion.box.com/s/x3huux6ebrimme931jsidajgfdazu7p6",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/firecatchers-01.jpg',
+            idea: 'assets/stills/firecatchers-02.jpg',
+            execution: 'assets/stills/firecatchers-03.jpg'
+        },
+        background: "PROBLEM：Every year, wildfires spread across southern France. Firefighters monitor hundreds of forest cameras, 24/7, but they can't watch them all. No AI ready. Not enough budget. Not enough people. Yet the difference between control and catastrophe can be a few minutes. 媒體標語：NEW ALERT TOOL FOR FIREFIGHTERS／TWITCH BECOMES A WATCHTOWER／TURNS GAMERS INTO AN ARMY OF FIRE WATCHDOGS。",
+        idea: "WE TURNED TWITCH VIEWERS WAITING FOR STREAMS INTO A REAL TIME WILDFIRE DETECTION NETWORK. Instead of waiting in front of a “starting soon” screen，觀眾監看南部森林即時監視畫面；Gamers are trained to spot tiny changes，一有可疑跡象聊天室立刻通知消防員。They didn't just wait for content anymore, they became forest rangers.",
+        execution: "板上成果：10,000 VIEWERS BECAME FIRE RANGERS；5 MAJOR NETWORK FIRES DETECTED；1,700 HECTARES OF FOREST MONITORED 24/7；+600 STREAMERS PARTICIPATING。What started as a local solution became a scalable model，與斯洛維尼亞、希臘討論 2026 加入。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 85,
+        title: "Olympic Rings Pasta",
+        year: "2026",
+        brand: "International Olympic Committee",
+        agency: "International Olympic Committee, Lausanne",
+        country: "Switzerland",
+        summary: "為 Milano Cortina 2026 做出奧運五環義大利麵：只在選手村供應，靠選手自拍把冬奧變成可分享的文化物件。",
+        boardImage: "boards/olympic-rings-pasta.jpg",
+        filmUrl: "https://lion.box.com/s/al07hs5499fevko9woad9ad73wchrjs6",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/olympic-rings-pasta-01.jpg',
+            idea: 'assets/stills/olympic-rings-pasta-02.jpg',
+            execution: 'assets/stills/olympic-rings-pasta-03.jpg'
+        },
+        background: "STARTING POINT（板文）：Sport fandom has changed；觀眾透過 culture、lifestyle、human moments 參與（如 Turkish shooter、knitting British diver）。冬奧缺一個這樣的 cultural object。Milano Cortina 2026 需要把運動員變成 entertainer、把運動變成可分享內容。副標：A new pasta shape to introduce the Milano Cortina 2026 Winter Olympics to the world.",
+        idea: "IDEA：把奧運五環重塑成 entertainment, not iconography——做成義大利麵，放進選手每天午餐，把私密用餐變成可分享內容。",
+        execution: "EXECUTION：特製 bronze die 精準重現五環；從不對外販售，只在 Olympic Village canteens 供應；由米其林主廚 Carlo Cracco 推出。選手自發拍 reaction、試吃挑戰、Village vlogs，零媒體費做出 distributed entertainment system。RESULTS：380 million earned social engagements；36,525 pasta dishes served；還成了 eBay 收藏品。並貢獻 Milano Cortina 2026 成為史上串流最高的冬奧相關數據（板上列 10B+ social engagements、+8.7M followers、NBC +56% vs Beijing 等）。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 86,
+        title: "Doorbell Ads",
+        year: "2026",
+        brand: "Mercado Libre",
+        agency: "GUT, Buenos Aires",
+        country: "Argentina",
+        summary: "Mercado Libre 那聲門鈴已被拉美認得：把它接在別人的電視廣告後面，幾秒鐘就把別人的廣告收成自己的。",
+        boardImage: "boards/doorbell-ads.jpg",
+        filmUrl: "https://lion.box.com/s/1yab24ucm0cykn8bxzhn8qgfc7lgjdzy",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/doorbell-ads-01.jpg',
+            idea: 'assets/stills/doorbell-ads-02.jpg',
+            execution: 'assets/stills/doorbell-ads-03.jpg'
+        },
+        background: "BRAND CONTEXT（板文）：MERCADO LIBRE IS THE E-COMMERCE LEADER IN LATIN AMERICA AND, AFTER MORE THAN 20 YEARS OF BRAND BUILDING, MANAGED TO TURN ITS ADVERTISING SIGN-OFF INTO A SOUND RECOGNIZED BY MILLIONS OF PEOPLE. EVERY TIME “RING! MERCADO LIBRE!” IS HEARD…",
+        idea: "IDEA：WE CREATED A TV CAMPAIGN USING MERCADO LIBRE’S MOST RECOGNIZABLE SOUND: THE DOORBELL. JUST A FEW SECONDS OF A TV SPOT PLACED AFTER OTHER ADS—TURNING… INTO A…（把別人廣告收尾變成 Mercado Libre 的）。Play the doorbell, and every ad from any brand becomes ours.",
+        execution: "板上畫面含 Colgate、Schick 等前支廣告倒數後接門鈴。把既有廣告流變成 Mercado Libre 品類齊全的現場示範：Gillette ad. Doorbell. Motorola ad. Doorbell. Just a sound and two words. 媒體環境本身成為論點。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 87,
+        title: "TikTok Currency",
+        year: "2026",
+        brand: "Verkkokauppa.com",
+        agency: "Bob the Robot, Helsinki",
+        country: "Finland",
+        summary: "Verkkokauppa 發明 TikTok Currency：用影片觀看數當一天店內唯一付款方式，把 Gen Z 的社群曝光變成真的購買力。",
+        boardImage: "boards/tiktok-currency.jpg",
+        filmUrl: "https://lion.box.com/s/94gbmrhywveu6dt9x9ia838rmugyzfa3",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/tiktok-currency-01.jpg',
+            idea: 'assets/stills/tiktok-currency-02.jpg',
+            execution: 'assets/stills/tiktok-currency-03.jpg'
+        },
+        background: "板／戰役脈絡：芬蘭消費電子零售要抓住避開傳統廣告的 Gen Z。真正的注意力貨幣是 social visibility——把觀看數變成可在 Verkkokauppa.com／店內使用的購買力。",
+        idea: "Invented an entirely new commerce model: TikTok Currency — the world's first payment method powered by social media visibility. The more views a TikTok video about Verkkokauppa generated, the more purchasing power the creator earned. For one day, TikTok views became the only accepted payment in store.",
+        execution: "把結帳流程改成符合 Gen Z 創造價值的方式：社群曝光＝交易貨幣。板上與 The Work 敘事強調這不是另一次 TikTok 貼文，而是一天限定、以觀看數結帳的零售實驗。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 88,
+        title: "Prime Time 0.7",
+        year: "2026",
+        brand: "Frecuencia Latina",
+        agency: "Fahrenheit DDB, Lima",
+        country: "Peru",
+        summary: "秘魯黃金時段貴到社福難進場：Frecuencia Latina 把節目加速 0.7%，每天擠出一分鐘給癌症募款，廣告主與觀眾幾乎無感。",
+        boardImage: "boards/prime-time-07.jpg",
+        filmUrl: "https://lion.box.com/s/07u1tj2n7t2dyb5420mwmvn0hbjy2wqe",
+        awards: { gp: 0, gold: 0, silver: 2, bronze: 2 },
+        stills: {
+            background: 'assets/stills/prime-time-07-01.jpg',
+            idea: 'assets/stills/prime-time-07-02.jpg',
+            execution: 'assets/stills/prime-time-07-03.jpg'
+        },
+        background: "板上／脈絡：秘魯電視黄金時段集中最高收視與廣告投資；Latina 長期捐時段給 Peruvian Cancer Foundation，但非黃金時段因觀眾碎片化變弱。社福難負擔黃金時段買法。",
+        idea: "Prime Time +0.7%：對黃金時段節目施加不易察覺的 0.7% 加速，在不影響廣告主、內容與觀感的前提下，每天多出約一分鐘，讓募款影片得以在黃金時段一日兩次播出。",
+        execution: "把「搶媒體版位」改成「重設媒體結構」：用廣播基礎設施創造社會影響力空間，而不改電視商業模型。戰役期間持續在黃金時段露出 Foundation 募款。",
+        awardsDetail: [
+            { award: "Silver Lion ×2", icon: "🥈" },
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 89,
+        title: "Uncovering Racism",
+        year: "2026",
+        brand: "Sport Club Corinthians Paulista",
+        agency: "AlmapBBDO, São Paulo",
+        country: "Brazil",
+        summary: "種族歧視者用球衣遮嘴；Corinthians 全隊入場同樣遮嘴，翻出衣領內「Racism is a crime. Report it.」把遮掩變成檢舉。",
+        boardImage: "boards/uncovering-racism.jpg",
+        filmUrl: "https://lion.box.com/s/e0z13hm0r8vxn9v9jis603ch3grrzwqy",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/uncovering-racism-01.jpg',
+            idea: 'assets/stills/uncovering-racism-02.jpg',
+            execution: 'assets/stills/uncovering-racism-03.jpg'
+        },
+        background: "板文：LISBON, FEBRUARY 17TH 2026 — Benfica vs Real Madrid，Vini Jr. 遭種族侮辱，Prestin 試圖用球衣遮嘴掩蓋。When racism goes unpunished, it gets louder. BRAZIL, FEBRUARY 22TH 2026 — Corinthians 守門員 Hugo Souza 几天後遭到同類辱罵。",
+        idea: "BRAZIL, FEBRUARY 25TH 2026 — CRUZEIRO X CORINTHIANS：In support of Vini Jr and Hugo, all the players entered the field with their shirts covering their mouths, but instead of concealing racism, they fought against it. 衣領內文：Racism is a crime. Report it. MANIFESTO：RACISM HIDES BEHIND FABRIC, WE’LL PRINT THE TRUTH ON IT.",
+        execution: "賽前同步動作成為轉播與社群畫面；Hugo Souza、Director of Culture Rafael Castilho 等發言強調種族歧視是犯罪、必須檢舉。媒體覆蓋多國（板上 MORE COUNTRIES）；把一次性抗議做成可複製的反歧視訊息。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 90,
+        title: "Look for the Leaf",
+        year: "2026",
+        brand: "Maple Leaf Foods",
+        agency: "No Fixed Address, Toronto",
+        country: "Canada",
+        summary: "美加關稅下「Buy Canadian」滿貨架都是楓葉：Maple Leaf Foods 反而推 Look for the Leaf，連對手品牌一起拍，教人認真正 Made in Canada 標誌。",
+        boardImage: "boards/look-for-the-leaf.jpg",
+        filmUrl: "https://lion.box.com/s/00yv2feg9p0jbrah2l2i98cx58z95fwg",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/look-for-the-leaf-01.jpg',
+            idea: 'assets/stills/look-for-the-leaf-02.jpg',
+            execution: 'assets/stills/look-for-the-leaf-03.jpg'
+        },
+        background: "CULTURAL CONTEXT（板文）：Donald Trump’s tariffs and taunts that Canada would become the “51st State” triggered a huge wave of patriotism. “Buy Canadian” 訊息爆量；多數品牌只強調自己不是美國貨。Maple Leaf Foods 選擇做最加拿大的事——著眼 collective unity。AdAge：「MAPLE LEAF FOODS HITS BACK AT U.S. TARIFFS BY URGING CUSTOMERS TO BUY CANADIAN — EVEN FROM ITS RIVALS」。",
+        idea: "Introducing: Look For The Leaf, not just another “Buy Canadian” campaign, but a unifying rally call. Instead of shining the spotlight on ourselves, we launched a national campaign that featured other Canadian brands, even competitors. 連結點：包裝上紅色 Made in Canada leaf——和 Maple Leaf Foods logo 同一片葉。標語：Even if it isn’t ours.",
+        execution: "Microsite 當樞紐讓消費者了解、新品牌報名；與 Canadian delivery app Skip 合作，讓人不但 look for the leaf，也能 shop for it。板上：nearly 50 brands joined the coalition（後續成長）；70% sales increase for Maple Leaf Foods doubling category growth；66% of Canadians reached；16% increase in partner sales via Skip 等。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
     }
 ];
 
