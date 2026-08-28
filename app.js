@@ -1835,6 +1835,237 @@ const casesData = [
         awardsDetail: [
             { award: "Gold Lion — Social & Creator / Culture & Context: Breakthrough on a Budget", icon: "🥇" }
         ]
+    },
+    {
+        id: 71,
+        title: "Cif Clean My Name",
+        year: "2026",
+        brand: "Cif",
+        agency: "Droga5, São Paulo",
+        country: "Brazil",
+        summary: "巴西不說「我欠債」，說「我的名字髒了」：Cif × Serasa 做出第一個用來清髒名的產品。",
+        boardImage: "boards/cif-clean-my-name.jpg",
+        filmUrl: "https://lion.box.com/s/420z70r1c8x3gn6kptjgxz8lqrsvyuaj",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/cif-clean-my-name-01.jpg',
+            idea: 'assets/stills/cif-clean-my-name-02.jpg',
+            execution: 'assets/stills/cif-clean-my-name-03.jpg'
+        },
+        background: "板上副標：IN BRAZIL, WE DON'T SAY: 'I'M IN DEBT'. WE SAY: 'MY NAME IS DIRTY'. SO CIF CREATED THE FIRST PRODUCT DESIGNED TO CLEAN DIRTY NAMES. 右上：CLEAN OVER 100 SURFACES: EVEN DEBTS. CONTEXT：在巴西，欠債不只是財務問題，也是社會問題。欠債時不說 \"I'm in debt\"，而說你的名字髒了。髒到紀錄：7,000 萬巴西人帶著 dirty names。Cif 能清潔超過 100 種表面，巴西人開始在網路上問：能不能也把我們的名字清乾淨？INSIGHT：Dirty name because you're in debt? Not our business. But cleaning it could be.",
+        idea: "Cif Clean My Name。還是同樣的 Cif 清潔，現在連髒名也算。與巴西最大信用協商平台 Serasa 合作，發現平均債務和解約 $200。於是把整筆 promotional budget 改去幫人還債，用這個新版本解鎖。Basically, free money to clean up their names. 瓶身特仕：EDIÇÃO ESPECIAL／LIMPA NOME；RENOVE ATÉ 100% DA SUA DÍVIDA SEM ESFORÇO；E AINDA LIMPA MAIS DE 100 SUPERFÍCIES。橫幅：TURNING A JOKE INTO A UNPRECEDENTED PRODUCT。",
+        execution: "每一瓶 Cif Clean My Name 都可能帶錢：在 Serasa 平台輸入 receipt code。Found money? Clean up your debts. 因為名字還可能再髒，戰役也請經濟學家分享如何 stay financially clean。手機畫面：$200 UNLOCKED: CIF CLEANED YOUR NAME。社群 @ruiva_odont：「THE ONLY THING @CIF CAN'T CLEAN? A DIRTY NAME」；@cif.limpadores：「SAY NO MORE。」RESULTS：A promotion where everyone won (literally): people cleared our shelves, Cif cleaned their names, and Serasa cleared debt records. IN JUST 2 WEEKS：+15.6% UNITS SOLD VS 2025；2MM IN DEBT RENEGOTIATED；4.1MM PEOPLE AT THE SERASA'S EVENT +11% VS JAN 26。底帶：A INTERNET JOKE BECAME 380 TONS OF PRODUCT；ACROSS 485 STORES AROUND BRAZIL；IN PARTNERSHIP WITH SERASA EXPERIAN；BRAZIL'S LARGEST CREDIT RENEGOTIATION PLATFORM；CLEANING THOUSANDS OF BRAZILIAN NAMES。實體接觸點含 Feirão Limpa Nome。O ESTADO：「CIF AND SERASA EXPERIAN TURN INTERNET HUMOR INTO MARKET STRATEGY WITH SOCIAL AND ECONOMIC IMPACT」。",
+        awardsDetail: [
+            { award: "Gold Lion — Brand Experience & Activation / Retail Experience & Activation: Retail Promotions & Competitions", icon: "🥇" }
+        ]
+    },
+    {
+        id: 72,
+        title: "Chicken Screams for Coke",
+        year: "2026",
+        brand: "Coca-Cola",
+        agency: "VML, New York (+ São Paulo)",
+        country: "USA (campaign Japan)",
+        summary: "橡膠雞按對節奏會叫出 CO-CA-CO-LA：Coca-Cola 用這個聲音，在日本做成可解鎖 chicken-and-Coke 的品牌機制。",
+        boardImage: "boards/chicken-screams-for-coke.jpg",
+        filmUrl: "https://lion.box.com/s/mqd58537jpb9pudc3e2fatmhix4ohc9z",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/chicken-screams-for-coke-01.jpg',
+            idea: 'assets/stills/chicken-screams-for-coke-02.jpg',
+            execution: 'assets/stills/chicken-screams-for-coke-03.jpg'
+        },
+        background: "Japan loves chicken. 但到吃飯時，傳統上沒人想到 Coke。同時日本完全迷上 rubber chicken toy：每間店、每個 social feed、每雙手上都有。",
+        idea: "Maybe the rubber chicken had been trying to tell us something this whole time. 因為用剛好的節奏擠，它不只是尖叫——它在說 CO-CA-CO-LA。圍繞這一個聲音做戶外體驗。副標：THE CHICKEN WAS ALWAYS SCREAMING FOR IT. WE FINALLY LISTENED.",
+        execution: "做成只認橡膠雞聲音的 audio recognition system，不認人模仿、不認仿品。節奏對了，立刻解鎖 chicken-and-Coke offer。體驗跑在 mobile、restaurants、interactive OOH panels 與社群。A cultural obsession became a brand mechanic. And for the first time, made Japan consider chicken and Coke together. +250% brand mentions in Japan；+627% increase in chicken + Coca-Cola association。roastbrief：「This isn't a Joke: In Japan, a Rubber Chicken Can Get you Coke」；campaign：「Rubber chicken clucks become a fun, shareable Coke pairing experience in Japan」。",
+        awardsDetail: [
+            { award: "Gold Lion — Social & Creator / Culture & Context", icon: "🥇" }
+        ]
+    },
+    {
+        id: 73,
+        title: "Tiffany & Co. x Netflix's Frankenstein – Integrated Campaign",
+        year: "2026",
+        brand: "Tiffany & Co. (x Netflix)",
+        agency: "Tiffany & Co. and Netflix Brand Creative Studio, New York",
+        country: "USA (New York)",
+        summary: "Tiffany × Netflix《Frankenstein》：不是貼上去的裝飾性置入，是從故事內部長出來的 luxury 整合。",
+        boardImage: "boards/tiffany-x-frankenstein.jpg",
+        filmUrl: "https://lion.box.com/s/6c8xybeemdcxaxrtfaua8kyjox7dqlbg",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/tiffany-x-frankenstein-01.jpg',
+            idea: 'assets/stills/tiffany-x-frankenstein-02.jpg',
+            execution: 'assets/stills/tiffany-x-frankenstein-03.jpg'
+        },
+        background: "BRIEF：This was not a decorative placement layered onto a film—it was a brand integration built to serve the story from within. Tiffany & Co. 與 Oscar®-winning Guillermo del Toro、以及電影的 Oscar®-winning costume department 合作，把 archival authority、bespoke craftsmanship 與 period credibility 帶進 Frankenstein，幫助塑造 character、atmosphere 與 visual storytelling。挑戰：讓 luxury 品牌對娛樂來說是必要的，而不只是出現在裡面。",
+        idea: "板上標題：An Oscar®-winning Collaboration。把 Tiffany 做成對角色與世界觀不可或缺的部分，而不是可見的置入。",
+        execution: "Tiffany & Co. 與 Netflix、Guillermo del Toro、Oscar®-winning costume designer Kate Hawley 緊密合作，把 27 jewels and objects 帶進 Frankenstein：含 archival masterpieces、contemporary creations 與 bespoke designs。電影之後把合作擴成 immersive media experience：社群敘事、紐約旗艦 The Landmark 的 detailed windows、premiere moments，以及 Netflix 主導的倫敦展「Frankenstein: Crafting a Tale Eternal at Selfridges」。27 TIFFANY & CO. JEWELS AND OBJECTS IN THE FILM；$3.68M TOTAL EMV；687 GLOBAL MENTIONS ACROSS 55 COUNTRIES；24M SOCIAL IMPRESSIONS；37M PAID NETFLIX IMPRESSIONS；86% POSITIVE INSTAGRAM SENTIMENT；3 OSCAR WINS FOR FRANKENSTEIN, INCLUDING BEST COSTUME DESIGN。",
+        awardsDetail: [
+            { award: "Gold Lion — Luxury: Partnerships/Collaborations", icon: "🥇" }
+        ]
+    },
+    {
+        id: 74,
+        title: "Everybody Coinbase",
+        year: "2026",
+        brand: "Coinbase",
+        agency: "Isle of Any, New York",
+        country: "USA (New York)",
+        summary: "Super Bowl 不做更大：Coinbase 用 Backstreet Boys〈Everybody〉，讓 1.25 億觀眾一起唱完廣告。",
+        boardImage: "boards/everybody-coinbase.jpg",
+        filmUrl: "https://lion.box.com/s/gsv6jigylecoixkpd4nn1i2l0axcd3he",
+        awards: { gp: 0, gold: 2, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/everybody-coinbase-01.jpg',
+            idea: 'assets/stills/everybody-coinbase-02.jpg',
+            execution: 'assets/stills/everybody-coinbase-03.jpg'
+        },
+        background: "The Super Bowl is one of the last true shared cultural moments in America. 數百萬人一起看、即時反應。多數品牌走更大：celebrities、spectacle、更吵的 storytelling。We did the opposite.",
+        idea: "把 Super Bowl spot 做成大規模參與的時刻，邀請 125 million viewers 成為訊息的一部分。用 Backstreet Boys 無法認錯的旋律〈Everybody〉，到處的人一起唱。",
+        execution: "By creating a behavioral idea that changed the way we view commercials, with the audience completing the format, we created a first-of-its-kind Super Bowl ad, blurring the lines between brand and audience. #1 most talked about ad on Super Bowl night；3.1B earned media impressions in under 24 hours；+45% app downloads。AdAge：「A social experiment in the shape of a film」；shots：「Clever, unusual, and eye catching」；FAST COMPANY：「A new playbook for Super Bowl ads」；Rolling Stone：「The entire country had a singalong」。畫面是 karaoke 字幕風格。板上可見機上螢幕、戶外巨蛋、酒吧螢幕牆與客廳跟唱。媒體 logo 含 The Verge、HuffPost、Mashable、CNN、Fast Company、E! News、BuzzFeed、CBS、People、Fortune、Rolling Stone、The New York Times、ADWEEK、VARIETY、USA TODAY、AdAge。",
+        awardsDetail: [
+            { award: "Gold Lion — Direct / Sectors: Consumer Services/B2B", icon: "🥇" },
+            { award: "Gold Lion — Entertainment", icon: "🥇" }
+        ]
+    },
+    {
+        id: 75,
+        title: "The Unburied Casket",
+        year: "2026",
+        brand: "Women for Change",
+        agency: "Edelman SA, Johannesburg",
+        country: "South Africa",
+        summary: "Women for Change 做了一具不拿去下葬的棺材：把南非 femicide 的真相抬上街，逼政府宣告國家災難。",
+        boardImage: "boards/the-unburied-casket.jpg",
+        filmUrl: "https://lion.box.com/s/u5bu2qn2roh2mlyhw6k5l1tlz89qhkj9",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-unburied-casket-01.jpg',
+            idea: 'assets/stills/the-unburied-casket-02.jpg',
+            execution: 'assets/stills/the-unburied-casket-03.jpg'
+        },
+        background: "板上副標：We built a casket. Not to bury the dead, but to unbury the truth of femicide. PROBLEM：In just one year, 5,578 women were murdered in South Africa, a 33.8% increase from the year before. Yet every time people took to the streets, their protests were buried under silenced and inaction.",
+        idea: "We knew the government would shut down any protests, we chose the one thing they wouldn't dare stop: a funeral. 為了遊行做了一具比標準大 33.8% 的棺材，mirroring the 33.8% rise in femicide。Women artisans 用數千顆 traditional Zulu beadwork 裝飾，each purple bead honoring a victim。棺材走遍全國，turning a single purple bead into a national symbol。Hashtag：#UNBURYTHETRUTH。請願：Declare GBVF a National Disaster in South Africa。",
+        execution: "Adorned with thousands of handwoven Zulu beads, the casket was built 33.8% larger to mirror the rise in femicide. Hundreds of thousands witnessed the casket and joined funerals across the country. Our petition received over 1.1 Million signatures from across the world（畫面：1,120,562）。Millions showed solidarity online by turning their profile pictures purple. Major landmarks across the country lit up in purple. President Cyril Ramaphosa officially declared femicide a national disaster on the eve of the G20 Summit. 左欄：2 Billion+ impressions in South Africa alone；1.1 Million+ petition signatures from around the world；Government officially declaring GBVF a national disaster。2,400+ pieces of traditional media；#1 TRENDING TOPIC IN SOUTH AFRICA。On the eve of the G20 Leaders' Summit, and after months of public pressure, the President was forced to officially declare femicide a national disaster. What began as a funeral became a national reckoning, reaching millions worldwide. Ultimately, The Unburied Casket helped change the legal framework of a country that can no longer bury its women in silence. The New York Times：「Demonstrators in South Africa called for their government to declare Gender-Based Violence and killings a National Disaster」；BBC：「South Africa calls Gender Violence a National Disaster after protests」；Little Black Book：「This beaded casket in South Africa is revealing the truth about femicide」。",
+        awardsDetail: [
+            { award: "Silver Lion — Glass: The Lion For Change / Initiatives", icon: "🥈" }
+        ]
+    },
+    {
+        id: 76,
+        title: "The Kidney Pass",
+        year: "2026",
+        brand: "Way Out West",
+        agency: "NORD, Stockholm",
+        country: "Sweden",
+        summary: "Way Out West 把「I'd give my kidney for a ticket」做成真的：登記器官捐贈，才有機會抽到 The Kidney Pass。",
+        boardImage: "boards/the-kidney-pass.jpg",
+        filmUrl: "https://lion.box.com/s/223bqjzhrxll6pepjs8t425uph4osyp9",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-kidney-pass-01.jpg',
+            idea: 'assets/stills/the-kidney-pass-02.jpg',
+            execution: 'assets/stills/the-kidney-pass-03.jpg'
+        },
+        background: "This year, Way Out West, one of the Nordic's biggest music festivals was sold out record early. That's when FOMO kicks in, and people say: \"I'd give my kidney for a ticket.\" Meanwhile, Sweden's health authorities had seen a decline in sign-ups to the national organ donation registry, which allows organs to be used for donation after death.",
+        idea: "So, instead we decided to promote a good cause and turned that classic phrase into action. Introducing: The Kidney Pass. 手環文案：I GAVE A KIDNEY FOR THIS TICKET。",
+        execution: "At checkout, fans were redirected to the national organ donation registry. By signing up and sharing their confirmation, they got the chance to score a 3-day pass, proving they really would \"give a kidney for a ticket.\" The results? In just a few days, over 2000 new registrations. The campaign spread worldwide, covered in 150+ major outlets and music publications, while raising vital awareness for organ donation. 2000+ DONORS；559% IN DONOR REGISTRATIONS FIRST DAY；150+ GLOBAL ARTICLES。手機畫面：SOLD-OUT FESTIVAL ASKED PEOPLE TO 'GIVE UP A KIDNEY' FOR A TICKET AND 2,000 PEOPLE SIGNED UP。METRO：「JOKE BECAME REALITY」；US Weekly：「SWEDISH MUSIC FESTIVAL ALLOWS FANS TO PLEDGE THEIR ORGANS FOR TICKETS WITH NEW KIDNEY PASS」；Contagious：「SWEDISH FESTIVAL TURNS HYPE INTO HELP」；People：「SWEDISH MUSIC FESTIVAL ANNOUNCES CHANCE TO WIN FREE TICKETS IF YOU PLEDGE TO DONATE YOUR KIDNEY」；Mixmag：「A BOLD TICKET OFFER」。",
+        awardsDetail: [
+            { award: "Silver Lion — PR / Culture & Context: Local Brand", icon: "🥈" }
+        ]
+    },
+    {
+        id: 77,
+        title: "Silent Edition",
+        year: "2026",
+        brand: "Jeep",
+        agency: "Publicis Canada, Toronto",
+        country: "Canada",
+        summary: "Jeep 把 2026 Cherokee Hybrid 的安靜做成攝影工具：Wildlife Photographer of the Year 從車內拍下不被打擾的野生動物。",
+        boardImage: "boards/silent-edition.jpg",
+        filmUrl: "https://lion.box.com/s/opm0l1036ljuklxx6tfgxxfhsliqfe9v",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/silent-edition-01.jpg',
+            idea: 'assets/stills/silent-edition-02.jpg',
+            execution: 'assets/stills/silent-edition-03.jpg'
+        },
+        background: "板上標題：JEEP PRESENTS: THE SILENT EDITION。CONTEXT：For more than 85 years, Jeep has been defined by its ability to reach nature. But with the arrival of the 2026 Jeep Cherokee Hybrid, that legacy faced a new tension. Hybrid technology is often seen as urban, efficient, and disconnected from the wild. For Jeep, that perception threatened to dilute its core identity. The brief was to prove the opposite.",
+        idea: "The campaign sent Wildlife Photographer of the Year, Patricia Homonylo, into the remote wilderness of Northern Ontario, Canada, using the quietness and off-road capability of the Jeep Cherokee Hybrid as her tool. The result is a series of deeply intimate wildlife portraits shot from within the vehicle. Rendered in monochrome, each image removes time and place, focusing purely on wildlife as it is, undisturbed. The vehicle is never shown. Jeep is felt through what it enables, not what it displays. It doesn't impose itself. It belongs.",
+        execution: "作品是從車內拍下的黑白野生動物肖像；車上與戶外可見看板句：This photo was only made possible with the quietness of the Jeep Cherokee Hybrid。+11M impressions；+3.4M EDITORIAL DOMINANCE。AdAge：「Wildlife photography made possible by silence」；Little Black Book：「Letting the wild stay wild」；MUSE：「Turning a vehicle into part of the environment」；The Drum：「Capturing wildlife undisturbed」；Campaign：「Capturing wildlife without disruption」。",
+        awardsDetail: [
+            { award: "Silver Lion — Print & Publishing / Culture & Context: Single-Market Campaign", icon: "🥈" }
+        ]
+    },
+    {
+        id: 78,
+        title: "A drugstore in your pesebre",
+        year: "2026",
+        brand: "Farmacias Económicas",
+        agency: "Be Flamingo, Quito",
+        country: "Ecuador",
+        summary: "Farmacias Económicas 把聖誕 pesebre 做成可購物藥局：3,000 個家中馬槽，變成新的直接購買通道。",
+        boardImage: "boards/drugstore-in-your-pesebre.jpg",
+        filmUrl: "https://lion.box.com/s/k9he158hejh10avxm2yf67rcakip6nba",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/drugstore-in-your-pesebre-01.jpg',
+            idea: 'assets/stills/drugstore-in-your-pesebre-02.jpg',
+            execution: 'assets/stills/drugstore-in-your-pesebre-03.jpg'
+        },
+        background: "板上圓章：THE IDEA THAT TURNED A CHRISTMAS TRADITION INTO A WAY TO SHOP FROM HOME。CONTEXT：With 1,064 stores, Farmacias Económicas has built the second biggest chain in the country. In Latin America, nativity scenes (pesebres) are a Christmas tradition present in millions of homes and, after more than 800 years, have evolved beyond religion. From personal figures to pop culture characters are added into pesebres. During the holidays, it become one of the most visible space, that come to life as families gather for novenas, celebrations, and rituals. PROBLEM：In a category where convenience defines choice, proximity isn't a benefit, it's the business. But physical expansion had limits, as a low-cost brand, opening more stores wasn't an option, especially in December, when demand peaks and price competition intensifies. In the most competitive moment of the year, relying on store locations alone limited growth. So how could the brand expand access to purchase beyond its stores.",
+        idea: "Farmacias Económicas turned a cultural tradition into a new direct purchase channel by transforming pesebres into shoppable drugstores. With 3,000 new small scale commerce stores, inside nativity scenes across Ecuadorian homes. 戶外／傳單：RÉNTANOS un espacio en tu pesebre。",
+        execution: "We reframed the brand as a real estate platform：把迷你藥局放進家中 pesebre，households were paid $5 to host a mini pharmacy，一週內到 3,000 homes。每座迷你店有 QR code 連到 WhatsApp，browse、order、products with free home delivery。+55.5% Online sales YoY in December；+13.5M Interactions；+53% Social engagement；+12.29% Physical store sales；9.5M People reached。",
+        awardsDetail: [
+            { award: "Silver Lion — Creative Commerce / Challenges & Breakthroughs: Cultural Engagement", icon: "🥈" }
+        ]
+    },
+    {
+        id: 79,
+        title: "Back to Kai Tak",
+        year: "2026",
+        brand: "Cathay",
+        agency: "Leo Hong Kong",
+        country: "Hong Kong",
+        summary: "Cathay 在 Hong Kong Rugby Sevens 重飛啟德降落航線：把香港人的集體記憶，做成一次真的飛回去。",
+        boardImage: "boards/back-to-kai-tak.jpg",
+        filmUrl: "https://lion.box.com/s/mwb3t3c6ja9jaa2ghgwhm6v6jxbo0h0g",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/back-to-kai-tak-01.jpg',
+            idea: 'assets/stills/back-to-kai-tak-02.jpg',
+            execution: 'assets/stills/back-to-kai-tak-03.jpg'
+        },
+        background: "板上標題：BACK-TO-KAI TAK；副標可見 HONG KONG'S PRIDE CAN SOAR AGAIN。THE CHALLENGE：While Cathay Pacific is Hong Kong's flagship carrier, Hong Kong people love to hate on Cathay. Over the past few years, social media has been dominated by negative sentiment towards the brand. This has resulted in a drop in brand love and the lowest awareness levels in 5 years. THE INSIGHT：Cathay, however, holds a unique place in the hearts of Hong Kongers as the primary carrier for 80 years. Millions of locals have cherished memories of Cathay landing at Kai Tak airport. The Kai Tak landing was world-famous because planes were meters above residential buildings. Planespotters and travellers from around the world come to Hong Kong to photograph this moment. When Kai Tak Airport moved in 1998, millions of Hong Kongers tearfully bid goodbye. With it, Hong Kong's pride disappeared.",
+        idea: "As the sponsor of a new state-of-the-art stadium where Kai Tak once stood, Cathay celebrated this by bringing back (actually, we flew back) Hong Kong Pride. During the Hong Kong Rugby Sevens, the city's Super Bowl equivalent, we did the impossible: re-enacting the Kai Tak Landing and flight path that millions of locals had collective memories of before the finals match. Cathay partnered with the Hong Kong government to establish a temporary restricted flying zone over Victoria Harbour.",
+        execution: "過程條：MEMORIES／PREPARATION／FLIGHT ROUTE（ENTERING VICTORIA HARBOUR → KAI TAK STADIUM）／LIVE BROADCASTING／NEWS／SOCIAL MEDIA。WE PARTNERED WITH OVER 20 ORGANISATIONS, AND ESPECIALLY THE HONG KONG GOVERNMENT, TO RE-ENACT THE KAI TAK LANDING。#1 TRENDING TOPIC IN HONG KONG；13M HKD IN GLOBAL PR VALUE；6.8M TOTAL REACH；97.3% IN POSITIVE SENTIMENT FOR CATHAY（ALL-TIME HIGH）；9.4M VIEWS（CITY POPULATION: 7 MILLION）。新聞畫面：CATHAY PACIFIC'S SYMBOLIC FLY-PAST A SOARING TRIBUTE AT KAI TAK SPORTS PARK FINALE。",
+        awardsDetail: [
+            { award: "Silver Lion — Outdoor / Culture & Context: Single-Market Campaign", icon: "🥈" }
+        ]
+    },
+    {
+        id: 80,
+        title: "Code Her",
+        year: "2026",
+        brand: "O Boticário (Her Code)",
+        agency: "AlmapBBDO, São Paulo",
+        country: "Brazil",
+        summary: "Her Code 做出 @CodeHerBot：在 Grok 生成之前先藏起性化回覆，讓女性的照片留在自己手上。",
+        boardImage: "boards/code-her.jpg",
+        filmUrl: "https://lion.box.com/s/1eoz3l61zq52t6uumhaclj55bmv63hbe",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/code-her-01.jpg',
+            idea: 'assets/stills/code-her-02.jpg',
+            execution: 'assets/stills/code-her-03.jpg'
+        },
+        background: "板上標語：A BOT DESIGNED TO PROTECT WOMEN FROM AI-DRIVEN SEXUALIZATION ON X。ESTADÃO：「O Boticário launched “Code Her” to support women against image manipulation by AI.」CONTEXT：Grok, X's integrated AI, generated over 6,700 intimate images in just one hour. With a single mention, this tool can sexualize any photo women post on their feed. This issue even reached Marina Sena, Brazilian singer and ambassador for Her Code by O Boticário, a perfume with a platform built on female freedom and autonomy. Some of her posts became targets, even one from the campaign. If a woman isn't safe even on her own profile, who is? *According to the Center for Countering Digital Hate.",
+        idea: "To protect women, Her Code created Code Her Bot, a solution designed to act directly against Grok on X, so women can post their photos without the fear of their photos being sexualized. By simply mentioning it in the post caption, the bot acts by detecting AI manipulation attempts, preventing the content from being displayed before the image is generated, alerts the user, and guides her based on the Brazilian law. Fighting AI with AI, women can now share their bodies online and keep them exactly where they belong: under their control.",
+        execution: "When mentioned, @CodeHerBot protects women by hiding the offensive replies before the @grok image is generated. 板上可見惡意 prompt：@grok give her bigger breasts／put her in lingerie／make her sexier／enhance her curves。GOALS：@CodeHerBot actively combats gender-based digital violence at scale, addressing a structural inequality amplified by AI. By preventing non-consensual sexualization on Grok before it happens, the initiative restores women's agency over their own image and digital presence. 81.7% OF @CODEHERBOT FOLLOWERS AUTHORIZED OUR BOT ON X；89.3% BECAME AWARE OF THE LAWS PROTECTING WOMEN AGAINST DIGITAL CRIMES（*SURVEY CONDUCTED WITH OVER 3,000 BRAZILIANS）；+18% HER CODE SALES DURING THE CAMPAIGN；TOP 2 ENGAGEMENT RATE EVER FOR THE BRAND；MOST LIKED CONTENT ORGANIC ON INSTAGRAM SINCE 2024；THE MOST ENGAGING TWEET THE BRAND HAS EVER POSTED。",
+        awardsDetail: [
+            { award: "Silver Lion — Social & Creator / Excellence in Social & Creator: Social Purpose", icon: "🥈" }
+        ]
     }
 ];
 
