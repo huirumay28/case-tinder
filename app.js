@@ -2298,6 +2298,239 @@ const casesData = [
         awardsDetail: [
             { award: "Silver Lion", icon: "🥈" }
         ]
+    },
+    {
+        id: 91,
+        title: "2036",
+        year: "2026",
+        brand: "Association Antoine Alléno",
+        agency: "Havas Paris",
+        country: "France",
+        summary: "香榭麗舍跨年最歡樂，也是路上最致命的一夜：Association Antoine Alléno 把凱旋門倒數駭成「2036」，用十年刑期警告酒駕／毒駕。",
+        boardImage: "boards/2036.jpg",
+        filmUrl: "https://lion.box.com/s/96ssx7id7zy6wp6k03ugd73a49lcly50",
+        awards: { gp: 0, gold: 0, silver: 2, bronze: 0 },
+        stills: {
+            background: 'assets/stills/2036-01.jpg',
+            idea: 'assets/stills/2036-02.jpg',
+            execution: 'assets/stills/2036-03.jpg'
+        },
+        background: "板上：Every year in France, New Year's Eve is celebrated on the Champs-Élysées with a countdown projected onto the Arc de Triomphe. But every year, it is also one of the deadliest night on the roads. In 2025, The Association Antoine Alléno, which helps families of road accident victims, pushed the law to change: Killing someone while driving under the influence was considered as involuntary homicide, it is now a road homicide punishable by 10 years in prison. A major change that went unnoticed until last New Year's Eve.",
+        idea: "板上主標：HACKING THE MOST FESTIVE NIGHT OF THE YEAR INTO A NATIONAL ROAD SAFETY WARNING。In partnership with the City of Paris, the Antoine Alléno Association hacked the traditional end-of-year countdown, projected onto the Arc de Triomphe, into a powerful road safety message. The projection displayed 2036 instead of 2026.",
+        execution: "After the public's initial moment of surprise, the following message appeared: Don't wait 10 years to celebrate your next new year's eve. Tonight, don't drink or use drugs if you're driving. Take care of yourself, and everyone around you. 板上三則投影：N'ATTENDEZ PAS 10 ANS…／CE SOIR PAS D'ALCOOL OU DE DROGUES AU VOLANT／PRENEZ SOIN DE VOUS ET DES AUTRES。數據：+1 M SPECTATORS、233.3M IMPRESSIONS、10 COUNTRIES' MEDIA、€467K EARNED MEDIA。媒體列 AFP、Le Monde、Le Parisien、BFM TV、CNEWS、TF1、HUFFPOST、RTL 等。",
+        awardsDetail: [
+            { award: "Silver Lion ×2", icon: "🥈" }
+        ]
+    },
+    {
+        id: 92,
+        title: "The Dr Pepper Jingle",
+        year: "2026",
+        brand: "Dr. Pepper",
+        agency: "Deutsch, Los Angeles",
+        country: "United States",
+        summary: "粉絲 Romeo Bingham 在 TikTok 自創 Dr Pepper jingle 爆紅：品牌不「弄死 vibe」，把它養到 CFP Championship 全國廣告。",
+        boardImage: "boards/the-dr-pepper-jingle.jpg",
+        filmUrl: "https://lion.box.com/s/n3kw75dw9zz679dlleifunh1igek07iy",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-dr-pepper-jingle-01.jpg',
+            idea: 'assets/stills/the-dr-pepper-jingle-02.jpg',
+            execution: 'assets/stills/the-dr-pepper-jingle-03.jpg'
+        },
+        background: "板上 BACKGROUND：How does a modern brand scale a viral fan moment without \"killing the vibe\"? For Dr Pepper, the answer is \"that's what we always do.\" For 10+ years, we've built our competitive advantage around our fans: they get us, and we get them. When Romeo Bingham's innocent jingle exploded on TikTok (138M+ views), we didn't see just a jingle; we saw an ultimate display of brand love as a reaction built from our work to create a socially loved brand. 官方帳號回：「Hold on... you might be on to something。」",
+        idea: "板上 IDEA：To put this display of fandom on the biggest stage, we began by sowing the partnership through social content that licensed the original audio and nodded to something bigger. We had to relinquish brand control, letting commenters pontificate what that \"bigger thing\" might be while we worked in the background to transcend the original platform. With a premium broadcast placement during the CFP Championship, we leveraged the jingle to captivate a mass audience with something startlingly authentic, real, and a true display of a brand letting fans tell our story.",
+        execution: "板上主標：FROM TIKTOK TO NATIONAL AD CAMPAIGN.／THE INTERNET LOVED IT, NATIONAL MEDIA DID TOO。結果：4.1 Billion EARNED IMPRESSIONS、270+ EARNED PUBLICATIONS、25 Million VIEWS ACROSS OWNED SOCIAL CONTENT、BIGGEST SALES WEEK IN THE PAST YEAR、+1,176% INCREASE IN ORGANIC SEARCH ON TIKTOK。媒體列 FAST COMPANY、AdAge、People、USA TODAY、CBS、TODAY、FOX NEWS、TMZ 等；談話性節目與社群留言一起擴散。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 93,
+        title: "You've Been Warned",
+        year: "2026",
+        brand: "Netflix",
+        agency: "Wieden+Kennedy, Portland",
+        country: "United States",
+        summary: "年底回顧片常被當廣告略過：Netflix 故意劇透自家大結局，用「You've Been Warned」把觀看變成擋不住的挑戰。",
+        boardImage: "boards/youve-been-warned.jpg",
+        filmUrl: "https://lion.box.com/s/4zslk9qazycjdybjz2r2zvmgur8xq6p3",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/youve-been-warned-01.jpg',
+            idea: 'assets/stills/youve-been-warned-02.jpg',
+            execution: 'assets/stills/youve-been-warned-03.jpg'
+        },
+        background: "板上 PROBLEM：Typically, audiences ignore, skip, or forget traditional end-of-year recap films because they feel like advertising. Netflix needed a creative and entertaining way to celebrate the year's biggest titles, clear space, and build excitement for 2026 that actually resonates with the Netflix fandom. STRATEGY + BEHAVIORAL INSIGHT：Among Netflix fans, spoilers are one of entertainment's last unforgivable sins. But Netflix also knows that most viewing happens within the first 30 days of a title launching. If fans do not watch quickly, they often never watch at all.",
+        idea: "板上 THE IDEA：Netflix tapped into spoiler culture by challenging fans: instead of letting endings go unwatched, it made the biggest conclusions irresistible to watch. With spoiler warnings and chances to look away, audiences still had the power to opt in, making the experience feel like a dare they could not resist. 主標：BREAKING THE BIGGEST RULE OF ENTERTAINMENT ON PURPOSE.／YOU'VE BEEN WARNED。",
+        execution: "影片與社群放出劇透卡（如 PLAYER 456 DIES、DEAD THE WHOLE TIME），附警告仍可選擇不看。板上 RESULTS：over 63 million views online、285M+ impressions、3.5M+ engagements、26,900+ audience shares；並超過 Netflix 與產業在 TikTok、YouTube、IG 的基準。板上另標 57 MILLION VIEWS ON ONE IG POST、5+ MILLION VIEWS ON REACTION CONTENT、70%↑ YOUTUBE VIEW RATE、181%↑ IG ENGAGEMENT、162%↑ TIKTOK ENGAGEMENT。Forbes：「fun and cheeky.」DESIGNRUSH：「Most brands retreat when backlash starts. Netflix leaned in。」",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 94,
+        title: "No blue, no green",
+        year: "2026",
+        brand: "SOS Oceano",
+        agency: "Droga5, part of Accenture Song, São Paulo",
+        country: "Brazil",
+        summary: "COP30 在巴西：SOS Oceano 剝掉國旗的藍與綠——No blue, no green——用「沒有海洋就沒有陸地」逼出海洋保護令。",
+        boardImage: "boards/no-blue-no-green.jpg",
+        filmUrl: "https://lion.box.com/s/lc56d0mct5u769s4scfy59ydfa9ekea7",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/no-blue-no-green-01.jpg',
+            idea: 'assets/stills/no-blue-no-green-02.jpg',
+            execution: 'assets/stills/no-blue-no-green-03.jpg'
+        },
+        background: "板上 Context：The ocean is responsible for 85% of our oxygen and home to 94% of all species. Yet, in sustainability talks, forests are mentioned 689% more. Without a healthy ocean, the planet's climate collapses. During COP30 in Brazil, the world's leading sustainability event, SOS Oceano, a coalition of NGOs advocating for marine protection, needed to bring this issue to the surface. 副標：Brazil's flag turned into a warning: life on land depends on our oceans.",
+        idea: "板上：We made the world look at the Brazilian flag in a way never seen before: by stripping it of its colors. No blue, no green. No life below water, no life on land. And because there is no green without blue, in nature and in color, we created a series of six handcrafted silkscreen illustrations, made with natural materials, bringing the colors back by mapping and showcasing Brazil's most vulnerable marine ecosystems and their connection to life on land, turning awareness into political pressure for what and where to protect. 色輪：yellow / gold + blue / marine = green / forests。旗帶字：SEM AZUL NÃO HÁ VERDE。",
+        execution: "Using color theory, we brought the Brazilian flag's colors back through a series of sustainable, handcrafted silkscreen illustrations… Each artwork translated critical conservation areas… including Albardão, the Abrolhos reefs and the seamounts of Fernando de Noronha… Prints and OOH were strategically placed in cities near these ecosystems… while the original silkscreen works became an exhibition. 結果：Presidential Decree created the National Marine Park of Albardão, protecting +1.6 million hectares of ocean forever（Equal to 4,700 Central Parks）；Safeguarding 25 threatened species, including the most endangered dolphin in the South Atlantic；+200 million organic impacts、+50 NGOs joined the movement、600+ press stories、100+ engaged celebrities, politicians and activists、10-minute feature on Brazil's #1 TV news program。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 95,
+        title: "KitKat Security Detail",
+        year: "2026",
+        brand: "KitKat",
+        agency: "Courage, Toronto",
+        country: "Canada",
+        summary: "一輛載 12 噸 KitKat 的貨車被偷、品牌搶著發「官方聲明」：KitKat 用總統級保全護送下一趟出貨，把頭條搶回來。",
+        boardImage: "boards/kitkat-security-detail.jpg",
+        filmUrl: "https://lion.box.com/s/iwrhhosu49fgwmm0byrmrmtksprmi6ia",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/kitkat-security-detail-01.jpg',
+            idea: 'assets/stills/kitkat-security-detail-02.jpg',
+            execution: 'assets/stills/kitkat-security-detail-03.jpg'
+        },
+        background: "板上 Backstory：When a delivery truck carrying 12 tons of KitKats was stolen, the internet ran with it. Brands flooded timelines with “official statements,” all trying to cash in on the chaos. 別人追 moment，KitKat 在真實世界、即時把頭條偷回來。",
+        idea: "板上 Idea：In response to the heist, KitKat reclaimed the narrative by giving one of its delivery trucks “presidential-level security”. 黑 SUV 車隊全程護送——那種留給元首的規格——每一片 KitKat 都當 precious cargo。From factory to shelf，一趟送貨變成 spectacle，without saying a single word.",
+        execution: "先在社群種職缺「guard high-profile assets」；多倫多下一趟出貨由四輛黑 SUV 護送數小時。社群放出車隊影片（板上寫 organic views），Complex 等帳號加入。路人變創作者，店內裝置把單一執行做成多渠道。板上 Response：TMZ、ABC、FOX、Complex 等都當新聞報。Overview 結果含 5.1 billion earned impressions、$122 million earned media、820+ news stories、zero media dollars。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 96,
+        title: "The Choice",
+        year: "2026",
+        brand: "Pepsi",
+        agency: "PepsiCo / BBDO New York",
+        country: "United States",
+        summary: "70 年代就有的 Pepsi Paradox：人口味測驗愛 Pepsi，購物卻因習慣買 Coke。這次讓「最忠心的 Coke 粉絲」去盲測。",
+        boardImage: "boards/the-choice.jpg",
+        filmUrl: "https://lion.box.com/s/rbt6c7lbubb0vqqdhj0xdvs7oc6n28ju",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-choice-01.jpg',
+            idea: 'assets/stills/the-choice-02.jpg',
+            execution: 'assets/stills/the-choice-03.jpg'
+        },
+        background: "板上 THE PEPSI PARADOX：人們喜歡 Pepsi 的味道，卻因習慣繼續買 Coke。這個自 70 年代被記錄、神經科學也驗證過的 paradox，成了選 Coke 的理由。Overview：Coke 靠儀式與文化主導；Pepsi 選擇用 taste 與 disruption 把戰場拉回產品本身。",
+        idea: "板上主標：THE WORLD’S MOST LOYAL COKE FAN TOOK OUR BLIND TASTE TEST AND FOUND THE TASTE HE TRULY LOVES. 先在城市與網路上放 cryptic teasers；那隻北極熊接受盲測、擁抱真正喜歡的味道。板上引文：A PLAYFUL TWIST ON A FAMILIAR ICON／ONE OF THE MOST EMOTIONAL ADS EVER MADE。",
+        execution: "比賽中段熊過馬路選 Pepsi；再出現在 talk shows。板上 THE OUTCOME：made millions switch to a better taste；標了 Super Bowl、brand mentions、Google search。媒體列 People、System1、Variety、The Verge、The Independent、FOX、The New York Times、Esquire、Rolling Stone、TMZ、Mashable、billboard、VOGUE 等。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 97,
+        title: "Serving Singles",
+        year: "2026",
+        brand: "Knorr",
+        agency: "Frank, London",
+        country: "United Kingdom",
+        summary: "交友 App 平均配對率 1.6%、93% Gen Z 覺得會做飯是綠旗：Knorr 把媒體計劃變成幫單身廚師被看見的媒合系統。",
+        boardImage: "boards/serving-singles.jpg",
+        filmUrl: "https://lion.box.com/s/181zwp0nid0tzhdymlqekzrmmwd52xw3",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/serving-singles-01.jpg',
+            idea: 'assets/stills/serving-singles-02.jpg',
+            execution: 'assets/stills/serving-singles-03.jpg'
+        },
+        background: "板上 CONTEXT：Knorr wasn't getting much attention from Gen Z in the kitchen, just as Gen Z’s weren't getting much attention in their dating lives. Dating apps promised connection but delivered frustration. 平均 match rate 1.6%，單身者困在無限滑。So, to win over single cooks, Knorr decided to help. 板上標語：IF SWIPING ISN’T WORKING, TRY COOKING.",
+        idea: "板上 INSIGHT／IDEA：Gen Z 開始自己想辦法——在社群「pitch」單身朋友，很多影片的共同點是做飯。93% of Gen Z agreeing it’s a major green flag。把媒體計劃變成 matchmaking system，讓會做飯的單身者更可見。#ServingSingles 擁抱 #DateMyFriend，加 Knorr twist。",
+        execution: "找到已在做「pitch my friend who cooks」的創作者，用 Knorr 換曝光；TikTok branded missions；真實世界 Pitch-my-friend 活動。高表現內容用 geolocation 再推，並上 DOOH。板上結果含 3.5 Billion earned impressions、match rate 從 1.6% 到 60%+（date requests per referral）。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 98,
+        title: "Cheetos Thing-ertips",
+        year: "2026",
+        brand: "Cheetos",
+        agency: "GS&P, San Francisco",
+        country: "United States",
+        summary: "Wednesday 第一季讓斷手 Thing 變成文化現象：Cheetos 在第二季前把他的指尖塗上橘色粉，變成最意外的品牌代言人。",
+        boardImage: "boards/cheetos-thing-ertips.jpg",
+        filmUrl: "https://lion.box.com/s/jsq6eu5gi1rtztjdlwac7a6as0qflme4",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/cheetos-thing-ertips-01.jpg',
+            idea: 'assets/stills/cheetos-thing-ertips-02.jpg',
+            execution: 'assets/stills/cheetos-thing-ertips-03.jpg'
+        },
+        background: "板上 The insight：Wednesday Season 1 was a cultural phenomenon. But one character in particular stole the show: Thing. 這隻調皮的斷手擁有 cult following，truly had the world at his fingertips.",
+        idea: "板上 The idea：Just before the launch of Wednesday Season 2, Cheetos did something no other brand could do... covered his fingertips in our iconic bright orange dust, instantly making Thing the world’s most unexpected celebrity brand ambassador. 出現在廣告、限量袋、OOH、社群，甚至跑 press tour。",
+        execution: "板上 The plot twist：Thing 不聽品牌使喚，所以他從 Times Square 看板逃出來，把指紋留在別的品牌看板、地標、街頭藝術、甚至經典 I ❤ NY T-shirts。Overview：film、social、PR、網紅、限量產品一起上。板上結果含 TOP 3 fastest selling LTO、+3.2% lift in overall sales。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 99,
+        title: "The Feathered Lamb",
+        year: "2026",
+        brand: "Visa France",
+        agency: "Marcel, Paris",
+        country: "France",
+        summary: "Visa 支付系統可靠，詐騙卻用 AI 假故事釣長者：用一張 AI「長羽毛的小羊」以其人之道，讓點進去的人看見騙局。",
+        boardImage: "boards/the-feathered-lamb.jpg",
+        filmUrl: "https://lion.box.com/s/op32j871umqy9o6wrjif7gfy6n3j2yka",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-feathered-lamb-01.jpg',
+            idea: 'assets/stills/the-feathered-lamb-02.jpg',
+            execution: 'assets/stills/the-feathered-lamb-03.jpg'
+        },
+        background: "板上：Visa's payment system is 99.99% reliable, but scams still thrive because humans remain vulnerable. 詐騙者現在用 AI 發假故事、追蹤相信的人，mostly elderly。這是消費者風險，也是 Visa 的生意問題。They need to be protected.",
+        idea: "Visa turned the scammers’ weapon into awareness。第一張 AI 圖給了專案名字：The Feathered Lamb。發在長者最活躍的 Facebook、未品牌化的「Petit Pamplemousse」專頁。互動的人會收到 Visa 專家影片：這張圖全是 AI 生成，並連到 Visa 教育平台。",
+        execution: "看有多少人上當後再放更多 AI 視覺。與 Le Parisien、Les Echos 合作，推主影片、系列教育短片（5 key habits to adopt）與黑客訪談。板上留言：「It's so beautiful, I've never seen this before」→「Unfortunately, Lodile, this image is fake.」目標：educate as many people as possible to protect them from AI-driven scams.",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 100,
+        title: "A Mother's Commentary",
+        year: "2026",
+        brand: "Reporters Without Borders (RSF)",
+        agency: "The Good Company, Paris",
+        country: "France",
+        summary: "法國體育記者在阿爾及利亞被判 7 年：RSF 在 PSG 直播第 7 分鐘關掉球評，換成母親對兒子說話。",
+        boardImage: "boards/a-mothers-commentary.jpg",
+        filmUrl: "https://lion.box.com/s/xgjmm2t0hgmt05grgixonrvpolqvz34g",
+        awards: { gp: 0, gold: 0, silver: 2, bronze: 1 },
+        stills: {
+            background: 'assets/stills/a-mothers-commentary-01.jpg',
+            idea: 'assets/stills/a-mothers-commentary-02.jpg',
+            execution: 'assets/stills/a-mothers-commentary-03.jpg'
+        },
+        background: "板上 THE CONTEXT：Christophe Gleizes, a French sports journalist, travelled to Algeria to cover a local football club. 法阿外交危機中他被逮捕，判 7 年——the harshest sentence ever given to a French journalist。RSF 一直在爭他獲釋。THE ISSUE：他與外界唯一連結是電視，只收得到 beIN Sports 的足球直播——包括最愛的 Paris Saint-Germain。",
+        idea: "板上 THE IDEA：On December 20th, 2025, for the first time in live sports broadcasting, the commentary stopped. In the 7th minute of a PSG match — symbolising the 7-year sentence — it was replaced by a message from Christophe's mother, speaking directly to her son on air, in front of millions of viewers.",
+        execution: "訊息在他曾工作的雜誌錄音室錄製；在 beIN Sports 轉播的 PSG 法盃賽第 7 分鐘，母親聲音接管球評 30 秒。#FreeGleizes 擴散到法國足球，Ligue 與 FFF 在全國球場轉播；外交談判重新開啟。板上結果含 1M+ viewers、32,900+ petition signatures、+65% above target。",
+        awardsDetail: [
+            { award: "Silver Lion ×2", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
