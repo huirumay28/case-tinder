@@ -2531,6 +2531,239 @@ const casesData = [
             { award: "Silver Lion ×2", icon: "🥈" },
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 101,
+        title: "The Unofficial Official Sound of F1",
+        year: "2026",
+        brand: "STING",
+        agency: "LEO India, Mumbai",
+        country: "India",
+        summary: "STING 已是 APAC 成長最快的能量飲料，卻不能在 F1 賽道露 logo：跟 Armin van Buuren 做出「F1 引擎聲 = STINGGG」，在正式贊助開始前就讓全世界聽見。",
+        boardImage: "boards/the-unofficial-official-sound-of-f1.jpg",
+        filmUrl: "https://lion.box.com/s/pksrbleouyk51gyw7dbz06cfeqwm0vip",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-unofficial-official-sound-of-f1-01.jpg',
+            idea: 'assets/stills/the-unofficial-official-sound-of-f1-02.jpg',
+            execution: 'assets/stills/the-unofficial-official-sound-of-f1-03.jpg'
+        },
+        background: "板上：STING Energy was the fastest-growing energy drink in APAC. But the brand lacked global fame. To fix that, they partnered with Formula 1 as one of their sponsors. STING wasn’t allowed to show up on the track until 2026. No logo anywhere was the rule. So we found another way in.",
+        idea: "板上：Partnering with legendary DJ and producer Armin van Buuren, we established a sonic connection: F1 sounds like “STINGGG”. 主標 STINGGG THE UNOFFICIAL OFFICIAL SOUND OF F1。",
+        execution: "Once discovered, we seeded the sound across F1 culture. “STINGGG” started showing up in F1 content everywhere. Automotive expert Supercar Blondie、F1 champion Jenson Button、Mercedes-AMG Petronas Formula One Team、other F1 sponsors, and even fans began hearing it too. Even the F1 CEO Stefano Domenicali admitted F1 sounds like “STINGGG”. What started as a hidden sound became impossible to unhear everywhere. STING became the most talked-about brand even before its official sponsorship began, without any in-sport visibility and, more importantly, without breaking any rules. 板上數據：1.12BN TOTAL REACH、+97% SOCIAL ENGAGEMENT、90% ORGANIC MEDIA、$18 MN EARNED MEDIA。頭條：STINGGG! FROM THE VIRAL SOUND TO THE RACETRACK／HOW STING ENERGY TURNED FORMULA 1’s LOUDEST ASSET INTO A BRAND IDEA／STING ENERGY POWERS F1 WITH UNMATCHED ENERGY AND PERFORMANCE。Heineken 留言：「Sounds like music to our beers」。媒體列 GQ、ELLE、ESPN、BuzzFeed、The Economic Times、yahoo!sports、AUTOCAR 等。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 102,
+        title: "Santa Maria Pueblo Hotel",
+        year: "2026",
+        brand: "SENATUR",
+        agency: "Oniria\\TBWA, Asuncion",
+        country: "Paraguay",
+        summary: "城市被大眾觀光壓垮、巴拉圭 Misiones 的 Santa Maria 卻快從地圖消失：SENATUR 不蓋旅館，把整座村子變成 Hotel del Pueblo。",
+        boardImage: "boards/santa-maria-pueblo-hotel.jpg",
+        filmUrl: "https://lion.box.com/s/djbpadch9c84gj9eus7m5m6sw8g3m93l",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 3 },
+        stills: {
+            background: 'assets/stills/santa-maria-pueblo-hotel-01.jpg',
+            idea: 'assets/stills/santa-maria-pueblo-hotel-02.jpg',
+            execution: 'assets/stills/santa-maria-pueblo-hotel-03.jpg'
+        },
+        background: "板上：WHILE CITIES COLLAPSE UNDER THE WEIGHT OF MASS TOURISM, SANTA MARIA, A SMALL VILLAGE IN MISIONES, PARAGUAY, WAS SLOWLY FADING FROM THE MAP. DESPITE ITS RICH AND DEEP CULTURAL ROOTS, THE VILLAGE ATTRACTED ALMOST NO VISITORS.",
+        idea: "板上 IDEA：THE NATIONAL TOURISM SECRETARIAT (SENATUR) NEEDED A SOLUTION, SO WE TOOK A DIFFERENT APPROACH: INSTEAD OF BRINGING A HOTEL TO THE VILLAGE, WE TURNED THE VILLAGE ITSELF INTO THE HOTEL. TRANSFORMING AN ENTIRE VILLAGE INTO A LIVING, BREATHING BRAND EXPERIENCE. HOMES TURNED INTO HOTEL ROOMS, FAMILIES INTO HOSTS. THE EXPERIENCE DIRECTLY ACTIVATED LOCAL ECONOMIES, TURNING RESIDENTS INTO ENTREPRENEURS AND TOURISTS INTO ADVOCATES FOR A FORGOTTEN DESTINATION. 主標 SANTA MARIA: THE VILLAGE THAT BECAME A HOTEL。航照標出 Pool／Rooms & Suites／Casino／Souvenir Shop／Meeting Space／Local Stores／Dining／Spa／Lobby。",
+        execution: "板上 EXECUTION：THE CAMPAIGN DEBUTED WITH A PROMOTIONAL VIDEO, FOLLOWED BY SOCIAL MEDIA CONTENT, NEWS FEATURES AND INFLUENCER COLLABORATIONS. TO UNIFY THE JOURNEY, WE DEVELOPED A CENTRAL DIGITAL PLATFORM SERVING AS THE VILLAGE’S “FRONT DESK.” THIS WEBSITE PERSONALIZES VISITS BASED ON TRAVELER NEEDS AND CONNECTS GUESTS WITH SERVICES AND HOSTS IN REAL TIME, ENSURING SEAMLESS COORDINATION ACROSS THE ENTIRE COMMUNITY. ALL TRAFFIC WAS DIRECTED TO OUR WEBSITE AS THE PRIMARY CONTACT POINT: www.hoteldelpueblo.com.py。數據：100% OF REVENUE GOES DIRECTLY TO THE COMMUNITY、+7000% INCREASE IN GOOGLE SEARCHES FOR “HOTEL DEL PUEBLO”、100% OCCUPANCY、SOLD OUT AN ENTIRE QUARTER 2026、12 BUSINESSES INTEGRATED INTO THE HOSPITALITY SYSTEM、+55 LOCALS TRAINED、35-DAY WAITING LIST。Forbes：「The Paraguayan village that was turned into a hotel and is operating at full occupancy.」abc：「An authentic experience that preserves cultural identity.」Infonegocios：「A new model of sustainable tourism.」LA NACIÓN：「Santa Maria Hotel a project that impact on the local economy.」",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×3", icon: "🥉" }
+        ]
+    },
+    {
+        id: 103,
+        title: "The Life-Saving Receipt",
+        year: "2026",
+        brand: "Chorogusan for Children",
+        agency: "Dminusone, Seoul",
+        country: "South Korea",
+        summary: "韓國 12 歲以下疫苗免費，移民背景兒童接種率卻只有 55.2%：Chorogusan 在他們每天去的雜貨店，把收據印成救命資訊。",
+        boardImage: "boards/the-life-saving-receipt.jpg",
+        filmUrl: "https://lion.box.com/s/uvjb9ebcdndhs56h5e467xmchfrryavo",
+        awards: { gp: 0, gold: 0, silver: 2, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-life-saving-receipt-01.jpg',
+            idea: 'assets/stills/the-life-saving-receipt-02.jpg',
+            execution: 'assets/stills/the-life-saving-receipt-03.jpg'
+        },
+        background: "板上 BACKGROUND：In South Korea, all children under the age of 12 are eligible to receive essential vaccinations free of charge. However, vaccination coverage among migrant-background children stands at just 55.2 percent (only half the rate of Korean children). A healthcare system designed primarily around the Korean language, combined with hard-to-access support information, has continued to isolate migrant families in medical blind spots. How can life-saving information reach every child without any exclusion?",
+        idea: "板上 INSIGHT：Migrant families tend to form communities in specific neighborhoods based on their countries of origin and rarely move beyond their living radius. Recognizing this pattern, we transformed the local stores they visit every day into key touchpoints for delivering medical information. At the moment parents purchased childcare products, we introduced another essential item for parenting: essential healthcare information, through the smallest receipt-based media. LOCAL STORES：Migrant families visit these stores daily to purchase groceries and everyday necessities from their home countries (e.g. halal food, Vietnamese products and other ethnic essentials). 板上 IDEA：We developed a conditional receipt algorithm that printed medical information only when childcare products were purchased.",
+        execution: "And then, we installed a dedicated POS system in local stores located in key migrant hubs nationwide in South Korea, including areas such as Incheon and Gimpo. Receipts were provided in each parent’s native language and included QR codes that instantly connected them to vaccination support, medical interpretation and counseling. 板上 RESULTS：80% of migrant children received health check-ups or vaccinations（Internal Data as of January 2026）；Sparked National Assembly forum for migrant children’s rights；70K copies reached；+101.6M impressions；+1,000 institutions & brands joined voluntarily（Incheon Metropolitan City, infant food brands, and the Korea Supermarket Association）。",
+        awardsDetail: [
+            { award: "Silver Lion ×2", icon: "🥈" }
+        ]
+    },
+    {
+        id: 104,
+        title: "RADIO TIME MACHINE",
+        year: "2026",
+        brand: "Nichii Gakkan Co., Ltd.",
+        agency: "TBWA\\HAKUHODO, Tokyo",
+        country: "Japan",
+        summary: "日本 65 歲以上佔 29%、其中 1/3 有失智或 MCI：Nichii 把懷舊收音機做成 AI「時間機器」，轉到哪一年就播出那年的廣播。",
+        boardImage: "boards/radio-time-machine.jpg",
+        filmUrl: "https://lion.box.com/s/k9tqvgbrnm64josdh562l2y6sssqg1ro",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/radio-time-machine-01.jpg',
+            idea: 'assets/stills/radio-time-machine-02.jpg',
+            execution: 'assets/stills/radio-time-machine-03.jpg'
+        },
+        background: "板上 BACKGROUND：The Japanese society is aging rapidly. People aged 65 and older account for 29% of the total population, and 1 in 3 of them has been diagnosed with dementia or mild cognitive impairment (MCI). However, the availability of specialised dementia care is declining. A clinical method called reminiscence therapy, where sharing and reflecting on past memories promote dementia patients’ emotional stability, is effective, but difficult to deliver consistently because it requires one-to-one facilitation. Nichii, Japan’s largest provider of nursing care and medical services, addresses this challenge by introducing a new model for cognitive care that operates within existing resource constraints. 副標 Tune back into your memories.",
+        idea: "板上 IDEA：RADIO TIME MACHINE is an AI-powered system delivered through a nostalgic radio device that allows users to access and experience moments from the past. By turning a dial to a specific year, users trigger the generation of a radio program based on that moment. The system reconstructs “today” from the selected year, combining historical context, music, and narration, for an immersive and recognisable experience. Because the system generates content dynamically, it produces a new program every day, encouraging repeat use and sustained engagement. Users can engage with past news and music in their daily lives, helping to reduce the behavioral and psychological symptoms of dementia. The product is designed to stimulate memory recall, emotional expression, and encourage communication between users, caregivers, and family members.",
+        execution: "板上 HOW IT WORKS：1. The user turns the dial to a specific year. 2. News headlines and hit song titles from the selected year are picked from a database. 3. A text-generation AI creates a radio script based on the mentioned information. 4. A voice-generation AI reads the radio script in the style of a radio program from that era. 5. News headlines and hit songs from the time are played in alternate order, following the structure of a radio program. 機殼 closely studying radios from the 1950s–1960s，Equipped with 2 dials and 1 large-sized display。RESULTS：implemented in 3 nursing care facilities operated by Nichii, and a total of 53 people with dementia or MCI experienced it；in 2 of the facilities, a pilot research was conducted。Facial expression analysis：8.7% average increase in smiles、upper body movements and gestures increased by 10.0%、speech rate increased by 10.8 words per minute。93 media features，estimated advertising value of 124 million yen（$779,000）；13 inquiries from nursing care facilities and companies including music broadcasting companies, general trading houses, pharmaceutical firms, electronics manufacturers, newspaper companies, and even Japan’s public broadcaster。Nichii will continue verifying the radio before implementing it across several hundred facilities within the 1,900 dispersed nationwide；joint research with Kitasato University starting from April 2026。NIKKEI：「AI Radio Eases the Workload for Caregivers」。記者 Masaki Takita：「I wish my father and I had this before he passed」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 105,
+        title: "The Grey Swan",
+        year: "2026",
+        brand: "Nycoplus",
+        agency: "11, Oslo",
+        country: "Norway",
+        summary: "挪威歌劇院芭蕾舞者 41 歲強制退休：Nycoplus 跟 Oslo Concert Hall 重演 Swan Lake，全場 43 歲以上，做成 The Grey Swan。",
+        boardImage: "boards/the-grey-swan.jpg",
+        filmUrl: "https://lion.box.com/s/sumq8cwol3lnj525uhie6otfme2vd7ym",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-grey-swan-01.jpg',
+            idea: 'assets/stills/the-grey-swan-02.jpg',
+            execution: 'assets/stills/the-grey-swan-03.jpg'
+        },
+        background: "板上 BACKGROUND：In Norway, the Opera’s upper age limit for ballet dancers of 41. They are then forced to retire, and are replaced by younger dancers. Nycoplus is Norway’s supplement market leader. They stand for a life long healthy body, targeting ballet’s core audience: 40-60 year olds.",
+        idea: "板上 IDEA：We partnered with Oslo Concert Hall and set up the world’s most famous ballet — Swan Lake, but with talent aged 43+ only. 主標 THE WORLD’S FIRST BALLET PERFORMED BY RETIRED DANCERS／The Grey Swan BY NYCOPLUS。",
+        execution: "A live testament that the body is capable of incredible things as you age, as long as you take good care of it. 板上 RESULTS：+200% BRAND LIKING、+23% BUYING INTENTION、+60% INCREASE IN AWARENESS、18.5 MILLION IMPRESSIONS、10 MINUTES STANDING OVATION。KOM24：「A PIECE OF CULTURE.」Ballet Herald：「THIS IS NOT NOSTALGIA. THIS IS BALLET」AdAge：「CELEBRATES RETIRED DANCERS」TV 2：「THERE IS NOTHING ORDINARY ABOUT A RETIRED DANCER.」DDP：「WORKS TO DEFY THE TRADITIONAL AGE LIMIT」",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 106,
+        title: "The Healing Stage",
+        year: "2026",
+        brand: "Armed Force of Ukraine",
+        agency: "Saatchi & Saatchi Ukraine, Kyiv",
+        country: "Ukraine",
+        summary: "烏克蘭有超過 180 萬退伍軍人、卻只有 8% 主動求心理復健：Theatre of Veterans 把 Narrative Therapy 偽裝成主流藝術，再用開源 Playbook 把全國舞台變成沒有診所的療癒網絡。",
+        boardImage: "boards/the-healing-stage.jpg",
+        filmUrl: "https://lion.box.com/s/60u0qal7v69p025kil61xyhmp0d2hug3",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-healing-stage-01.jpg',
+            idea: 'assets/stills/the-healing-stage-02.jpg',
+            execution: 'assets/stills/the-healing-stage-03.jpg'
+        },
+        background: "板上 BACKGROUND & PROBLEM：Ukraine has over 1.8 million veterans. Many carry deep psychological trauma that no one can see. Yet, only 8% actively seek psychological rehabilitation. The Barrier: in a culture of resilience, asking for therapy still feels like weakness. The stigma is deadlier than the silence. RESEARCH & INSIGHT：Research revealed that 92% of veterans reject therapy because they despise being treated as victims. To scale the initiative, we needed a radical shift. The insight: veterans respond to pride, not pity. They will actively ignore a clinical \"support group,\" but they will proudly join a respected cultural event. 副標 Building a nationwide therapy network without a single clinic。",
+        idea: "板上 STRATEGY & IDEA：We changed our competitive set. Instead of acting like a charity NGO, we positioned the Theatre of Veterans as a legitimate, highly desirable cultural brand. By disguising Narrative Therapy as mainstream art, we generated immense cultural demand, allowing us to build a decentralized mental health infrastructure. 4 Steps Healing process：1. Writing — Veterans write plays based on their own raw war memories. 2. Staging — Directors turn those memories into documentary theatre. 3. Performance — Trauma that was hidden becomes visible on stage. 4. Dialogue — Every show ends with an open conversation. Peers speaking break stigma.",
+        execution: "板上 SCALING THE SYSTEM：To meet this massive demand with zero budget, we released an open-source Playbook. Any regional theater could download the methodology and instantly transform their stage into an independent therapy hub. 板上 IMPACT：83% reported significantly reduced anxiety；100% felt a stronger sense of social connection；20+ theaters of Ukraine became therapy centers；42 therapy work plays staged；35,000+ people actively participated in the healing process；43+ million people reached, igniting a national conversation about mental health. VOGUE：「Giving a voice to the unspoken」The Guardian：「A theatre born of necessity」REUTERS：「Ukrainian veterans find healing on stage」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 107,
+        title: "The Birdwatcher",
+        year: "2026",
+        brand: "Spoor",
+        agency: "FP7 McCann Dubai",
+        country: "UAE",
+        summary: "風能的生物多樣性證據長期困在未讀的 PDF：Spoor 把持續 AI 偵測做成捲動網站 The Birdwatcher，讓監管、投資人與政策制定者一眼看見、敢行動。",
+        boardImage: "boards/the-birdwatcher.jpg",
+        filmUrl: "https://lion.box.com/s/5991jsnnpkm53msja25hdisd9ua6jq0q",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 2 },
+        stills: {
+            background: 'assets/stills/the-birdwatcher-01.jpg',
+            idea: 'assets/stills/the-birdwatcher-02.jpg',
+            execution: 'assets/stills/the-birdwatcher-03.jpg'
+        },
+        background: "板上 BACKGROUND：Wind energy's biodiversity evidence had long been trapped in static, unread formats. Compliance reports, dense PDFs, and technical dashboards that reduced a continuously operating system to snapshots. When the President of the United States halted five offshore wind farms citing bird deaths, the industry's failure was not a lack of evidence. It was a lack of visual form. Spoor's AI was already continuously detecting, tracking, and classifying bird movement across operational wind farms, trained on over one million birds and 200,000 hours of footage, with over 95% accuracy. But that continuous intelligence had never been illustrated. The people who needed to understand it, regulators, investors, policymakers, couldn't see it. And what people cannot see, they cannot act on. 副標 HELPING WIND ENERGY GROW BY ELIMINATING ONE OF ITS BIGGEST CRITICISMS: BIRD COLLISIONS.",
+        idea: "板上 IDEA：The Birdwatcher reimagines what environmental data looks like. A scroll-driven website where millions of raw AI detection points become a living illustration system. Each particle represents a real detection. Each path traces a real flight. Each turbine response mirrors actual detection logic. Every illustration decision serves a function: motion indicates movement, proximity signals risk, interaction reveals cause and effect. The experience follows a single bird through the Aberdeen Offshore Wind Farm, then scales to reveal 1.24 million flight paths, 192 endangered species, a global network across four continents. By translating continuous environmental intelligence into a visual language that moves the way the system does, The Birdwatcher turned invisible data into something that could be understood, trusted, and acted on at a glance. 板上另述：A data-driven system that analyzes migration patterns, weather, and flight behavior to predict risk and slow turbine blades before impact — translated into a visual language that changes public perception. 主視覺 Chapter 1: The Gull。",
+        execution: "平台展示 Detailed insights into wind farm tech／Monitoring and analysis of turbine operations／Verified zero bird collision events／Pixel-based safety distance detection／Reporting of endangered species protected。Adopted by Cloudberry、RWE、OW、Iberdrola、equinor、FUGRO、Ørsted、TotalEnergies、GE VERNOVA 等。數據：Enquiries up 30x now used by global leaders；192 endangered species protected；7x longer dwell time；Unlocked 9 stalled projects；Leading environmental consultancies referenced our data。yahoo!tech：「Making previously invisible bird activity around wind farms visible.」Al Bayan：「The 'Birdwatcher' uses AI to protect wildlife.」",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 108,
+        title: "Played By Humans",
+        year: "2026",
+        brand: "Jazz is Dead",
+        agency: "TBWA\\Chiat\\Day, Los Angeles",
+        country: "USA",
+        summary: "97% 人分不出完全 AI 生成的音樂、預估 2028 年前創作者將失血 40 億美元：Jazz is Dead 做出首個真人音樂認證標籤 Played By Humans。",
+        boardImage: "boards/played-by-humans.jpg",
+        filmUrl: "https://lion.box.com/s/zp9zijrrjyw0gdlfoez1uvhimclwy41v",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 3 },
+        stills: {
+            background: 'assets/stills/played-by-humans-01.jpg',
+            idea: 'assets/stills/played-by-humans-02.jpg',
+            execution: 'assets/stills/played-by-humans-03.jpg'
+        },
+        background: "板上 PROBLEM：The music industry is at a breaking point where the line between human creativity and AI-generated content is vanishing. According to recent studies, 97% of people struggle to identify fully AI-generated music, creating an environment where listeners are unknowingly listening to AI-generated music on streaming services, depriving real artists of royalties they could be getting from each listen. AI is projected to strip $4 billion from musicians by 2028. Without a way to know whether music is human or AI, the connection music makes between artist and listener is being replaced by a flood of sterile, data-driven AI tunes that threaten both the emotional value of music and the survival of the real artists who create it. 副標 THE FIRST AUTHENTICATION LABEL FOR HUMAN-MADE MUSIC。",
+        idea: "板上 SOLUTION: PLAYED BY HUMANS：We created an industry-recognized, authenticated album label that shows listeners whether music was played by humans or 100% generated by AI, restoring transparency to music. Through blockchain-backed analysis, artists can submit their music to our online platform, which provides an authenticity score that distinguishes music of human origin from music generated by AI. Music verified as human-made receives an official Played By Humans label that artists can display on their album covers, showing listeners that their music has a human soul behind it. We launched the label by hitting back at AI with a cover of a chart-topping AI track, featuring world-class musicians from the Jazz is Dead collective. It debuted in a way AI music can't — at a sold out live show, all to prove that while AI is an amazing tool, it alone cannot replicate the depth and spontaneity of the human spirit. 板上 THE TECH：A digital authentication platform allows artists and listeners to upload music for analysis. The system scans each track to identify artifacts typically left on AI-generated content. Music that has been verified as human-made receives a blockchain-based authentication label to be applied to album artwork, making it clear to listeners that pressing play is an act of support for real musicians.",
+        execution: "板上 IMPACT：Played By Humans has transformed human-made music from baseline assumption into a premium standard of quality and ethics. So far, it has been embraced by 16 global labels and organizations, and more are joining the cause, including APM music (the largest music library in North America), Tickets for Good, and more. In the first month, over 1 million tracks have been verified with the digital tool, and the Played By Humans label is featured on albums across Spotify, Apple Music, Sirius XM, Bandcamp, and Pandora. 主標 1 MILLION TRACKS RECEIVED THE LABEL IN THE FIRST MONTH／ADOPTED ACROSS THE MUSIC INDUSTRY。adforum：「A DEFINITIVE WAY TO VERIFY THAT MUSIC WAS CREATED BY HUMANS, NOT MACHINES」yahoo!：「THE ANSWER FOR TRANSPARENCY IN MUSIC」moveee.：「A BLOCKCHAIN REVOLUTION FOR MUSIC AUTHENTICITY」Little Black Book：「'PLAYED BY HUMANS' ADDRESSES A CRITICAL MOMENT FOR THE MUSIC INDUSTRY」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×3", icon: "🥉" }
+        ]
+    },
+    {
+        id: 109,
+        title: "Protest March of the Penguins",
+        year: "2026",
+        brand: "Penguins International",
+        agency: "Rethink, Toronto",
+        country: "Canada",
+        summary: "Trump 對只有企鵝居住的 Heard and McDonald Islands 課 10% 關稅：Penguins International 把年度遷徙直播成 Protest March，零媒體預算為保育募款。",
+        boardImage: "boards/protest-march-of-the-penguins.jpg",
+        filmUrl: "https://lion.box.com/s/tjf3r96rjwqlryg8mgflqhs77hqbbz9n",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 2 },
+        stills: {
+            background: 'assets/stills/protest-march-of-the-penguins-01.jpg',
+            idea: 'assets/stills/protest-march-of-the-penguins-02.jpg',
+            execution: 'assets/stills/protest-march-of-the-penguins-03.jpg'
+        },
+        background: "板上 THE MOMENT：When Donald Trump started a trade war with Canada, people were pissed. Then he slapped a 10% tariff on the Heard and McDonald Islands, a region home only to penguins. Coincidentally, at the same time, penguins were gearing up for their annual migratory march. So we had an idea: why not channel Canada's frustration into something good that could help penguin conservation? 副標 USING TRUMP'S TARIFFS ON PENGUINS TO RALLY SUPPORT FOR THEIR SURVIVAL. 底圖標 DONALD TRUMP ANNOUNCED TARIFFS ON THE PENGUINS.",
+        idea: "板上 THE IDEA：Within days of Trump's announcement, Penguins International released a teaser video on social media showing the penguins marching in protest. The video directed Canadians and the world to witness the Protest March of the Penguins, a livestream event of the penguins marching held on YouTube. The march was hosted by former Bloomberg anchor Jacqueline Hansen, who gave viewers a play-by-play of the action. Throughout the stream, we used the platform to generate donations in support of the birds. In addition to donating, some Canadians even began marching in support of the penguins at anti-tariff rallies.",
+        execution: "板上 RESULT：Without spending a cent on media, the march went viral. It received 1.2 billion earned impressions and over 3 million views. Donations to Penguins International surged 453%, helping drive support for penguin conservation all by doing what penguins do best—marching. 數據：+453% IN DONATIONS、+1.2 BILLION EARNED IMPRESSIONS、+3 MILLION TOTAL SOCIAL VIEWS。底部執行列：WITHIN DAYS, WE RESPONDED ON SOCIAL MEDIA／A YOUTUBE LIVESTREAM EVENT GENERATED DONATIONS／SOME EVEN MARCHED FOR THE PENGUINS AT PROTESTS。yahoo!news：「ICE-SOLUTLEY AMAZING」MUSE：「A BLACK AND WHITE CASE FOR CONSERVATION」Newsweek：「RAISING GLOBAL AWARENESS FOR PENGUIN CONSERVATION」indy100：「FLIPPING AWESOME」。",
+        awardsDetail: [
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 110,
+        title: "Om Bdr",
+        year: "2026",
+        brand: "KFC",
+        agency: "TBWA\\RAAD, Dubai",
+        country: "UAE",
+        summary: "KFC Saudi 不想再被當外來品牌：把 Colonel Sanders 放一邊，請 Om Bdr 的 Srar Hail 當第 12 味香料，讓沙烏地重新擁抱 KFC。",
+        boardImage: "boards/om-bdr.jpg",
+        filmUrl: "https://lion.box.com/s/h61cdazlm79w629nhd2vpk5n8kxg4ajy",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/om-bdr-01.jpg',
+            idea: 'assets/stills/om-bdr-02.jpg',
+            execution: 'assets/stills/om-bdr-03.jpg'
+        },
+        background: "板上 THE CHALLENGE：KFC Saudi faced an important question: how do get young Saudi to see us not as another outsider, but as a brand deeply embedded in Saudi culture? THE INSIGHT：Through social listening and net sentiment analysis, we've spotted an opportunity: Saudis were giving preference to international brands that were creating bespoke products for the market. THE STRATEGY：Keeping our ear to the ground and digging deep into the country's palate, KFC knew it had to do something truly disruptive to regain Saudis hearts. Something close to home. An icon of their own. And have Saudi Arabia do something no other country has done before. 主標 KFC X OM BDR the 12th SPICE.",
+        idea: "板上 THE IDEA：KFC changed its recipe for Saudi Arabia. It put the — now infamous — Colonel Sanders aside and brought in Om Bdr and her Srar Hail seasoning as the official 12th spice to the world-renowned 11 herbs & spices mix. She took over the restaurants, the platforms and stole everyone's attention. And Saudis re-embraced KFC once again.",
+        execution: "Om Bdr 接管門市與社群平台（Snapchat、Instagram、TikTok、YouTube 等），把 Srar Hail 做成第 12 味。板上 RESULTS：2.5X Overall sales mix higher than benchmark；133% daily store units sold above expectations；91.25% CTR above category best-in-class。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
