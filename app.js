@@ -2764,6 +2764,243 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 111,
+        title: "The Golden Zone",
+        year: "2026",
+        brand: "McDonald's",
+        agency: "TBWA\\Colombia, Bogotá",
+        country: "Colombia",
+        summary: "速食品牌贊助過 Formula 1 車隊，卻從沒贊助過 Formula 1 本身：McDonald's 在 24 條賽道上找到本來就長得像 Golden Arches 的彎角，做成即時遊戲化商務。",
+        boardImage: "boards/the-golden-zone.jpg",
+        filmUrl: "https://lion.box.com/s/alho4r7obpf2jmkpf71v5wxrkav7138z",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 2 },
+        stills: {
+            background: 'assets/stills/the-golden-zone-01.jpg',
+            idea: 'assets/stills/the-golden-zone-02.jpg',
+            execution: 'assets/stills/the-golden-zone-03.jpg'
+        },
+        background: "速食品牌贊助過 Formula 1 車隊，卻從沒贊助過 Formula 1 本身。McDonald's 想超越贊助曝光，把比賽變成粉絲能主動參與的商務機會。",
+        idea: "我們仔細看了全部 24 條 Formula 1 賽道，發現一件意外的事：我們從沒真正進入 F1，卻一直都在賽道上。每條賽道裡都藏著 McDonald's 最經典的資產：Golden Arches。於是我們把它們變成 The Golden Zones：嵌進每一場 Grand Prix 的遊戲化商務體驗，把 Golden Arches 變成即時商務觸發器，也把 McDonald's app 從點餐工具變成娛樂、粉絲文化與商務即時交會的平台。副標：McDonald's 在 Formula 1 賽道上找到自己的經典 Golden Arches，並把它們變成遊戲化商務體驗。",
+        execution: "每場比賽期間，粉絲打開 McDonald's app 玩即時遊戲。每當領先車手進入 Golden Zone，現場優惠就只在領先車手通過的幾秒鐘內掉下來。每一圈都有新優惠、新機會，讓粉絲整場比賽都能搶到多張 coupon。一線 Formula 1 實況主鼓勵粉絲即時參加。活動先在巴西 Interlagos 開跑，再擴到 Argentina、Mexico、Colombia、Peru 等站，涵蓋 2025 年最後三場與 2026 年頭三場，並持續於當年其餘賽季 rollout。The Golden Zone 讓 McDonald's 從賽道外圍的贊助商，變成嵌進比賽本身的遊戲化商務體驗。App 三步：比賽開始進入 app → 領先車手通過 The Golden Zone 時搶 coupon → 用代碼完成購買。數據：App 下載 +2.7M（首月）、社群數位觸及 +1.6M、每日數位 app 銷售增量 +7%、跨平台觀眾 +688K、比賽期間活躍用戶 +2.3M。Regional Partner of Formula 1。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 112,
+        title: "The Password Heist",
+        year: "2026",
+        brand: "Leroy Merlin",
+        agency: "BETC, Paris",
+        country: "France",
+        summary: "羅浮宮保全鏡頭密碼竟然是 “Louvre”：法國最大 CCTV 通路商 Leroy Merlin 把它變成 promo code，零媒體預算讓全法國去買監視器。",
+        boardImage: "boards/the-password-heist.jpg",
+        filmUrl: "https://lion.box.com/s/3lmp4z1dt4rlv6dhz1emfi46oucfhj7v",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-password-heist-01.jpg',
+            idea: 'assets/stills/the-password-heist-02.jpg',
+            execution: 'assets/stills/the-password-heist-03.jpg'
+        },
+        background: "最弱的保全鏡頭密碼，如何讓法國家戶更安全。2025 年 10 月，價值數百萬歐元的珠寶在光天化日下從 Louvre 被盜。媒體口中的「世紀大盜」揭出保全系統一個極小的漏洞：監視器密碼就是 “Louvre”。全世界都在笑的時候，法國最大 CCTV 通路商 Leroy Merlin 看見機會，用來強化品牌與保全的連結。主標：羅浮宮的密碼就是……Louvre。",
+        idea: "我們把 Louvre 的保全密碼變成 promo code。Leroy Merlin 用即時反應，把史上最弱的保全密碼，變成監視器的優惠碼。",
+        execution: "在網店 200+ 款 CCTV 鏡頭任一項輸入代碼 “Louvre”，即可享 10% 折扣。這檔 promo 用一則貼文宣布——貼文沒提代碼、也沒提博物館，但所有人都看懂了。不到 24 小時，零媒體預算、零製作預算，Leroy Merlin 把全球話題變成病毒式電商獵寶。活動以品牌社群的 organic 貼文啟動，沒請網紅，整個找優惠社群自己撲上來。主貼：「想像一下，保全鏡頭最爛的密碼，可以變成買保全鏡頭的 promo code。開玩笑的。不過想像一下。」數據：CCTV 銷售 +80%（vs 2024 同期）、營收 +€200K（vs 前一個月）、€0 媒體預算、€0 製作預算。頭條：CB News「談保全的新方法」；Contagious「精準時機與真正有用」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 113,
+        title: "IKEA PREOWNED/SECOND-HAND MARKETPLACE",
+        year: "2026",
+        brand: "IKEA",
+        agency: "McCann Spain",
+        country: "Spain",
+        summary: "IKEA 要證明家具耐用、也要走向循環：在人正要買新家具的當下，把二手 IKEA 賣得跟買新品一樣容易。",
+        boardImage: "boards/ikea-preowned.jpg",
+        filmUrl: "https://lion.box.com/s/76w5w7fyk89wzbfrng6i2f5i8h1w6p0c",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 2 },
+        stills: {
+            background: 'assets/stills/ikea-preowned-01.jpg',
+            idea: 'assets/stills/ikea-preowned-02.jpg',
+            execution: 'assets/stills/ikea-preowned-03.jpg'
+        },
+        background: "邀請人們在正要買全新 IKEA 家具的當下，去買二手 IKEA 家具。最終要證明家具耐用，並達成永續目標。根本矛盾仍在：產品為耐用而設計，消費者卻常把它們當免洗。每次客人丟棄而不是轉賣，我們就離自己的永續目標更遠。要解決這件事，不能只做耐用產品，還得為家具的第二生命建立基礎建設。",
+        idea: "我們推出 Preowned：一個在購買當下啟動的專門市集，讓轉賣二手 IKEA 家具跟買新品一樣容易、一樣可靠。",
+        execution: "Preowned 把官方網站的工具全部交給賣二手 IKEA 家具的客人——尺寸、高品質照片、組裝說明——把複雜的二手流程變成順暢體驗。我們也把廣告媒體——社群、OOH、電視——在大學城與都會這類高週轉地區，改成刊登別人的二手 IKEA 家具，讓物件被看見，也邀請更多人加入市集。這項計畫把一筆交易變成循環行為，證明 IKEA 家具耐用，同時推進永續目標、讓家具留在家裡而不是進掩埋場。IKEA Preowned 是 C2C 市集——我們促成交換，但不抽佣、不獲利。數據：83% 用戶認為這是可信市集；網站造訪 3.6M；新增 IKEA Family 會員 23,700；新增買賣雙方 +75K；上架二手 IKEA 物件 26,700。IKEA 目標 2050 年達成淨零排放。Financial Times：「在永續上扮演領先角色。」BBC：「要跟 eBay 較勁」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 114,
+        title: "§hoplefting",
+        year: "2026",
+        brand: "Laut gegen Nazis e.V.",
+        agency: "Jung von Matt, Hamburg",
+        country: "Germany",
+        summary: "極右時尚正在金援納粹：Laut gegen Nazis 用商標法把德國最大納粹網店 Druck18 改成反納粹商店。",
+        boardImage: "boards/shoplefting.jpg",
+        filmUrl: "https://lion.box.com/s/j0lqzb2r1xtyoolsx63t8vzit6r1fxop",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/shoplefting-01.jpg',
+            idea: 'assets/stills/shoplefting-02.jpg',
+            execution: 'assets/stills/shoplefting-03.jpg'
+        },
+        background: "極右極端主義在成長，納粹時尚正在爆發。印在衣服上、當商品賣的納粹代碼，是這個圈子最大的金流。德國市場龍頭：druck18.de。我們與 Laut gegen Nazis 一起，靠商標法，把德國最大納粹網店 Druck18 變成最大的反納粹網店。副標：納粹商店大劫案。",
+        idea: "但商標權只有實際商業使用才繼續有效。於是我們和 30 多個反納粹組織一起推出 druck18.com。我們的設計把納粹代碼改成反納粹訊息，用商品創造捐款——把 Druck18 變成對抗極右的永續金流。",
+        execution: "原經營者提起的訴訟敗訴，而且代價慘重。Druck18.de 或許還在線上，但我們現在有法律基礎。而且靠 druck18.com，也有錢打得起漫長訴訟。於是我們可以把納粹商店徹底下架。數據：1.69 mrd. 媒體曝光、捐款 +248%、earned media €63.8 m.、48 國報導、社群曝光 23.6 m.。頭條：t-online「漢堡聯盟翻盤」；WELT「打在納粹的痛處」；Creative Review「每一筆購買都在對抗仇恨團體」；stern「敵意收購」；DER SPIEGEL「極右最大商店之一被剝走店名」。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 115,
+        title: "Spots for Shops",
+        year: "2026",
+        brand: "Parkin",
+        agency: "FP7 McCann Dubai",
+        country: "United Arab Emirates",
+        summary: "杜拜小店看不見、大商場免費停車：Parkin 把 250,000 個停車格畫成邀請函，停在店門口、消費就能抵停車費。",
+        boardImage: "boards/spots-for-shops.jpg",
+        filmUrl: "https://lion.box.com/s/zwzbtlafqogglfxtp2s16u77nrdwrssd",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/spots-for-shops-01.jpg',
+            idea: 'assets/stills/spots-for-shops-02.jpg',
+            execution: 'assets/stills/spots-for-shops-03.jpg'
+        },
+        background: "在杜拜，高流量地區看板一個月可達 USD $206,000。這些看板被大品牌與商場占滿。投資也回收了：單是 Dubai Mall 2024 年就迎來 1.11 億訪客。相對地，占杜拜企業 98% 的小店，平均一個月行銷只花 USD $3,300。幾乎沒有能見度，它們活在巷子裡、社區裡、付費公共停車格旁邊。",
+        idea: "杜拜 91% 居民靠汽車。所以停車決定人在哪停，停在哪就決定哪家店能活。Parkin 為杜拜政府 Road & Transport Authority 與開發商管理 250,000+ 個停車格。2025 年平均每月 1,200 萬筆停車交易，Parkin 生態系成了小店的大平台。Parkin 把自己的車位變成小店專屬的大型媒體。小店旁邊的停車格變成「來逛小店」的廣告。誘因是：停在小店附近、在店裡消費，就能驗證停車。零傳統媒體花費，小店一個月就做到行銷預算的 4 倍。標語：把 250,000 個停車格，變成 250,000 張逛小店的邀請函。",
+        execution: "做法：停在小店附近 → 消費達最低金額 → 在 Parkin app 驗證拿到現金回饋。地面停車格廣告、停車錶廣告、in-app 地理定向、in-app 現金回饋驗證。數據：11K 商家加入；人流最多 +30%；小店營收最多 +25%；app 用戶基數 +22%；每日行銷價值 $3,300（等於月均花費的 4 倍）；Parkin app 用戶暴增 208%；250,000+ 停車格變成全城商務平台；觸及 167M；媒體價值 $392K。Gulf News：「Parkin 把停車位變成媒體與商務通路」；Khaleej Times：「重新想像停車，作為在地商務的推手」。",
+        awardsDetail: [
+            { award: "Silver Lion (Media Lions)", icon: "🥈" },
+            { award: "Bronze Lion (Media Lions)", icon: "🥉" }
+        ]
+    },
+    {
+        id: 116,
+        title: "Reverse Media Schedule",
+        year: "2026",
+        brand: "Sea Cleaners & JCDecaux",
+        agency: "Dentsu Creative Auckland",
+        country: "New Zealand",
+        summary: "垃圾才是最差的戶外廣告：Sea Cleaners 跟 JCDecaux 把撿起來的品牌垃圾做成「反向媒體行程」，品牌買的是被拿掉的曝光。",
+        boardImage: "boards/reverse-media-schedule.jpg",
+        filmUrl: "https://lion.box.com/s/t5iihchuot2kbof5jvitzqwfck9hsz25",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/reverse-media-schedule-01.jpg',
+            idea: 'assets/stills/reverse-media-schedule-02.jpg',
+            execution: 'assets/stills/reverse-media-schedule-03.jpg'
+        },
+        background: "戶外廣告對品牌很好：大張完美產品照、每年數百萬雙眼睛。但有一種戶外廣告公司都忽略了：他們的垃圾。研究顯示，顧客看到產品變成垃圾後，願意為它少付 2%。對品牌來說這不是四捨五入，是獲利上的大洞。結果就是：垃圾是世上最差的廣告。",
+        idea: "專注海岸垃圾清除的組織 Sea Cleaners 與 JCDecaux 合作，把垃圾重新框成負面媒體，推出 Reverse Media Schedules。這份媒體行程不是把廣告放進世界，而是把它們拿掉。副標：第一個幫品牌「不被看見」的媒體產品。",
+        execution: "垃圾盤點量化 Sea Cleaners 每年為各品牌清走的量。這份盤點再結合客製 Nielsen 閱聽研究、2% 垃圾效應研究，以及 JCDecaux 用來為戶外媒體定價的指標。為各品牌守住的價值，以 Reverse Media Schedule 呈現，品牌可購買來資助 Sea Cleaners 運作。Foundation clients：Monteith's Brewing Co.、EXPORT、Heineken。KPI：品牌垃圾清除 154K／年；未觸及閱聽 3.31M／年；為品牌守住的價值 $1.51M／年。MediaBUZZ：「多年來永續一直坐在行銷策略的邊線，『Reverse Media Schedules』改變了這件事」。",
+        awardsDetail: [
+            { award: "Silver Lion (Creative B2B Lions)", icon: "🥈" }
+        ]
+    },
+    {
+        id: 117,
+        title: "Delivered by Tetris",
+        year: "2026",
+        brand: "La Poste",
+        agency: "BETC, Paris",
+        country: "France",
+        summary: "電商狂送貨、大家搶著上機器人：La Poste 跟 Tetris 學「不留空位」，一輛車從 1,500 件裝到 4,500 件包裹。",
+        boardImage: "boards/delivered-by-tetris.jpg",
+        filmUrl: "https://lion.box.com/s/1oftnt0kg2z1r42oekk786x693qw81i6",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/delivered-by-tetris-01.jpg',
+            idea: 'assets/stills/delivered-by-tetris-02.jpg',
+            execution: 'assets/stills/delivered-by-tetris-03.jpg'
+        },
+        background: "2025 年，電商運轉全世界。為了應付暴增的包裹，多數公司搶著做機器人、無人機，把流程每一步都自動化。在 La Poste，我們相信配送的未來不是更多機器人，而是更聰明的解法。而我們在沒人預期的地方找到一個……Tetris™。副標：La Poste 如何把 Tetris 變成新的配送標準。",
+        idea: "遵循遊戲唯一的普世規則——絕不留空位——我們重新發明每輛卡車怎麼裝。一套 AI 輔助的體積演算法，現在會依包裹尺寸、重量與配送順序，算出最有效率的裝車方式，讓每一立方公分都被用到。作業員現在能把卡車裝到極限，配送時間完全不變。但我們沒停在那：如果物流靈感來自 Tetris，Tetris 就該成為故事的一部分。於是我們把合作正式化，把技術創新變成文化話題，讓物流走進流行文化。",
+        execution: "卡車車門：「這輛卡車在玩 Tetris™ 的同時送包裹。多虧優化裝載，每輛車現在多載三倍包裹，路上的卡車變少。我們的最終分數？每年少排 15,000 噸 CO₂。」靠這種裝車方式，我們從 1,500 件裝到單車 4,500 件。數學很簡單：每車更多包裹，路上更少卡車。2025 年我們大幅減少卡車趟次、減排 15,000 噸 CO₂，全程沒有延誤、也沒有用機器人取代任何一個工作。這場大膽合作隨即成為討論、評論與喝采最多的一檔。KPI：每車包裹從 1,500 到 4,500；減排 15,000 噸 CO₂；影響 4.9 億件包裹；配送時間 0 改變。CNBC：「從混亂中創造秩序」；BFM TV：「物流走進流行文化的那一天」；Influencia：「證明你不需要最新科技也能真正造成影響」。",
+        awardsDetail: [
+            { award: "Silver Lion (Creative Strategy Lions)", icon: "🥈" },
+            { award: "Bronze Lion (Entertainment Lions for Gaming)", icon: "🥉" }
+        ]
+    },
+    {
+        id: 118,
+        title: "Zip Code Exam",
+        year: "2026",
+        brand: "Equality Health Foundation",
+        agency: "Area 23 New York",
+        country: "United States",
+        summary: "美國壽命差在郵遞區號：Equality Health Foundation 把 30,000 個 ZIP、90 萬筆健康資料做成社區報告，一週內寄給地方政府。",
+        boardImage: "boards/zip-code-exam.jpg",
+        filmUrl: "https://lion.box.com/s/prp8cmskx681khvnzavq5nf4hgufixfz",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/zip-code-exam-01.jpg',
+            idea: 'assets/stills/zip-code-exam-02.jpg',
+            execution: 'assets/stills/zip-code-exam-03.jpg'
+        },
+        background: "在美國，預期壽命從一個城鎮到下一個可以差很多。社會健康決定因素（SDOH）例如醫療近用、健康食物、穩定住房，是政府官員可以改善健康、延長壽命的路徑。但直到現在，沒有途徑取得在地健康資料——立法者被蒙在鼓裡。主標：美國每個社區的預期壽命測驗，讓複雜健康資料任何人都能取得、看懂。",
+        idea: "Zip Code Exam 是互動地圖，揭示美國任一社區的預期壽命，並把在地健康資料拆成易懂的「Health Factor Scores」——全部做成每個 Zip Code 的 Community Health Report。平台讓複雜的全國資料變得容易被地方領導人理解與採取行動。六項 0–100：Healthcare Access、Food Environment、Education Level、Employment、Housing Cost Burden、Walkability。30,000 個 Zip Code、900,000 筆社會健康決定因素資料點，轉成 6 個直覺的 0–100 量表。",
+        execution: "使用 CDC 與 US Census 資源，我們為美國 30,000 個 zip code 各蒐集 6 項健康因子，超過 900,000 筆資料點，整合成一個為簡單而做的平台。Email API 整合讓使用者能把可執行資料直接寄給地方首長。上線一週內，平台造訪 200,000 次，使用者寄出超過 10,000 份 Community Health Report 給地方政府。Phoenix 市與紐約 Queens 自治區都已簽約，把 Zip Code Exam 作為轄區內的改變工具。Queens 副區長 Ebony Young：「我們承諾把 Zip Code Exam 納入 Queens 全區策略。」",
+        awardsDetail: [
+            { award: "Silver Lion (Design Lions)", icon: "🥈" },
+            { award: "Bronze Lion (Creative Strategy Lions)", icon: "🥉" }
+        ]
+    },
+    {
+        id: 119,
+        title: "It Starts Outside",
+        year: "2026",
+        brand: "Dirt Is Good / Persil",
+        agency: "Frank London",
+        country: "United Kingdom",
+        summary: "英國只有 1/3 女孩常在戶外玩。Dirt Is Good 跟 Arsenal Women 把球員童年戶外照做成廣告：It Starts Outside.",
+        boardImage: "boards/it-starts-outside.jpg",
+        filmUrl: "https://lion.box.com/s/lrlsmozgdwpz0twyjv9kcwbdzrxws47m",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/it-starts-outside-01.jpg',
+            idea: 'assets/stills/it-starts-outside-02.jpg',
+            execution: 'assets/stills/it-starts-outside-03.jpg'
+        },
+        background: "女子運動從未如此盛大。然而下一代正在離開球場。在英國，只有 1/3 女孩經常在戶外玩，對照近 6/10 的父母小時候會這樣。女孩也比男孩少 22% 可能在戶外活動，疏離從八歲就開始。一整代人錯過了許多夢想開始的地方。",
+        idea: "把女性看成世界級冠軍，對代表性很關鍵，因為它重新定義年輕女孩什麼是可能的。但在成為頂尖運動員之前，這些女性都從同一件事開始：在戶外、弄髒、沒有結構的玩耍。父母仍認得戶外玩耍的價值，許多女孩卻更早、更常退出。所以要激勵更多女孩跟上腳步，Dirt Is Good（英國為 Persil）必須回到起點。不是慶祝運動員最終到哪，而是提醒女孩她們從哪開始。與 Arsenal Women FC 合作，我們從家庭檔案找出球員在戶外玩的真實童年照，做成平面與 OOH 廣告，帶著球員簽名，以及一句簡單訊息：「It Starts Outside.」把頂尖運動員放回最早的時刻，我們把戶外玩耍重新框成成長的關鍵部分，而不只是消遣。副標：過去的記憶，變成未來的啟發。Tagline：因為每一塊污漬，都證明有什麼已經開始。",
+        execution: "3 月、North London Derby 前夕上線，全面接管 Arsenal 站與周邊 OOH，在關鍵時刻遇見觀眾。賽後平面廣告登上全國與地方報紙，與球隊勝仗報導並列，對照起點與現在。甚至帶動其他女性運動員在社群分享童年照，深深打中各地父母。活動不只停留在認知，還與 Arsenal 和在地學校合作，支持女孩從小到戶外玩。一個提醒我們：未來從現在開始。而且從戶外開始。球員童年照：Lotte Wubben-Moy、Chloe Kelly、Alessia Russo、Beth Mead。數據：互動率相對品牌基準 +485%；總互動 +86K；相對 Arsenal 合作夥伴基準互動率 +71%；觸及 7.3M+；15 所在地學校直接影響 800+ 名孩子與家長。Stylist：「分享球員懷舊童年照簡直完美」；Campaign：「戶外玩耍如何塑造自信年輕女性，以及未來運動員」。",
+        awardsDetail: [
+            { award: "Silver Lion (Outdoor Lions)", icon: "🥈" },
+            { award: "Bronze Lion (Print & Publishing Lions)", icon: "🥉" }
+        ]
+    },
+    {
+        id: 120,
+        title: "Mntana ka Gogo",
+        year: "2026",
+        brand: "Vaseline",
+        agency: "VML South Africa, Johannesburg",
+        country: "South Africa",
+        summary: "Heritage Day 上，Vaseline 把 uGogo 幫孫子擦油的儀式拍成社群片：有些傳統不是傳下來的，是擦進去的。",
+        boardImage: "boards/mntana-ka-gogo.jpg",
+        filmUrl: "https://lion.box.com/s/n2vb4hhon3gwcxua4ajg28a25ob83rbu",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/mntana-ka-gogo-01.jpg',
+            idea: 'assets/stills/mntana-ka-gogo-02.jpg',
+            execution: 'assets/stills/mntana-ka-gogo-03.jpg'
+        },
+        background: "Heritage Day 是慶祝南非文化本質與共享傳統的節日。我們的挑戰是把品牌 155 年的傳承，重新接上重視真實與身分的新世代。在許多南非家庭，uGogo（祖母）不只是女家長，她是養育者、說故事的人、家族傳統的守護者。她最溫柔的照顧之一，是在上學或上教堂前幫孩子臉上擦 Vaseline。這套人人共享的儀式，帶著溫度、熟悉與跨代懷舊。",
+        idea: "把這個普世文化真相，變成數位的 Heritage 慶典：向 uGogo 的智慧致敬，同時用說故事與參與搭起世代橋樑。把文化真實與當代表達混在一起，我們為數位世代重新想像祖母的手，把懷舊變成驕傲與共享記憶，為 social-first 場景而生。這由這句話加固：「有些傳統不是傳下來的，是擦進去的。」",
+        execution: "為紀念 Heritage Day，活動以 social-first 數位執行上線。視覺語言：uGogo 的雙手成為視覺說書人——皺紋、養育、智慧——對比她慈愛觸摸的年輕臉龐。Vaseline 被擦進去的畫面，抓住傳承與照顧的情感核心。這不是單向活動，它讓使用者成為共同創作者，用數位敘事保存身分而不是稀釋它。Mntana Ka Gogo 證明：當傳承遇上數位說故事，就會發生魔力。藉由向 uGogo 這件簡單、普世的照顧致敬，活動建立情感資產、啟發全球參與，把懷舊片刻變成非洲驕傲與延續的當代慶典。數據：觀看 8.6m；觸及 5m；互動 315k；正面情緒 98%；超過 10k 則提及；轉發貼文 162k 讚；877 則留言；1733 次再分享。eNCA：「VASELINE 的 GOGO 廣告挖出深刻記憶」。",
+        awardsDetail: [
+            { award: "Silver Lion (Social & Creator Lions)", icon: "🥈" }
+        ]
     }
 ];
 
