@@ -3246,6 +3246,248 @@ const casesData = [
             { award: "Silver Lion", icon: "🥈" },
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 131,
+        title: "Recipe for Change",
+        year: "2026",
+        brand: "Puck",
+        agency: "FP7 McCann Dubai",
+        country: "United Arab Emirates",
+        summary: "戰爭摧毀了黎巴嫩婦女能賣東西的超市與通路：Puck 把她們的家族食譜變成知識產權，授權給全球餐廳，每賣一盤她拿一半。",
+        boardImage: "boards/recipe-for-change.jpg",
+        filmUrl: "https://lion.box.com/s/aybh7u2bvo5ru18z3xh0mrrjwvx64zmn",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 3 },
+        stills: {
+            background: 'assets/stills/recipe-for-change-01.jpg',
+            idea: 'assets/stills/recipe-for-change-02.jpg',
+            execution: 'assets/stills/recipe-for-change-03.jpg'
+        },
+        background: "2023 年，Puck 推出 Selfless Shelves，給失業的黎巴嫩婦女超市貨架去賣自家產品。但黎巴嫩經濟崩潰，加上 2024 年底戰爭，超過 70 萬婦女與兒童流離失所。家園被毀、道路與超市關閉、供應鏈斷裂——她們無處可賣，也無物可賣。2025 年齋戒月將至，Puck 必須在不依賴實體基礎設施或傳統通路的前提下繼續支持她們。於是我們轉向她們仍擁有的資產：家族食譜——一種可被擁有、共享、規模化的文化知識／知識產權。",
+        idea: "Recipe for Change：全球首創把食譜變成知識產權、把餐廳變成新型媒體系統的模式。世界各地的黎巴嫩／融合餐廳重現並販售這些菜；每位婦女的故事透過菜單、餐盤、QR 碼旅程、餐廳社群、外送平台與 earned media 傳播。在 Puck 協助下，每個接觸點都是選擇與參與。婦女遠端參與，餐廳與外送平台賣出的每份餐點她拿 50% 利潤。用餐變成媒體，訂餐變成參與——說故事、分銷與交易在同一瞬間發生，建立在戰爭摧毀不了的東西上：文化。",
+        execution: "與 Habib Beirut、Al Aseel、Awani 等餐廳合作，把流離失所婦女的家傳食譜放上菜單；消費者每點一盤，系統自動把 50% 利潤撥給食譜原作者。流程：黎巴嫩母親的食譜 → 海外黎巴嫩餐廳菜單 → 訂單變成收入。數據：總訂單 190K+；餐廳利潤 +16.7%；婦女收入 +807%；Puck 銷售 uplift 31%。Gulf News：「新商業模式把家族食譜變成收入」；Khaleej Times：「黎巴嫩婦女成為全球餐廳的商業夥伴」；The National：「家常黎巴嫩菜走向世界」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×3", icon: "🥉" }
+        ]
+    },
+    {
+        id: 132,
+        title: "The Safe Pack",
+        year: "2026",
+        brand: "Tupharma 365",
+        agency: "VML, Madrid",
+        country: "Spain",
+        summary: "西班牙每年約 8,000 人死於用藥錯誤：Tupharma 365 做出 The Safe Pack——用高對比色、大字與圖示，讓長輩一眼分得清外觀／名稱相似的藥。",
+        boardImage: "boards/the-safe-pack.jpg",
+        filmUrl: "https://lion.box.com/s/5aacsxwgwz7norxwtg3hj1fqevq3dtni",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-safe-pack-01.jpg',
+            idea: 'assets/stills/the-safe-pack-02.jpg',
+            execution: 'assets/stills/the-safe-pack-03.jpg'
+        },
+        background: "LASA（Look-Alike, Sound-Alike）藥物是可預防醫療傷害的主因之一。在西班牙，包裝規範不足，藥廠可用相似設計，長輩容易搞混。用藥錯誤每年約造成 8,000 人死亡。板上對照：Lorazepam（焦慮）與 Loratadina（過敏）盒子幾乎長一樣。",
+        idea: "The Safe Pack：一套可套上原藥盒的適應型袖套設計系統，依國家健保系統資料，幫西班牙最常開的 LASA 藥變得「認得出、不會錯」。標語：The packaging that makes pills unmistakable.",
+        execution: "套用老人學設計原則：高對比色、高可讀字體、對應用途的直覺圖示；可調尺寸與霧面質感。盒面大字標用途（DOLOR／DIABETES／TENSIÓN／TIROIDES／COLESTEROL／DEPRESIÓN／ALERGIA），並留藥師手寫劑量區。先在 6 間 TuPharma365 藥局推出，計畫 2026 年底擴至西班牙 40 據點；也可線上下載免費模板。pmfarma：「包容設計，記得那些最常被遺忘的人：長者」；ReasonWhy：「以前分不清的藥，現在一眼可辨」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 133,
+        title: "Unwatched Goals",
+        year: "2026",
+        brand: "Brahma",
+        agency: "Africa Creative, São Paulo",
+        country: "Brazil",
+        summary: "球迷怕拿外送啤酒時錯過進球：Brahma 串聯 Zé Delivery 與即時賽事資料，若交貨當下自家球隊進球，自動全額 cashback。",
+        boardImage: "boards/unwatched-goals.jpg",
+        filmUrl: "https://lion.box.com/s/h1ny8p4505jg4or9ocn4a4mysgrvh5z2",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/unwatched-goals-01.jpg',
+            idea: 'assets/stills/unwatched-goals-02.jpg',
+            execution: 'assets/stills/unwatched-goals-03.jpg'
+        },
+        background: "作為巴西足球官方啤酒，比賽日本該大賣。但 Ambev 第一方外送 App Zé Delivery 的資料顯示：賽前訂單上升，開賽前卻急凍——球迷怕最糟情況：去拿啤酒時，錯過自家球隊進球。對 Brahma，這是藏在消費場合裡的明確商業障礙。",
+        idea: "用外送與比賽資料，建即時自動化系統：只要啤酒交貨當下球隊進球，系統自動把全額 cashback 當道歉——sorry, our bad。把購買障礙變成購買誘因。公式：拿起啤酒外送 + 同時球隊進球 = Brahma 全額退款。",
+        execution: "Zé Delivery 上使用者已標明支持哪隊，也知道每筆訂單交到手上的精確時間；再串接即時賽事與每顆進球官方時間戳，監控全國每筆 Brahma 外送與每場比賽。先通知前一年錯過進球的 2,959 名球迷並全額退款，之後變成 2026 全年常駐平台。數據：監控訂單 2,742,376；分析使用者 802,159；追蹤比賽 1,000+；偵測到「沒看到的進球」比賽 257；已發 cashback 2,959。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 134,
+        title: "Mandatory Vacation Packages",
+        year: "2026",
+        brand: "Cámara Colombiana de Comercio Electrónico",
+        agency: "NAME, Bogotá",
+        country: "Colombia",
+        summary: "哥倫比亞法律允許公司強制員工放假：與 HR 合作，在「必須休假」通知信裡塞進依日期客製的 Travel Sale 行程，把義務變成假期。",
+        boardImage: "boards/mandatory-vacation-packages.jpg",
+        filmUrl: "https://lion.box.com/s/oatarxn1m7sbn6xkd3n5666j93omb7fh",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/mandatory-vacation-packages-01.jpg',
+            idea: 'assets/stills/mandatory-vacation-packages-02.jpg',
+            execution: 'assets/stills/mandatory-vacation-packages-03.jpg'
+        },
+        background: "在哥倫比亞，公司依法可強制員工休假（勞動法第 187 條：休假時間由雇主決定）。每年成千上萬人收到突如其來的 email，被告知必須放假——往往沒時間、也沒計畫好好享受。副標：Turning legal obligations into unforgettable vacations.",
+        idea: "把大家討厭的強制休假信，變成旅遊通路。與全國品牌／HR 合作，找出即將被強制放假的員工，依他們的休假日期寄出個人化行程套裝。",
+        execution: "「扭轉」：優惠直接放在宣布強制休假的同一封 HR 信裡，把不想收到的通知變成量身假期。數據：160 間公司加入；55% 點進套裝；8 天活動中 21% 下訂；銷售較去年 +40%。合作品牌含 Visa、Adidas、Mercado Libre、Google、Davivienda 等。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 135,
+        title: "867-5309",
+        year: "2026",
+        brand: "The Cancer Support Community",
+        agency: "Klick Health, Toronto",
+        country: "Canada",
+        summary: "把音樂史上最有名的電話號碼 867-5309 接管成癌症支持熱線：聽過歌的人，需要時就記得撥這個號。",
+        boardImage: "boards/867-5309.jpg",
+        filmUrl: "https://lion.box.com/s/cqy6dx7nmjhsdo8eedmp1mn774ubr6fz",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/867-5309-01.jpg',
+            idea: 'assets/stills/867-5309-02.jpg',
+            execution: 'assets/stills/867-5309-03.jpg'
+        },
+        background: "每年超過 200 萬人被診斷出癌症；那一刻很多人不知道該找誰。線上搜尋常令人不知所措、冰冷又不確定。真正的支持存在，但人們最需要時往往找不到。",
+        idea: "四十多年來，Cancer Support Community 與 Gilda’s Club 在 200 個據點提供可信資源與真實答案，但知道該打哪個號碼的人太少。為了讓更多人記住熱線，我們接管了人人耳熟能詳的號碼——音樂史上最著名的電話號碼。",
+        execution: "推出 867-5309 活動，受該號碼背後歌曲啟發，讓新一代難以忘懷。CSC-867-5309 在廣播、Spotify 與社群擴散，直到大家都知道：最需要幫助時可以打這個號。會把來電導向癌症支持熱線。數據：曝光 +2B；來電 +216%；第一週影響 497 條生命。New York Post：「A stroke of genius」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 136,
+        title: "For Papa!",
+        year: "2026",
+        brand: "Instacart",
+        agency: "McCann New York",
+        country: "United States",
+        summary: "香蕉是 Instacart 賣最多的品項，千萬則備註在講熟度：Super Bowl 用 Preference Picker 把「剛好熟度」做成 Spike Jonze 執導的音樂對決。",
+        boardImage: "boards/for-papa.jpg",
+        filmUrl: "https://lion.box.com/s/uzgwkn68unjoo3aqd6wgyp144pbiqwhe",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 2, bronze: 1 },
+        stills: {
+            background: 'assets/stills/for-papa-01.jpg',
+            idea: 'assets/stills/for-papa-02.jpg',
+            execution: 'assets/stills/for-papa-03.jpg'
+        },
+        background: "線上買菜持續成長，但障礙仍在：掌控感。買生鮮時，購物者猶豫把挑選交給別人。實體店你可以捏、看、挑；線上那種觸覺自信消失。行為揭露更深的真相：香蕉是 Instacart 購買量最大的品項（19 億根），還有 3,200 萬則買家備註在指定熟度。這不是水果，是精準與「一定要挑對」的情緒投資。Preference Picker 滑桿把手寫備註變成直覺視覺工具；策略是把掌控感重構為賦能。挑戰變成：在 Super Bowl 舞台上讓這項功能文化上不可忽視，證明線上買菜不是妥協——是客製。",
+        idea: "如果人們執著選完美香蕉，就把這份執著放大到 Super Bowl 尺度。主標：Bananas just how you like.",
+        execution: "由 Spike Jonze 執導音樂對決，圍繞 Preference Picker 選香蕉熟度；用復古廣播機、4:3 比例，歐式流行舞台、編舞與升級對決，把簡單滑桿變成奇觀。幽默來自反差：史詩製作獻給小事——但對購物者它不是小事。歌曲用重複把產品利益嵌進娛樂；預告、加長版與社群把觸及拉過比賽日。數據：Super Bowl 當日 GTV YoY +12%、Activations +9%；earned 曝光 22B、1,460+ 報導、正面情緒 99.8%；自有曝光 91M+、總觸及 579M+。The Independent：#1 Super Bowl Spot。",
+        awardsDetail: [
+            { award: "Silver Lion ×2", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 137,
+        title: "The Undropped Kit",
+        year: "2026",
+        brand: "ASICS",
+        agency: "GUT, Toronto",
+        country: "Canada",
+        summary: "英國三分之二女孩 16 歲前退出運動，PE 制服是主因之一：ASICS 與 Burnley High 女學生共創 The Undropped Kit，還推進國會改政策。",
+        boardImage: "boards/the-undropped-kit.jpg",
+        filmUrl: "https://lion.box.com/s/sm5fyvxnhmncc19xn8rampipfyk544h4",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-undropped-kit-01.jpg',
+            idea: 'assets/stills/the-undropped-kit-02.jpg',
+            execution: 'assets/stills/the-undropped-kit-03.jpg'
+        },
+        background: "英國三分之二女孩在 16 歲前退出運動；主因之一是教育體系現用的 PE 制服——標準化、沒為女孩身體變化與需求設計，帶來不適、自我意識與疏離。主標：第一套為了不讓女孩退出運動而設計的 PE 制服。",
+        idea: "The Undropped Kit：第一套由女孩設計、為了讓女孩留在運動裡的 PE 制服。與 Burnley High School（PE 參與度極低地區之一）學生合作；ASICS 產品開發團隊讓女孩成為設計部門的一部分。",
+        execution: "歷時 11 個月、3 輪設計、超過 2,000 名女孩意見：模組化設計（48 種組合）、拉鍊上的緊急髮圈、隱藏衛生用品袋、可調腰頭、防漏材質、更深色較厚布料。再到國會推動改變。結果：教育部更新全國 PE 制服政策；400 則媒體；曝光 +515M；earned social 互動 250,000+；78% 女孩覺得穿我們的制服更自在。BBC：「女孩不該在 PE 制服裡感到不安全」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 138,
+        title: "A.I. Irresponsibly",
+        year: "2026",
+        brand: "Brewlander",
+        agency: "BLKJ Havas, Singapore",
+        country: "Singapore",
+        summary: "沒預算拍百萬啤酒大片：Brewlander 在看板／杯墊印 AI 提示詞，請人自己生成「我們的廣告」，小品牌用腦力打敗大製作。",
+        boardImage: "boards/ai-irresponsibly.jpg",
+        filmUrl: "https://lion.box.com/s/4u6uznxxbawk8nt414w78fcay560e53x",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 3 },
+        stills: {
+            background: 'assets/stills/ai-irresponsibly-01.jpg',
+            idea: 'assets/stills/ai-irresponsibly-02.jpg',
+            execution: 'assets/stills/ai-irresponsibly-03.jpg'
+        },
+        background: "啤酒業充滿巨頭，他們愛把行銷預算砸在找大明星、名導、超大製作的史詩廣告——我們負擔不起。副標：How an independent beer brand outsmarted the big ones.",
+        idea: "Brewlander 是獨立啤酒品牌，全靠味道吸引消費者，賺的每分錢都回投啤酒。隨著 A.I. 興起，我們看到終於能競爭的機會：把小預算能負擔的每一個執行，變成史詩、昂貴大片——製作費一毛不花。我們邀請大家打字或拍下提示詞，自己看「我們的廣告」。",
+        execution: "地鐵看板、杯墊、巷弄海報只印提示詞（例如：90 年代日式廣告，哥吉拉捧著 Brewlander 罐踩過城市，喝一口後開心微笑）。低成本戰役 vs「大、史詩、昂貴」的 AI 產出畫面牆。數據：影片產出 +10K；品牌知名度 +32%；節省成本 +5M。Spill：「That’s a brilliant move」。Google 搜尋熱度超越 Stella Artois、Corona、Heineken。",
+        awardsDetail: [
+            { award: "Bronze Lion ×3", icon: "🥉" }
+        ]
+    },
+    {
+        id: 139,
+        title: "Hearapy",
+        year: "2026",
+        brand: "Samsung",
+        agency: "LEO, Frankfurt",
+        country: "Germany",
+        summary: "全球逾三成旅行者會暈車：Samsung 用 Galaxy Buds4 Pro 的 Hearapy App，以 100Hz 純音刺激內耳平衡，60 秒無藥物緩解。",
+        boardImage: "boards/hearapy.jpg",
+        filmUrl: "https://lion.box.com/s/v1osjy5ndg9jdklqn4s2w8eizxs2es51",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/hearapy-01.jpg',
+            idea: 'assets/stills/hearapy-02.jpg',
+            execution: 'assets/stills/hearapy-03.jpg'
+        },
+        background: "超過 30% 全球人口受暈車／暈機／暈船影響（約 27 億人），旅行變成壓力。有副作用的藥物、冷門偏方，或硬撐——直到現在。標語：Galaxy Buds4 Pro against motion sickness.",
+        idea: "Samsung 推出 Hearapy：行動健康創新，協助預防旅行暈動。App 使用名古屋大學研究顯示僅需 60 秒即可減輕暈動的純 100Hz 音調，刺激內耳平衡系統；針對 Galaxy Buds4 Pro 雙向揚聲器優化，精準把音調送進內耳，提供無副作用的替代方案。",
+        execution: "在機場、火車站、港口、公路休息站做地理定向觸點，在出發當下觸及旅客；旅遊創作者實測並帶動社群。前兩週下載逾 15 萬；對所有 Android、跨耳機品牌免費開放以快速擴張。數據：前 4 週下載 +160K；App 評分 4.6/5；Health & Fitness #2；全球 earned 觸及 +730M；earned 價值 +€11.8M。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 140,
+        title: "Dying Reviews",
+        year: "2026",
+        brand: "Hospice NZ",
+        agency: "McCann New Zealand, Wellington",
+        country: "New Zealand",
+        summary: "臨終診斷後生活仍在繼續，但系統常缺同理：Hospice NZ 做世界首個讓臨終者評分企業體驗的 B2B 平台 Dying Reviews。",
+        boardImage: "boards/dying-reviews.jpg",
+        filmUrl: "https://lion.box.com/s/wfcw97cksalouvbmuhj5ji4ss8sy2dtu",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/dying-reviews-01.jpg',
+            idea: 'assets/stills/dying-reviews-02.jpg',
+            execution: 'assets/stills/dying-reviews-03.jpg'
+        },
+        background: "臨終診斷之後，生活仍繼續——我們還是購物、銀行、訂閱、工作。但為效率設計的現代系統，會在時間與精力變少時，與對同理的需要相撞。",
+        idea: "Dying Reviews by Hospice NZ：世界首個 B2B 平台，讓臨終者為他們與企業之間原本隱形的體驗評分與評論，變成可見洞察。第一輪評論編成每年 145 頁報告，給組織清楚數據：跨產業主題、系統痛點與最佳行為。",
+        execution: "同理地鎖定臨終者與家屬為獨特且受重視的族群；洞察成為有同理心系統設計的基準，讓 Hospice NZ 年年直接與企業對話。包括銀行在內的大型企業，已主動與 Hospice NZ 討論如何為人生這階段設計得更好。結語：我們為人生其他每個階段評論與設計——為什麼不是這個？Ira Byock：「我所知道最有野心、向臨終者學習的努力，全球獨一無二。」",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
