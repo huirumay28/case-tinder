@@ -3488,6 +3488,250 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 141,
+        title: "Tiffany & Co. x Netflix's Frankenstein",
+        year: "2026",
+        brand: "Tiffany & Co. and Netflix",
+        agency: "Tiffany & Co. / Netflix Brand Creative Studio, New York",
+        country: "United States",
+        summary: "這不是把珠寶貼在電影上：Tiffany & Co. 與 Netflix、Guillermo del Toro 把檔案館傑作與訂製珠寶織進《Frankenstein》角色與氛圍，再延伸成旗艦櫥窗與 Selfridges 展覽。",
+        boardImage: "boards/tiffany-frankenstein.jpg",
+        filmUrl: "https://lion.box.com/s/uc5qonjvy2rt8qx5vhisu2bfoepqev43",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/tiffany-frankenstein-01.jpg',
+            idea: 'assets/stills/tiffany-frankenstein-02.jpg',
+            execution: 'assets/stills/tiffany-frankenstein-03.jpg'
+        },
+        background: "Brief：這次不是裝飾性的產品植入，而是從故事內部服務敘事的品牌整合。Tiffany & Co. 與奧斯卡得主 Guillermo del Toro、以及電影奧斯卡得主服裝團隊合作，把檔案權威、訂製工藝與時代可信度帶進《Frankenstein》，協助塑造角色、氣氛與視覺敘事。挑戰是：讓奢侈品牌在娛樂裡變得不可或缺，而不只是「出現在鏡頭裡」。",
+        idea: "讓 Tiffany 的珠寶與物件成為角色靈魂與視覺氛圍的一部分——不是外加 logo，而是讓奢華工藝成為故事必要的材料。",
+        execution: "與 Netflix、Guillermo del Toro、奧斯卡得主服裝設計師 Kate Hawley 密切合作，為電影帶來 27 件珠寶與物件（檔案館傑作、當代作品與訂製設計）。片後延伸成沉浸式媒體體驗：社群敘事、紐約旗艦 The Landmark 櫥窗、首映時刻，以及 Netflix 主導的倫敦 Selfridges 展覽「Frankenstein: Crafting a Tale Eternal」。板上結果：電影中 27 件 Tiffany 珠寶／物件；總 EMV $3.68M；687 則全球媒體提及（55 國）；社群曝光 24M；Netflix 付費曝光 37M；Instagram 正向情緒 86%；電影獲 3 座奧斯卡（含最佳服裝設計）。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 142,
+        title: "Discount Chants",
+        year: "2026",
+        brand: "Mercado Libre",
+        agency: "GUT, Buenos Aires",
+        country: "Argentina",
+        summary: "球迷在看台喊什麼，LED 看板就即時解鎖對應商品折扣：Mercado Libre 把球場呼喊變成即時優惠。",
+        boardImage: "boards/discount-chants.jpg",
+        filmUrl: "https://lion.box.com/s/u7iab5m48aqicr6upnjmzhe3m3sorv8g",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 2, bronze: 1 },
+        stills: {
+            background: 'assets/stills/discount-chants-01.jpg',
+            idea: 'assets/stills/discount-chants-02.jpg',
+            execution: 'assets/stills/discount-chants-03.jpg'
+        },
+        background: "Observation：拉丁美洲擁有世上最熱情、最有創意的球迷。他們的看台歌會唱各種主題，也會唱到 Mercado Libre——拉美最大電商、也是區域足球主要贊助商——架上找得到的各種東西。",
+        idea: "Idea：改造球場看板，與球迷呼喊同步，對歌裡提到的每一項商品即時解鎖折扣。標語：Fans demand it, Mercado Libre delivers.",
+        execution: "比賽中看板顯示如「CUPON: HINCHA2026」與被唱到的商品（酒、球衣、蛋、色筆、喇叭、床、鼓……），並連到 Mercado Libre App 對應商品頁。媒體評「不是侵入式廣告」「把看台呼喊變成折扣」。板上數據：觸及 3.8MM；優惠券使用較前一檔 +139%；優惠券在比賽中兩度售罄；曝光 14.9MM。",
+        awardsDetail: [
+            { award: "Silver Lion ×2", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 143,
+        title: "CRAFTMAN.SHIPS",
+        year: "2026",
+        brand: "SHIPS",
+        agency: "Hakuhodo Gravity, Tokyo",
+        country: "Japan",
+        summary: "SHIPS 50 週年不用 AI 生片：用 42.5 公里線、600 小時手工刺繡停格，把「愛衣服」做成一件會動的衣服。",
+        boardImage: "boards/craftmanships.jpg",
+        filmUrl: "https://lion.box.com/s/nhbu058hhtwqqi7ny6se9jqi3izeen29",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 2, bronze: 0 },
+        stills: {
+            background: 'assets/stills/craftmanships-01.jpg',
+            idea: 'assets/stills/craftmanships-02.jpg',
+            execution: 'assets/stills/craftmanships-03.jpg'
+        },
+        background: "Background: Beyond Nostalgia——50 週年不只懷舊，要宣告未來：對真實工藝的承諾。1,100 名員工角色各異，卻被同一種「Blue Passion」串起：對衣服近乎偏執的愛。主題 CRAFTMAN.SHIPS 對焦創辦人「The Best Basic」哲學，以及品牌名——與利害關係人一起航海的船。",
+        idea: "Idea: The Heat of the Beginning——要傳達「愛衣服愛到極致」那種未冷卻的熱度，選擇刺繡的觸感顆粒，而不是光滑數位特效。材料來自自家遺產：倉儲裡長期封存的剩餘線材與帆布邊料重新賦予生命。這不只是一支片子，而是由 SHIPS 真正匠人以做店內衣服的精準與愛，剪裁出的「會動的衣服」。",
+        execution: "Execution: Craft over AI——在 AI 幾分鐘就能生片的時代，選擇最艱難的路：數百格手工刺繡停格。相信線的物理「振動」與質地，才能顯現五十年的執著。片子交織 SHIPS 航程與做一件衣服的工序，象徵創作者傳給全球顧客的「熱情接力棒」。數百格實體畫框巡迴 80 間 SHIPS 門市展出，讓廣告變成員工與顧客共享的實體體驗。板上結果：100% 正向情緒／100+ 則用戶留言；休眠會員再啟 +145%；新會員取得表現 117.2%。",
+        awardsDetail: [
+            { award: "Silver Lion ×2", icon: "🥈" }
+        ]
+    },
+    {
+        id: 144,
+        title: "The Bite",
+        year: "2026",
+        brand: "Burger King",
+        agency: "Mojo Supermarket, New York",
+        country: "United States",
+        summary: "不信任「大壞速食機器」時，Burger King 公布總裁私人手機、讓他咬 Whopper 對決，再在奧斯卡公開「解雇」國王、把王位還給顧客。",
+        boardImage: "boards/the-bite.jpg",
+        filmUrl: "https://lion.box.com/s/ia7b7vp9y5kh98mpwdyr2fd18f6z50na",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 2 },
+        stills: {
+            background: 'assets/stills/the-bite-01.jpg',
+            idea: 'assets/stills/the-bite-02.jpg',
+            execution: 'assets/stills/the-bite-03.jpg'
+        },
+        background: "Insight：人們對龐大速食體系的不信任升高，Burger King 業績下滑，需要大動作把客人找回來。",
+        idea: "Idea：拆掉企業高牆——公布 Burger King 總裁 Tom 的私人手機，敢讓客人直接打去罵。Tom 不只聽，還吸收品牌最原始、未過濾的真實；一段他狠咬 Whopper 的粗粝短片點燃病毒式「CEO burger bite-off」。真正的終局在世界最大舞台：奧斯卡期間公開解雇 The King，把王冠戴給顧客——不是改個標，而是徹底移轉權力。There's a new king & it's you.",
+        execution: "電話、咬堡對決、晚間秀與海量 earned media（WSJ、NY Post、Ad Age 等）一路推到奧斯卡「政權更迭」。板上結果：連續 4 週 QSR 流量成長 #1（類別下滑中）；史上第 3 高銷售週；4.5M engagements；500 間 BK 創週銷紀錄；+7.2B earned impressions。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 145,
+        title: "Fair Play",
+        year: "2026",
+        brand: "Ministério Público do Distrito Federal",
+        agency: "Ogilvy Health, New York",
+        country: "Brazil",
+        summary: "巴西足球員在國內外遭種族歧視暴增，但只有 18% 受害者會報案：Fair Play 做成全球首個對抗網路種族主義的 AI 數位檢察官。",
+        boardImage: "boards/fair-play.jpg",
+        filmUrl: "https://lion.box.com/s/2c19xi4ak07ian7klm6ya56tyqvb7evu",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/fair-play-01.jpg',
+            idea: 'assets/stills/fair-play-02.jpg',
+            execution: 'assets/stills/fair-play-03.jpg'
+        },
+        background: "巴西球員無論在海外或國內，面對愈來愈嚴重的種族歧視。單一年巴西足球種族主義案件暴增逾 40%；許多巴西人在西班牙踢球，當地仇恨犯罪五年上升 35%。但只有 18% 受害者報案——系統瓶頸是：很多人不知道怎麼走流程，辨識與分類侵權又長又複雜，讓多數人沉默、加害者更大膽。",
+        idea: "FAIR PLAY：全球首個對抗網路種族主義的 AI 數位檢察官。使用者可評估貼文是否構成仇恨言論、檢舉內容，並把案件轉給對應機關。平台快速辨識侵權、分類申訴、草擬案卷並審核。fairplay-ai.com.br",
+        execution: "不同於通用 AI，Fair Play 建成主權 AI 基礎設施，專為法律詮釋：以法律專家標註的法律資料集微調，能解讀諷刺、暗語與文化特定表達。提交後，結構化初步法律分析比傳統快 97%，案件直送對應機關，完成從公民檢舉到檢控管線。首月協助 263,571 名使用者理解侵權與反種族主義法；318 家媒體報導；64% 流量來自搜尋。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 146,
+        title: "Hawkstone - Hard To Make Easy To Drink",
+        year: "2026",
+        brand: "Hawkstone",
+        agency: "Smith & Jones Films, London",
+        country: "United Kingdom",
+        summary: "挑戰者啤酒 Hawkstone 組「農民合唱團」唱髒話版經典上《Britain's Got Talent》拿 Golden Buzzer，把農民變成英國最快成長啤酒的文化引擎。",
+        boardImage: "boards/hawkstone-hard-to-make-easy-to-drink.jpg",
+        filmUrl: "https://lion.box.com/s/uxop8q84wsema6ozlz2j5i8ucn7prjf8",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/hawkstone-hard-to-make-easy-to-drink-01.jpg',
+            idea: 'assets/stills/hawkstone-hard-to-make-easy-to-drink-02.jpg',
+            execution: 'assets/stills/hawkstone-hard-to-make-easy-to-drink-03.jpg'
+        },
+        background: "Insight：打進英國啤酒市場很難——大廠行銷預算巨大。作為挑戰者，Hawkstone 必須更聰明，加倍押注獨特之處：讓啤酒「好喝」的背後，是辛勤的英國農民。",
+        idea: "Idea：為讚頌農民，組成合唱團——不是普通團，而是唱出爆紅髒話版 Lakmé、登上全國頭條的團；接著上《Britain's Got Talent》，讓評審落淚並按下 Golden Buzzer。",
+        execution: "Impact：農民合唱團超出廣告，成為英國文化現象，累積逾 1.76 億曝光。板上：總 earned media value £6.6M；平面 +1.6M；社群 +176M；新追蹤 +171,000；#1 最快成長啤酒；並稱最被追蹤的啤酒品牌之一。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 147,
+        title: "The Paid Relief, Na Conta da Dor",
+        year: "2026",
+        brand: "Dorflex (Opella)",
+        agency: "Publicis Brasil, São Paulo",
+        country: "Brazil",
+        summary: "止痛藥不夠——身體還需要休息：Dorflex 把預算從名人耐力廣告改給自雇勞工，付他們一天「有薪止痛假」並分享真實休養故事。",
+        boardImage: "boards/the-paid-relief.jpg",
+        filmUrl: "https://lion.box.com/s/sum6iqd63dy34shjug3305b90pp4ax52",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-paid-relief-01.jpg',
+            idea: 'assets/stills/the-paid-relief-02.jpg',
+            execution: 'assets/stills/the-paid-relief-03.jpg'
+        },
+        background: "Social insight：社群「拼搏文化」美化犧牲、把硬撐當平常；止痛藥溝通也常說「痛不該擋住你」。對巴西自雇者，停下來往往不是選項。Insight：光止痛不夠，身體要休養才能癒合——最需要休息的人，卻最不可能休息。",
+        idea: "Idea：Dorflex 提供比止痛更強的東西——Paid Relief（Na Conta da Dor）：持續平台，把疼痛中的勞工變成品牌大使，讓他們能請一天有薪假休養；回報不是傳統廣告，而是分享休養如何改善健康的真實故事。",
+        execution: "Social strategy：翻轉影響力邏輯——不請名人推耐力，把預算導向最可信的聲音：帶痛生活、很少有空間休養的真實勞工。流程：招募自雇勞工 → 醫學背書線上評估確保真實參與 → 選定者暫停日常、休養並分享差異 → 放大故事，讓數百萬人重新思考休息就是復原。板上：總觀看 45.7M；觸及 21.2M；持續平台服務更多勞工。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 148,
+        title: "UV Tattoo to Learn",
+        year: "2026",
+        brand: "ISDIN",
+        agency: "Havas Play, Barcelona",
+        country: "Spain",
+        summary: "小孩討厭防曬：ISDIN 用「三隻小豬」UV 反應刺青——大野狼在太陽下出現、抹防曬就消失——把塗防曬變成孩子想玩的遊戲。",
+        boardImage: "boards/uv-tattoo-to-learn.jpg",
+        filmUrl: "https://lion.box.com/s/qyde13ox34aft1zq2i6row85tbwzsw0o",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/uv-tattoo-to-learn-01.jpg',
+            idea: 'assets/stills/uv-tattoo-to-learn-02.jpg',
+            execution: 'assets/stills/uv-tattoo-to-learn-03.jpg'
+        },
+        background: "ISDIN 面對關鍵商業挑戰：在競爭對手強力促銷下流失市占。要再成為家庭首選，需要讓人記得的東西——而沒有什麼比解決孩子的問題更讓父母開心。小孩討厭防曬，不懂為什麼重要，對父母是每天戰役。",
+        idea: "UV Tattoo to Learn：用 UV 反應墨水的暫時刺青，借《三隻小豬》故事，把塗防曬變成孩子想玩的遊戲。機制：大野狼在陽光下出現，抹上防曬就消失。",
+        execution: "選父母與孩子最信任的接觸點——健康、教育、家庭生活交會處：戲院（Cinesa）、Connected TV（Netflix、Disney+、M+ 等）、藥局、社群。板上：50 萬枚刺青立刻被搶光；對話量 +400%；品牌提及日增 +285%；67.7% 內容為有機 UGC；藥師推薦 +143.7%；有刺青藥局兒童防曬銷售 +52.9%；earned media €829,363。成功後擴充 Minions 版刺青。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 149,
+        title: "Bedtime Donations",
+        year: "2026",
+        brand: "Royal Society for Blind Children",
+        agency: "Innocean Berlin",
+        country: "Germany",
+        summary: "有聲書貴到許多盲童家庭買不起：RSBC 的 Bedtime Donations 把父母每晚朗讀錄音，變成盲童可聽的免費有聲書庫。",
+        boardImage: "boards/bedtime-donations.jpg",
+        filmUrl: "https://lion.box.com/s/wbpgzvltl6sm2blzewvtzstla8ocbqj2",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 3 },
+        stills: {
+            background: 'assets/stills/bedtime-donations-01.jpg',
+            idea: 'assets/stills/bedtime-donations-02.jpg',
+            execution: 'assets/stills/bedtime-donations-03.jpg'
+        },
+        background: "世界盲人聯盟指出：逾 90% 已出版書籍對盲人／視障讀者仍不可及。WHO 估計全球約 140 萬名 18 歲以下兒童不可逆失明。有聲書對盲童識字關鍵，卻可能比紙本貴四倍；三分之二盲童家庭生活在貧窮線或以下，負擔不起。",
+        idea: "全世界父母每晚本來就在念床邊故事——若能把每次朗讀變成盲童的免費有聲書？RSBC 的 Bedtime Donations：記錄父母朗讀，轉成免費有聲書庫。Tagline：你念的床邊故事，變成幫助盲童識字的免費有聲書。",
+        execution: "App 兩種模式：Reader——父母從 Project Gutenberg 公有領域故事（多類別）朗讀錄音；經 AI＋人工品質審核後進入 Listener——盲童以高對比、易用介面聆聽。與無障礙專家共設。板上：上架 24 小時內成英國 App Store 最熱門；不到 72 小時錄成 500+ 故事；捐出 8 天 5 小時 53 分免費有聲內容；平均用戶每日聆聽 63 分鐘。",
+        awardsDetail: [
+            { award: "Bronze Lion ×3", icon: "🥉" }
+        ]
+    },
+    {
+        id: 150,
+        title: "Curfew Hostels",
+        year: "2026",
+        brand: "Tiger Beer",
+        agency: "LePub, Singapore",
+        country: "Singapore",
+        summary: "緬甸宵禁讓酒吧關門、球迷無法看歐聯決賽：Tiger 鑽合法空隙，把仰光五間青年旅館公共空間變成 Tiger Bars，零違法看球。",
+        boardImage: "boards/curfew-hostels.jpg",
+        filmUrl: "https://lion.box.com/s/3c07pc2kjxvjxch2npoxpuppepa0l6k0",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/curfew-hostels-01.jpg',
+            idea: 'assets/stills/curfew-hostels-02.jpg',
+            execution: 'assets/stills/curfew-hostels-03.jpg'
+        },
+        background: "Context：自 2021 軍事接管以來，緬甸每晚 8pm–6am 嚴格宵禁。Problem：2023 年 5 月，Tiger 贊助的 Manchester United 與 Tottenham Hotspur 打進歐聯決賽；開賽落在宵禁時段、酒吧關閉，球迷無法聚集，一起看年度最大比賽變成不可能。",
+        idea: "Idea：宵禁時酒吧必須關，但人們仍可合法待在青年旅館。Tiger 利用這個空隙，接管仰光五間青年旅館，把公共空間變成 Tiger Bars；決賽前幾天低調邀請球迷以住宿客人入住，關起門一起看決賽——一條法律都不破。",
+        execution: "設置電視、Tiger 品牌與球會旗幟，讓 208 名球迷在宵禁夜合法歡呼。板上結果刻意寫：0 brand mentions、0 earned media、0 violations、208 cheering fans。Tiger = Official Beer Partner of Tottenham Hotspur / Manchester United。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
