@@ -3973,6 +3973,248 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 161,
+        title: "Reflections",
+        year: "2026",
+        brand: "British Airways",
+        agency: "Uncommon Creative Studio, London",
+        country: "United Kingdom",
+        summary: "英國航空把機鼻引擎上的倒影當唯一識別：劃掉 Headline、Copy、Logo、AI……少說話、多看見飛行本身。",
+        boardImage: "boards/reflections.jpg",
+        filmUrl: "https://lion.box.com/s/qj2x39zd556f53josstmfp0x1j0besib",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/reflections-01.jpg',
+            idea: 'assets/stills/reflections-02.jpg',
+            execution: 'assets/stills/reflections-03.jpg'
+        },
+        background: "旅行廣告常堆滿文案、優惠與 AI 產製素材。British Airways 想回到機上最簡單的奇蹟：從最好座位看出去的世界。",
+        idea: "Talking less, saying more. 把 Headline／Copy／Legals／Offers／URL／AI／Logo 全部劃掉，只留下引擎反光裡的 Speedmark——品牌自己映在藍引擎罩上。",
+        execution: "系列影像全從機窗俯瞰城市、島嶼、沙漠、雲海與山脈；每張前景都是亮藍引擎罩上的 British Airways 倒影。戶外看板也沿用同一視覺語言，讓「倒影」成為整場識別。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 162,
+        title: "Shot Without Permission",
+        year: "2026",
+        brand: "Amstel",
+        agency: "INGO, Stockholm",
+        country: "Sweden",
+        summary: "Amstel 先偷拍真朋友在酒吧的瞬間再上廣告，叫被拍到的人來領肖像費——證明真友誼演不出來。",
+        boardImage: "boards/shot-without-permission.jpg",
+        filmUrl: "https://lion.box.com/s/7hyxm5tsxklyt81zpv8j9l2vycyjan63",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/shot-without-permission-01.jpg',
+            idea: 'assets/stills/shot-without-permission-02.jpg',
+            execution: 'assets/stills/shot-without-permission-03.jpg'
+        },
+        background: "啤酒業長年用演員假裝當朋友。Amstel 想挑戰這套濾鏡與腳本，用沒有表演的真實友誼做品牌。",
+        idea: "成為第一個用「真朋友、真瞬間」拍友誼的啤酒品牌：流程倒過來——先拍、先上刊，再找當事人授權。",
+        execution: "在酒吧偷拍真實朋友互動，做成看板、報紙與在地社群廣告，標語「REAL FRIENDSHIP CAN'T BE FAKED」，並寫「Spotted yourself? Claim your usage fees at compensation@amstel.com」。板上結果：98% 正面情緒、首週 2,570 萬媒體曝光、84% 被拍者已領取肖像費。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 163,
+        title: "IKEA Brighton Store Launch",
+        year: "2026",
+        brand: "IKEA",
+        agency: "Mother, London",
+        country: "United Kingdom",
+        summary: "Brighton 以海鷗大便聞名，IKEA 開幕就在經典家具上「蓋」真實感鳥糞，寫給這座城市的情書。",
+        boardImage: "boards/ikea-brighton-store-launch.jpg",
+        filmUrl: "https://lion.box.com/s/idrtxgt1x9t6lf3391tayf6wxzgmodzh",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/ikea-brighton-store-launch-01.jpg',
+            idea: 'assets/stills/ikea-brighton-store-launch-02.jpg',
+            execution: 'assets/stills/ikea-brighton-store-launch-03.jpg'
+        },
+        background: "英國觀光勝地 Brighton 惡名昭彰的點之一：海鷗到處大便。新店開幕若只講家具，很難跟在地文化對上話。",
+        idea: "用海鷗最出名的「才藝」證明 IKEA 懂 Brighton：把經典家具蓋上超寫實鳥糞，當成給城市的 love letter。",
+        execution: "海報與戶外露出 MAMMUT 凳、HELMER 櫃、POÄNG 椅等商品，每件都有鳥糞細節，標語「IKEA Brighton now open」。板上結果：社群討論 +182%、正面情緒 +400%、開幕七天逾 80,000 人次進店；多國媒體（含香港）跟進報導。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 164,
+        title: "Infinite Saree",
+        year: "2026",
+        brand: "Red Dot Foundation",
+        agency: "Klick Health, Toronto",
+        country: "Canada",
+        summary: "用 4 公里「無限紗麗」當活體請願，挑戰印度婚內強暴例外條款——把《摩訶婆羅多》的保護傳說織進當代正義。",
+        boardImage: "boards/infinite-saree.jpg",
+        filmUrl: "https://lion.box.com/s/jalnwekrigqwpegjeiawzbvkaynzeg34",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/infinite-saree-01.jpg',
+            idea: 'assets/stills/infinite-saree-02.jpg',
+            execution: 'assets/stills/infinite-saree-03.jpg'
+        },
+        background: "印度《刑法》第 375 條 Exception 2 仍讓婚內強暴合法；政府稱入罪「過苛」、恐動搖婚姻，無數女性被噤聲、求不到正義。",
+        idea: "《摩訶婆羅多》裡公主 Draupadi 被剝衣時，紗麗奇蹟般無限延長保護她。我們把這份文化記憶做成世界最長紗麗——可穿、可簽名的活體請願，而非紙本連署。",
+        execution: "設計師 Nivedita Saboo 製作長約 4 公里、繡滿全國男女簽名的 Infinite Saree，在孟買最古老 Opera House 內外垂掛發表；律師暑期將議題帶上最高法院。板上結果：1.95 億 earned media impressions、1,300 萬 earned social reach；《The Indian Express》《mid-day》等以「4 公里紗麗」報導。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 165,
+        title: "L'Ultimo Uomo Reale (The Last Real Man)",
+        year: "2026",
+        brand: "The RealReal",
+        agency: "Team One, Los Angeles",
+        country: "United States",
+        summary: "假貨與 AI 讓「真假」失焦時，The RealReal 用 AI 拍出完美男人——片中唯一真的，是那只綠幕實拍的真皮包。",
+        boardImage: "boards/lultimo-uomo-reale-the-last-real-man.jpg",
+        filmUrl: "https://lion.box.com/s/he186f7oc3d830svgqss9tblh94yv8mi",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/lultimo-uomo-reale-the-last-real-man-01.jpg',
+            idea: 'assets/stills/lultimo-uomo-reale-the-last-real-man-02.jpg',
+            execution: 'assets/stills/lultimo-uomo-reale-the-last-real-man-03.jpg'
+        },
+        background: "二手精品只問一句：是不是真的？The RealReal 是全球最大認證奢侈品轉售平台。假貨愈來愈像、AI 又讓現實更難信，「真」不再只是功能，而是這門生意本身。",
+        idea: "把 AI 當概念本身，不只工具：一個英俊男人談重拾人性，直到畫面開始故障——原來他與整個世界都是 AI 生成。",
+        execution: "影片以超真實 AI 世界推進，唯一實拍是 The RealReal 皮包（綠幕小棚另拍）。用最先進工具服務一個清楚主張：在人造內容爆炸的時代，真東西仍有價值。板上結果：Instagram 印象 97.8 萬+、earned media 500 萬+、互動率 12.52%；獲 Campaign Ad of the Week 等選錄。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 166,
+        title: "Ads in My Phone Call",
+        year: "2026",
+        brand: "Skinny",
+        agency: "PHD, Auckland",
+        country: "New Zealand",
+        summary: "紐西蘭低價電信 Skinny 不砸全國媒體，改把廣告插進電話：每通免費通話每 20 秒播一段 10 秒廣告。",
+        boardImage: "boards/ads-in-my-phone-call.jpg",
+        filmUrl: "https://lion.box.com/s/gegp761hbukv5yjr3g4x4ye2t6lpgm6t",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/ads-in-my-phone-call-01.jpg',
+            idea: 'assets/stills/ads-in-my-phone-call-02.jpg',
+            execution: 'assets/stills/ads-in-my-phone-call-03.jpg'
+        },
+        background: "Skinny 承諾盡力壓低價格、討好客戶，粉絲忠誠；但還需要新客。與其砸大錢全國投放，他們發明新通路——把廣告放進電話裡。",
+        idea: "史上第一次在通話中插入廣告休息：每通都免費，也多一次抽「開心獎」機會（割草機、JetSki、甚至新髮際線）；打越多親朋，中獎機會越多。",
+        execution: "客戶簡訊 Happy 到 414 取得代碼打免費電話，對話每 20 秒播一段 Skinny 短廣告。五週活動累計 26.5 小時品牌通話。板上結果：等值 $3.1M 免費媒體、9,584 則 10 秒廣告播出、獲客成長率翻三倍。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 167,
+        title: "Mother Strike",
+        year: "2026",
+        brand: "Snack Jack",
+        agency: "Hanami Food, Bangkok",
+        country: "Thailand",
+        summary: "豌豆圈零食 Snack Jack Ring 把「圓」當成家庭圈：母親闖進孩子遊戲世界，最後回到同一個圈子。",
+        boardImage: "boards/mother-strike.jpg",
+        filmUrl: "https://lion.box.com/s/dpnklxxmefv5opt59q1zbfd024z2rb7m",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/mother-strike-01.jpg',
+            idea: 'assets/stills/mother-strike-02.jpg',
+            execution: 'assets/stills/mother-strike-03.jpg'
+        },
+        background: "Snack Jack 是給家庭的豌豆零食，首次推出圓形 Snack Jack Ring，目標是讓大眾認識這款新產品。",
+        idea: "怎麼推一個「就是圓」的零食？把圓形變成家庭關係的隱喻，正面處理電玩成癮造成的親子距離。",
+        execution: "影片裡母親進入孩子的遊戲世界去理解他，最後把彼此帶回同一圓圈，訊息是「If You Get Them, You're in Their Circle」。板上結果：觀看 +1 億、互動 +13 萬、相對品牌前次新品銷售 +17.5%；入選泰國 2025 Top 10 Ads。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 168,
+        title: "Bring a Book to Life",
+        year: "2026",
+        brand: "Amazon",
+        agency: "Droga5, part of Accenture Song, London",
+        country: "United Kingdom",
+        summary: "Amazon 提醒：串流讓你被動看，書逼你想像——用插畫把閱讀場景變成各類型小說世界。",
+        boardImage: "boards/bring-a-book-to-life.jpg",
+        filmUrl: "https://lion.box.com/s/cevrhr97fjnyyz41iofvrp8rslxnibsg",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/bring-a-book-to-life-01.jpg',
+            idea: 'assets/stills/bring-a-book-to-life-02.jpg',
+            execution: 'assets/stills/bring-a-book-to-life-03.jpg'
+        },
+        background: "書在搶注意力大戰中輸給其他娛樂，尤其串流。要說服人們：書不但一樣刺激，還給你串流給不了的東西——主導權。串流你是被動觀眾；讀書你必須想像，而那本身就很刺激。",
+        idea: "主動參與世界構築，才是讓人拿起書的誘因。活動展示讀者的力量：書需要你，才能在字裡行間長出世界。",
+        execution: "邀集藝術家用對比風格為愛情、驚悚、科幻等類型插畫；以真實閱讀場景的建築與路人為骨架，再用 CGI、噴槍、手繪、3D 等技法變成書中世界，橫跨各媒體版位。板上結果：8,490 萬讀者觸及、網站流量 YoY +426%、品牌喜愛度 +6.2%。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 169,
+        title: "The Treasure Hunt",
+        year: "2026",
+        brand: "Ministry for Equality",
+        agency: "Ogilvy Spain, Madrid",
+        country: "Spain",
+        summary: "西班牙平等部用六分鐘短片講「替代性暴力」：完全不拍暴力畫面，卻讓觀眾與主角同步走向崩壞真相。",
+        boardImage: "boards/the-treasure-hunt.jpg",
+        filmUrl: "https://lion.box.com/s/xw12h479j6s6ub1obog78ycprr4kdcyx",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-treasure-hunt-01.jpg',
+            idea: 'assets/stills/the-treasure-hunt-02.jpg',
+            execution: 'assets/stills/the-treasure-hunt-03.jpg'
+        },
+        background: "對女性暴力仍是性別平等最急迫障礙之一。其中最隱形、最殘酷的是替代性暴力（vicarious violence）：施暴者以孩子為工具傷害母親，把孩子變成控制與懲罰的武器。",
+        idea: "政府戰役做激進選擇：完全不展示暴力，把它變成敘事。六分鐘沉浸短片從看似純真開始，用細微線索推進，讓觀眾與主角同步走到毀滅性體悟。",
+        execution: "以電影語言、克制導演與漸進結構，把複雜隱形的性別暴力變成觀眾自願進入的情緒經驗——不是只有 awareness，而是辨識與觀看方式的位移。板上結果：逾 2,230 萬自然觀看、35 億曝光；首相與主流媒體跟進討論。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 170,
+        title: "Waoo Wifi Invasion",
+        year: "2026",
+        brand: "Waoo",
+        agency: "Uncle Grey, Copenhagen",
+        country: "Denmark",
+        summary: "丹麥挑戰者 ISP WAOO 把路由器 Wi‑Fi 名稱改成超在地文案，讓斷線時的 Wi‑Fi 列表自己變成免費媒體。",
+        boardImage: "boards/waoo-wifi-invasion.jpg",
+        filmUrl: "https://lion.box.com/s/mifs5yjmhyya6b5qj5mt92uudryopqnf",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/waoo-wifi-invasion-01.jpg',
+            idea: 'assets/stills/waoo-wifi-invasion-02.jpg',
+            execution: 'assets/stills/waoo-wifi-invasion-03.jpg'
+        },
+        background: "WAOO 想在傳統媒體砸錢的飽和市場突圍，於是找一條從沒被當廣告用、又完全免費的通道。",
+        idea: "斷線時人會本能打開 Wi‑Fi 列表：挫敗高、期待低、願意換業者（板上：63% 遇連線問題者考慮換商）。把 Wi‑Fi 名稱變成新媒体——路由器改名成「Hey Neighbor, WAOO Fiber is Here」這類超在地訊息。",
+        execution: "每台路由器成迷你看板，對附近住家持續廣播；SSID 如 IF_YOU_SEE_THIS_YOU_CAN_GET_WAOO、KNOCK_KNOCK_IT'S_WAOO、GLITCHY_WIFI?_GET_WAOO。板上／既有資料：小預算仍換來數百萬印象，把 Wi‑Fi 列表當媒體與通路。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
