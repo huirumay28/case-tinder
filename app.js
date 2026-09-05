@@ -3732,6 +3732,247 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 151,
+        title: "Tilt Accessible Beauty - Product Design",
+        year: "2026",
+        brand: "Tilt",
+        agency: "Established, New York",
+        country: "United States",
+        summary: "第一個拿到 Arthritis Foundation Ease of Use® 認證的美妝品牌：Tilt 把包裝從零重做成「對有障礙者更好用，卻人人都想用」的產品線。",
+        boardImage: "boards/tilt-accessible-beauty.jpg",
+        filmUrl: "https://lion.box.com/s/p10tisbv3o4ow9oji7hwmwepvyowsg07",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/tilt-accessible-beauty-01.jpg',
+            idea: 'assets/stills/tilt-accessible-beauty-02.jpg',
+            execution: 'assets/stills/tilt-accessible-beauty-03.jpg'
+        },
+        background: "美國每四名成人就有一人有障礙，卻只有 4% 美妝品牌真正服務他們。對慢性疼痛或行動受限的人，多數美妝包裝根本用不了，只能貼止滑膠帶、橡皮筋，或乾脆放棄化妝。",
+        idea: "為什麼不能有一個品牌：對某些人更好用，卻對每個人都同樣可愛？Tilt 要做「seriously comfy」又漂亮的產品，讓無障礙從一開始就嵌進設計，而不是事後加裝。",
+        execution: "花四年研發、超過 300 個原型與焦點團體，重想美妝包裝：中段加寬握持、矽膠塗層、低拉力磁吸開合、較短睫毛膏刷頭減少晃動；外盒用 Braille Institute Atkinson Hyperlegible 字體與點字說明。獲 Time Best Inventions of 2025、Pentaward Diamond/Gold、D&AD Graphite、Dieline 等肯定；用戶如 April Lockhart、Taylor Lindsay-Noel、Mariadeliz Santiago 公開見證「終於能自己開包裝」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 152,
+        title: "No Frame Missed",
+        year: "2026",
+        brand: "Apple",
+        agency: "TBWA\\Media Arts Lab, Los Angeles",
+        country: "United States",
+        summary: "把本為動作場景設計的 iPhone Action Mode，重新想像成帕金森氏症患者能穩定記錄日常的工具——不花媒體費，卻創下 Apple 史上最高無障礙搜尋。",
+        boardImage: "boards/no-frame-missed.jpg",
+        filmUrl: "https://lion.box.com/s/6p85a3pszieovyb64zbnesdmbp1yaev7",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 3 },
+        stills: {
+            background: 'assets/stills/no-frame-missed-01.jpg',
+            idea: 'assets/stills/no-frame-missed-02.jpg',
+            execution: 'assets/stills/no-frame-missed-03.jpg'
+        },
+        background: "帕金森氏症是全球成長最快的神經疾病之一，超過 1,000 萬人受影響。因手部顫抖，他們幾乎無法自主捕捉自己的回憶。",
+        idea: "把原本為動作場景而生的相機功能 Action Mode，變成能改變手顫患者生活的工具，讓他們留住稍縱即逝的日常片刻。",
+        execution: "製作《How to shoot stable videos with hand tremors》實用指南；與 Davis Phinney Foundation、PCLA、Dance for PD 等 NGO 合作，把 Action Mode 納入治療協議；與 Shutterstock 開設帕金森創作者專區；導演 Brett Harvey 重回鏡頭，作品觸及約 3,600 萬觀眾。板上結果：Earned Media Value $5.3M、媒體花費 $0、Google 顯示為 Apple 史上最高 Accessibility 搜尋。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×3", icon: "🥉" }
+        ]
+    },
+    {
+        id: 153,
+        title: "#UNCENSORYOURHEALTH",
+        year: "2026",
+        brand: "Ladywell",
+        agency: "Saatchi & Saatchi, El Segundo",
+        country: "United States",
+        summary: "社群審查擋女性健康字眼時，Ladywell 用 Typoglycemia 把字打亂：人看得懂、AI 審不過——再開放工具給其他女性品牌一起突圍。",
+        boardImage: "boards/uncensoryourhealth.jpg",
+        filmUrl: "https://lion.box.com/s/044hu6r6i7r2wds5uw4vhxp9cp3ked08",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/uncensoryourhealth-01.jpg',
+            idea: 'assets/stills/uncensoryourhealth-02.jpg',
+            execution: 'assets/stills/uncensoryourhealth-03.jpg'
+        },
+        background: "女性身體在社群仍被審查：vagina、hormones、menopause 等字被標記或壓抑，讓仰賴社群觸及女性的女性主導品牌中，約 84% 被消音。",
+        idea: "不硬槓演算法，而是智取：用 Typoglycemia（字中字母打亂、首尾不變）打亂女性健康用語，讓人讀得懂、AI 審不出；再做工具給其他女性主導事業（含競爭者）一起突破。",
+        execution: "推出 #UncensorYourHealth 活動與「UCNESNOR YUOR MSESGAE」打亂工具、社群廣告與短影音；板上結果：70M+ earned impressions、數千則訊息、流量 +289%、廣告通過率 +400%。AdAge／CBS／Little Black Book 等媒體報導「scrambling the system」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 154,
+        title: "Tigris Condensed Identity",
+        year: "2026",
+        brand: "Tigris",
+        agency: "Hakuhodo Inc, Tokyo",
+        country: "Japan",
+        summary: "把飲料包裝上「不得不印」的成分與營養標示，做成品牌最醒目的識別：一套超濃縮字體與模組系統，統一日文漢字／假名／拉丁字。",
+        boardImage: "boards/tigris-condensed-identity.jpg",
+        filmUrl: "https://lion.box.com/s/ltkh4kjkr943wqio3l1fryj6q7qbhqq9",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/tigris-condensed-identity-01.jpg',
+            idea: 'assets/stills/tigris-condensed-identity-02.jpg',
+            execution: 'assets/stills/tigris-condensed-identity-03.jpg'
+        },
+        background: "副標 Turning Mandatory Information Into Brand Identity：飲料業信任發生在消費者核對成分、過敏原與營養的那一刻。後標常被當合規空間，卻是最該變成品牌資產的地方。",
+        idea: "面對快速成長的 SKU 組合，多語標籤變得破碎、制式、難信任。解法是為「核對那一刻」設計：自有濃縮字體、層級與版面系統，把法定資訊變成可辨識的品牌語言。",
+        execution: "因應日本包裝要把漢字、假名、拉丁字塞進極小空間的挑戰，打造單一自訂字族統一三套書寫系統；應用於紙盒、寶特瓶、鋁罐等全線包裝與賣場／交通廣告，讓合規資訊本身成為識別。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 155,
+        title: "The Club Is Yours",
+        year: "2026",
+        brand: "EA Sports",
+        agency: "Uncommon Creative Studio, London",
+        country: "United Kingdom",
+        summary: "粉絲罵爆 FC25，EA 就把抱怨寫進 FC26：預告片、封面，甚至遊戲史上首次讓你排出全 Zlatan 陣容——歐洲 2025 最暢銷遊戲。",
+        boardImage: "boards/the-club-is-yours.jpg",
+        filmUrl: "https://lion.box.com/s/oppgxypqh1k41qh104doxj4sqqrxjh2s",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/the-club-is-yours-01.jpg',
+            idea: 'assets/stills/the-club-is-yours-02.jpg',
+            execution: 'assets/stills/the-club-is-yours-03.jpg'
+        },
+        background: "EA Sports FC 是全球最大運動遊戲之一，社群極黏。但 FC25 上市時粉絲怒火延燒，社群充斥「This is crap」「I hate this game」「The worst game ever」。",
+        idea: "下一款 FC26 與其預告，直接以粉絲抱怨為本；廣告取材粉絲點子（好的與壞的）。粉絲最想要的 Zlatan Ibrahimović 登上 Ultimate Edition 封面，並在遊戲史上首次推出可全隊 Zlatan 的 Zlatan FC。",
+        execution: "預告片評論數較 FC25 +30%、分享 +77%；預購創系列最優；17 國中 16 國拿下銷售第一；成為 2025 歐洲最暢銷遊戲。媒體標題圍繞「瑞典傳奇出現在所有位置」「Respect EA for listening」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 156,
+        title: "AXA – Nothing Stops Women's Rugby",
+        year: "2026",
+        brand: "AXA France",
+        agency: "Publicis Conseil, Paris",
+        country: "France",
+        summary: "法國半數青春期少女因偏見退出運動；AXA 成為史上首個從菁英到基層的女子橄欖球專屬夥伴，用半場長片把國手變成榜樣。",
+        boardImage: "boards/axa-nothing-stops-womens-rugby.jpg",
+        filmUrl: "https://lion.box.com/s/aawjfq5kmekb7qrpo1dp1gfjxc5umo6m",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 3, bronze: 0 },
+        stills: {
+            background: 'assets/stills/axa-nothing-stops-womens-rugby-01.jpg',
+            idea: 'assets/stills/axa-nothing-stops-womens-rugby-02.jpg',
+            execution: 'assets/stills/axa-nothing-stops-womens-rugby-03.jpg'
+        },
+        background: "在法國，50% 青春期少女因誤解與評斷退出運動。雖有 89% 法國人相信榜樣能讓女孩留下，卻有 40% 說不出任何一個名字。AXA 於 2026 進入橄欖球，成為「FIRST EVER WOMEN ONLY PARTNERSHIP」（從菁英到基層）。",
+        idea: "製作超過 3 分鐘影片，於 Women's 6 Nations 半場播出：把 1970 年代男子會所的陳舊刻板印象，對照現今女國手的力量，讓數百萬少女看見榜樣。",
+        execution: "與 France Rugby 合作投放半場長片與社群內容。板上結果：+42.3M 觀看、首週 +32.6M 社群曝光、+90K 互動、首週球場現場 +80K 觀眾；Le Monde、Sport 24、France Bleu 等報導。",
+        awardsDetail: [
+            { award: "Silver Lion ×3", icon: "🥈" }
+        ]
+    },
+    {
+        id: 157,
+        title: "AMAZONIA",
+        year: "2026",
+        brand: "Embratur and RAI",
+        agency: "FutureBrand Sao Paulo",
+        country: "Brazil",
+        summary: "THE AMAZON. REBRANDED.：用衛星圖裡真實河流曲線組成字母與 Igaratype，把巴西亞馬遜九州連成一個生態系旅遊品牌。",
+        boardImage: "boards/amazonia.jpg",
+        filmUrl: "https://lion.box.com/s/3nm0hxn9y3nky4vfr54zavrjdrxnbar0",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 3, bronze: 0 },
+        stills: {
+            background: 'assets/stills/amazonia-01.jpg',
+            idea: 'assets/stills/amazonia-02.jpg',
+            execution: 'assets/stills/amazonia-03.jpg'
+        },
+        background: "巴西亞馬遜比印度還大，文化、音樂、食物與藝術沿著河流流動；但 65% 巴西人從未去過，也不把它當目的地。",
+        idea: "挑戰：如何把亞馬遜重新品牌化，不只是「一大片森林」，而是自然連結不同文化的地方？讓大自然當首席設計師——在衛星影像的河流彎曲裡找到完整字母，組出 AMAZONIA 標誌，再開放可變字體系統 Igaratype。",
+        execution: "以真實座標拼出 logo 與 A–Z；與在地攝影師、插畫家合作，延伸 visitamazonia.com.br 與亞馬遜產品標籤模組，統一九州溝通。板上結果：43M earned impressions、97% 正向情緒、互動遍及 49 國；Yahoo! Travel／Esquire／Ad Age／UNESCO Amazônia 等讚譽。**注意：本片為 Demo Film（無 Case Film）。**",
+        awardsDetail: [
+            { award: "Silver Lion ×3", icon: "🥈" }
+        ]
+    },
+    {
+        id: 158,
+        title: "Cover It",
+        year: "2026",
+        brand: "UNAIDS",
+        agency: "Africa Creative, Sao Paulo",
+        country: "Brazil",
+        summary: "把推廣性愛的 Proibidão Funk，變成推廣防護的媒體：借用幾乎沒人用的 Spotify Canvas，把保險套動畫塞進最露骨的歌。",
+        boardImage: "boards/cover-it.jpg",
+        filmUrl: "https://lion.box.com/s/sv1q7xblgt1s458f4y3nvawe2t78lvh3",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/cover-it-01.jpg',
+            idea: 'assets/stills/cover-it-02.jpg',
+            execution: 'assets/stills/cover-it-03.jpg'
+        },
+        background: "Proibidão Funk 是巴西 Gen Z 串流最多的曲風，歌詞極色情卻幾乎不提防護；同世代 HIV 案例也最高。這些歌手極少使用 Spotify Canvas（歌中循環短影片），等於有一塊閒置媒體。",
+        idea: "「借」這塊未用空間，做成跟隨歌曲 BPM 與美學的俏皮保險套動畫，避開傳統說教。標題：TURNING MUSIC THAT PROMOTES SEX INTO MEDIA THAT PROMOTES PROTECTION。",
+        execution: "與月聽眾逾 1,400 萬、總播放逾 40 億的 MC Livinho 等藝人合作上架 Canvas；板上宣稱「保護」了合計 +396MM streams 的歌曲，每月持續帶來數百萬新觀看。Billboard／globo.com／meio&mensagem 等露出。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 159,
+        title: "The Fandom Comeback",
+        year: "2026",
+        brand: "Tecate",
+        agency: "LePub, Mexico City",
+        country: "Mexico",
+        summary: "2013 下架的 Tecate Titanium 從未離開對話：追蹤六年最吵的粉絲，請他們當回歸廣告的主角與第一聲宣布。",
+        boardImage: "boards/the-fandom-comeback.jpg",
+        filmUrl: "https://lion.box.com/s/m80q7cg78dwy9wewyfe7htvzlrimjgh0",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-fandom-comeback-01.jpg',
+            idea: 'assets/stills/the-fandom-comeback-02.jpg',
+            execution: 'assets/stills/the-fandom-comeback-03.jpg'
+        },
+        background: "2013 年 Tecate Titanium 從貨架消失，卻沒從對話消失。六年來成千上萬墨西哥人用推文、留言、迷因問同一件事：什麼時候回來？",
+        idea: "Turning the fans behind Tecate Titanium into the faces of its return：找出六年來最常要求回歸的人，連絡他們，請他們成為回歸臉孔——曾發「Bring back Tecate Titanium」的人，出現在廣告裡並率先宣布回歸。",
+        execution: "粉絲主演廣告與社群宣布，引發全國有機討論。板上結果：+61.8M 社群曝光、305K 互動、92% 正向、22.5K 提及、21 天售出 +1.2M 罐。Fast Company：「This isn't marketing; it's community design。」",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 160,
+        title: "The Arepa That Unites",
+        year: "2026",
+        brand: "Warner Music Colombia",
+        agency: "Buentipo, Bogota",
+        country: "Colombia",
+        summary: "把哥、委兩國爭了很久的國民食物 arepa，燙上 Spotify Code，變成兩邊新銳歌手的街頭發行渠道。",
+        boardImage: "boards/the-arepa-that-unites.jpg",
+        filmUrl: "https://lion.box.com/s/qe305x7u524qjsfa5ekq7pqoto200w8z",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-arepa-that-unites-01.jpg',
+            idea: 'assets/stills/the-arepa-that-unites-02.jpg',
+            execution: 'assets/stills/the-arepa-that-unites-03.jpg'
+        },
+        background: "哥倫比亞與委內瑞拉共享 arepa，卻長期爭論發明權。Warner Music Colombia 要在兩國推新興都市音樂，通常需要大預算——他們沒有。",
+        idea: "把這枚分裂兩國的文化符號，變成用都市音樂把兩邊連起來的媒介。",
+        execution: "走進兩國主要城市日常營業的 arepa 攤，用烙鐵把烤痕換成 Spotify Code，掃碼解鎖兩邊藝人的 Warner 歌單。板上結果：4 週 23.2M streams、歌單追蹤 +1,457%、earned media $342K；Elena Rose 成首位進 Spotify Colombia Top 50 的委內瑞拉女歌手，Danny Ocean／Blessd 等跨國榜成績亮眼。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
