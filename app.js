@@ -4215,6 +4215,247 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 171,
+        title: "Scorecoupons",
+        year: "2026",
+        brand: "Mercado Libre",
+        agency: "GUT, Mexico",
+        country: "Mexico",
+        summary: "Mercado Libre 把墨西哥足球聯賽的記分板變成折扣碼——對手在轉播比賽，觀眾卻在我們這買東西。",
+        boardImage: "boards/scorecoupons.jpg",
+        filmUrl: "https://lion.box.com/s/y2r7r9p96a36kc5dzo3tpdit7id1nnph",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/scorecoupons-01.jpg',
+            idea: 'assets/stills/scorecoupons-02.jpg',
+            execution: 'assets/stills/scorecoupons-03.jpg'
+        },
+        background: "足球是拉丁美洲最大的熱情。Mercado Libre 作為區域最大電商，幾乎打進每一個聯賽；但在關鍵市場墨西哥，主要對手不只是聯賽官方贊助商，還在自家平台轉播比賽，把我們關在場外。",
+        idea: "把墨西哥足球聯賽每一塊記分板，用隊名與即時比分變成折扣碼；每進一球，就誕生一張新的 Mercado Libre 優惠券。於是觀眾一邊看對手的串流，一邊在 Mercado Libre 下單。",
+        execution: "把 Amazon 的記分板變成 Mercado Libre 優惠券——例如比分 CHI 3–2 PUM 變成兌換碼 CHI32PUM。板上結果：逾 65,000 張優惠券被兌換、Mercado Libre 銷售逾 1,000 萬美元；媒體形容為「非侵入式廣告」「每一球都變成購物機會」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 172,
+        title: "A Critter Carol",
+        year: "2026",
+        brand: "Apple",
+        agency: "TBWA\\Media Arts Lab, Los Angeles",
+        country: "United States",
+        summary: "Apple 假期片《A Critter Carol》把森林偶戲角色做成社群創作者，用 iPhone 17 Pro 在每個螢幕上唱出自己的故事。",
+        boardImage: "boards/a-critter-carol.jpg",
+        filmUrl: "https://lion.box.com/s/4ha0jr9ruhdslviyk57w18ji0kl33jft",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 3, bronze: 1 },
+        stills: {
+            background: 'assets/stills/a-critter-carol-01.jpg',
+            idea: 'assets/stills/a-critter-carol-02.jpg',
+            execution: 'assets/stills/a-critter-carol-03.jpg'
+        },
+        background: "《A Critter Carol》從一開始就為「每個螢幕、每個平台」設計：每一則內容都依它實際出現的場景打造，讓手工偶戲世界能無縫走進原生數位戰役。",
+        idea: "核心概念「Critters as Creators：A Puppet Holiday Takeover」——主影片服務廣播與 YouTube；再把小動物們延伸成 TikTok、Instagram 上的創作者人格，像真人創作者一樣使用 iPhone 17 Pro 拍片。板上副標：Shot on iPhone 17 Pro by The Critters。",
+        execution: "手作物理世界轉成原生數位戰役，共 573 則跨格式素材；短影音社群就貢獻了總觀看的 81%。板上結果：Apple 有史以來觀看最高的假期戰役——1.41 億社群觀看、81.9 萬總按讚；Adweek、Variety 與網友稱手工偶＋前沿科技「像魔法」「好久沒見過這麼有人味」。",
+        awardsDetail: [
+            { award: "Silver Lion ×3", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 173,
+        title: "The Shooting",
+        year: "2026",
+        brand: "Newspaper La Unión / Article 19",
+        agency: "Grey Mexico",
+        country: "Mexico",
+        summary: "Article 19 用「shooting」一語雙關——按下快門與扣下扳機——揭露墨西哥記者每天面對的致命噤聲。",
+        boardImage: "boards/the-shooting.jpg",
+        filmUrl: "https://lion.box.com/s/upagofo3b62u8h8u9t4m204pcftrsgdz",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-shooting-01.jpg',
+            idea: 'assets/stills/the-shooting-02.jpg',
+            execution: 'assets/stills/the-shooting-03.jpg'
+        },
+        background: "墨西哥是全球對記者最危險的國家之一，僅次於烏克蘭與加薩。自 2000 年以來，逾 200 名記者遇害或失蹤，其中 98% 的案件從未伸張正義。",
+        idea: "口號：We shoot for the truth. They shoot to silence us. 把致命統計變成人性故事，核心隱喻是「shooting」：一邊是按下相機快門記錄真相，一邊是扣下槍枝扳機使人噤聲。",
+        execution: "3 月 24 日「了解真相權利國際日」，Article 19 與地方報紙 La Unión 合作推出《The Shooting》——該報由因報導真相而遭殺害的記者 Moisés Sánchez 創辦。戰役揭露墨西哥記者每日面對的暴力。板上結果：4.27M 觀看（賺得＋自然）、6.33 億人次觸及、159 則媒體報導、平均互動率 +6.5%，並募得年度捐款的 47.5%。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 174,
+        title: "The Fatal Question",
+        year: "2026",
+        brand: "StreetDoctors",
+        agency: "Saatchi & Saatchi, London",
+        country: "United Kingdom",
+        summary: "StreetDoctors 把年輕人反覆問的「哪裡捅人比較安全」丟回去——用真人尺寸互動雕塑證明：沒有安全的刺傷部位。",
+        boardImage: "boards/fatal-question.jpg",
+        filmUrl: "https://lion.box.com/s/f98bm7e604sprop6gt6vk9ztkd1a00rl",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/fatal-question-01.jpg',
+            idea: 'assets/stills/fatal-question-02.jpg',
+            execution: 'assets/stills/fatal-question-03.jpg'
+        },
+        background: "創傷醫護、學校老師與青少年暴力防制單位，反覆聽到年輕人問：「哪裡捅人比較安全？」這顯露的是恐懼與無知，動機往往不是想施暴，而是想讓暴力變得「可存活」。背後是迷思：人體存在「安全」地帶。",
+        idea: "把問題翻轉成身體可沉浸的體驗，讓年輕人自己發現答案：沒有安全的刺傷部位。《The Fatal Question》在學校與工作坊放置真人尺寸互動人體雕塑，邀請青少年指向自以為安全的位置。",
+        execution: "指向某處時，光束觸發真實證詞投影在身體與牆面：曾因該部位單次刺傷而身亡的年輕受害者。觸碰身體、做出選擇、再看見殘酷後果，讓訊息真正落地。另有專屬教室工作坊，並在全英 537 間戲院播映。板上結果：工作坊觸及 4.6 萬名孩子、1,800 所學校參與推廣、賺得媒體價值逾 £1.5m；BBC NEWS、ITV NEWS、The Sun 等以「救命工作坊」「揭穿危險迷思」報導。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 175,
+        title: "Dirty Business",
+        year: "2026",
+        brand: "Channel 4",
+        agency: "4Creative, London",
+        country: "United Kingdom",
+        summary: "Channel 4 在倫敦南岸豎起「穢物噴泉」：十二尊雕像嘔吐污水，讓英國排污醜聞的人命代價無法再被忽略。",
+        boardImage: "boards/dirty-business.jpg",
+        filmUrl: "https://lion.box.com/s/nvh8d6e495hiasjyctx7z25vt79ag22w",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/dirty-business-01.jpg',
+            idea: 'assets/stills/dirty-business-02.jpg',
+            execution: 'assets/stills/dirty-business-03.jpg'
+        },
+        background: "任務是推廣紀實劇《Dirty Business》，並讓英國污水醜聞的人命代價變得無法忽視。",
+        idea: "《The Fountain of Filth》——一場把危機身體化的對峙裝置，把倫敦指標性的南岸（Southbank）變成公共挑釁現場，逼社會正視污水危機。",
+        execution: "噴泉設 12 尊仿青銅雕像（孩童、父母、野泳者、衝浪者等）嘔吐骯髒污水；牌面上的 QR code 連到真實故事：接觸污染水後生病的人。裝置立即成為污水危機紀念碑，被數十萬人造訪、拍攝、分享，登上全國頭條與晚間新聞，把議題推回英國國會；Channel 4 獲邀與英國水務大臣辯論戰役與節目提出的問題。板上結果：四天逾 10 萬訪客、《Dirty Business》約 350 萬觀眾、逾 4.5 億媒體曝光、1 次英國國會辯論邀請。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 176,
+        title: "The Kaprao Criminals",
+        year: "2026",
+        brand: "KFC Thailand",
+        agency: "Wolf BKK",
+        country: "Thailand",
+        summary: "KFC Thailand 把自家炸雞打拋直接「自首」：蓋一座虛構的「不道地打拋監獄」，講清楚它到底犯了什麼罪。",
+        boardImage: "boards/the-kaprao-criminals.jpg",
+        filmUrl: "https://lion.box.com/s/8z5sdqdjh8zdtpbhbrnk3gn5z1koxst2",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 2 },
+        stills: {
+            background: 'assets/stills/the-kaprao-criminals-01.jpg',
+            idea: 'assets/stills/the-kaprao-criminals-02.jpg',
+            execution: 'assets/stills/the-kaprao-criminals-03.jpg'
+        },
+        background: "炸雞之外，KFC Thailand 持續打造飯類產品組合，想成為泰式日常主食選項。要站穩這位置，必須踏進定義泰國日常飲食的那一道菜——打拋（Kaprao）：全國點最多、最愛、也最被死守「道地」的那一味。打拋不只是一道菜，更是社群上永不停歇的爭論；它是泰國人極在意、會公開捍衛的文化符號。備料或食材稍有差池就可能引發猛烈反彈。對全球品牌端出「酥炸雞＋打拋醬」的自家版本來說，踏進這個戰場只有一句話：還沒出第一單，就已經有罪。",
+        idea: "在泰式料理世界，沒有比糟蹋打拋更大的罪；多加了聖羅勒以外的東西，就可能被審判。《The Kaprao Criminals》圍繞這場爭論建構世界：一座虛構的「Unauthentic Kaprao Jail（不道地打拋監獄）」，凡偏離傳統者一律關進鐵窗。",
+        execution: "錯蔬菜、錯羅勒、錯形式——全都有罪。KFC 自己投案：不是為了打贏打拋論戰，而是更單純——在你吃之前，講清楚它是哪一種打拋，並把這場長年爭論一次說定。板上結果：首週觸及 39M、飯類產品組合 +50.5%、新飯食菜單上市創歷史最高銷量。",
+        awardsDetail: [
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 177,
+        title: "Percy Jackson Immersive Water Stunt",
+        year: "2026",
+        brand: "Disney+",
+        agency: "The Walt Disney Company",
+        country: "United States",
+        summary: "Disney+ 在 Hollywood and Vine 豎起 Poseidon-Powered Billboard，用真水、幫浦與觸手特效，把 Percy Jackson 的 Sea of Monsters 灌進好萊塢街頭。",
+        boardImage: "boards/percy-jackson-immersive-water-stunt.jpg",
+        filmUrl: "https://lion.box.com/s/yni331gln34gtgooxa9wl5bupang8zdd",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/percy-jackson-immersive-water-stunt-01.jpg',
+            idea: 'assets/stills/percy-jackson-immersive-water-stunt-02.jpg',
+            execution: 'assets/stills/percy-jackson-immersive-water-stunt-03.jpg'
+        },
+        background: "當「凡人」行銷容易被忽略，需要更強大的方式，把 Percy Jackson 與 Sea of Monsters 充滿動作的神話帶進現實，讓觀眾為備受期待的第二季冒險熱血沸騰。",
+        idea: "打造「浸在奇觀裡的解決方案」（a spectacle-soaked solution）：這不只是廣告，而是尖端奇觀與業界首創合作，借眾神之力。與特效專家、沉浸式景點設計師、數位動畫師與 Disney 說故事團隊合作，從零打造一面 30 英尺看板——連在地人都以為它一直在那——配備 40 座幫浦、5,000 加侖水、光效與沉浸影像，把 Hollywood and Vine 轉成神話目的地，讓整座城市與世界談論 Percy Jackson。",
+        execution: "看板活了過來：觸手擊碎螢幕，Sea of Monsters 衝破畫框，一波波 20 英尺浪潮湧上 Hollywood Boulevard。在 AI 生成特技當道的時代，粉絲震驚眼前是真的，湧向路口，把看板變成共享文化景點；反應淹沒社群，成為行銷新參照點，證明沒什麼比把神話與 Disney 魔法帶進現實更能抓住想像。板上結果：2.5+ billion 社群曝光；IMDb、COMPLEX 等以 water-filled spectacular／top tier marketing 報導。",
+        awardsDetail: [
+            { award: "板上未標示 Lion", icon: "○" }
+        ]
+    },
+    {
+        id: 178,
+        title: "Whopper Dog",
+        year: "2026",
+        brand: "Burger King",
+        agency: "De La Cruz Ogilvy, San Juan",
+        country: "Puerto Rico",
+        summary: "Burger King 靠「換個角度」把 Whopper 變成最熱議的「熱狗」——零贊助闖進棒球比賽日。",
+        boardImage: "boards/whopper-dog.jpg",
+        filmUrl: "https://lion.box.com/s/vnnt97xmhv9y9qckupgtltty0e5j9snw",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/whopper-dog-01.jpg',
+            idea: 'assets/stills/whopper-dog-02.jpg',
+            execution: 'assets/stills/whopper-dog-03.jpg'
+        },
+        background: "熱狗一直主宰棒球飲食。2026 年世界棒球經典賽在波多黎各期間，Burger King 沒有官方贊助，也沒有自然立足於比賽日餐飲體驗的位置。",
+        idea: "洞察：只要角度對，Whopper 看起來就是熱狗。於是只靠改變角度，把 Whopper 變成全島最熱議的「熱狗」，讓人以為 Burger King 正為棒球推出自己的熱狗。口號：We changed the game by changing the angle.",
+        execution: "其實沒有推熱狗——是把 Whopper 重新造型與包裝以契合棒球。在球場閘門外設熱狗攤，球迷須開啟 BK App 並把手機轉 90°，解鎖免費 Whopper Dog；最終粉絲把品牌帶進球場，無需贊助。板上結果：賺得曝光 11,466,642；人口 320 萬的島上自然觸及 200 萬；$0 贊助；有機提及佔比第 1；48 小時內 App 下載 +9.2%。AdAge、Little Black Book 等以「為棒球做熱狗」「Whopper 擊出全壘打」報導。",
+        awardsDetail: [
+            { award: "Shortlisted ×2", icon: "○" }
+        ]
+    },
+    {
+        id: 179,
+        title: "McDelivery Speed Camera Ads",
+        year: "2026",
+        brand: "McDonald's",
+        agency: "Scholz & Friends",
+        country: "Germany",
+        summary: "McDonald's 在漢堡測速照相取景框裡放海報，讓超速罰單照片自己「入鏡」McDelivery——駕照沒了，餐還到得了。",
+        boardImage: "boards/mcdelivery-speed-camera-ads.jpg",
+        filmUrl: "https://lion.box.com/s/ik2em48ufwzu4ynpm8cn6dvgn6xcbk2y",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/mcdelivery-speed-camera-ads-01.jpg',
+            idea: 'assets/stills/mcdelivery-speed-camera-ads-02.jpg',
+            execution: 'assets/stills/mcdelivery-speed-camera-ads-03.jpg'
+        },
+        background: "在 Hamburg，測速照相遍布全城抓超速；開太快就可能被吊扣駕照。沒有效駕照，就開不了車去 McDonald's。最簡單的替代？McDelivery。",
+        idea: "把主管機關的超速罰單變成 McDelivery 的「郵件」。把訊息「Driving ban? Luckily, there's McDelivery」放進測速鏡頭取景框，讓廣告搶鏡出現在每一張罰單照片裡，提醒壓力山大的駕駛還有外送。",
+        execution: "在 Hamburg 多處測速點架設海報：Stresemannstraße（每年逾 5 萬張照片）、Wallstraßenbrücke（測速與闖紅燈執法）、Theodor-Heuss-Platz（每日逾 5 萬車次）。部分超速者把罰單Po上社群，一張照片甚至在 Reddit 爆紅——首 24 小時逾 420k 瀏覽、逾 3.2k upvote、約 97% 好評；留言笑說「光是出現在這裡，就比多數海報有效」「框起來掛牆上」。板上附註：內容無意鼓勵危險駕駛。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 180,
+        title: "It's Only Natural",
+        year: "2026",
+        brand: "Burger King",
+        agency: "INGO, Amsterdam",
+        country: "Netherlands",
+        summary: "Burger King 用嬰兒對食物最本能的反應，證明去掉人工添加物之後，美味從來沒被拿掉。",
+        boardImage: "boards/its-only-natural.jpg",
+        filmUrl: "https://lion.box.com/s/vl4y8fmqtpqnai8ndrxo7c1copwl2hq8",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/its-only-natural-01.jpg',
+            idea: 'assets/stills/its-only-natural-02.jpg',
+            execution: 'assets/stills/its-only-natural-03.jpg'
+        },
+        background: "Burger King 持續從食品中移除人工香料、色素與防腐劑。但什麼從未被移除？美味。有趣的是，那正是嬰兒與生俱來的第一本能。",
+        idea: "運用嬰兒對 BK 食物最自然、本能的反應，慶祝無人工香料、色素或防腐劑的真實食材美味。",
+        execution: "拍攝父母享用 Burger King 時，懷中嬰兒盯著、伸手、流口水的真實瞬間；系列影像搭配標語 It's only natural 與 No artificial flavours, colors or preservatives，並登上 AdAge、The Drum、TAXI、Little Black Book 等報導（如「Babies drool for Burger King」「captures kids' real reactions to Whopper」）。",
+        awardsDetail: [
+            { award: "Entries 未標示 Lion", icon: "○" }
+        ]
     }
 ];
 
