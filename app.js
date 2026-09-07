@@ -4456,1803 +4456,270 @@ const casesData = [
         awardsDetail: [
             { award: "Entries 未標示 Lion", icon: "○" }
         ]
+    },
+    {
+        id: 181,
+        title: "The Thousand Sponsors of Muni",
+        year: "2026",
+        brand: "Club Deportivo Municipal",
+        agency: "McCANN LIMA",
+        country: "Peru",
+        summary: "秘魯老牌球會 Muni 把球衣變成一千格微型贊助格，讓球迷小店一起撐住降級後的球隊。",
+        boardImage: "boards/thousand-sponsors-of-muni.jpg",
+        filmUrl: "https://lion.box.com/s/61u9isobdj6sc0wyzidmh6yi2kunbwes",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/thousand-sponsors-of-muni-01.jpg',
+            idea: 'assets/stills/thousand-sponsors-of-muni-02.jpg',
+            execution: 'assets/stills/thousand-sponsors-of-muni-03.jpg'
+        },
+        background: "Club Deportivo Municipal（人稱 Muni）1935 年創立，是秘魯最歷史悠久、最被球迷認同的球會之一。一連串決策與戰績失利讓它掉到第三級聯賽，能見度、競爭力與商業吸引力大減，連主贊助也流失——沒有贊助、沒有投資，就沒有重建陣容的資源。",
+        idea: "在秘魯，足球熱情與集體支持並肩而行；Muni 球迷多半是工人社區的小老闆。若情感上願意付出，為何不能一起出錢？於是打造讓一千家球迷小店以微型贊助集體撐住球隊的平台——不是一個巨無霸贊助，而是一千個小贊助，合起來達到同樣財務力道。",
+        execution: "球衣被重新設計成一千格微型空間，每格放一家小店 logo，成為集體贊助平台。格位約 200–400 索爾（約 US$60–120），社區店家可成為一季官方贊助商，並解鎖商品零售等商業利益。板上結果：三個月內 1000 位贊助商、籌得 S/254K、觸及 10.5M。",
+        awardsDetail: [
+            { award: "Grand Prix", icon: "🏆" }
+        ]
+    },
+    {
+        id: 182,
+        title: "The Māori Roll Call",
+        year: "2026",
+        brand: "Whānau Ora",
+        agency: "Motion Sickness, Auckland",
+        country: "New Zealand",
+        summary: "Whānau Ora 把毛利人選民名冊登記變成身分與抵抗的點名——真實姓名不斷被讀出，推動第八席門檻。",
+        boardImage: "boards/maori-roll-call.jpg",
+        filmUrl: "https://lion.box.com/s/diy1fniaezqvrsqxt9nd78fqupfwcnb7",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 2, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/maori-roll-call-01.jpg',
+            idea: 'assets/stills/maori-roll-call-02.jpg',
+            execution: 'assets/stills/maori-roll-call-03.jpg'
+        },
+        background: "在 Aotearoa 紐西蘭，原住民 Māori 可選一般名冊或 Māori 選舉名冊；名冊人數直接決定國會 Māori 席次（當時七席），無論哪一黨執政都保障代表權。近期削弱原住民能見度與權利的政府動作引發反彈，但許多符合資格者仍留在一般名冊或根本未登記，聲音無法轉成席次。",
+        idea: "2025 年 Māori 權利受威脅加劇，傳統冷冰冰的政府宣傳難以打動人。THE MĀORI ROLL CALL 把登記變成身分、團結與改變的行動：由備受尊敬的行動者暨藝術家 Tāme Iti 讀出不斷增長的真實姓名，把官僚程序變成驕傲與抵抗——呼籲 Māori 站在一起、守護權利、在關鍵時刻強化國會聲音。",
+        execution: "這是橫跨影片、廣播、戶外、數位與社群的即時增長運動；名冊上的真實姓名不斷被放上戰役，有人加入就加名字，讓代表權的規模無法被忽視。板上結果：23 年後紐西蘭達到第八席 Māori 門檻；登記量為季度常態的 11 倍；觸及 54.6% Māori 人口；名冊首度超過 300,000；逾 600 萬 PR 曝光。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Gold Lion", icon: "🥇" }
+        ]
+    },
+    {
+        id: 183,
+        title: "Beat Cancer Off",
+        year: "2026",
+        brand: "Fuck Cancer",
+        agency: "VML, New York",
+        country: "United States",
+        summary: "Fuck Cancer 用一首大樂隊歌、21 種委婉說法與智慧手錶 App，把攝護腺健康變成男人願意上手的話題。",
+        boardImage: "boards/beat-cancer-off.jpg",
+        filmUrl: "https://lion.box.com/s/ismrhgya02fv2nkkmj2wjpef5rg04pa9",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 2, silver: 3, bronze: 3 },
+        stills: {
+            background: 'assets/stills/beat-cancer-off-01.jpg',
+            idea: 'assets/stills/beat-cancer-off-02.jpg',
+            execution: 'assets/stills/beat-cancer-off-03.jpg'
+        },
+        background: "F* Cancer 原本以大膽語調對女性談乳癌；現在要攻下更難的受眾——男人，以及男人避而不談的攝護腺癌。攝護腺癌是男性癌症死因第二位、發生率上升，但男人幾乎不參與攝護腺健康對話。",
+        idea: "顛覆事實：每月射精 21 次以上可顯著降低攝護腺癌風險。男人對手邊健康很疏離，但對手淫很上手——於是把全球 21+ 種男性自慰委婉語變成創作燃料。",
+        execution: "以大樂隊歌曲與 21+ 種手工藝術風格 MV 落地；與 Pair of Thieves 推出 21 雙特仕襪；再做智慧手錶 App 追蹤「solo-practice」並提醒篩檢。板上結果：迅速寫下品牌史上最高互動，把 F* Cancer 帶到新受眾，把攝護腺健康從逃避話題變成願意擁抱的話題。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" },
+            { award: "Bronze Lion", icon: "🥉" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 184,
+        title: "Sunburnt Car",
+        year: "2026",
+        brand: "mycar",
+        agency: "TBWA\\Sydney",
+        country: "Australia",
+        summary: "mycar 做出全球第一輛「人皮」內裝車，讓車窗透進的 UV 像曬傷一樣看得見。",
+        boardImage: "boards/sunburnt-car.jpg",
+        filmUrl: "https://lion.box.com/s/sczs4d1ssho28zuxtpq1zrff6gop97vi",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 2, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/sunburnt-car-01.jpg',
+            idea: 'assets/stills/sunburnt-car-02.jpg',
+            execution: 'assets/stills/sunburnt-car-03.jpg'
+        },
+        background: "mycar 是澳洲最大汽車保養服務商，每年有「People First」計畫照顧駕駛而不只是車。他們發現盲點：澳洲人對防曬極有教育，卻仍有 70% 以為開車就隔絕 UV；事實上部分車窗仍可讓高達 50% 有害 UVA 穿透。目標：讓隱形危險無法被忽略。",
+        idea: "打造全球第一輛以超擬真人皮內裝的車，設計成在 UV 下像真人皮膚一樣反應——把抽象威脅變成刺眼示範：即使隔著車窗，UV 一樣傷人。",
+        execution: "奧斯卡級特效工作室 Odd Studio，在燒傷外科科學家 Dr Jo Maitz 指導下工程化合成皮膚：依 Fitzpatrick 量表選膚色，手工植入上萬根毛髮、血管、雀斑與隆起癌痣。內裝遇 UV 會發紅；Sunburnt Car 持續作為全國示範工具，提醒車內日曬危險。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Gold Lion", icon: "🥇" }
+        ]
+    },
+    {
+        id: 185,
+        title: "CeraVe - The New Face of Legs",
+        year: "2026",
+        brand: "CeraVe",
+        agency: "L'Oreal, New York",
+        country: "United States",
+        summary: "CeraVe 接下 Kevin Durant「灰腳踝」五年迷因，封他為 The New Face of Legs，讓男性也開始擦身體乳。",
+        boardImage: "boards/cerave-the-new-face-of-legs.jpg",
+        filmUrl: "https://lion.box.com/s/2b5hx9ebqyu0q4knx46xupyocsb8ptpg",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 2, silver: 2, bronze: 3 },
+        stills: {
+            background: 'assets/stills/cerave-the-new-face-of-legs-01.jpg',
+            idea: 'assets/stills/cerave-the-new-face-of-legs-02.jpg',
+            execution: 'assets/stills/cerave-the-new-face-of-legs-03.jpg'
+        },
+        background: "CeraVe 策略優先是改變消費行為、招募新家庭進入品牌，尤其是男性與有色人種——保養品類長期低滲透的兩族群。關鍵：讓從不把身體保濕當一回事的人，開始覺得這件事重要。",
+        idea: "網路已花五年嘲 Kevin Durant 的乾腳踝：迷因、podcast 玩笑、球迷喊話，連 NBA 球員都加入。這是一場關於身體肌膚、藏在眼前的文化對話，只等一個夠敢的品牌接招。",
+        execution: "分三章：先用假狗仔照、場內特技與 KD 直視鏡頭讀最毒推文製造懸念；再用一系列英雄影片封他為「The New Face of Legs」，打破他自己的互動紀錄；再把玩笑延續到 All-Star Weekend、Super Bowl，以及運動員、迷因帳號與皮膚科醫師合唱。板上結果：41 億全球 PR 曝光、美國社群貼文 Top 10、8300 萬自然影片觀看、銷售 +43%。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" },
+            { award: "Bronze Lion", icon: "🥉" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 186,
+        title: "The Last Coke in the Desert",
+        year: "2026",
+        brand: "Coca-Cola",
+        agency: "VML, New York",
+        country: "United States",
+        summary: "Coca-Cola 把墨西哥俗語「沙漠裡最後一瓶可樂」還給真正應得的沙漠小店老闆，推向全國舞台。",
+        boardImage: "boards/last-coke-in-the-desert.jpg",
+        filmUrl: "https://lion.box.com/s/kevxe4oyk1josyahgpko3kd2a5nona7w",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/last-coke-in-the-desert-01.jpg',
+            idea: 'assets/stills/last-coke-in-the-desert-02.jpg',
+            execution: 'assets/stills/last-coke-in-the-desert-03.jpg'
+        },
+        background: "一百年來，Coca-Cola 抵達墨西哥最偏遠角落，靠的不只基建，而是 120 萬名小店老闆——品牌的最後一哩、也最人性的一哩。問題是：如何向這百年在場致敬，卻不把故事做成品牌自誇？",
+        idea: "答案來自一句流行語「La última Coca-Cola del desierto」——墨西哥人世代用來形容自以為稀有特別的人。真正配得上這個稱號、卻從未被看見的，是在酷熱沙漠裡仍千方百計讓 Coke 保持冰涼的小店主人；正是這張小店網，讓墨西哥每個角落都能買到 Coke。",
+        execution: "深入最偏遠沙漠找到真正體現這句話的店主，不是叫人去沙漠找他們，而是把故事帶出沙漠、推上全國舞台：在墨西哥最繁忙城市的高衝擊 OOH 讓偏遠店主成為全國人物；迷你紀錄片進戲院；每位店主獲頒官方銘牌，認證為真正的「La última Coca-Cola del Desierto」。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 187,
+        title: "Let's End Fast Tech",
+        year: "2026",
+        brand: "Back Market",
+        agency: "Marcel, Paris",
+        country: "France",
+        summary: "Back Market 挪用「Shot on iPhone」格式，把環境崩壞照對上 iPhone 升級時間軸，喊停快時尚科技。",
+        boardImage: "boards/lets-end-fast-tech.jpg",
+        filmUrl: "https://lion.box.com/s/opj78tqejj0uh393q00xgfhvdcegao5p",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/lets-end-fast-tech-01.jpg',
+            idea: 'assets/stills/lets-end-fast-tech-02.jpg',
+            execution: 'assets/stills/lets-end-fast-tech-03.jpg'
+        },
+        background: "消費電子已占全球二氧化碳排放約 4%，到 2040 年可能達 14%、超過航空。問題是幾乎沒人知道，我們仍每兩年換一支手機。在生態壓力下，不能再把手機當流行配件換來換去。",
+        idea: "「翻新」業界標誌性視覺標準，揭露 Fast Tech 隱形成本：把未經修圖的環境崩壞影像，與同季節的 iPhone 升級時間軸並置，顛覆 «Shot on iPhone» 格式，讓城市成為氣候危機的見證——我們升級裝置的同時，也在降級地球。",
+        execution: "每則廣告附 QR，把覺察轉成行動，鼓勵以 reuse、repair、refurbish 三條路重想科技關係。板上結果：社群自然觸及逾 1100 萬、互動逾 4 萬、第三方內容額外觸及逾 150 萬、媒體與 KOL 報導 200+。口號：How many upgrades do we have left?",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 188,
+        title: "IKEA - Made for Life",
+        year: "2026",
+        brand: "IKEA",
+        agency: "TRY, Oslo",
+        country: "Norway",
+        summary: "IKEA 在挪威用brutal honesty講不孕、鰥夫與挑嘴小孩——價簽變成情緒錨點，不是硬銷。",
+        boardImage: "boards/ikea-made-for-life.jpg",
+        filmUrl: "https://lion.box.com/s/ztzxf61zowxxl4ba235vnv8wdxkqjnh1",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 2, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/ikea-made-for-life-01.jpg',
+            idea: 'assets/stills/ikea-made-for-life-02.jpg',
+            execution: 'assets/stills/ikea-made-for-life-03.jpg'
+        },
+        background: "挪威消費者期待品牌誠實；過度拋光、嚮往式廣告往往吃癟。IKEA 順應這份對brutal honesty的胃口，講述真實人生的高潮與低谷：從不孕、鰥夫、挑嘴幼兒到焦慮父母，觸及深刻人性經驗。",
+        idea: "系列平面廣告裡，每個真實時刻從一件 IKEA 產品講到另一件；標誌性價簽不是硬銷，而是情緒錨點。故事在產品之間遊走，揭示 IKEA 不只是便宜物件，而是人生自然的一部分。",
+        execution: "以平面系列落地上述敘事。板上結果：「Made for Life」帶動全通路造訪創新高、銷售年增 15%；品牌最重要健康指標 Brand Desire 竟升 20%。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 189,
+        title: "Bullet Machine",
+        year: "2026",
+        brand: "La Union Newspaper and Article 19",
+        agency: "Grey, Mexico City",
+        country: "Mexico",
+        summary: "Article 19 與 La Unión 用短片隱喻：記者每打一個字，就像朝自己家開槍——家庭也在槍口下。",
+        boardImage: "boards/bullet-machine.jpg",
+        filmUrl: "https://lion.box.com/s/pzluw83tal04c5ebi481arli4gog7q90",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 2, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/bullet-machine-01.jpg',
+            idea: 'assets/stills/bullet-machine-02.jpg',
+            execution: 'assets/stills/bullet-machine-03.jpg'
+        },
+        background: "墨西哥並非戰場，但在加薩之後，它是全球對記者最致命的國家之一：每 14 小時有記者遇襲，每月有人遇害。暴力不止於記者本人——家人從未想過，家裡有記者會把自己也推向危險。",
+        idea: "故事是虛構的，危險不是。核心殘酷隱喻：記者寫下的每個字，都像朝自己的家開槍。",
+        execution: "片中他打字時家人躲藏；停筆，槍擊就停；但要寫完故事，他必須繼續。觀眾被困在不可能的選擇：寫下去、讓家人涉險，或沉默、讓真相死去——這正是墨西哥記者每天面對的困境。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 190,
+        title: "Gamers on Duty",
+        year: "2026",
+        brand: "Lenovo",
+        agency: "Leo India, Mumbai",
+        country: "India",
+        summary: "Lenovo 把 Call of Duty 的 15 秒人質對話變成印度第一個遊戲內銷售頻道，讓實況主現場升級 Legion。",
+        boardImage: "boards/gamers-on-duty.jpg",
+        filmUrl: "https://lion.box.com/s/ms35lnz036vhu6r8tcaq4dlpe24foabj",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/gamers-on-duty-01.jpg',
+            idea: 'assets/stills/gamers-on-duty-02.jpg',
+            execution: 'assets/stills/gamers-on-duty-03.jpg'
+        },
+        background: "印度玩家陷在一場必敗戰：每年上千新遊戲上架，卻不到 1% 玩家升級設備。遊戲愈重、筆電愈容易當機，於是他們變成「campers」——躲角落、少移動、求穩以免當機；這是社群最嫌的打法。但 campers 不是膽小鬼，是舊設備的俘虜。Lenovo Legion 能解放他們，難題是：玩家痛恨廣告，品牌必須出現在機器背叛主人的當下——現場、即時。",
+        idea: "Call of Duty: Black Ops 6 上線「俘虜敵人可對話 15 秒」功能，成了缺口。我們把它做成遊戲內銷售頻道：印度頂尖實況主化身 Lenovo agents——找到 campers、俘虜他們、說實話：「你不爛，是筆電爛。升級 Legion。」因為電競文化裡，說服不來自品牌，而來自玩家。",
+        execution: "每段 15 秒人質對話變成迷你銷售話術；Lenovo 優惠碼閃過螢幕、丟進直播聊天，讓數百萬觀眾有機會升級 Legion。粉絲接著回報「camper sightings」換 Legion 裝備——戰役變成運動。沒有媒體購買、沒有廣告時段，只有有機混亂與一票新客。板上結果：逾 391K 小時廣告被觀看、銷售回升 20%（扭轉年減）、影響 19M 玩家、22.9M 曝光、逾 100K 互動。",
+        awardsDetail: [
+            { award: "Shortlisted — Creative Commerce", icon: "○" }
+        ]
     }
 ];
 
 
-const DECK_START = '2026-08-19';
-const DAILY_DECK_SIZE = 10;
-
-function getDailyDeck() {
-    // Always show the newest complete batch of 10.
-    // Keep DECK_START (first publish 2026-08-19). Rotation by days-since-start
-    // missed the 8/22–8/23 publishes; after this append, length=40 so numDecks=4
-    // and Taipei 2026-08-24 days=5 → offset 10 would have shown ids 11–20.
-    const complete = Math.floor(casesData.length / DAILY_DECK_SIZE);
-    if (complete < 1) return casesData.slice(0, DAILY_DECK_SIZE);
-    return casesData.slice((complete - 1) * DAILY_DECK_SIZE, complete * DAILY_DECK_SIZE);
-}
-
-// Fallback roster when API is unavailable
-const FALLBACK_ROSTER = [
-    { name: 'Hao Tseng', color: '#FF6B35' },
-    { name: 'Huiru', color: '#FF4458' },
-    { name: 'Albert Hsu', color: '#3498DB' },
-    { name: 'Eric Lin', color: '#9B59B6' },
-    { name: 'Eric Chen', color: '#2ECC71' },
-    { name: 'Brian Chen', color: '#F39C12' },
-    { name: 'Ona Chen', color: '#E91E63' },
-    { name: 'Ping Tseng', color: '#1ABC9C' },
-    { name: 'Vivi Tsou', color: '#E74C3C' },
-    { name: 'Dane Chang', color: '#34495E' },
-    { name: 'Jessie Hong', color: '#8E44AD' },
-    { name: 'Clio Wang', color: '#16A085' },
-    { name: 'Hugh Huang', color: '#D35400' }
-];
-
-// Ensure roster is populated with fallback if empty
-function ensureRoster() {
-    if (rosterMembers.length === 0) {
-        rosterMembers = [...FALLBACK_ROSTER];
-        teamMembers = FALLBACK_ROSTER.map(m => ({
-            ...m,
-            viewCount: 0,
-            likes: []
-        }));
-    }
-}
-
-// App state
-let currentCaseIndex = 0;
-let cards = [];
-
-// Progress tracking state
-// Tracks unique calendar days with at least one swipe (local date string 'YYYY-MM-DD')
-let viewedDays = new Set();
-let streak = 0;
-let unlockedMerch = new Set();
-let equippedMerch = new Set(); // Separate from unlocks: what the lion is currently wearing
-
-// Scoreboard state
-let currentUser = localStorage.getItem('casetinder-user') || null;
-let likedCases = new Set();
-let viewCount = 0;
-
-// Sign-in state
-let isSignedIn = false;
-let rosterMembers = [];
-let todaySwipedCaseIds = new Set();
-
-// Team members (will be loaded from API)
-let teamMembers = [];
-
-// Member likes data (will be loaded from API)
-let memberLikesData = {};
-
-// Comments cache
-let commentsCache = {};
-let commentCountsCache = {};
-
-// Merch unlock rules: based on consecutive streak days
-// NEW MECHANISM: Every Taipei day with ≥1 case viewed unlocks ONE merch
-// Streak 1 unlocks merch 1 (貝雷帽), streak 2 unlocks merch 2, etc.
-// Unlocking does NOT auto-dress the lion — equipping is separate
-// All items are transparent PNG layers that stack on top of the base naked lion
-//
-// IMPORTANT: '性感吊嘎' is a DISPLAY NAME ONLY. The actual garment is a plain white
-// sleeveless tank/undershirt — not sexy, not cropped, not lacy. When creating assets,
-// prompts, or documentation, describe it as a simple white tank, NOT a sexy tank.
-const merchItems = [
-    { id: 'beret', name: '貝雷帽', daysRequired: 1, category: '帽子' },
-    { id: 'tank', name: '性感吊嘎', daysRequired: 2, category: '上身' },  // Display name only; actual item: plain white tank
-    { id: 'shorts', name: '短褲', daysRequired: 3, category: '下身' },
-    { id: 'sneakers', name: '球鞋', daysRequired: 4, category: '腳' },
-    { id: 'bag', name: '創意小包', daysRequired: 5, category: '包' },
-    { id: 'sunglasses', name: '墨鏡', daysRequired: 6, category: '臉部' },
-    { id: 'hammer', name: '雷神之鎚', daysRequired: 7, category: '手' },
-    { id: 'necklace', name: '金獅項鏈', daysRequired: 8, category: '飾品' },
-    { id: 'snowboard', name: '滑雪板', daysRequired: 9, category: '腳' },
-    { id: 'crown', name: '小皇冠', daysRequired: 10, category: '帽子' },
-    { id: 'beer', name: '18 天生啤酒', daysRequired: 11, category: '手' },
-    { id: 'gloves', name: '金手套', daysRequired: 12, category: '手' }
-];
-
-const merchCategories = ['帽子', '臉部', '飾品', '包'];
-
-// Clothes / held / feet still unlock in the closet later — they do not go on the lion.
-const wearableMerch = new Set(['beret', 'sunglasses', 'necklace', 'bag', 'crown']);
-
-function keepWearableEquipped() {
-    equippedMerch = new Set([...equippedMerch].filter(id => wearableMerch.has(id)));
-}
-
-// Initialize app
-async function init() {
-    // Check if user is already signed in
-    const savedUser = localStorage.getItem('casetinder-user');
-    
-    if (savedUser) {
-        // Immediately hide signin gate and start app
-        currentUser = savedUser;
-        hideSigninGate();
-        startApp();
-        
-        // Hydrate from API in the background (don't wait)
-        loadUserState().catch(error => {
-            console.error('Failed to load user state:', error);
-            // Keep localStorage progress even if API fails
-        });
-        
-        loadScoreboardData().catch(error => {
-            console.error('Failed to load scoreboard:', error);
-            // UI will use fallback roster
-        });
-        
-        return;
-    }
-    
-    // Show sign-in gate
-    showSigninGate();
-}
-
-// Start the main app after sign-in
-function startApp() {
-    isSignedIn = true;
-    
-    // Seed teamMembers from fallback if empty
-    if (teamMembers.length === 0) {
-        teamMembers = FALLBACK_ROSTER.map(m => ({
-            ...m,
-            viewCount: 0,
-            likes: []
-        }));
-    }
-    
-    loadProgress();
-    setupNavigation();
-    setupScoreboard();
-    setupCustomizeHandlers();
-    renderCard(currentCaseIndex);
-    updateBioTab();
-    
-    // Default to flashcards tab after sign-in
-    switchTab('casesTab');
-}
-
-// Sign-in gate functions
-function showSigninGate() {
-    document.getElementById('signinGate').classList.remove('hidden');
-    setupSigninHandlers();
-    loadRoster();
-}
-
-function hideSigninGate() {
-    document.getElementById('signinGate').classList.add('hidden');
-}
-
-function setupSigninHandlers() {
-    const codeInput = document.getElementById('inviteCodeInput');
-    const codeSubmitBtn = document.getElementById('codeSubmitBtn');
-    const errorMessage = document.getElementById('errorMessage');
-    
-    codeSubmitBtn.addEventListener('click', () => {
-        const code = codeInput.value.trim().toUpperCase();
-        
-        if (!code) {
-            showError('請輸入邀請碼');
-            return;
-        }
-        
-        if (code === 'ALIEN') {
-            errorMessage.textContent = '';
-            ensureRoster();
-            renderNameList();
-            document.getElementById('codeStep').classList.add('hidden');
-            document.getElementById('nameStep').classList.remove('hidden');
-        } else {
-            showError('邀請碼不對');
-        }
-    });
-    
-    codeInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            codeSubmitBtn.click();
-        }
-    });
-}
-
-function showError(message) {
-    const errorMessage = document.getElementById('errorMessage');
-    errorMessage.textContent = message;
-}
-
-async function loadRoster() {
-    try {
-        const data = await jsonp(CASETINDER_API, { action: 'roster' });
-        
-        if (data.ok && data.members) {
-            rosterMembers = data.members;
-            teamMembers = data.members.map(m => ({
-                ...m,
-                viewCount: 0
-            }));
-            renderNameList();
-        }
-    } catch (error) {
-        console.error('Failed to load roster:', error);
-    }
-}
-
-function renderNameList() {
-    const nameList = document.getElementById('nameList');
-    const nameLoading = document.getElementById('nameLoading');
-    
-    // Hide loading if visible
-    if (nameLoading) {
-        nameLoading.classList.add('hidden');
-    }
-    
-    // If no roster members yet, show loading
-    if (rosterMembers.length === 0) {
-        if (nameLoading) {
-            nameLoading.classList.remove('hidden');
-        }
-        return;
-    }
-    
-    nameList.innerHTML = rosterMembers.map(member => `
-        <div class="name-item" data-name="${member.name}">
-            <div class="name-avatar" style="background-color: ${member.color}">
-                ${member.name.charAt(0).toUpperCase()}
-            </div>
-            <div class="name-text">${member.name}</div>
-        </div>
-    `).join('');
-    
-    // Add click handlers
-    nameList.querySelectorAll('.name-item').forEach(item => {
-        item.addEventListener('click', () => {
-            const name = item.dataset.name;
-            handleNameSelection(name);
-        });
-    });
-}
-
-async function handleNameSelection(name) {
-    try {
-        const data = await jsonp(CASETINDER_API, { 
-            action: 'login',
-            code: 'ALIEN',
-            name: name
-        }, 8000);
-        
-        if (data.ok) {
-            // Save user
-            currentUser = data.name;
-            localStorage.setItem('casetinder-user', data.name);
-            
-            // Load initial state from API
-            viewCount = data.viewCount || 0;
-            likedCases = new Set(data.likes || []);
-            todaySwipedCaseIds = new Set(data.todayCaseIds || []);
-            
-            // Sheet is source of truth. Drop the Aug 8–18 tester seed days.
-            viewedDays = new Set();
-            (data.viewedDays || []).forEach(day => {
-                const normalized = normalizeDay(day);
-                if (normalized && normalized >= '2026-08-19') {
-                    viewedDays.add(normalized);
-                }
-            });
-            
-            calculateStreak();
-            calculateUnlocks();
-            saveProgress();
-            
-            hideSigninGate();
-            startApp();
-        } else {
-            showError(data.error === 'bad_code' ? '邀請碼不對' : '找不到這個人');
-        }
-    } catch (error) {
-        console.error('Login failed:', error);
-        
-        // If API fails, sign them in locally anyway
-        currentUser = name;
-        localStorage.setItem('casetinder-user', name);
-        
-        hideSigninGate();
-        startApp();
-    }
-}
-
-async function loadUserState() {
-    if (!currentUser) return;
-    
-    try {
-        const data = await jsonp(CASETINDER_API, {
-            action: 'state',
-            name: currentUser
-        });
-        
-        if (data.ok) {
-            viewCount = data.viewCount || 0;
-            likedCases = new Set(data.likes || []);
-            todaySwipedCaseIds = new Set(data.todayCaseIds || []);
-            
-            // Sheet is source of truth. Drop the Aug 8–18 tester seed days.
-            viewedDays = new Set();
-            (data.viewedDays || []).forEach(day => {
-                const normalized = normalizeDay(day);
-                if (normalized && normalized >= '2026-08-19') {
-                    viewedDays.add(normalized);
-                }
-            });
-            
-            calculateStreak();
-            calculateUnlocks();
-            saveProgress();
-            updateBioTab();
-        }
-    } catch (error) {
-        console.error('Failed to load user state:', error);
-    }
-}
-
-async function loadScoreboardData() {
-    try {
-        const data = await jsonp(CASETINDER_API, { action: 'scoreboard' });
-        
-        if (data.ok && data.members) {
-            // Update team members with real data
-            teamMembers = data.members.map(m => {
-                const likesArray = Array.isArray(m.likes) ? m.likes : [];
-                return {
-                    name: m.name,
-                    color: m.color,
-                    viewCount: m.viewCount || 0,
-                    likes: likesArray
-                };
-            });
-            
-            // Build memberLikesData
-            memberLikesData = {};
-            teamMembers.forEach(m => {
-                memberLikesData[m.name] = m.likes || [];
-            });
-        }
-    } catch (error) {
-        console.error('Failed to load scoreboard:', error);
-    }
-}
-
-// Load progress from localStorage
-function loadProgress() {
-    const savedDays = localStorage.getItem('casetinder-viewed-days');
-    if (savedDays) {
-        const rawDays = JSON.parse(savedDays);
-        viewedDays = new Set();
-        rawDays.forEach(day => {
-            const normalized = normalizeDay(day);
-            if (normalized) {
-                viewedDays.add(normalized);
-            }
-        });
-    }
-    
-    const savedMerch = localStorage.getItem('casetinder-unlocked-merch');
-    if (savedMerch) {
-        unlockedMerch = new Set(JSON.parse(savedMerch));
-    }
-    
-    const savedEquipped = localStorage.getItem('casetinder-equipped-merch');
-    if (savedEquipped) {
-        equippedMerch = new Set(JSON.parse(savedEquipped));
-        keepWearableEquipped();
-    }
-    
-    const savedLikes = localStorage.getItem('casetinder-liked-cases');
-    if (savedLikes) {
-        likedCases = new Set(JSON.parse(savedLikes));
-    }
-    
-    const savedViewCount = localStorage.getItem('casetinder-view-count');
-    if (savedViewCount) {
-        viewCount = parseInt(savedViewCount, 10);
-    }
-    
-    calculateStreak();
-    calculateUnlocks();
-}
-
-// Save progress to localStorage
-function saveProgress() {
-    localStorage.setItem('casetinder-viewed-days', JSON.stringify([...viewedDays]));
-    localStorage.setItem('casetinder-unlocked-merch', JSON.stringify([...unlockedMerch]));
-    localStorage.setItem('casetinder-equipped-merch', JSON.stringify([...equippedMerch]));
-    localStorage.setItem('casetinder-liked-cases', JSON.stringify([...likedCases]));
-    localStorage.setItem('casetinder-view-count', viewCount.toString());
-}
-
-// Calculate streak (consecutive days ending today or yesterday, in Taipei timezone)
-function calculateStreak() {
-    if (viewedDays.size === 0) {
-        streak = 0;
-        return;
-    }
-    
-    const sortedDays = [...viewedDays].sort().reverse();
-    const today = getTaipeiDateString();
-    
-    // Calculate yesterday in Taipei timezone
-    const todayDate = new Date(today + 'T00:00:00');
-    const yesterdayDate = new Date(todayDate);
-    yesterdayDate.setDate(yesterdayDate.getDate() - 1);
-    const yesterday = getTaipeiDateString(yesterdayDate);
-    
-    let currentStreak = 0;
-    let checkDate = sortedDays[0] === today ? today : (sortedDays[0] === yesterday ? yesterday : null);
-    
-    if (!checkDate) {
-        streak = 0;
-        return;
-    }
-    
-    for (let i = 0; i < sortedDays.length; i++) {
-        if (sortedDays[i] === checkDate) {
-            currentStreak++;
-            const prevDate = new Date(checkDate + 'T00:00:00');
-            prevDate.setDate(prevDate.getDate() - 1);
-            checkDate = getTaipeiDateString(prevDate);
-        } else {
-            break;
-        }
-    }
-    
-    streak = currentStreak;
-}
-
-// Calculate unlocks based on current streak (recompute from scratch each time)
-
-
-function calculateUnlocks() {
-    unlockedMerch = new Set();
-    
-    merchItems.forEach(item => {
-        if (streak >= item.daysRequired) {
-            unlockedMerch.add(item.id);
-        }
-    });
-}
-
-// Record today as a view day (using Taipei timezone)
-function recordViewDay() {
-    const today = getTaipeiDateString();
-    
-    if (!viewedDays.has(today)) {
-        viewedDays.add(today);
-        calculateStreak();
-        calculateUnlocks();
-        saveProgress();
-        updateBioTab();
-    }
-}
-
-// Setup navigation
-function setupNavigation() {
-    const navButtons = document.querySelectorAll('.nav-item');
-    
-    navButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const targetTab = button.dataset.tab;
-            switchTab(targetTab);
-        });
-    });
-}
-
-// Switch tabs
-function switchTab(tabId) {
-    const allTabs = document.querySelectorAll('.tab-content');
-    const allNavItems = document.querySelectorAll('.nav-item');
-    
-    allTabs.forEach(tab => {
-        tab.classList.remove('active');
-        if (tab.id === tabId) {
-            tab.classList.add('active');
-        }
-    });
-    
-    allNavItems.forEach(item => {
-        item.classList.remove('active');
-        if (item.dataset.tab === tabId) {
-            item.classList.add('active');
-        }
-    });
-    
-    if (tabId === 'bioTab') {
-        updateBioTab();
-    } else if (tabId === 'scoreboardTab') {
-        renderRankingList();
-        showRankingView();
-    }
-}
-
-// Setup scoreboard
-function setupScoreboard() {
-    const backButton = document.getElementById('backToRanking');
-    if (backButton) {
-        backButton.addEventListener('click', showRankingView);
-    }
-}
-
-// Generate avatar color based on name
-function getAvatarColor(name) {
-    const member = teamMembers.find(m => m.name === name);
-    return member ? member.color : '#FF4458';
-}
-
-// Get member's first letter for avatar
-function getAvatarLetter(name) {
-    return name.charAt(0).toUpperCase();
-}
-
-// Fetch comments for a case
-async function fetchComments(caseId) {
-    try {
-        const data = await jsonp(CASETINDER_API, { 
-            action: 'comments',
-            caseId: caseId
-        });
-        
-        if (data.ok) {
-            commentsCache[caseId] = data.comments || [];
-            return data.comments || [];
-        }
-        
-        return [];
-    } catch (err) {
-        console.error('Error fetching comments:', err);
-        return [];
-    }
-}
-
-// Fetch comment counts for all cases
-async function fetchCommentCounts() {
-    try {
-        const data = await jsonp(CASETINDER_API, { 
-            action: 'comments'
-        });
-        
-        if (data.ok) {
-            commentCountsCache = data.counts || {};
-            return data.counts || {};
-        }
-        
-        return {};
-    } catch (err) {
-        console.error('Error fetching comment counts:', err);
-        return {};
-    }
-}
-
-// Post a comment
-async function postComment(caseId, text) {
-    if (!currentUser) return null;
-    
-    try {
-        const data = await jsonp(CASETINDER_API, {
-            action: 'comment',
-            name: currentUser,
-            caseId: caseId,
-            text: text
-        });
-        
-        if (data.ok && data.comment) {
-            // Update cache
-            if (!commentsCache[caseId]) {
-                commentsCache[caseId] = [];
-            }
-            commentsCache[caseId].push(data.comment);
-            
-            // Update count cache
-            const caseIdStr = String(caseId);
-            commentCountsCache[caseIdStr] = (commentCountsCache[caseIdStr] || 0) + 1;
-            
-            return data.comment;
-        }
-        
-        return null;
-    } catch (err) {
-        console.error('Error posting comment:', err);
-        return null;
-    }
-}
-
-// Format timestamp for display
-function formatCommentTime(timestamp) {
-    const date = new Date(timestamp);
-    const now = new Date();
-    const diffMs = now - date;
-    const diffMins = Math.floor(diffMs / 60000);
-    
-    if (diffMins < 1) return '剛剛';
-    if (diffMins < 60) return `${diffMins}分鐘前`;
-    
-    const diffHours = Math.floor(diffMins / 60);
-    if (diffHours < 24) return `${diffHours}小時前`;
-    
-    const diffDays = Math.floor(diffHours / 24);
-    if (diffDays < 7) return `${diffDays}天前`;
-    
-    return date.toLocaleDateString('zh-TW', { month: 'numeric', day: 'numeric' });
-}
-
-// Render comment thread HTML
-function renderCommentThreadHTML(caseId) {
-    const comments = commentsCache[caseId] || [];
-    
-    return comments.length > 0 
-        ? comments.map(comment => {
-            const isMine = comment.name === currentUser;
-            return `
-                <div class="comment-bubble ${isMine ? 'mine' : ''}">
-                    <div class="comment-avatar" style="background-color: ${getAvatarColor(comment.name)}">
-                        ${getAvatarLetter(comment.name)}
-                    </div>
-                    <div class="comment-content">
-                        <div class="comment-meta">
-                            <span class="comment-name">${comment.name}</span>
-                            <span class="comment-time">${formatCommentTime(comment.timestamp)}</span>
-                        </div>
-                        <div class="comment-text">${escapeHtml(comment.text)}</div>
-                    </div>
-                </div>
-            `;
-        }).join('')
-        : '<div class="comment-empty">還沒有留言</div>';
-}
-
-// Render comment section
-function renderCommentSection(caseId) {
-    const threadHTML = renderCommentThreadHTML(caseId);
-    
-    const composerHTML = currentUser 
-        ? `
-            <div class="comment-composer">
-                <textarea 
-                    class="comment-input" 
-                    placeholder="覺得勒" 
-                    maxlength="200"
-                    rows="1"
-                ></textarea>
-                <button class="comment-send-btn" title="送出">➤</button>
-            </div>
-        `
-        : '';
-    
-    return `
-        <div class="comment-section" data-case-id="${caseId}">
-            <div class="comment-thread">
-                ${threadHTML}
-            </div>
-            ${composerHTML}
-        </div>
-    `;
-}
-
-// Update comment thread in DOM without rebuilding the whole card
-function updateCommentThread(container, caseId) {
-    const commentSection = container.querySelector('.comment-section');
-    if (!commentSection) return;
-    
-    const thread = commentSection.querySelector('.comment-thread');
-    if (!thread) return;
-    
-    thread.innerHTML = renderCommentThreadHTML(caseId);
-}
-
-// Escape HTML to prevent XSS
-function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-}
-
-// Setup comment interactions (posting, preventing swipe)
-function setupCommentInteractions(container, caseId) {
-    const commentSection = container.querySelector('.comment-section');
-    if (!commentSection) return;
-    
-    // Prevent swipe on comment section
-    commentSection.addEventListener('mousedown', (e) => e.stopPropagation());
-    commentSection.addEventListener('touchstart', (e) => e.stopPropagation());
-    
-    const input = commentSection.querySelector('.comment-input');
-    const sendBtn = commentSection.querySelector('.comment-send-btn');
-    
-    if (!input || !sendBtn) return;
-    
-    // Auto-resize textarea
-    input.addEventListener('input', () => {
-        input.style.height = 'auto';
-        input.style.height = Math.min(input.scrollHeight, 80) + 'px';
-        
-        sendBtn.disabled = input.value.trim().length === 0;
-    });
-    
-    // Send comment
-    const sendComment = async () => {
-        const text = input.value.trim();
-        if (!text || !currentUser) return;
-        
-        sendBtn.disabled = true;
-        input.disabled = true;
-        
-        const comment = await postComment(caseId, text);
-        
-        if (comment) {
-            // Re-render comment thread
-            const thread = commentSection.querySelector('.comment-thread');
-            const isMine = comment.name === currentUser;
-            
-            const newBubbleHTML = `
-                <div class="comment-bubble ${isMine ? 'mine' : ''}">
-                    <div class="comment-avatar" style="background-color: ${getAvatarColor(comment.name)}">
-                        ${getAvatarLetter(comment.name)}
-                    </div>
-                    <div class="comment-content">
-                        <div class="comment-meta">
-                            <span class="comment-name">${comment.name}</span>
-                            <span class="comment-time">${formatCommentTime(comment.timestamp)}</span>
-                        </div>
-                        <div class="comment-text">${escapeHtml(comment.text)}</div>
-                    </div>
-                </div>
-            `;
-            
-            // Remove empty state if it exists
-            const emptyState = thread.querySelector('.comment-empty');
-            if (emptyState) {
-                emptyState.remove();
-            }
-            
-            thread.insertAdjacentHTML('beforeend', newBubbleHTML);
-            
-            // Clear input
-            input.value = '';
-            input.style.height = 'auto';
-            
-            // Scroll to new comment
-            const bubbles = thread.querySelectorAll('.comment-bubble');
-            if (bubbles.length > 0) {
-                bubbles[bubbles.length - 1].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }
-        }
-        
-        input.disabled = false;
-        sendBtn.disabled = false;
-        input.focus();
-    };
-    
-    sendBtn.addEventListener('click', sendComment);
-    
-    input.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' && !e.shiftKey) {
-            e.preventDefault();
-            sendComment();
-        }
-    });
-}
-
-// Show ranking view
-function showRankingView() {
-    document.getElementById('rankingView').classList.add('active');
-    document.getElementById('likedCasesView').classList.remove('active');
-}
-
-// Show liked cases view
-function showLikedCasesView(memberName) {
-    const isCurrentUser = memberName === currentUser;
-    const titleElement = document.getElementById('detailTitle');
-    
-    if (isCurrentUser) {
-        titleElement.textContent = '我喜歡的案例';
-    } else {
-        titleElement.textContent = `${memberName} 喜歡的案例`;
-    }
-    
-    renderLikedCases(memberName, isCurrentUser);
-    
-    document.getElementById('rankingView').classList.remove('active');
-    document.getElementById('likedCasesView').classList.add('active');
-}
-
-// Render ranking list
-async function renderRankingList() {
-    const rankingList = document.getElementById('rankingList');
-    const rankingLoading = document.getElementById('rankingLoading');
-    if (!rankingList) return;
-    
-    // If teamMembers is empty or hasn't been loaded, show loading
-    const shouldShowLoading = teamMembers.length === 0;
-    if (shouldShowLoading && rankingLoading) {
-        rankingLoading.classList.remove('hidden');
-        rankingList.style.display = 'none';
-    }
-    
-    // Paint immediately from current teamMembers (if any)
-    if (!shouldShowLoading) {
-        paintRankingList();
-    }
-    
-    // Then refresh from API in background and repaint
-    try {
-        await loadScoreboardData();
-        if (rankingLoading) {
-            rankingLoading.classList.add('hidden');
-        }
-        rankingList.style.display = '';
-        paintRankingList();
-    } catch (error) {
-        console.error('Failed to refresh scoreboard:', error);
-        if (rankingLoading) {
-            rankingLoading.classList.add('hidden');
-        }
-        rankingList.style.display = '';
-        // Keep showing the initial paint or fallback
-        if (!shouldShowLoading) {
-            paintRankingList();
-        }
-    }
-}
-
-// Helper function to paint the ranking list from teamMembers
-function paintRankingList() {
-    const rankingList = document.getElementById('rankingList');
-    if (!rankingList) return;
-    
-    const sortedMembers = [...teamMembers].map(member => {
-        if (member.name === currentUser) {
-            return { ...member, viewCount: viewCount };
-        }
-        return member;
-    }).sort((a, b) => b.viewCount - a.viewCount);
-    
-    rankingList.innerHTML = sortedMembers.map(member => {
-        const isCurrentUser = member.name === currentUser;
-        const avatarColor = getAvatarColor(member.name);
-        const avatarLetter = getAvatarLetter(member.name);
-        
-        return `
-            <div class="ranking-item ${isCurrentUser ? 'current-user' : ''}" data-member="${member.name}">
-                <div class="member-info">
-                    <div class="member-avatar" style="background-color: ${avatarColor}">
-                        ${avatarLetter}
-                    </div>
-                    <div class="member-name">${member.name}</div>
-                </div>
-                <div class="view-count">${member.viewCount}</div>
-                <button class="view-likes-button" data-member="${member.name}">
-                    查看喜愛案例
-                </button>
-            </div>
-        `;
-    }).join('');
-    
-    const viewLikesButtons = rankingList.querySelectorAll('.view-likes-button');
-    viewLikesButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const memberName = button.dataset.member;
-            showLikedCasesView(memberName);
-        });
-    });
-}
-
-// Get liked case IDs for a member
-function getMemberLikedCases(memberName) {
-    if (memberName === currentUser) {
-        return [...likedCases];
-    }
-    return memberLikesData[memberName] || [];
-}
-
-// Get random teammates who also liked a case
-function getRandomAlsoLiked(caseId, excludeName) {
-    const allWhoLiked = Object.entries(memberLikesData)
-        .filter(([name, likes]) => name !== excludeName && likes.includes(caseId))
-        .map(([name]) => name);
-    
-    const shuffled = allWhoLiked.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 3);
-}
-
-// Render liked cases
-async function renderLikedCases(memberName, isCurrentUser) {
-    const container = document.getElementById('likedCasesContainer');
-    if (!container) return;
-    
-    // Fetch comment counts
-    await fetchCommentCounts();
-    
-    const likedCaseIds = getMemberLikedCases(memberName);
-    
-    if (likedCaseIds.length === 0) {
-        container.innerHTML = `
-            <div class="empty-liked-state">
-                <div class="icon">💝</div>
-                <h3>還沒有喜歡的案例</h3>
-                <p>${isCurrentUser ? '開始滑案例，右滑喜歡的案例吧！' : '這位成員還沒有喜歡任何案例'}</p>
-            </div>
-        `;
-        return;
-    }
-    
-    const likedCasesData = likedCaseIds
-        .map(id => casesData.find(c => c.id === id))
-        .filter(c => c);
-    
-    const cardsHTML = likedCasesData.map(caseData => {
-        const alsoLiked = getRandomAlsoLiked(caseData.id, memberName);
-        const commentCount = commentCountsCache[String(caseData.id)] || 0;
-        
-        const alsoLikedHTML = alsoLiked.length > 0 ? `
-            <div class="also-liked">
-                <div class="also-liked-label">他們也喜歡：</div>
-                <div class="also-liked-avatars">
-                    ${alsoLiked.map(name => `
-                        <div class="mini-avatar" style="background-color: ${getAvatarColor(name)}">
-                            ${getAvatarLetter(name)}
-                        </div>
-                    `).join('')}
-                </div>
-                ${commentCount > 0 ? `<span class="comment-count-badge"><span class="emoji">💬</span>${commentCount}</span>` : ''}
-            </div>
-        ` : (commentCount > 0 ? `
-            <div class="also-liked">
-                <span class="comment-count-badge"><span class="emoji">💬</span>${commentCount}</span>
-            </div>
-        ` : '');
-        
-        return `
-            <div class="liked-case-card" data-case-id="${caseData.id}">
-                <div class="liked-case-image">
-                    ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:white;">${caseData.title}</div>`}
-                </div>
-                <div class="liked-case-info">
-                    ${alsoLikedHTML}
-                    <div class="liked-case-title">${caseData.title}</div>
-                </div>
-            </div>
-        `;
-    }).join('');
-    
-    const scrollHint = likedCasesData.length > 1 ? '<div class="scroll-more-hint">下滑查看更多</div>' : '';
-    
-    container.innerHTML = cardsHTML + scrollHint;
-    
-    // Add click handlers to each liked card
-    const likedCards = container.querySelectorAll('.liked-case-card');
-    likedCards.forEach(card => {
-        card.addEventListener('click', () => {
-            const caseId = parseInt(card.dataset.caseId);
-            openCaseDetailView(caseId, memberName);
-        });
-    });
-}
-
-// Open case detail view overlay
-async function openCaseDetailView(caseId, memberName) {
-    const caseData = casesData.find(c => c.id === caseId);
-    if (!caseData) return;
-    
-    // Create overlay immediately with cached or empty comments
-    const overlay = document.createElement('div');
-    overlay.className = 'case-detail-overlay';
-    
-    const awardsHTML = generateAwardsSummary(caseData.awards);
-    const detailHTML = generateDetailSection(caseData);
-    const commentsHTML = renderCommentSection(caseData.id);
-    
-    overlay.innerHTML = `
-        <div class="case-detail-viewer">
-            <div class="detail-viewer-header">
-                <button class="back-button" id="closeCaseDetail">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M19 12H5M12 19l-7-7 7-7"/>
-                    </svg>
-                </button>
-                <h2 class="detail-title">返回最愛</h2>
-            </div>
-            <div class="case-detail-content">
-                <div class="board-image">
-                    ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : 'BOARD'}
-                </div>
-                
-                <div class="case-header">
-                    <h1 class="case-title">${caseData.title}</h1>
-                    <div class="case-meta">${caseData.year}, ${caseData.brand}${caseData.agency ? ` · ${caseData.agency}` : ''}${caseData.country ? ` · ${caseData.country}` : ''}</div>
-                    <p class="case-summary">${caseData.summary}</p>
-                    
-                    <div class="awards-summary">
-                        ${awardsHTML}
-                    </div>
-                </div>
-                
-                <div class="film-link">
-                    <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
-                </div>
-                
-                ${detailHTML}
-                
-                <div class="film-link">
-                    <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
-                </div>
-                
-                ${commentsHTML}
-            </div>
-        </div>
-    `;
-    
-    document.body.appendChild(overlay);
-    
-    // Setup comment interactions
-    setupCommentInteractions(overlay, caseData.id);
-    
-    // Fetch comments in background and update thread when ready
-    fetchComments(caseId).then(() => {
-        updateCommentThread(overlay, caseId);
-    });
-    
-    // Add close handler
-    const closeButton = overlay.querySelector('#closeCaseDetail');
-    closeButton.addEventListener('click', () => {
-        document.body.removeChild(overlay);
-    });
-    
-    // Close on overlay click
-    overlay.addEventListener('click', (e) => {
-        if (e.target === overlay) {
-            document.body.removeChild(overlay);
-        }
-    });
-}
-
-// Update bio tab UI
-function updateBioTab() {
-    calculateUnlocks();
-    document.getElementById('streakNumber').textContent = streak;
-    
-    renderLion();
-    updateNextUnlock();
-    updateDayGrid();
-    updateStats();
-}
-
-// Render lion with equipped merch layers (Sims-style stacking)
-// Z-index order (back to front): 腳 -> 下身 -> 上身 -> 手 -> 臉部 -> 帽子
-const categoryZIndex = {
-    '腳': 1,      // snowboard, sneakers
-    '下身': 2,    // shorts
-    '上身': 3,    // tank
-    '包': 4,      // bag (shoulder tote, stacks with held items)
-    '手': 5,      // hammer, beer, gloves
-    '飾品': 6,    // necklace (stacks with tank)
-    '臉部': 7,    // sunglasses
-    '帽子': 8     // beret, crown
-};
-
-// Layer metadata: all merch layers are pixel-aligned full-frame overlays on assets/lion-naked.png
-// NOTE: 'tank' (性感吊嘎) should be a plain white sleeveless undershirt, NOT a sexy/cropped tank
-const layerMetadata = {
-    'beret': { type: 'pixel-aligned', path: 'assets/layers/beret.png' },
-    'tank': { type: 'pixel-aligned', path: 'assets/layers/tank.png' },  // Plain white tank, not sexy
-    'shorts': { type: 'pixel-aligned', path: 'assets/layers/shorts.png' },
-    'sneakers': { type: 'pixel-aligned', path: 'assets/layers/sneakers.png' },
-    'bag': { type: 'pixel-aligned', path: 'assets/layers/bag.png' },
-    'sunglasses': { type: 'pixel-aligned', path: 'assets/layers/sunglasses.png' },
-    'hammer': { type: 'pixel-aligned', path: 'assets/layers/hammer.png' },
-    'necklace': { type: 'pixel-aligned', path: 'assets/layers/necklace.png' },
-    'snowboard': { type: 'pixel-aligned', path: 'assets/layers/snowboard.png' },
-    'crown': { type: 'pixel-aligned', path: 'assets/layers/crown.png' },
-    'beer': { type: 'pixel-aligned', path: 'assets/layers/beer.png' },
-    'gloves': { type: 'pixel-aligned', path: 'assets/layers/gloves.png' }
-};
-
-function getLayerPath(itemId) {
-    const metadata = layerMetadata[itemId];
-    const path = metadata ? metadata.path : `assets/layers/${itemId}.png`;
-    return `${path}?v=20260821b`;
-}
-
-function getIconPath(itemId) {
-    return `assets/icons/${itemId}.png?v=20260821b`;
-}
-
-function renderLion() {
-    const lionContainer = document.getElementById('lionCharacter');
-    lionContainer.innerHTML = '';
-    renderLionStack(lionContainer, equippedMerch);
-}
-
-function renderLionStack(container, equippedSet) {
-    // Create position:relative wrapper
-    const stack = document.createElement('div');
-    stack.className = 'lion-stack';
-    stack.style.position = 'relative';
-    stack.style.width = '100%';
-    stack.style.height = '100%';
-    
-    // Base lion is always the official arms-down pose.
-    // Bag hangs on the shoulder of the official combo; hammer/beer sit on the down-arm paw.
-    // Arm-out base was a bolted-on third limb — do not swap.
-    const base = document.createElement('img');
-    base.src = 'assets/lion-naked.png?v=20260821b';
-    base.alt = 'Lion';
-    base.style.position = 'absolute';
-    base.style.inset = '0';
-    base.style.width = '100%';
-    base.style.height = '100%';
-    base.style.objectFit = 'contain';
-    stack.appendChild(base);
-    
-    // Sort equipped items by z-index (category order)
-    const equippedItems = merchItems.filter(item => equippedSet.has(item.id) && wearableMerch.has(item.id));
-    equippedItems.sort((a, b) => categoryZIndex[a.category] - categoryZIndex[b.category]);
-    
-    // Add each layer as pixel-aligned overlay
-    equippedItems.forEach(item => {
-        const layer = document.createElement('img');
-        layer.src = getLayerPath(item.id);
-        layer.alt = item.name;
-        layer.style.position = 'absolute';
-        layer.style.inset = '0';
-        layer.style.width = '100%';
-        layer.style.height = '100%';
-        layer.style.objectFit = 'contain';
-        layer.style.pointerEvents = 'none';
-        layer.style.zIndex = categoryZIndex[item.category].toString();
-        
-        // Hide if image fails to load
-        layer.onerror = () => {
-            layer.style.display = 'none';
-        };
-        
-        stack.appendChild(layer);
-    });
-    
-    container.appendChild(stack);
-}
-
-// Update next unlock display
-function updateNextUnlock() {
-    const nextItem = merchItems.find(item => streak < item.daysRequired);
-    const nextUnlockSection = document.getElementById('nextUnlockSection');
-    
-    if (nextItem) {
-        nextUnlockSection.style.display = 'block';
-        const daysRemaining = nextItem.daysRequired - streak;
-        document.getElementById('daysToUnlock').textContent = daysRemaining;
-        document.getElementById('nextMerchName').textContent = nextItem.name;
-        
-        const nextMerchIcon = document.getElementById('nextMerchIcon');
-        const iconSrc = getIconPath(nextItem.id);
-        nextMerchIcon.className = 'merch-icon-small';
-        nextMerchIcon.innerHTML = `<img src="${iconSrc}" alt="${nextItem.name}" onerror="this.parentElement.classList.add('${nextItem.id}-icon')">`;
-    } else {
-        // All unlocked
-        nextUnlockSection.style.display = 'none';
-    }
-}
-
-// Update day grid
-function updateDayGrid() {
-    const dayGrid = document.getElementById('dayGrid');
-    const totalDays = 12; // Show 12 days in grid
-    
-    let gridHTML = '';
-    for (let day = 1; day <= totalDays; day++) {
-        const merch = merchItems.find(item => item.daysRequired === day);
-        const isUnlocked = merch && unlockedMerch.has(merch.id);
-        
-        if (merch) {
-            const iconSrc = getIconPath(merch.id);
-            gridHTML += `
-                <div class="day-cell ${isUnlocked ? 'unlocked' : 'locked'}">
-                    <div class="day-label">DAY ${day}</div>
-                    <div class="day-merch-icon">
-                        <img src="${iconSrc}" alt="${merch.name}" onerror="this.parentElement.classList.add('${merch.id}-icon')">
-                    </div>
-                    <div class="day-merch-name">${merch.name}</div>
-                </div>
-            `;
-        } else {
-            gridHTML += `
-                <div class="day-cell locked">
-                    <div class="day-label">DAY ${day}</div>
-                    <div class="day-merch-placeholder">🔒</div>
-                </div>
-            `;
-        }
-    }
-    
-    dayGrid.innerHTML = gridHTML;
-}
-
-// Update stats
-function updateStats() {
-    document.getElementById('totalViewCount').textContent = viewCount;
-    document.getElementById('totalLikeCount').textContent = likedCases.size;
-}
-
-// Setup customize overlay handlers
-function setupCustomizeHandlers() {
-    const customizeButton = document.getElementById('customizeButton');
-    const customizeBackButton = document.getElementById('customizeBackButton');
-    const viewLikedButton = document.getElementById('viewLikedButton');
-    const resetButton = document.getElementById('resetButton');
-    const saveButton = document.getElementById('saveButton');
-    
-    if (customizeButton) {
-        customizeButton.addEventListener('click', openCustomizeOverlay);
-    }
-    
-    if (customizeBackButton) {
-        customizeBackButton.addEventListener('click', closeCustomizeOverlay);
-    }
-    
-    if (viewLikedButton) {
-        viewLikedButton.addEventListener('click', () => {
-            switchTab('scoreboardTab');
-            showLikedCasesView(currentUser);
-        });
-    }
-    
-    if (resetButton) {
-        resetButton.addEventListener('click', handleResetEquipment);
-    }
-    
-    if (saveButton) {
-        saveButton.addEventListener('click', handleSaveEquipment);
-    }
-    
-    // Category tabs
-    const categoryTabs = document.querySelectorAll('.category-tab');
-    categoryTabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            const category = tab.dataset.category;
-            handleCategoryChange(category);
-        });
-    });
-}
-
-// Open customize overlay
-function openCustomizeOverlay() {
-    const overlay = document.getElementById('customizeOverlay');
-    const username = document.getElementById('customizeUsername');
-    
-    if (username) {
-        username.textContent = currentUser || 'User';
-    }
-    
-    overlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-    
-    // Render initial state
-    renderCustomizeLion();
-    handleCategoryChange('帽子'); // Default to first category
-}
-
-// Close customize overlay
-function closeCustomizeOverlay() {
-    const overlay = document.getElementById('customizeOverlay');
-    overlay.classList.remove('active');
-    document.body.style.overflow = '';
-}
-
-// Render lion in customize preview
-function renderCustomizeLion() {
-    const lionPreview = document.getElementById('lionPreview');
-    lionPreview.innerHTML = '';
-    renderLionStack(lionPreview, equippedMerch);
-}
-
-// Handle category tab change
-function handleCategoryChange(category) {
-    // Update active tab
-    const categoryTabs = document.querySelectorAll('.category-tab');
-    categoryTabs.forEach(tab => {
-        if (tab.dataset.category === category) {
-            tab.classList.add('active');
-        } else {
-            tab.classList.remove('active');
-        }
-    });
-    
-    // Render items for this category
-    renderItemSelection(category);
-}
-
-// Render item selection for a category
-function renderItemSelection(category) {
-    const itemSelection = document.getElementById('itemSelection');
-    const categoryItems = merchItems.filter(item => item.category === category);
-    
-    let html = '';
-    
-    // Show unlocked items first
-    const unlockedItems = categoryItems.filter(item => unlockedMerch.has(item.id));
-    const lockedItems = categoryItems.filter(item => !unlockedMerch.has(item.id));
-    
-    unlockedItems.forEach(item => {
-        const isEquipped = equippedMerch.has(item.id);
-        const iconSrc = getIconPath(item.id);
-        html += `
-            <div class="item-slot unlocked ${isEquipped ? 'equipped' : ''}" data-item-id="${item.id}">
-                <div class="item-icon">
-                    <img src="${iconSrc}" alt="${item.name}" onerror="this.parentElement.classList.add('${item.id}-icon')">
-                </div>
-                <div class="item-name">${item.name}</div>
-                ${isEquipped ? '<div class="equipped-badge">✓</div>' : ''}
-            </div>
-        `;
-    });
-    
-    // Add locked slots for real items that aren't unlocked yet
-    lockedItems.forEach(item => {
-        html += `
-            <div class="item-slot locked">
-                <div class="item-icon">
-                    <img src="${getIconPath(item.id)}" alt="${item.name}" onerror="this.parentElement.classList.add('${item.id}-icon')">
-                </div>
-                <div class="locked-label">未解鎖</div>
-            </div>
-        `;
-    });
-    
-    itemSelection.innerHTML = html;
-    
-    // Add click handlers to unlocked items
-    const itemSlots = itemSelection.querySelectorAll('.item-slot.unlocked');
-    itemSlots.forEach(slot => {
-        slot.addEventListener('click', () => {
-            const itemId = slot.dataset.itemId;
-            handleItemClick(itemId);
-        });
-    });
-}
-
-// Handle item click (equip/unequip) - Sims-style slots
-function handleItemClick(itemId) {
-    const item = merchItems.find(m => m.id === itemId);
-    if (!item) return;
-    if (!wearableMerch.has(itemId)) return;
-    
-    // Toggle equip state
-    if (equippedMerch.has(itemId)) {
-        // Unequip
-        equippedMerch.delete(itemId);
-    } else {
-        // Unequip other items in same category first (only one item per category slot)
-        const categoryItems = merchItems.filter(m => m.category === item.category);
-        categoryItems.forEach(catItem => {
-            equippedMerch.delete(catItem.id);
-        });
-        
-        // Equip this item
-        equippedMerch.add(itemId);
-    }
-    
-    // Update UI
-    renderCustomizeLion();
-    renderItemSelection(item.category);
-}
-
-// Reset all equipment (脫光光)
-function handleResetEquipment() {
-    equippedMerch.clear();
-    
-    // Re-render
-    renderCustomizeLion();
-    const activeTab = document.querySelector('.category-tab.active');
-    if (activeTab) {
-        renderItemSelection(activeTab.dataset.category);
-    }
-}
-
-// Save equipment (就這套)
-function handleSaveEquipment() {
-    // Save to localStorage
-    saveProgress();
-    
-    // Update main bio lion
-    renderLion();
-    
-    // Close overlay
-    closeCustomizeOverlay();
-}
-
-async function renderCard(index) {
-    const cardStack = document.getElementById('cardStack');
-    const emptyState = document.getElementById('emptyState');
-    const deck = getDailyDeck();
-    
-    // Skip cards already swiped today
-    while (index < deck.length && todaySwipedCaseIds.has(deck[index].id)) {
-        index++;
-        currentCaseIndex = index;
-    }
-    
-    if (index >= deck.length) {
-        cardStack.innerHTML = '';
-        emptyState.style.display = 'flex';
-        return;
-    }
-    
-    const caseData = deck[index];
-    
-    // Render card immediately with cached or empty comments
-    const card = createCardElement(caseData);
-    cardStack.innerHTML = '';
-    cardStack.appendChild(card);
-    cards[index] = card;
-    
-    setupCardInteractions(card);
-    
-    // Fetch comments in background and update thread when ready
-    fetchComments(caseData.id).then(() => {
-        updateCommentThread(card, caseData.id);
-    });
-    
-    // Prefetch next card's comments for instant loading
-    const nextIndex = index + 1;
-    if (nextIndex < deck.length && !todaySwipedCaseIds.has(deck[nextIndex].id)) {
-        fetchComments(deck[nextIndex].id);
-    }
-}
-
-function createCardElement(caseData) {
-    const card = document.createElement('div');
-    card.className = 'case-card';
-    
-    const awardsHTML = generateAwardsSummary(caseData.awards);
-    const detailHTML = generateDetailSection(caseData);
-    const commentsHTML = renderCommentSection(caseData.id);
-    
-    card.innerHTML = `
-        <div class="card-content">
-            <div class="board-image">
-                ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : 'BOARD'}
-            </div>
-            
-            <div class="case-header">
-                <h1 class="case-title">${caseData.title}</h1>
-                <div class="case-meta">${caseData.year}, ${caseData.brand}${caseData.agency ? ` · ${caseData.agency}` : ''}${caseData.country ? ` · ${caseData.country}` : ''}</div>
-                <p class="case-summary">${caseData.summary}</p>
-                
-                <div class="awards-summary">
-                    ${awardsHTML}
-                </div>
-            </div>
-            
-            <div class="action-buttons">
-                <button class="action-button dislike" data-action="dislike">✕</button>
-                <a href="${caseData.filmUrl}" class="action-button film-button-main" target="_blank" rel="noopener noreferrer">看 casefilm</a>
-                <button class="action-button like" data-action="like">♥</button>
-            </div>
-            
-            <div class="scroll-hint">
-                下滑查看更多
-                <span class="arrow">↓</span>
-            </div>
-            
-            ${detailHTML}
-            
-            <div class="film-link">
-                <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
-            </div>
-            
-            ${commentsHTML}
-        </div>
-    `;
-    
-    // Setup comment interactions after card is created
-    setupCommentInteractions(card, caseData.id);
-    
-    return card;
-}
-
-function generateAwardsSummary(awards) {
-    let html = '';
-    if (awards.gp > 0) {
-        html += `<div class="award-item"><span class="award-icon">🏆</span><span>${awards.gp}</span></div>`;
-    }
-    if (awards.gold > 0) {
-        html += `<div class="award-item"><span class="award-icon">🥇</span><span>${awards.gold}</span></div>`;
-    }
-    if (awards.silver > 0) {
-        html += `<div class="award-item"><span class="award-icon">🥈</span><span>${awards.silver}</span></div>`;
-    }
-    if (awards.bronze > 0) {
-        html += `<div class="award-item"><span class="award-icon">🥉</span><span>${awards.bronze}</span></div>`;
-    }
-    return html;
-}
-
-function generateDetailSection(caseData) {
-    const awardsListHTML = caseData.awardsDetail
-        .map(item => `<li><span class="medal-icon">${item.icon}</span><span>${item.award}</span></li>`)
-        .join('');
-    
-    const backgroundStillHTML = caseData.stills?.background 
-        ? `<img class="section-still" src="${caseData.stills.background}" alt="背景">` 
-        : '';
-    
-    const ideaStillHTML = caseData.stills?.idea 
-        ? `<img class="section-still" src="${caseData.stills.idea}" alt="想法">` 
-        : '';
-    
-    const executionStillHTML = caseData.stills?.execution 
-        ? `<img class="section-still" src="${caseData.stills.execution}" alt="執行">` 
-        : '';
-    
-    return `
-        <div class="detail-section">
-            <div class="section">
-                <h3 class="section-title">背景</h3>
-                ${backgroundStillHTML}
-                <div class="section-content">${caseData.background}</div>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">想法</h3>
-                ${ideaStillHTML}
-                <div class="section-content">${caseData.idea}</div>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">執行</h3>
-                ${executionStillHTML}
-                <div class="section-content">${caseData.execution}</div>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">獎項</h3>
-                <ul class="awards-list">
-                    ${awardsListHTML}
-                </ul>
-            </div>
-        </div>
-    `;
-}
-
-function setupCardInteractions(card) {
-    // Button interactions
-    const buttons = card.querySelectorAll('.action-button:not(.film-button-main)');
-    buttons.forEach(button => {
-        button.addEventListener('click', () => {
-            const action = button.dataset.action;
-            handleSwipe(card, action);
-        });
-    });
-    
-    // Prevent film button from triggering swipe
-    const filmButton = card.querySelector('.film-button-main');
-    if (filmButton) {
-        filmButton.addEventListener('mousedown', (e) => e.stopPropagation());
-        filmButton.addEventListener('touchstart', (e) => e.stopPropagation());
-    }
-    
-    // Prevent film link at bottom from triggering swipe
-    const filmLink = card.querySelector('.film-link a');
-    if (filmLink) {
-        filmLink.addEventListener('mousedown', (e) => e.stopPropagation());
-        filmLink.addEventListener('touchstart', (e) => e.stopPropagation());
-    }
-    
-    // Touch/mouse swipe interactions
-    let startX = 0;
-    let startY = 0;
-    let currentX = 0;
-    let currentY = 0;
-    let isDragging = false;
-    let isHorizontalSwipe = null;
-    
-    card.addEventListener('mousedown', startDrag);
-    card.addEventListener('touchstart', startDrag);
-    
-    document.addEventListener('mousemove', drag);
-    document.addEventListener('touchmove', drag);
-    
-    document.addEventListener('mouseup', endDrag);
-    document.addEventListener('touchend', endDrag);
-    
-    function startDrag(e) {
-        // Only allow dragging from the upper portion of the card
-        const cardRect = card.getBoundingClientRect();
-        const clickY = (e.type === 'mousedown' ? e.clientY : e.touches[0].clientY) - cardRect.top;
-        
-        // If clicking in the scrollable content area (below the buttons), don't initiate drag
-        if (clickY > 500) return;
-        
-        // Check if the card is scrolled down
-        if (card.scrollTop > 10) return;
-        
-        isDragging = true;
-        isHorizontalSwipe = null;
-        startX = e.type === 'mousedown' ? e.clientX : e.touches[0].clientX;
-        startY = e.type === 'mousedown' ? e.clientY : e.touches[0].clientY;
-        card.classList.add('swiping');
-    }
-    
-    function drag(e) {
-        if (!isDragging) return;
-        
-        currentX = e.type === 'mousemove' ? e.clientX : e.touches[0].clientX;
-        currentY = e.type === 'mousemove' ? e.clientY : e.touches[0].clientY;
-        const deltaX = currentX - startX;
-        const deltaY = currentY - startY;
-        
-        // Determine swipe direction after threshold
-        if (isHorizontalSwipe === null && (Math.abs(deltaX) > 10 || Math.abs(deltaY) > 10)) {
-            isHorizontalSwipe = Math.abs(deltaX) > Math.abs(deltaY);
-        }
-        
-        // If vertical scroll, don't apply transform
-        if (isHorizontalSwipe === false) {
-            return;
-        }
-        
-        // Only apply horizontal transform
-        const rotation = deltaX * 0.1;
-        card.style.transform = `translateX(${deltaX}px) rotate(${rotation}deg)`;
-        
-        // Show LIKE/NOPE stamps
-        const opacity = Math.min(Math.abs(deltaX) / 120, 1);
-        if (deltaX > 0) {
-            showStamp(card, 'like', opacity);
-        } else if (deltaX < 0) {
-            showStamp(card, 'nope', opacity);
-        }
-    }
-    
-    function endDrag(e) {
-        if (!isDragging) return;
-        
-        isDragging = false;
-        const deltaX = currentX - startX;
-        card.classList.remove('swiping');
-        hideStamps(card);
-        
-        // Commit threshold: 120px
-        if (isHorizontalSwipe && Math.abs(deltaX) > 120) {
-            const action = deltaX > 0 ? 'like' : 'dislike';
-            handleSwipe(card, action);
-        } else {
-            // Snap back
-            card.style.transition = 'transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease';
-            card.style.transform = '';
-            setTimeout(() => {
-                card.style.transition = '';
-            }, 300);
-        }
-    }
-}
-
-function showStamp(card, type, opacity) {
-    let stamp = card.querySelector(`.swipe-stamp-${type}`);
-    if (!stamp) {
-        stamp = document.createElement('div');
-        stamp.className = `swipe-stamp swipe-stamp-${type}`;
-        stamp.textContent = type === 'like' ? 'LIKE' : 'NOPE';
-        card.querySelector('.board-image').appendChild(stamp);
-    }
-    stamp.style.opacity = opacity;
-}
-
-function hideStamps(card) {
-    const stamps = card.querySelectorAll('.swipe-stamp');
-    stamps.forEach(stamp => stamp.remove());
-}
-
-function handleSwipe(card, action) {
-    const deck = getDailyDeck();
-    const caseId = deck[currentCaseIndex].id;
-    
-    // Check if already swiped today
-    if (todaySwipedCaseIds.has(caseId)) {
-        // Skip to next card
-        currentCaseIndex++;
-        renderCard(currentCaseIndex);
-        return;
-    }
-    
-    // Record that user viewed a case today (for streak)
-    recordViewDay();
-    
-    // Increment view count for current user
-    viewCount++;
-    
-    // If like (swipe right), save to liked cases
-    const liked = action === 'like';
-    if (liked) {
-        likedCases.add(caseId);
-        card.classList.add('swipe-right');
-    } else {
-        card.classList.add('swipe-left');
-    }
-    
-    // Add to today's swiped cases
-    todaySwipedCaseIds.add(caseId);
-    
-    // Save progress
-    saveProgress();
-    
-    // Call API to record swipe
-    if (currentUser) {
-        const taipeiDate = getTaipeiDateString();
-        jsonp(CASETINDER_API, {
-            action: 'swipe',
-            name: currentUser,
-            caseId: caseId,
-            liked: liked ? 1 : 0,
-            date: taipeiDate
-        }).catch(error => {
-            console.error('Failed to record swipe:', error);
-        });
-    }
-    
-    // Move to next card after animation
-    setTimeout(() => {
-        currentCaseIndex++;
-        renderCard(currentCaseIndex);
-    }, 300);
-}
-
-// Board Image Lightbox
-function initBoardLightbox() {
-    const lightbox = document.getElementById('boardLightbox');
-    const lightboxImage = document.getElementById('lightboxImage');
-    const lightboxClose = document.getElementById('lightboxClose');
-    
-    if (!lightbox || !lightboxImage || !lightboxClose) return;
-    
-    // Close lightbox
-    function closeLightbox() {
-        lightbox.classList.remove('active');
-        document.body.style.overflow = '';
-    }
-    
-    // Close button
-    lightboxClose.addEventListener('click', closeLightbox);
-    
-    // Close on background click
-    lightbox.addEventListener('click', (e) => {
-        if (e.target === lightbox) {
-            closeLightbox();
-        }
-    });
-    
-    // Close on escape key
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
-            closeLightbox();
-        }
-    });
-    
-    // Open lightbox when board image is clicked
-    document.addEventListener('click', (e) => {
-        const boardImage = e.target.closest('.board-image');
-        if (boardImage) {
-            const img = boardImage.querySelector('img');
-            if (img && img.src) {
-                lightboxImage.src = img.src;
-                lightbox.classList.add('active');
-                document.body.style.overflow = 'hidden';
-            }
-        }
-    });
-}
-
-// Start the app
-init();
-initBoardLightbox();
+const DECK_START
