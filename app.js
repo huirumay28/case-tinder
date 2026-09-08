@@ -4718,8 +4718,2044 @@ const casesData = [
         awardsDetail: [
             { award: "Shortlisted — Creative Commerce", icon: "○" }
         ]
+    },
+    {
+        id: 191,
+        title: "Vaseline Verified",
+        year: "2026",
+        brand: "Vaseline",
+        agency: "Ogilvy Singapore",
+        country: "Singapore",
+        summary: "Vaseline 讓科學家在實驗室驗證社群爆紅「凡士林妙用」，官方認證或打臉，把迷因變成有機廣告。",
+        boardImage: "boards/vaseline-verified.jpg",
+        filmUrl: "https://lion.box.com/s/u7zraqs0p7v95bl6ryqwfbuh0ivgeefb",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 3, bronze: 3 },
+        stills: {
+            background: 'assets/stills/vaseline-verified-01.jpg',
+            idea: 'assets/stills/vaseline-verified-02.jpg',
+            execution: 'assets/stills/vaseline-verified-03.jpg'
+        },
+        background: "如今人們重新發現凡士林的神奇用途，鞋油、護牙、髮油等各種非官方 hack 幾乎每天在網路上瘋傳。名字掛在無數貼文上，品牌必須問：這些用法真的有效？安全嗎？Vaseline 需要以唯一擁有的權威站出來回應。",
+        idea: "「Vaseline Verified」：史上第一次請科學家在實驗室測試這些病毒式妙用。實驗室證據成為官方驗證，直接與使用者互動——證實或打臉——把社群趨勢變成凡士林的有機廣告內容。",
+        execution: "打入社群妙用世界、科學驗證、讓 Verified 狀態可被分享並讓通過驗證的用法可購物。頂尖創作者獲獎盃；名人與品牌也來聯名（如 Doritos）。板上結果：提及與銷售成長、FY25 成長加速等。",
+        awardsDetail: [
+            { award: "Silver Lion ×3", icon: "🥈" },
+            { award: "Bronze Lion ×3", icon: "🥉" }
+        ]
+    },
+    {
+        id: 192,
+        title: "The Filet-O-Fish Facebook Society of 2012",
+        year: "2026",
+        brand: "McDonald's",
+        agency: "Leo, London",
+        country: "United Kingdom",
+        summary: "McDonald's 加入只有六人的 2012 年 Filet-O-Fish Facebook 社團，一場為硬核粉絲做的戰役卻傳到數百萬人。",
+        boardImage: "boards/the-filet-o-fish-facebook-society-of-2012.jpg",
+        filmUrl: "https://lion.box.com/s/ht7o027x5xj5g7dj4ui3awq06f31t5qg",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 2 },
+        stills: {
+            background: 'assets/stills/the-filet-o-fish-facebook-society-of-2012-01.jpg',
+            idea: 'assets/stills/the-filet-o-fish-facebook-society-of-2012-02.jpg',
+            execution: 'assets/stills/the-filet-o-fish-facebook-society-of-2012-03.jpg'
+        },
+        background: "Filet-O-Fish 不是麥當勞菜單上最受歡迎的漢堡，甚至帶點刻板印象；但愛它的人愛得瘋狂。2012 年一位粉絲開了社團想串聯所有愛好者，卻只召集到六人。品牌想拉抬這款被低估漢堡的銷售，讓全國像粉絲一樣 appreciative。",
+        idea: "不做給大眾的大戰役，而是去找那六位死忠粉絲——加入他們的 Facebook 社團，邀請其他 Filet-O-Fish 愛好者進來。一場為六人而做的戰役，卻觸及數百萬。",
+        execution: "品牌正式加入社團、發出邀請與戶外／社群內容，讓「被低估的魚堡粉絲會」成為全國話題；媒體報導「復活的 2012 Facebook 社團爆紅」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 193,
+        title: "Code for the Protection and Inclusion of Black Consumers",
+        year: "2026",
+        brand: "L'Oréal Luxe",
+        agency: "Beta Collective, Sao Paulo",
+        country: "Brazil",
+        summary: "L'Oréal Luxe 在巴西寫下新的反種族歧視零售守則，讓黑皮膚消費者在櫃檯被看見、被尊重。",
+        boardImage: "boards/code-for-the-protection-and-inclusion-of-black-consumers.jpg",
+        filmUrl: "https://lion.box.com/s/sv2bwrq49i8nhsim6uq7tbgvazkkclzk",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 2, bronze: 0 },
+        stills: {
+            background: 'assets/stills/code-for-the-protection-and-inclusion-of-black-consumers-01.jpg',
+            idea: 'assets/stills/code-for-the-protection-and-inclusion-of-black-consumers-02.jpg',
+            execution: 'assets/stills/code-for-the-protection-and-inclusion-of-black-consumers-03.jpg'
+        },
+        background: "在巴西，52.6% 的中上階層是黑人，卻仍面臨系統性排除。為了安全與尊嚴，需要有法律框架的權威；既有消費者保護法典不夠，於是品牌自己寫了一套。",
+        idea: "在數據、證詞、原創插畫與黑人民權專家撰寫的 10 條反種族歧視標準支持下，推出「黑人消費者保護與包容守則」，包含全員強制種族素養訓練等規範。",
+        execution: "大型零售連鎖採用；板上結果：稽核門市種族歧視事件下降、影響門市數、更深色號妝品銷售上升（如 Sephora）等。",
+        awardsDetail: [
+            { award: "Silver Lion ×2", icon: "🥈" }
+        ]
+    },
+    {
+        id: 194,
+        title: "Bad Bunny Halftime Show Campaign",
+        year: "2026",
+        brand: "Apple",
+        agency: "Apple, Cupertino",
+        country: "United States",
+        summary: "Apple Music 用「音樂無需翻譯」迎接 Bad Bunny 史上最受關注的 Super Bowl 中場秀，把文化時刻變成商業引擎。",
+        boardImage: "boards/bad-bunny-halftime-show-campaign.jpg",
+        filmUrl: "https://lion.box.com/s/jrw9ut42uc5t58gzbw1t09d4g819nbbb",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/bad-bunny-halftime-show-campaign-01.jpg',
+            idea: 'assets/stills/bad-bunny-halftime-show-campaign-02.jpg',
+            execution: 'assets/stills/bad-bunny-halftime-show-campaign-03.jpg'
+        },
+        background: "當 Apple Music 宣布 Bad Bunny 將主唱 Super Bowl 中場秀（首場以西班牙文為主），美國觀眾意見分裂，但世界其他地方並不。",
+        idea: "四個月戰役正面迎擊質疑：自豪波多黎各、毫不道歉地全球，每個階段都歡迎——平台、廣播、社群、零售到舞台本身，訊息只有一句：Music needs no translation；比恨更強大的是愛。",
+        execution: "板上結果：中場秀成史上最多人看；Apple Music 全球戰役觀看 2.3B、串流與註冊躍升、社群互動暴增，文化時刻轉成商業引擎。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 195,
+        title: "Amazônia Alive - Book",
+        year: "2026",
+        brand: "Vale SA",
+        agency: "Artplan, Sao Paulo",
+        country: "Brazil",
+        summary: "Vale 用 700 頁「活的視覺系統」書籍呈現亞馬遜的尺度與多樣性，把意識變成理解。",
+        boardImage: "boards/amaznia-alive-book.jpg",
+        filmUrl: "https://lion.box.com/s/mwco9ftjfgif7edsaqt7csleyttxx8vj",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/amaznia-alive-book-01.jpg',
+            idea: 'assets/stills/amaznia-alive-book-02.jpg',
+            execution: 'assets/stills/amaznia-alive-book-03.jpg'
+        },
+        background: "對在生物群系深耕四十年、持續投入森林保護與在地社群的 Vale 來說，挑戰是設計一套能傳達這片獨特區域真實尺度與多樣性的系統，把 awareness 轉成 understanding。",
+        idea: "設計一本 700 頁的書作為活的視覺系統，結合攝影、插畫、數據與字體；每一跨頁有自己的視覺邏輯，風格不斷切換反映多樣性，無法一次拍完則強化其尺度，成為沉浸式編輯體驗。",
+        execution: "多種藝術風格與內容層次被編進書中；以 Demo Film 展示書籍如何把亞馬遜的複雜性做成可翻閱的設計系統。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 196,
+        title: "Unloved",
+        year: "2026",
+        brand: "Intermarché",
+        agency: "Romance, Paris",
+        country: "France",
+        summary: "Intermarché 把聖誕片做成大野狼觀點的童話：從掠食者到被接納，用同理心談「吃得更好」。",
+        boardImage: "boards/unloved.jpg",
+        filmUrl: "https://lion.box.com/s/tl6ykzibq1mhk2x4b60xhvev7xz0kmug",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 2 },
+        stills: {
+            background: 'assets/stills/unloved-01.jpg',
+            idea: 'assets/stills/unloved-02.jpg',
+            execution: 'assets/stills/unloved-03.jpg'
+        },
+        background: "法國超市近年多放棄 insight、陷入殺價戰；聖誕檔又是最擁擠時刻。主打「吃得更好」的 Intermarché 要在價格訊息淹沒的聖誕景觀中突圍，又忠於情感、人性與食物品質的長期定位。",
+        idea: "把品牌訊息包裝成聖誕童話，從飲食最糟的角色——大野狼——的視角出發。不堆聖誕俗套或硬廣，把經典反派重塑成敏感、被誤解的局外人：想交朋友卻發現吃掉對方正是孤獨原因，於是決定改變。",
+        execution: "影片跟著他從掠食者變成社群一員，變成關於同理、轉變與包容的普世故事；引發法國媒體與觀眾把自身投射成「Intermarché 那隻不被愛的狼」。",
+        awardsDetail: [
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 197,
+        title: "TD Fractional Window Shopping",
+        year: "2026",
+        brand: "TD",
+        agency: "Ogilvy, Toronto",
+        country: "Canada",
+        summary: "TD 用開窗的 OOH「零碎櫥窗購物」展示品牌 logo 的一小塊，繞過不能直呼股票名的法規推廣碎股。",
+        boardImage: "boards/td-fractional-window-shopping.jpg",
+        filmUrl: "https://lion.box.com/s/1n7mu6ex4viio3c7sa04u7jmrav20jgz",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 2 },
+        stills: {
+            background: 'assets/stills/td-fractional-window-shopping-01.jpg',
+            idea: 'assets/stills/td-fractional-window-shopping-02.jpg',
+            execution: 'assets/stills/td-fractional-window-shopping-03.jpg'
+        },
+        background: "2025 年 TD 成為加拿大首家推出 Fractional Shares 的銀行，最低 1 元就能買熱門股一部分。目標是打響這個新選項——約 80% 準投資人根本不知道碎股是什麼。問題是：法規禁止展示或點名人們想擁有的那些昂貴品牌。",
+        idea: "「Fractional Window Shopping」insight：投資有時像櫥窗購物——看得到卻買不起整份，但或許買得起一小塊。透過精準切割的視窗，在不觸法的前提下露出其他品牌 logo 的一小部分。",
+        execution: "OOH 設在高人流處，每塊板依現場 logo 高度精準距離開窗，邀請路人「own a piece of it」。板上結果：大量 earned impressions、想進一步了解的意願上升等。",
+        awardsDetail: [
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 198,
+        title: "Little Breaks",
+        year: "2026",
+        brand: "KitKat",
+        agency: "VML, London",
+        country: "United Kingdom",
+        summary: "KitKat 在標誌性 logo 裡畫滿手繪小人，用設計代替喊話，提醒大家休息一下有多好。",
+        boardImage: "boards/little-breaks.jpg",
+        filmUrl: "https://lion.box.com/s/ui2bmm9qzhz7yzixht0z1zsch0fa1b7y",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 2 },
+        stills: {
+            background: 'assets/stills/little-breaks-01.jpg',
+            idea: 'assets/stills/little-breaks-02.jpg',
+            execution: 'assets/stills/little-breaks-03.jpg'
+        },
+        background: "70 年來 KitKat 給同一個建議：have a break。但在嘈雜廣告世界裡，品牌決定停止一直「告訴」人們，改成「展示」。",
+        idea: "不把噪音再疊上去，轉向設計：在經典 logo 裡讓一群精緻手繪角色活起來，每一個都是視覺上的暫停鍵，安靜地請觀眾慢下來，讓品牌與休息比以往更靠近。",
+        execution: "在每個裁切裡畫上數百個角色，找到平衡——姿勢完全融入字體結構，又剛好夠醒目；應用在電扶梯安全門等日常觸點，把休息做成可被看見的設計提醒。",
+        awardsDetail: [
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 199,
+        title: "30under30",
+        year: "2026",
+        brand: "Change the Ref",
+        agency: "Founders, Miami",
+        country: "United States",
+        summary: "Change the Ref 做出一本與 Forbes 幾乎無法分辨的 30 Under 30 特刊，紀念被槍暴力奪走的未來。",
+        boardImage: "boards/30under30.jpg",
+        filmUrl: "https://lion.box.com/s/3g2wkxnbgjjao5x5rmnsly3fml89dczl",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/30under30-01.jpg',
+            idea: 'assets/stills/30under30-02.jpg',
+            execution: 'assets/stills/30under30-03.jpg'
+        },
+        background: "30 Under 30 名單是「有前途」的文化速寫：動能、能見度、值得被注目的未來。但美國槍暴力讓無數年輕人連成為名單的機會都被偷走。如何讓隱形的失去，像美國慶祝的成功故事一樣文化上無法忽視？",
+        idea: "把最可辨識的格式反過來：一本設計成與 Forbes 無法分辨的雜誌——同樣字體、編輯語言、光面權威——但介紹的是 30 個因槍枝而中斷的年輕生命：不是他們怎麼死，而是他們正成為誰。",
+        execution: "真實 Forbes 得主 Kahlil Greene 在舞台上「劫持」自己的頒獎時刻談這本特刊；板上結果：大量觀看與 earned media，把格式本身變成悼念與行動。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 200,
+        title: "IKEA Affordable Masterpieces",
+        year: "2026",
+        brand: "IKEA Alsulaiman",
+        agency: "Memac Ogilvy, Dubai",
+        country: "United Arab Emirates",
+        summary: "IKEA 在中東把歷史名畫裡「隱藏的 IKEA 家具」點出來，把平價設計重新框成永恆傑作。",
+        boardImage: "boards/ikea-affordable-masterpieces.jpg",
+        filmUrl: "https://lion.box.com/s/r6tqyvnes4jgvfxeu28y84puq8z30xji",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/ikea-affordable-masterpieces-01.jpg',
+            idea: 'assets/stills/ikea-affordable-masterpieces-02.jpg',
+            execution: 'assets/stills/ikea-affordable-masterpieces-03.jpg'
+        },
+        background: "80 多年來 IKEA 走進無數家庭：美、實用、更重要的是負擔得起。但在凡事都要 premium 的中東，「affordable」往往不被歸在那個類別。",
+        idea: "區域裡藝術與文化愈來愈重要，於是回頭向歷史找答案——在美術館裡找到了。把對話從「平價」重框成「永恆」。藝術史上家具一直安靜出現在傑作背景；仔細看，很多竟像極了經典 IKEA 設計。",
+        execution: "「Affordable Masterpieces」點出古典畫中藏著的 IKEA 家具，慶祝人人可及的設計永恆性；板上結果：大量有機曝光與互動。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
+const DECK_START = '2026-08-19';
+const DAILY_DECK_SIZE = 10;
 
-const DECK_START
+function getDailyDeck() {
+    // Always show the newest complete batch of 10.
+    // Keep DECK_START (first publish 2026-08-19). Rotation by days-since-start
+    // missed the 8/22–8/23 publishes; after this append, length=40 so numDecks=4
+    // and Taipei 2026-08-24 days=5 → offset 10 would have shown ids 11–20.
+    const complete = Math.floor(casesData.length / DAILY_DECK_SIZE);
+    if (complete < 1) return casesData.slice(0, DAILY_DECK_SIZE);
+    return casesData.slice((complete - 1) * DAILY_DECK_SIZE, complete * DAILY_DECK_SIZE);
+}
+
+// Fallback roster when API is unavailable
+const FALLBACK_ROSTER = [
+    { name: 'Hao Tseng', color: '#FF6B35' },
+    { name: 'Huiru', color: '#FF4458' },
+    { name: 'Albert Hsu', color: '#3498DB' },
+    { name: 'Eric Lin', color: '#9B59B6' },
+    { name: 'Eric Chen', color: '#2ECC71' },
+    { name: 'Brian Chen', color: '#F39C12' },
+    { name: 'Ona Chen', color: '#E91E63' },
+    { name: 'Ping Tseng', color: '#1ABC9C' },
+    { name: 'Vivi Tsou', color: '#E74C3C' },
+    { name: 'Dane Chang', color: '#34495E' },
+    { name: 'Jessie Hong', color: '#8E44AD' },
+    { name: 'Clio Wang', color: '#16A085' },
+    { name: 'Hugh Huang', color: '#D35400' }
+];
+
+// Ensure roster is populated with fallback if empty
+function ensureRoster() {
+    if (rosterMembers.length === 0) {
+        rosterMembers = [...FALLBACK_ROSTER];
+        teamMembers = FALLBACK_ROSTER.map(m => ({
+            ...m,
+            viewCount: 0,
+            likes: []
+        }));
+    }
+}
+
+// App state
+let currentCaseIndex = 0;
+let cards = [];
+
+// Progress tracking state
+// Tracks unique calendar days with at least one swipe (local date string 'YYYY-MM-DD')
+let viewedDays = new Set();
+let streak = 0;
+let unlockedMerch = new Set();
+let equippedMerch = new Set(); // Separate from unlocks: what the lion is currently wearing
+
+// Scoreboard state
+let currentUser = localStorage.getItem('casetinder-user') || null;
+let likedCases = new Set();
+let viewCount = 0;
+
+// Sign-in state
+let isSignedIn = false;
+let rosterMembers = [];
+let todaySwipedCaseIds = new Set();
+
+// Team members (will be loaded from API)
+let teamMembers = [];
+
+// Member likes data (will be loaded from API)
+let memberLikesData = {};
+
+// Comments cache
+let commentsCache = {};
+let commentCountsCache = {};
+
+// Merch unlock rules: based on consecutive streak days
+// NEW MECHANISM: Every Taipei day with ≥1 case viewed unlocks ONE merch
+// Streak 1 unlocks merch 1 (貝雷帽), streak 2 unlocks merch 2, etc.
+// Unlocking does NOT auto-dress the lion — equipping is separate
+// All items are transparent PNG layers that stack on top of the base naked lion
+//
+// IMPORTANT: '性感吊嘎' is a DISPLAY NAME ONLY. The actual garment is a plain white
+// sleeveless tank/undershirt — not sexy, not cropped, not lacy. When creating assets,
+// prompts, or documentation, describe it as a simple white tank, NOT a sexy tank.
+const merchItems = [
+    { id: 'beret', name: '貝雷帽', daysRequired: 1, category: '帽子' },
+    { id: 'tank', name: '性感吊嘎', daysRequired: 2, category: '上身' },  // Display name only; actual item: plain white tank
+    { id: 'shorts', name: '短褲', daysRequired: 3, category: '下身' },
+    { id: 'sneakers', name: '球鞋', daysRequired: 4, category: '腳' },
+    { id: 'bag', name: '創意小包', daysRequired: 5, category: '包' },
+    { id: 'sunglasses', name: '墨鏡', daysRequired: 6, category: '臉部' },
+    { id: 'hammer', name: '雷神之鎚', daysRequired: 7, category: '手' },
+    { id: 'necklace', name: '金獅項鏈', daysRequired: 8, category: '飾品' },
+    { id: 'snowboard', name: '滑雪板', daysRequired: 9, category: '腳' },
+    { id: 'crown', name: '小皇冠', daysRequired: 10, category: '帽子' },
+    { id: 'beer', name: '18 天生啤酒', daysRequired: 11, category: '手' },
+    { id: 'gloves', name: '金手套', daysRequired: 12, category: '手' }
+];
+
+const merchCategories = ['帽子', '臉部', '飾品', '包'];
+
+// Clothes / held / feet still unlock in the closet later — they do not go on the lion.
+const wearableMerch = new Set(['beret', 'sunglasses', 'necklace', 'bag', 'crown']);
+
+function keepWearableEquipped() {
+    equippedMerch = new Set([...equippedMerch].filter(id => wearableMerch.has(id)));
+}
+
+// Initialize app
+async function init() {
+    // Check if user is already signed in
+    const savedUser = localStorage.getItem('casetinder-user');
+    
+    if (savedUser) {
+        // Immediately hide signin gate and start app
+        currentUser = savedUser;
+        hideSigninGate();
+        startApp();
+        
+        // Hydrate from API in the background (don't wait)
+        loadUserState().catch(error => {
+            console.error('Failed to load user state:', error);
+            // Keep localStorage progress even if API fails
+        });
+        
+        loadScoreboardData().catch(error => {
+            console.error('Failed to load scoreboard:', error);
+            // UI will use fallback roster
+        });
+        
+        return;
+    }
+    
+    // Show sign-in gate
+    showSigninGate();
+}
+
+// Start the main app after sign-in
+function startApp() {
+    isSignedIn = true;
+    
+    // Seed teamMembers from fallback if empty
+    if (teamMembers.length === 0) {
+        teamMembers = FALLBACK_ROSTER.map(m => ({
+            ...m,
+            viewCount: 0,
+            likes: []
+        }));
+    }
+    
+    loadProgress();
+    setupNavigation();
+    setupScoreboard();
+    setupCustomizeHandlers();
+    renderCard(currentCaseIndex);
+    updateBioTab();
+    
+    // Default to flashcards tab after sign-in
+    switchTab('casesTab');
+}
+
+// Sign-in gate functions
+function showSigninGate() {
+    document.getElementById('signinGate').classList.remove('hidden');
+    setupSigninHandlers();
+    loadRoster();
+}
+
+function hideSigninGate() {
+    document.getElementById('signinGate').classList.add('hidden');
+}
+
+function setupSigninHandlers() {
+    const codeInput = document.getElementById('inviteCodeInput');
+    const codeSubmitBtn = document.getElementById('codeSubmitBtn');
+    const errorMessage = document.getElementById('errorMessage');
+    
+    codeSubmitBtn.addEventListener('click', () => {
+        const code = codeInput.value.trim().toUpperCase();
+        
+        if (!code) {
+            showError('請輸入邀請碼');
+            return;
+        }
+        
+        if (code === 'ALIEN') {
+            errorMessage.textContent = '';
+            ensureRoster();
+            renderNameList();
+            document.getElementById('codeStep').classList.add('hidden');
+            document.getElementById('nameStep').classList.remove('hidden');
+        } else {
+            showError('邀請碼不對');
+        }
+    });
+    
+    codeInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            codeSubmitBtn.click();
+        }
+    });
+}
+
+function showError(message) {
+    const errorMessage = document.getElementById('errorMessage');
+    errorMessage.textContent = message;
+}
+
+async function loadRoster() {
+    try {
+        const data = await jsonp(CASETINDER_API, { action: 'roster' });
+        
+        if (data.ok && data.members) {
+            rosterMembers = data.members;
+            teamMembers = data.members.map(m => ({
+                ...m,
+                viewCount: 0
+            }));
+            renderNameList();
+        }
+    } catch (error) {
+        console.error('Failed to load roster:', error);
+    }
+}
+
+function renderNameList() {
+    const nameList = document.getElementById('nameList');
+    const nameLoading = document.getElementById('nameLoading');
+    
+    // Hide loading if visible
+    if (nameLoading) {
+        nameLoading.classList.add('hidden');
+    }
+    
+    // If no roster members yet, show loading
+    if (rosterMembers.length === 0) {
+        if (nameLoading) {
+            nameLoading.classList.remove('hidden');
+        }
+        return;
+    }
+    
+    nameList.innerHTML = rosterMembers.map(member => `
+        <div class="name-item" data-name="${member.name}">
+            <div class="name-avatar" style="background-color: ${member.color}">
+                ${member.name.charAt(0).toUpperCase()}
+            </div>
+            <div class="name-text">${member.name}</div>
+        </div>
+    `).join('');
+    
+    // Add click handlers
+    nameList.querySelectorAll('.name-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const name = item.dataset.name;
+            handleNameSelection(name);
+        });
+    });
+}
+
+async function handleNameSelection(name) {
+    try {
+        const data = await jsonp(CASETINDER_API, { 
+            action: 'login',
+            code: 'ALIEN',
+            name: name
+        }, 8000);
+        
+        if (data.ok) {
+            // Save user
+            currentUser = data.name;
+            localStorage.setItem('casetinder-user', data.name);
+            
+            // Load initial state from API
+            viewCount = data.viewCount || 0;
+            likedCases = new Set(data.likes || []);
+            todaySwipedCaseIds = new Set(data.todayCaseIds || []);
+            
+            // Sheet is source of truth. Drop the Aug 8–18 tester seed days.
+            viewedDays = new Set();
+            (data.viewedDays || []).forEach(day => {
+                const normalized = normalizeDay(day);
+                if (normalized && normalized >= '2026-08-19') {
+                    viewedDays.add(normalized);
+                }
+            });
+            
+            calculateStreak();
+            calculateUnlocks();
+            saveProgress();
+            
+            hideSigninGate();
+            startApp();
+        } else {
+            showError(data.error === 'bad_code' ? '邀請碼不對' : '找不到這個人');
+        }
+    } catch (error) {
+        console.error('Login failed:', error);
+        
+        // If API fails, sign them in locally anyway
+        currentUser = name;
+        localStorage.setItem('casetinder-user', name);
+        
+        hideSigninGate();
+        startApp();
+    }
+}
+
+async function loadUserState() {
+    if (!currentUser) return;
+    
+    try {
+        const data = await jsonp(CASETINDER_API, {
+            action: 'state',
+            name: currentUser
+        });
+        
+        if (data.ok) {
+            viewCount = data.viewCount || 0;
+            likedCases = new Set(data.likes || []);
+            todaySwipedCaseIds = new Set(data.todayCaseIds || []);
+            
+            // Sheet is source of truth. Drop the Aug 8–18 tester seed days.
+            viewedDays = new Set();
+            (data.viewedDays || []).forEach(day => {
+                const normalized = normalizeDay(day);
+                if (normalized && normalized >= '2026-08-19') {
+                    viewedDays.add(normalized);
+                }
+            });
+            
+            calculateStreak();
+            calculateUnlocks();
+            saveProgress();
+            updateBioTab();
+        }
+    } catch (error) {
+        console.error('Failed to load user state:', error);
+    }
+}
+
+async function loadScoreboardData() {
+    try {
+        const data = await jsonp(CASETINDER_API, { action: 'scoreboard' });
+        
+        if (data.ok && data.members) {
+            // Update team members with real data
+            teamMembers = data.members.map(m => {
+                const likesArray = Array.isArray(m.likes) ? m.likes : [];
+                return {
+                    name: m.name,
+                    color: m.color,
+                    viewCount: m.viewCount || 0,
+                    likes: likesArray
+                };
+            });
+            
+            // Build memberLikesData
+            memberLikesData = {};
+            teamMembers.forEach(m => {
+                memberLikesData[m.name] = m.likes || [];
+            });
+        }
+    } catch (error) {
+        console.error('Failed to load scoreboard:', error);
+    }
+}
+
+// Load progress from localStorage
+function loadProgress() {
+    const savedDays = localStorage.getItem('casetinder-viewed-days');
+    if (savedDays) {
+        const rawDays = JSON.parse(savedDays);
+        viewedDays = new Set();
+        rawDays.forEach(day => {
+            const normalized = normalizeDay(day);
+            if (normalized) {
+                viewedDays.add(normalized);
+            }
+        });
+    }
+    
+    const savedMerch = localStorage.getItem('casetinder-unlocked-merch');
+    if (savedMerch) {
+        unlockedMerch = new Set(JSON.parse(savedMerch));
+    }
+    
+    const savedEquipped = localStorage.getItem('casetinder-equipped-merch');
+    if (savedEquipped) {
+        equippedMerch = new Set(JSON.parse(savedEquipped));
+        keepWearableEquipped();
+    }
+    
+    const savedLikes = localStorage.getItem('casetinder-liked-cases');
+    if (savedLikes) {
+        likedCases = new Set(JSON.parse(savedLikes));
+    }
+    
+    const savedViewCount = localStorage.getItem('casetinder-view-count');
+    if (savedViewCount) {
+        viewCount = parseInt(savedViewCount, 10);
+    }
+    
+    calculateStreak();
+    calculateUnlocks();
+}
+
+// Save progress to localStorage
+function saveProgress() {
+    localStorage.setItem('casetinder-viewed-days', JSON.stringify([...viewedDays]));
+    localStorage.setItem('casetinder-unlocked-merch', JSON.stringify([...unlockedMerch]));
+    localStorage.setItem('casetinder-equipped-merch', JSON.stringify([...equippedMerch]));
+    localStorage.setItem('casetinder-liked-cases', JSON.stringify([...likedCases]));
+    localStorage.setItem('casetinder-view-count', viewCount.toString());
+}
+
+// Calculate streak (consecutive days ending today or yesterday, in Taipei timezone)
+function calculateStreak() {
+    if (viewedDays.size === 0) {
+        streak = 0;
+        return;
+    }
+    
+    const sortedDays = [...viewedDays].sort().reverse();
+    const today = getTaipeiDateString();
+    
+    // Calculate yesterday in Taipei timezone
+    const todayDate = new Date(today + 'T00:00:00');
+    const yesterdayDate = new Date(todayDate);
+    yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+    const yesterday = getTaipeiDateString(yesterdayDate);
+    
+    let currentStreak = 0;
+    let checkDate = sortedDays[0] === today ? today : (sortedDays[0] === yesterday ? yesterday : null);
+    
+    if (!checkDate) {
+        streak = 0;
+        return;
+    }
+    
+    for (let i = 0; i < sortedDays.length; i++) {
+        if (sortedDays[i] === checkDate) {
+            currentStreak++;
+            const prevDate = new Date(checkDate + 'T00:00:00');
+            prevDate.setDate(prevDate.getDate() - 1);
+            checkDate = getTaipeiDateString(prevDate);
+        } else {
+            break;
+        }
+    }
+    
+    streak = currentStreak;
+}
+
+// Calculate unlocks based on current streak (recompute from scratch each time)
+
+
+function calculateUnlocks() {
+    unlockedMerch = new Set();
+    
+    merchItems.forEach(item => {
+        if (streak >= item.daysRequired) {
+            unlockedMerch.add(item.id);
+        }
+    });
+}
+
+// Record today as a view day (using Taipei timezone)
+function recordViewDay() {
+    const today = getTaipeiDateString();
+    
+    if (!viewedDays.has(today)) {
+        viewedDays.add(today);
+        calculateStreak();
+        calculateUnlocks();
+        saveProgress();
+        updateBioTab();
+    }
+}
+
+// Setup navigation
+function setupNavigation() {
+    const navButtons = document.querySelectorAll('.nav-item');
+    
+    navButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const targetTab = button.dataset.tab;
+            switchTab(targetTab);
+        });
+    });
+}
+
+// Switch tabs
+function switchTab(tabId) {
+    const allTabs = document.querySelectorAll('.tab-content');
+    const allNavItems = document.querySelectorAll('.nav-item');
+    
+    allTabs.forEach(tab => {
+        tab.classList.remove('active');
+        if (tab.id === tabId) {
+            tab.classList.add('active');
+        }
+    });
+    
+    allNavItems.forEach(item => {
+        item.classList.remove('active');
+        if (item.dataset.tab === tabId) {
+            item.classList.add('active');
+        }
+    });
+    
+    if (tabId === 'bioTab') {
+        updateBioTab();
+    } else if (tabId === 'scoreboardTab') {
+        renderRankingList();
+        showRankingView();
+    }
+}
+
+// Setup scoreboard
+function setupScoreboard() {
+    const backButton = document.getElementById('backToRanking');
+    if (backButton) {
+        backButton.addEventListener('click', showRankingView);
+    }
+}
+
+// Generate avatar color based on name
+function getAvatarColor(name) {
+    const member = teamMembers.find(m => m.name === name);
+    return member ? member.color : '#FF4458';
+}
+
+// Get member's first letter for avatar
+function getAvatarLetter(name) {
+    return name.charAt(0).toUpperCase();
+}
+
+// Fetch comments for a case
+async function fetchComments(caseId) {
+    try {
+        const data = await jsonp(CASETINDER_API, { 
+            action: 'comments',
+            caseId: caseId
+        });
+        
+        if (data.ok) {
+            commentsCache[caseId] = data.comments || [];
+            return data.comments || [];
+        }
+        
+        return [];
+    } catch (err) {
+        console.error('Error fetching comments:', err);
+        return [];
+    }
+}
+
+// Fetch comment counts for all cases
+async function fetchCommentCounts() {
+    try {
+        const data = await jsonp(CASETINDER_API, { 
+            action: 'comments'
+        });
+        
+        if (data.ok) {
+            commentCountsCache = data.counts || {};
+            return data.counts || {};
+        }
+        
+        return {};
+    } catch (err) {
+        console.error('Error fetching comment counts:', err);
+        return {};
+    }
+}
+
+// Post a comment
+async function postComment(caseId, text) {
+    if (!currentUser) return null;
+    
+    try {
+        const data = await jsonp(CASETINDER_API, {
+            action: 'comment',
+            name: currentUser,
+            caseId: caseId,
+            text: text
+        });
+        
+        if (data.ok && data.comment) {
+            // Update cache
+            if (!commentsCache[caseId]) {
+                commentsCache[caseId] = [];
+            }
+            commentsCache[caseId].push(data.comment);
+            
+            // Update count cache
+            const caseIdStr = String(caseId);
+            commentCountsCache[caseIdStr] = (commentCountsCache[caseIdStr] || 0) + 1;
+            
+            return data.comment;
+        }
+        
+        return null;
+    } catch (err) {
+        console.error('Error posting comment:', err);
+        return null;
+    }
+}
+
+// Format timestamp for display
+function formatCommentTime(timestamp) {
+    const date = new Date(timestamp);
+    const now = new Date();
+    const diffMs = now - date;
+    const diffMins = Math.floor(diffMs / 60000);
+    
+    if (diffMins < 1) return '剛剛';
+    if (diffMins < 60) return `${diffMins}分鐘前`;
+    
+    const diffHours = Math.floor(diffMins / 60);
+    if (diffHours < 24) return `${diffHours}小時前`;
+    
+    const diffDays = Math.floor(diffHours / 24);
+    if (diffDays < 7) return `${diffDays}天前`;
+    
+    return date.toLocaleDateString('zh-TW', { month: 'numeric', day: 'numeric' });
+}
+
+// Render comment thread HTML
+function renderCommentThreadHTML(caseId) {
+    const comments = commentsCache[caseId] || [];
+    
+    return comments.length > 0 
+        ? comments.map(comment => {
+            const isMine = comment.name === currentUser;
+            return `
+                <div class="comment-bubble ${isMine ? 'mine' : ''}">
+                    <div class="comment-avatar" style="background-color: ${getAvatarColor(comment.name)}">
+                        ${getAvatarLetter(comment.name)}
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-meta">
+                            <span class="comment-name">${comment.name}</span>
+                            <span class="comment-time">${formatCommentTime(comment.timestamp)}</span>
+                        </div>
+                        <div class="comment-text">${escapeHtml(comment.text)}</div>
+                    </div>
+                </div>
+            `;
+        }).join('')
+        : '<div class="comment-empty">還沒有留言</div>';
+}
+
+// Render comment section
+function renderCommentSection(caseId) {
+    const threadHTML = renderCommentThreadHTML(caseId);
+    
+    const composerHTML = currentUser 
+        ? `
+            <div class="comment-composer">
+                <textarea 
+                    class="comment-input" 
+                    placeholder="覺得勒" 
+                    maxlength="200"
+                    rows="1"
+                ></textarea>
+                <button class="comment-send-btn" title="送出">➤</button>
+            </div>
+        `
+        : '';
+    
+    return `
+        <div class="comment-section" data-case-id="${caseId}">
+            <div class="comment-thread">
+                ${threadHTML}
+            </div>
+            ${composerHTML}
+        </div>
+    `;
+}
+
+// Update comment thread in DOM without rebuilding the whole card
+function updateCommentThread(container, caseId) {
+    const commentSection = container.querySelector('.comment-section');
+    if (!commentSection) return;
+    
+    const thread = commentSection.querySelector('.comment-thread');
+    if (!thread) return;
+    
+    thread.innerHTML = renderCommentThreadHTML(caseId);
+}
+
+// Escape HTML to prevent XSS
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// Setup comment interactions (posting, preventing swipe)
+function setupCommentInteractions(container, caseId) {
+    const commentSection = container.querySelector('.comment-section');
+    if (!commentSection) return;
+    
+    // Prevent swipe on comment section
+    commentSection.addEventListener('mousedown', (e) => e.stopPropagation());
+    commentSection.addEventListener('touchstart', (e) => e.stopPropagation());
+    
+    const input = commentSection.querySelector('.comment-input');
+    const sendBtn = commentSection.querySelector('.comment-send-btn');
+    
+    if (!input || !sendBtn) return;
+    
+    // Auto-resize textarea
+    input.addEventListener('input', () => {
+        input.style.height = 'auto';
+        input.style.height = Math.min(input.scrollHeight, 80) + 'px';
+        
+        sendBtn.disabled = input.value.trim().length === 0;
+    });
+    
+    // Send comment
+    const sendComment = async () => {
+        const text = input.value.trim();
+        if (!text || !currentUser) return;
+        
+        sendBtn.disabled = true;
+        input.disabled = true;
+        
+        const comment = await postComment(caseId, text);
+        
+        if (comment) {
+            // Re-render comment thread
+            const thread = commentSection.querySelector('.comment-thread');
+            const isMine = comment.name === currentUser;
+            
+            const newBubbleHTML = `
+                <div class="comment-bubble ${isMine ? 'mine' : ''}">
+                    <div class="comment-avatar" style="background-color: ${getAvatarColor(comment.name)}">
+                        ${getAvatarLetter(comment.name)}
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-meta">
+                            <span class="comment-name">${comment.name}</span>
+                            <span class="comment-time">${formatCommentTime(comment.timestamp)}</span>
+                        </div>
+                        <div class="comment-text">${escapeHtml(comment.text)}</div>
+                    </div>
+                </div>
+            `;
+            
+            // Remove empty state if it exists
+            const emptyState = thread.querySelector('.comment-empty');
+            if (emptyState) {
+                emptyState.remove();
+            }
+            
+            thread.insertAdjacentHTML('beforeend', newBubbleHTML);
+            
+            // Clear input
+            input.value = '';
+            input.style.height = 'auto';
+            
+            // Scroll to new comment
+            const bubbles = thread.querySelectorAll('.comment-bubble');
+            if (bubbles.length > 0) {
+                bubbles[bubbles.length - 1].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }
+        
+        input.disabled = false;
+        sendBtn.disabled = false;
+        input.focus();
+    };
+    
+    sendBtn.addEventListener('click', sendComment);
+    
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            sendComment();
+        }
+    });
+}
+
+// Show ranking view
+function showRankingView() {
+    document.getElementById('rankingView').classList.add('active');
+    document.getElementById('likedCasesView').classList.remove('active');
+}
+
+// Show liked cases view
+function showLikedCasesView(memberName) {
+    const isCurrentUser = memberName === currentUser;
+    const titleElement = document.getElementById('detailTitle');
+    
+    if (isCurrentUser) {
+        titleElement.textContent = '我喜歡的案例';
+    } else {
+        titleElement.textContent = `${memberName} 喜歡的案例`;
+    }
+    
+    renderLikedCases(memberName, isCurrentUser);
+    
+    document.getElementById('rankingView').classList.remove('active');
+    document.getElementById('likedCasesView').classList.add('active');
+}
+
+// Render ranking list
+async function renderRankingList() {
+    const rankingList = document.getElementById('rankingList');
+    const rankingLoading = document.getElementById('rankingLoading');
+    if (!rankingList) return;
+    
+    // If teamMembers is empty or hasn't been loaded, show loading
+    const shouldShowLoading = teamMembers.length === 0;
+    if (shouldShowLoading && rankingLoading) {
+        rankingLoading.classList.remove('hidden');
+        rankingList.style.display = 'none';
+    }
+    
+    // Paint immediately from current teamMembers (if any)
+    if (!shouldShowLoading) {
+        paintRankingList();
+    }
+    
+    // Then refresh from API in background and repaint
+    try {
+        await loadScoreboardData();
+        if (rankingLoading) {
+            rankingLoading.classList.add('hidden');
+        }
+        rankingList.style.display = '';
+        paintRankingList();
+    } catch (error) {
+        console.error('Failed to refresh scoreboard:', error);
+        if (rankingLoading) {
+            rankingLoading.classList.add('hidden');
+        }
+        rankingList.style.display = '';
+        // Keep showing the initial paint or fallback
+        if (!shouldShowLoading) {
+            paintRankingList();
+        }
+    }
+}
+
+// Helper function to paint the ranking list from teamMembers
+function paintRankingList() {
+    const rankingList = document.getElementById('rankingList');
+    if (!rankingList) return;
+    
+    const sortedMembers = [...teamMembers].map(member => {
+        if (member.name === currentUser) {
+            return { ...member, viewCount: viewCount };
+        }
+        return member;
+    }).sort((a, b) => b.viewCount - a.viewCount);
+    
+    rankingList.innerHTML = sortedMembers.map(member => {
+        const isCurrentUser = member.name === currentUser;
+        const avatarColor = getAvatarColor(member.name);
+        const avatarLetter = getAvatarLetter(member.name);
+        
+        return `
+            <div class="ranking-item ${isCurrentUser ? 'current-user' : ''}" data-member="${member.name}">
+                <div class="member-info">
+                    <div class="member-avatar" style="background-color: ${avatarColor}">
+                        ${avatarLetter}
+                    </div>
+                    <div class="member-name">${member.name}</div>
+                </div>
+                <div class="view-count">${member.viewCount}</div>
+                <button class="view-likes-button" data-member="${member.name}">
+                    查看喜愛案例
+                </button>
+            </div>
+        `;
+    }).join('');
+    
+    const viewLikesButtons = rankingList.querySelectorAll('.view-likes-button');
+    viewLikesButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const memberName = button.dataset.member;
+            showLikedCasesView(memberName);
+        });
+    });
+}
+
+// Get liked case IDs for a member
+function getMemberLikedCases(memberName) {
+    if (memberName === currentUser) {
+        return [...likedCases];
+    }
+    return memberLikesData[memberName] || [];
+}
+
+// Get random teammates who also liked a case
+function getRandomAlsoLiked(caseId, excludeName) {
+    const allWhoLiked = Object.entries(memberLikesData)
+        .filter(([name, likes]) => name !== excludeName && likes.includes(caseId))
+        .map(([name]) => name);
+    
+    const shuffled = allWhoLiked.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 3);
+}
+
+// Render liked cases
+async function renderLikedCases(memberName, isCurrentUser) {
+    const container = document.getElementById('likedCasesContainer');
+    if (!container) return;
+    
+    // Fetch comment counts
+    await fetchCommentCounts();
+    
+    const likedCaseIds = getMemberLikedCases(memberName);
+    
+    if (likedCaseIds.length === 0) {
+        container.innerHTML = `
+            <div class="empty-liked-state">
+                <div class="icon">💝</div>
+                <h3>還沒有喜歡的案例</h3>
+                <p>${isCurrentUser ? '開始滑案例，右滑喜歡的案例吧！' : '這位成員還沒有喜歡任何案例'}</p>
+            </div>
+        `;
+        return;
+    }
+    
+    const likedCasesData = likedCaseIds
+        .map(id => casesData.find(c => c.id === id))
+        .filter(c => c);
+    
+    const cardsHTML = likedCasesData.map(caseData => {
+        const alsoLiked = getRandomAlsoLiked(caseData.id, memberName);
+        const commentCount = commentCountsCache[String(caseData.id)] || 0;
+        
+        const alsoLikedHTML = alsoLiked.length > 0 ? `
+            <div class="also-liked">
+                <div class="also-liked-label">他們也喜歡：</div>
+                <div class="also-liked-avatars">
+                    ${alsoLiked.map(name => `
+                        <div class="mini-avatar" style="background-color: ${getAvatarColor(name)}">
+                            ${getAvatarLetter(name)}
+                        </div>
+                    `).join('')}
+                </div>
+                ${commentCount > 0 ? `<span class="comment-count-badge"><span class="emoji">💬</span>${commentCount}</span>` : ''}
+            </div>
+        ` : (commentCount > 0 ? `
+            <div class="also-liked">
+                <span class="comment-count-badge"><span class="emoji">💬</span>${commentCount}</span>
+            </div>
+        ` : '');
+        
+        return `
+            <div class="liked-case-card" data-case-id="${caseData.id}">
+                <div class="liked-case-image">
+                    ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:white;">${caseData.title}</div>`}
+                </div>
+                <div class="liked-case-info">
+                    ${alsoLikedHTML}
+                    <div class="liked-case-title">${caseData.title}</div>
+                </div>
+            </div>
+        `;
+    }).join('');
+    
+    const scrollHint = likedCasesData.length > 1 ? '<div class="scroll-more-hint">下滑查看更多</div>' : '';
+    
+    container.innerHTML = cardsHTML + scrollHint;
+    
+    // Add click handlers to each liked card
+    const likedCards = container.querySelectorAll('.liked-case-card');
+    likedCards.forEach(card => {
+        card.addEventListener('click', () => {
+            const caseId = parseInt(card.dataset.caseId);
+            openCaseDetailView(caseId, memberName);
+        });
+    });
+}
+
+// Open case detail view overlay
+async function openCaseDetailView(caseId, memberName) {
+    const caseData = casesData.find(c => c.id === caseId);
+    if (!caseData) return;
+    
+    // Create overlay immediately with cached or empty comments
+    const overlay = document.createElement('div');
+    overlay.className = 'case-detail-overlay';
+    
+    const awardsHTML = generateAwardsSummary(caseData.awards);
+    const detailHTML = generateDetailSection(caseData);
+    const commentsHTML = renderCommentSection(caseData.id);
+    
+    overlay.innerHTML = `
+        <div class="case-detail-viewer">
+            <div class="detail-viewer-header">
+                <button class="back-button" id="closeCaseDetail">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                </button>
+                <h2 class="detail-title">返回最愛</h2>
+            </div>
+            <div class="case-detail-content">
+                <div class="board-image">
+                    ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : 'BOARD'}
+                </div>
+                
+                <div class="case-header">
+                    <h1 class="case-title">${caseData.title}</h1>
+                    <div class="case-meta">${caseData.year}, ${caseData.brand}${caseData.agency ? ` · ${caseData.agency}` : ''}${caseData.country ? ` · ${caseData.country}` : ''}</div>
+                    <p class="case-summary">${caseData.summary}</p>
+                    
+                    <div class="awards-summary">
+                        ${awardsHTML}
+                    </div>
+                </div>
+                
+                <div class="film-link">
+                    <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
+                </div>
+                
+                ${detailHTML}
+                
+                <div class="film-link">
+                    <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
+                </div>
+                
+                ${commentsHTML}
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(overlay);
+    
+    // Setup comment interactions
+    setupCommentInteractions(overlay, caseData.id);
+    
+    // Fetch comments in background and update thread when ready
+    fetchComments(caseId).then(() => {
+        updateCommentThread(overlay, caseId);
+    });
+    
+    // Add close handler
+    const closeButton = overlay.querySelector('#closeCaseDetail');
+    closeButton.addEventListener('click', () => {
+        document.body.removeChild(overlay);
+    });
+    
+    // Close on overlay click
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) {
+            document.body.removeChild(overlay);
+        }
+    });
+}
+
+// Update bio tab UI
+function updateBioTab() {
+    calculateUnlocks();
+    document.getElementById('streakNumber').textContent = streak;
+    
+    renderLion();
+    updateNextUnlock();
+    updateDayGrid();
+    updateStats();
+}
+
+// Render lion with equipped merch layers (Sims-style stacking)
+// Z-index order (back to front): 腳 -> 下身 -> 上身 -> 手 -> 臉部 -> 帽子
+const categoryZIndex = {
+    '腳': 1,      // snowboard, sneakers
+    '下身': 2,    // shorts
+    '上身': 3,    // tank
+    '包': 4,      // bag (shoulder tote, stacks with held items)
+    '手': 5,      // hammer, beer, gloves
+    '飾品': 6,    // necklace (stacks with tank)
+    '臉部': 7,    // sunglasses
+    '帽子': 8     // beret, crown
+};
+
+// Layer metadata: all merch layers are pixel-aligned full-frame overlays on assets/lion-naked.png
+// NOTE: 'tank' (性感吊嘎) should be a plain white sleeveless undershirt, NOT a sexy/cropped tank
+const layerMetadata = {
+    'beret': { type: 'pixel-aligned', path: 'assets/layers/beret.png' },
+    'tank': { type: 'pixel-aligned', path: 'assets/layers/tank.png' },  // Plain white tank, not sexy
+    'shorts': { type: 'pixel-aligned', path: 'assets/layers/shorts.png' },
+    'sneakers': { type: 'pixel-aligned', path: 'assets/layers/sneakers.png' },
+    'bag': { type: 'pixel-aligned', path: 'assets/layers/bag.png' },
+    'sunglasses': { type: 'pixel-aligned', path: 'assets/layers/sunglasses.png' },
+    'hammer': { type: 'pixel-aligned', path: 'assets/layers/hammer.png' },
+    'necklace': { type: 'pixel-aligned', path: 'assets/layers/necklace.png' },
+    'snowboard': { type: 'pixel-aligned', path: 'assets/layers/snowboard.png' },
+    'crown': { type: 'pixel-aligned', path: 'assets/layers/crown.png' },
+    'beer': { type: 'pixel-aligned', path: 'assets/layers/beer.png' },
+    'gloves': { type: 'pixel-aligned', path: 'assets/layers/gloves.png' }
+};
+
+function getLayerPath(itemId) {
+    const metadata = layerMetadata[itemId];
+    const path = metadata ? metadata.path : `assets/layers/${itemId}.png`;
+    return `${path}?v=20260821b`;
+}
+
+function getIconPath(itemId) {
+    return `assets/icons/${itemId}.png?v=20260821b`;
+}
+
+function renderLion() {
+    const lionContainer = document.getElementById('lionCharacter');
+    lionContainer.innerHTML = '';
+    renderLionStack(lionContainer, equippedMerch);
+}
+
+function renderLionStack(container, equippedSet) {
+    // Create position:relative wrapper
+    const stack = document.createElement('div');
+    stack.className = 'lion-stack';
+    stack.style.position = 'relative';
+    stack.style.width = '100%';
+    stack.style.height = '100%';
+    
+    // Base lion is always the official arms-down pose.
+    // Bag hangs on the shoulder of the official combo; hammer/beer sit on the down-arm paw.
+    // Arm-out base was a bolted-on third limb — do not swap.
+    const base = document.createElement('img');
+    base.src = 'assets/lion-naked.png?v=20260821b';
+    base.alt = 'Lion';
+    base.style.position = 'absolute';
+    base.style.inset = '0';
+    base.style.width = '100%';
+    base.style.height = '100%';
+    base.style.objectFit = 'contain';
+    stack.appendChild(base);
+    
+    // Sort equipped items by z-index (category order)
+    const equippedItems = merchItems.filter(item => equippedSet.has(item.id) && wearableMerch.has(item.id));
+    equippedItems.sort((a, b) => categoryZIndex[a.category] - categoryZIndex[b.category]);
+    
+    // Add each layer as pixel-aligned overlay
+    equippedItems.forEach(item => {
+        const layer = document.createElement('img');
+        layer.src = getLayerPath(item.id);
+        layer.alt = item.name;
+        layer.style.position = 'absolute';
+        layer.style.inset = '0';
+        layer.style.width = '100%';
+        layer.style.height = '100%';
+        layer.style.objectFit = 'contain';
+        layer.style.pointerEvents = 'none';
+        layer.style.zIndex = categoryZIndex[item.category].toString();
+        
+        // Hide if image fails to load
+        layer.onerror = () => {
+            layer.style.display = 'none';
+        };
+        
+        stack.appendChild(layer);
+    });
+    
+    container.appendChild(stack);
+}
+
+// Update next unlock display
+function updateNextUnlock() {
+    const nextItem = merchItems.find(item => streak < item.daysRequired);
+    const nextUnlockSection = document.getElementById('nextUnlockSection');
+    
+    if (nextItem) {
+        nextUnlockSection.style.display = 'block';
+        const daysRemaining = nextItem.daysRequired - streak;
+        document.getElementById('daysToUnlock').textContent = daysRemaining;
+        document.getElementById('nextMerchName').textContent = nextItem.name;
+        
+        const nextMerchIcon = document.getElementById('nextMerchIcon');
+        const iconSrc = getIconPath(nextItem.id);
+        nextMerchIcon.className = 'merch-icon-small';
+        nextMerchIcon.innerHTML = `<img src="${iconSrc}" alt="${nextItem.name}" onerror="this.parentElement.classList.add('${nextItem.id}-icon')">`;
+    } else {
+        // All unlocked
+        nextUnlockSection.style.display = 'none';
+    }
+}
+
+// Update day grid
+function updateDayGrid() {
+    const dayGrid = document.getElementById('dayGrid');
+    const totalDays = 12; // Show 12 days in grid
+    
+    let gridHTML = '';
+    for (let day = 1; day <= totalDays; day++) {
+        const merch = merchItems.find(item => item.daysRequired === day);
+        const isUnlocked = merch && unlockedMerch.has(merch.id);
+        
+        if (merch) {
+            const iconSrc = getIconPath(merch.id);
+            gridHTML += `
+                <div class="day-cell ${isUnlocked ? 'unlocked' : 'locked'}">
+                    <div class="day-label">DAY ${day}</div>
+                    <div class="day-merch-icon">
+                        <img src="${iconSrc}" alt="${merch.name}" onerror="this.parentElement.classList.add('${merch.id}-icon')">
+                    </div>
+                    <div class="day-merch-name">${merch.name}</div>
+                </div>
+            `;
+        } else {
+            gridHTML += `
+                <div class="day-cell locked">
+                    <div class="day-label">DAY ${day}</div>
+                    <div class="day-merch-placeholder">🔒</div>
+                </div>
+            `;
+        }
+    }
+    
+    dayGrid.innerHTML = gridHTML;
+}
+
+// Update stats
+function updateStats() {
+    document.getElementById('totalViewCount').textContent = viewCount;
+    document.getElementById('totalLikeCount').textContent = likedCases.size;
+}
+
+// Setup customize overlay handlers
+function setupCustomizeHandlers() {
+    const customizeButton = document.getElementById('customizeButton');
+    const customizeBackButton = document.getElementById('customizeBackButton');
+    const viewLikedButton = document.getElementById('viewLikedButton');
+    const resetButton = document.getElementById('resetButton');
+    const saveButton = document.getElementById('saveButton');
+    
+    if (customizeButton) {
+        customizeButton.addEventListener('click', openCustomizeOverlay);
+    }
+    
+    if (customizeBackButton) {
+        customizeBackButton.addEventListener('click', closeCustomizeOverlay);
+    }
+    
+    if (viewLikedButton) {
+        viewLikedButton.addEventListener('click', () => {
+            switchTab('scoreboardTab');
+            showLikedCasesView(currentUser);
+        });
+    }
+    
+    if (resetButton) {
+        resetButton.addEventListener('click', handleResetEquipment);
+    }
+    
+    if (saveButton) {
+        saveButton.addEventListener('click', handleSaveEquipment);
+    }
+    
+    // Category tabs
+    const categoryTabs = document.querySelectorAll('.category-tab');
+    categoryTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const category = tab.dataset.category;
+            handleCategoryChange(category);
+        });
+    });
+}
+
+// Open customize overlay
+function openCustomizeOverlay() {
+    const overlay = document.getElementById('customizeOverlay');
+    const username = document.getElementById('customizeUsername');
+    
+    if (username) {
+        username.textContent = currentUser || 'User';
+    }
+    
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    
+    // Render initial state
+    renderCustomizeLion();
+    handleCategoryChange('帽子'); // Default to first category
+}
+
+// Close customize overlay
+function closeCustomizeOverlay() {
+    const overlay = document.getElementById('customizeOverlay');
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Render lion in customize preview
+function renderCustomizeLion() {
+    const lionPreview = document.getElementById('lionPreview');
+    lionPreview.innerHTML = '';
+    renderLionStack(lionPreview, equippedMerch);
+}
+
+// Handle category tab change
+function handleCategoryChange(category) {
+    // Update active tab
+    const categoryTabs = document.querySelectorAll('.category-tab');
+    categoryTabs.forEach(tab => {
+        if (tab.dataset.category === category) {
+            tab.classList.add('active');
+        } else {
+            tab.classList.remove('active');
+        }
+    });
+    
+    // Render items for this category
+    renderItemSelection(category);
+}
+
+// Render item selection for a category
+function renderItemSelection(category) {
+    const itemSelection = document.getElementById('itemSelection');
+    const categoryItems = merchItems.filter(item => item.category === category);
+    
+    let html = '';
+    
+    // Show unlocked items first
+    const unlockedItems = categoryItems.filter(item => unlockedMerch.has(item.id));
+    const lockedItems = categoryItems.filter(item => !unlockedMerch.has(item.id));
+    
+    unlockedItems.forEach(item => {
+        const isEquipped = equippedMerch.has(item.id);
+        const iconSrc = getIconPath(item.id);
+        html += `
+            <div class="item-slot unlocked ${isEquipped ? 'equipped' : ''}" data-item-id="${item.id}">
+                <div class="item-icon">
+                    <img src="${iconSrc}" alt="${item.name}" onerror="this.parentElement.classList.add('${item.id}-icon')">
+                </div>
+                <div class="item-name">${item.name}</div>
+                ${isEquipped ? '<div class="equipped-badge">✓</div>' : ''}
+            </div>
+        `;
+    });
+    
+    // Add locked slots for real items that aren't unlocked yet
+    lockedItems.forEach(item => {
+        html += `
+            <div class="item-slot locked">
+                <div class="item-icon">
+                    <img src="${getIconPath(item.id)}" alt="${item.name}" onerror="this.parentElement.classList.add('${item.id}-icon')">
+                </div>
+                <div class="locked-label">未解鎖</div>
+            </div>
+        `;
+    });
+    
+    itemSelection.innerHTML = html;
+    
+    // Add click handlers to unlocked items
+    const itemSlots = itemSelection.querySelectorAll('.item-slot.unlocked');
+    itemSlots.forEach(slot => {
+        slot.addEventListener('click', () => {
+            const itemId = slot.dataset.itemId;
+            handleItemClick(itemId);
+        });
+    });
+}
+
+// Handle item click (equip/unequip) - Sims-style slots
+function handleItemClick(itemId) {
+    const item = merchItems.find(m => m.id === itemId);
+    if (!item) return;
+    if (!wearableMerch.has(itemId)) return;
+    
+    // Toggle equip state
+    if (equippedMerch.has(itemId)) {
+        // Unequip
+        equippedMerch.delete(itemId);
+    } else {
+        // Unequip other items in same category first (only one item per category slot)
+        const categoryItems = merchItems.filter(m => m.category === item.category);
+        categoryItems.forEach(catItem => {
+            equippedMerch.delete(catItem.id);
+        });
+        
+        // Equip this item
+        equippedMerch.add(itemId);
+    }
+    
+    // Update UI
+    renderCustomizeLion();
+    renderItemSelection(item.category);
+}
+
+// Reset all equipment (脫光光)
+function handleResetEquipment() {
+    equippedMerch.clear();
+    
+    // Re-render
+    renderCustomizeLion();
+    const activeTab = document.querySelector('.category-tab.active');
+    if (activeTab) {
+        renderItemSelection(activeTab.dataset.category);
+    }
+}
+
+// Save equipment (就這套)
+function handleSaveEquipment() {
+    // Save to localStorage
+    saveProgress();
+    
+    // Update main bio lion
+    renderLion();
+    
+    // Close overlay
+    closeCustomizeOverlay();
+}
+
+async function renderCard(index) {
+    const cardStack = document.getElementById('cardStack');
+    const emptyState = document.getElementById('emptyState');
+    const deck = getDailyDeck();
+    
+    // Skip cards already swiped today
+    while (index < deck.length && todaySwipedCaseIds.has(deck[index].id)) {
+        index++;
+        currentCaseIndex = index;
+    }
+    
+    if (index >= deck.length) {
+        cardStack.innerHTML = '';
+        emptyState.style.display = 'flex';
+        return;
+    }
+    
+    const caseData = deck[index];
+    
+    // Render card immediately with cached or empty comments
+    const card = createCardElement(caseData);
+    cardStack.innerHTML = '';
+    cardStack.appendChild(card);
+    cards[index] = card;
+    
+    setupCardInteractions(card);
+    
+    // Fetch comments in background and update thread when ready
+    fetchComments(caseData.id).then(() => {
+        updateCommentThread(card, caseData.id);
+    });
+    
+    // Prefetch next card's comments for instant loading
+    const nextIndex = index + 1;
+    if (nextIndex < deck.length && !todaySwipedCaseIds.has(deck[nextIndex].id)) {
+        fetchComments(deck[nextIndex].id);
+    }
+}
+
+function createCardElement(caseData) {
+    const card = document.createElement('div');
+    card.className = 'case-card';
+    
+    const awardsHTML = generateAwardsSummary(caseData.awards);
+    const detailHTML = generateDetailSection(caseData);
+    const commentsHTML = renderCommentSection(caseData.id);
+    
+    card.innerHTML = `
+        <div class="card-content">
+            <div class="board-image">
+                ${caseData.boardImage ? `<img src="${caseData.boardImage}" alt="${caseData.title}">` : 'BOARD'}
+            </div>
+            
+            <div class="case-header">
+                <h1 class="case-title">${caseData.title}</h1>
+                <div class="case-meta">${caseData.year}, ${caseData.brand}${caseData.agency ? ` · ${caseData.agency}` : ''}${caseData.country ? ` · ${caseData.country}` : ''}</div>
+                <p class="case-summary">${caseData.summary}</p>
+                
+                <div class="awards-summary">
+                    ${awardsHTML}
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <button class="action-button dislike" data-action="dislike">✕</button>
+                <a href="${caseData.filmUrl}" class="action-button film-button-main" target="_blank" rel="noopener noreferrer">看 casefilm</a>
+                <button class="action-button like" data-action="like">♥</button>
+            </div>
+            
+            <div class="scroll-hint">
+                下滑查看更多
+                <span class="arrow">↓</span>
+            </div>
+            
+            ${detailHTML}
+            
+            <div class="film-link">
+                <a href="${caseData.filmUrl}" target="_blank" rel="noopener noreferrer">看 casefilm</a>
+            </div>
+            
+            ${commentsHTML}
+        </div>
+    `;
+    
+    // Setup comment interactions after card is created
+    setupCommentInteractions(card, caseData.id);
+    
+    return card;
+}
+
+function generateAwardsSummary(awards) {
+    let html = '';
+    if (awards.gp > 0) {
+        html += `<div class="award-item"><span class="award-icon">🏆</span><span>${awards.gp}</span></div>`;
+    }
+    if (awards.gold > 0) {
+        html += `<div class="award-item"><span class="award-icon">🥇</span><span>${awards.gold}</span></div>`;
+    }
+    if (awards.silver > 0) {
+        html += `<div class="award-item"><span class="award-icon">🥈</span><span>${awards.silver}</span></div>`;
+    }
+    if (awards.bronze > 0) {
+        html += `<div class="award-item"><span class="award-icon">🥉</span><span>${awards.bronze}</span></div>`;
+    }
+    return html;
+}
+
+function generateDetailSection(caseData) {
+    const awardsListHTML = caseData.awardsDetail
+        .map(item => `<li><span class="medal-icon">${item.icon}</span><span>${item.award}</span></li>`)
+        .join('');
+    
+    const backgroundStillHTML = caseData.stills?.background 
+        ? `<img class="section-still" src="${caseData.stills.background}" alt="背景">` 
+        : '';
+    
+    const ideaStillHTML = caseData.stills?.idea 
+        ? `<img class="section-still" src="${caseData.stills.idea}" alt="想法">` 
+        : '';
+    
+    const executionStillHTML = caseData.stills?.execution 
+        ? `<img class="section-still" src="${caseData.stills.execution}" alt="執行">` 
+        : '';
+    
+    return `
+        <div class="detail-section">
+            <div class="section">
+                <h3 class="section-title">背景</h3>
+                ${backgroundStillHTML}
+                <div class="section-content">${caseData.background}</div>
+            </div>
+            
+            <div class="section">
+                <h3 class="section-title">想法</h3>
+                ${ideaStillHTML}
+                <div class="section-content">${caseData.idea}</div>
+            </div>
+            
+            <div class="section">
+                <h3 class="section-title">執行</h3>
+                ${executionStillHTML}
+                <div class="section-content">${caseData.execution}</div>
+            </div>
+            
+            <div class="section">
+                <h3 class="section-title">獎項</h3>
+                <ul class="awards-list">
+                    ${awardsListHTML}
+                </ul>
+            </div>
+        </div>
+    `;
+}
+
+function setupCardInteractions(card) {
+    // Button interactions
+    const buttons = card.querySelectorAll('.action-button:not(.film-button-main)');
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            const action = button.dataset.action;
+            handleSwipe(card, action);
+        });
+    });
+    
+    // Prevent film button from triggering swipe
+    const filmButton = card.querySelector('.film-button-main');
+    if (filmButton) {
+        filmButton.addEventListener('mousedown', (e) => e.stopPropagation());
+        filmButton.addEventListener('touchstart', (e) => e.stopPropagation());
+    }
+    
+    // Prevent film link at bottom from triggering swipe
+    const filmLink = card.querySelector('.film-link a');
+    if (filmLink) {
+        filmLink.addEventListener('mousedown', (e) => e.stopPropagation());
+        filmLink.addEventListener('touchstart', (e) => e.stopPropagation());
+    }
+    
+    // Touch/mouse swipe interactions
+    let startX = 0;
+    let startY = 0;
+    let currentX = 0;
+    let currentY = 0;
+    let isDragging = false;
+    let isHorizontalSwipe = null;
+    
+    card.addEventListener('mousedown', startDrag);
+    card.addEventListener('touchstart', startDrag);
+    
+    document.addEventListener('mousemove', drag);
+    document.addEventListener('touchmove', drag);
+    
+    document.addEventListener('mouseup', endDrag);
+    document.addEventListener('touchend', endDrag);
+    
+    function startDrag(e) {
+        // Only allow dragging from the upper portion of the card
+        const cardRect = card.getBoundingClientRect();
+        const clickY = (e.type === 'mousedown' ? e.clientY : e.touches[0].clientY) - cardRect.top;
+        
+        // If clicking in the scrollable content area (below the buttons), don't initiate drag
+        if (clickY > 500) return;
+        
+        // Check if the card is scrolled down
+        if (card.scrollTop > 10) return;
+        
+        isDragging = true;
+        isHorizontalSwipe = null;
+        startX = e.type === 'mousedown' ? e.clientX : e.touches[0].clientX;
+        startY = e.type === 'mousedown' ? e.clientY : e.touches[0].clientY;
+        card.classList.add('swiping');
+    }
+    
+    function drag(e) {
+        if (!isDragging) return;
+        
+        currentX = e.type === 'mousemove' ? e.clientX : e.touches[0].clientX;
+        currentY = e.type === 'mousemove' ? e.clientY : e.touches[0].clientY;
+        const deltaX = currentX - startX;
+        const deltaY = currentY - startY;
+        
+        // Determine swipe direction after threshold
+        if (isHorizontalSwipe === null && (Math.abs(deltaX) > 10 || Math.abs(deltaY) > 10)) {
+            isHorizontalSwipe = Math.abs(deltaX) > Math.abs(deltaY);
+        }
+        
+        // If vertical scroll, don't apply transform
+        if (isHorizontalSwipe === false) {
+            return;
+        }
+        
+        // Only apply horizontal transform
+        const rotation = deltaX * 0.1;
+        card.style.transform = `translateX(${deltaX}px) rotate(${rotation}deg)`;
+        
+        // Show LIKE/NOPE stamps
+        const opacity = Math.min(Math.abs(deltaX) / 120, 1);
+        if (deltaX > 0) {
+            showStamp(card, 'like', opacity);
+        } else if (deltaX < 0) {
+            showStamp(card, 'nope', opacity);
+        }
+    }
+    
+    function endDrag(e) {
+        if (!isDragging) return;
+        
+        isDragging = false;
+        const deltaX = currentX - startX;
+        card.classList.remove('swiping');
+        hideStamps(card);
+        
+        // Commit threshold: 120px
+        if (isHorizontalSwipe && Math.abs(deltaX) > 120) {
+            const action = deltaX > 0 ? 'like' : 'dislike';
+            handleSwipe(card, action);
+        } else {
+            // Snap back
+            card.style.transition = 'transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease';
+            card.style.transform = '';
+            setTimeout(() => {
+                card.style.transition = '';
+            }, 300);
+        }
+    }
+}
+
+function showStamp(card, type, opacity) {
+    let stamp = card.querySelector(`.swipe-stamp-${type}`);
+    if (!stamp) {
+        stamp = document.createElement('div');
+        stamp.className = `swipe-stamp swipe-stamp-${type}`;
+        stamp.textContent = type === 'like' ? 'LIKE' : 'NOPE';
+        card.querySelector('.board-image').appendChild(stamp);
+    }
+    stamp.style.opacity = opacity;
+}
+
+function hideStamps(card) {
+    const stamps = card.querySelectorAll('.swipe-stamp');
+    stamps.forEach(stamp => stamp.remove());
+}
+
+function handleSwipe(card, action) {
+    const deck = getDailyDeck();
+    const caseId = deck[currentCaseIndex].id;
+    
+    // Check if already swiped today
+    if (todaySwipedCaseIds.has(caseId)) {
+        // Skip to next card
+        currentCaseIndex++;
+        renderCard(currentCaseIndex);
+        return;
+    }
+    
+    // Record that user viewed a case today (for streak)
+    recordViewDay();
+    
+    // Increment view count for current user
+    viewCount++;
+    
+    // If like (swipe right), save to liked cases
+    const liked = action === 'like';
+    if (liked) {
+        likedCases.add(caseId);
+        card.classList.add('swipe-right');
+    } else {
+        card.classList.add('swipe-left');
+    }
+    
+    // Add to today's swiped cases
+    todaySwipedCaseIds.add(caseId);
+    
+    // Save progress
+    saveProgress();
+    
+    // Call API to record swipe
+    if (currentUser) {
+        const taipeiDate = getTaipeiDateString();
+        jsonp(CASETINDER_API, {
+            action: 'swipe',
+            name: currentUser,
+            caseId: caseId,
+            liked: liked ? 1 : 0,
+            date: taipeiDate
+        }).catch(error => {
+            console.error('Failed to record swipe:', error);
+        });
+    }
+    
+    // Move to next card after animation
+    setTimeout(() => {
+        currentCaseIndex++;
+        renderCard(currentCaseIndex);
+    }, 300);
+}
+
+// Board Image Lightbox
+function initBoardLightbox() {
+    const lightbox = document.getElementById('boardLightbox');
+    const lightboxImage = document.getElementById('lightboxImage');
+    const lightboxClose = document.getElementById('lightboxClose');
+    
+    if (!lightbox || !lightboxImage || !lightboxClose) return;
+    
+    // Close lightbox
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    
+    // Close button
+    lightboxClose.addEventListener('click', closeLightbox);
+    
+    // Close on background click
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+    
+    // Close on escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            closeLightbox();
+        }
+    });
+    
+    // Open lightbox when board image is clicked
+    document.addEventListener('click', (e) => {
+        const boardImage = e.target.closest('.board-image');
+        if (boardImage) {
+            const img = boardImage.querySelector('img');
+            if (img && img.src) {
+                lightboxImage.src = img.src;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+    });
+}
+
+// Start the app
+init();
+initBoardLightbox();
