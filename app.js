@@ -4960,6 +4960,247 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 211,
+        title: "Wherever life goes",
+        year: "2026",
+        brand: "IKEA",
+        agency: "NOA AKESTAM HOLST, Stockholm",
+        country: "Sweden",
+        summary: "IKEA 把最經典的價簽，放進親密生活瞬間，告訴你：人生一變，家就跟著變。",
+        boardImage: "boards/wherever-life-goes.jpg",
+        filmUrl: "https://lion.box.com/s/dxo5m82rhn1a8tkd7h32vys5grkuhha4",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/wherever-life-goes-01.jpg',
+            idea: 'assets/stills/wherever-life-goes-02.jpg',
+            execution: 'assets/stills/wherever-life-goes-03.jpg'
+        },
+        background: "家裡最大筆的投資，往往被人生轉折推著走。同居、生小孩、培養新嗜好——這些改變，都會對家提出新的要求。",
+        idea: "我們做出 Wherever Life Goes：一個簡單的想法——人生改變，家也改變，而 IKEA 會在那裡一起調整。與其秀產品，我們把概念剝到核心，用上 IKEA 最標誌性的資產：價簽。",
+        execution: "價簽被放進親密、精準構圖的瞬間，安靜標示正在展開的人生變化，瞬間製造情緒衝擊。執行遍及地鐵多聯看板、OOH、影片與平面；板上媒體評價包括 striking simplicity、price tag tell the story、poetic 等。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 212,
+        title: "The CatRace",
+        year: "2026",
+        brand: "DISTANCE X STRAVA",
+        agency: "BETC, Paris",
+        country: "France",
+        summary: "DISTANCE 在巴黎時裝週把伸展台變成賽道：頂尖跑者衝進秀場，只用 57 秒偷走 Fashion Week。",
+        boardImage: "boards/the-catrace.jpg",
+        filmUrl: "https://lion.box.com/s/jzymqrkzhjxx8bbnsbu5xky2ucl8mzaj",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-catrace-01.jpg',
+            idea: 'assets/stills/the-catrace-02.jpg',
+            execution: 'assets/stills/the-catrace-03.jpg'
+        },
+        background: "時尚品牌不斷推出「運動風」單品，卻往往與真正的運動脫節。跑步品牌 DISTANCE 決定用運動本身對抗時尚。",
+        idea: "2025 巴黎時裝週期間，DISTANCE 與 Strava 推出 The CatRace：不讓模特兒走秀，改請菁英跑者在各大秀場中央狂奔，最後衝上 catwalk；整場秀只撐 57 秒，並以奔跑時穿的裝備做成限量 lookbook。",
+        execution: "結果：銷售 +23%；時裝週期間店訪 x3.5；有機觀看 +2M。媒體如 ELLE Italy、Runner's World 報導這場都市跑步與當代時尚的越界事件。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 213,
+        title: "Statiums",
+        year: "2026",
+        brand: "CHANGE THE REF",
+        agency: "ALMA, Miami",
+        country: "United States",
+        summary: "Change The Ref 把 2026 世界盃主場館座位數變成槍枝暴力死亡數據，一席一命。",
+        boardImage: "boards/statiums.jpg",
+        filmUrl: "https://lion.box.com/s/ccrkmpgql8qgtwp9l7rqv5ybioo1h2k0",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/statiums-01.jpg',
+            idea: 'assets/stills/statiums-02.jpg',
+            execution: 'assets/stills/statiums-03.jpg'
+        },
+        background: "自 1994 年美國世界盃以來，數十萬美國人死於槍枝暴力。2026 世界盃回到美國，Change The Ref 用主場館視覺化這些損失。",
+        idea: "印出球場座位圖：每個座位代表一條生命。紅座＝被槍枝暴力「佔走」，灰座＝仍「空著」。廣告放在場館附近的 OOH 與報紙，並鎖定搖擺州（Georgia、Missouri、Pennsylvania）球迷與選民。",
+        execution: "以 Georgia World Cup Stadium（容納 71,000）為例：板上寫 63,953 lives taken by guns in Georgia since the last World Cup in the United States，並呼籲投票支持槍枝管制領袖；執行含報紙、移動看板卡車、街頭海報、夾心廣告背包等。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 214,
+        title: "Unavailable",
+        year: "2026",
+        brand: "SQUARESPACE",
+        agency: "SQUARESPACE, New York",
+        country: "United States",
+        summary: "Squarespace 請 Yorgos Lanthimos 拍 Emma Stone 搶域名悲劇，警告你：先註冊，不然就 Unavailable。",
+        boardImage: "boards/unavailable.jpg",
+        filmUrl: "https://lion.box.com/s/8s9kworpali2zcb4ht8y16x3r5m608ah",
+        filmLabel: "Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/unavailable-01.jpg',
+            idea: 'assets/stills/unavailable-02.jpg',
+            execution: 'assets/stills/unavailable-03.jpg'
+        },
+        background: "Squarespace 已是全球第三大域名商，卻缺少「第一時間想到」的品牌知名度。這次要把它定位成建立線上存在的必要入口。",
+        idea: "靈感來自 Emma Stone 發現 emmastone.com 已被佔走的真實故事，做成誇張戲劇性的警世寓言，CTA：Get Your Domain Before You Lose It。",
+        execution: "由 Yorgos Lanthimos 執導、黑白膠片拍攝；Super Bowl 主片呈現 Stone 在失去數位身分的希望與絕望迴圈，另有 The Negotiation 與 A Message from Emma Stone。板上結果：5.8B+ impressions；官網流量 +900%；史上最多域名註冊；紐時評為 #1 Super Bowl commercial。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 215,
+        title: "SLIDE",
+        year: "2026",
+        brand: "APPLE",
+        agency: "APPLE, Cupertino",
+        country: "United States",
+        summary: "Apple 在「Relax it's iPhone」系列裡，讓律師把 iPhone 17 Pro 螢幕朝下整桌滑過去，證明 Ceramic Shield 2 更耐刮。",
+        boardImage: "boards/slide.jpg",
+        filmUrl: "https://lion.box.com/s/384gsir7lcm3raa3bbo34kjqfgg7xrqq",
+        filmLabel: "Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/slide-01.jpg',
+            idea: 'assets/stills/slide-02.jpg',
+            execution: 'assets/stills/slide-03.jpg'
+        },
+        background: "Brief：iPhone 17 Pro 的 Ceramic Shield 2 螢幕現在「3 x more scratch resistant」。",
+        idea: "作為 Relax its iPhone 戰役的一支，廣告讓律師在談判桌上自信地把 iPhone 17 Pro——螢幕朝下——滑過整張超長會議桌，用動作直接示範耐刮。",
+        execution: "影像是極長深色木會議桌與正式木板會議室；結果方面 Apple 不公布銷量，但板上寫品牌認知與「3x more scratch resistance」認知皆有正向提升。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 216,
+        title: "Rooftop Revival",
+        year: "2026",
+        brand: "HEINEKEN",
+        agency: "LEPUB, Singapore / LEPUB, Milan",
+        country: "Singapore",
+        summary: "Heineken 從空中拍首爾綠屋頂，把城市裡被忽略的開放空間，變成品牌綠的天然畫布。",
+        boardImage: "boards/rooftop-revival.jpg",
+        filmUrl: "https://lion.box.com/s/4jnooci0yf3ozw3v8lq2nxk37ggiuk1j",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/rooftop-revival-01.jpg',
+            idea: 'assets/stills/rooftop-revival-02.jpg',
+            execution: 'assets/stills/rooftop-revival-03.jpg'
+        },
+        background: "首爾許多屋頂傳統上漆成接近 Heineken 綠的顏色；這些被忽略的開放空間，成了品牌天然畫布。",
+        idea: "Rooftop Revival（옥상의 재발견）用航拍捕捉幽閉城市網格與頭頂開放空間的張力，把它們框成「iconically Heineken」。",
+        execution: "以中片幅相機掛在特製重型無人機上，精準控制構圖、色彩、透視與解析度；影像中綠屋頂鋪滿畫面，並疊上 Heineken 字標與紅星。Tagline：Social networking since 1873。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 217,
+        title: "Cracked Royale",
+        year: "2026",
+        brand: "CLASH ROYALE",
+        agency: "DAVID, New York",
+        country: "United States",
+        summary: "Clash Royale 把巴西破螢幕玩家的硬模式，變成官方獎勵機制 Cracked Royale。",
+        boardImage: "boards/cracked-royale.jpg",
+        filmUrl: "https://lion.box.com/s/o3iac7ehmh5gs088kbgtykn68z1pgr5q",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/cracked-royale-01.jpg',
+            idea: 'assets/stills/cracked-royale-02.jpg',
+            execution: 'assets/stills/cracked-royale-03.jpg'
+        },
+        background: "在巴西，三分之一的人用破螢幕手機，手遊難度明顯更高。",
+        idea: "如果他們打我們的遊戲已經比別人難一級，難道不該贏更大？Cracked Royale 把硬體困境變成官方機制：分享在破螢幕上獲勝的影片，就能解鎖限定獎勵。",
+        execution: "結果：+85,000 social interactions；巴西新玩家 +385,000；+88 million impressions。媒體評為把破螢幕變成驕傲符號，並慶祝在地遊戲社群。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 218,
+        title: "Fragmental Medal",
+        year: "2026",
+        brand: "Gatorade",
+        agency: "TOMBRAS, Buenos Aires",
+        country: "Argentina",
+        summary: "Gatorade 把拉丁美洲最硬越野賽 El Cruce 的獎牌拆成三塊碎片，每完成一階段發一塊，讓跑者一路拼到終點。",
+        boardImage: "boards/fragmental-medal.jpg",
+        filmUrl: "https://lion.box.com/s/y926aok1ba9aybd813sirq50g1dli61z",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/fragmental-medal-01.jpg',
+            idea: 'assets/stills/fragmental-medal-02.jpg',
+            execution: 'assets/stills/fragmental-medal-03.jpg'
+        },
+        background: "El Cruce：拉丁美洲最艱難的越野賽。一百公里分三天完成，在極端條件下穿越山脈、湖泊與森林。每一階段都把跑者推向極限，直到心理疲勞成為決勝因素。因此每年都有數百名跑者在終點前放棄。",
+        idea: "作為賽事官方補水品牌，Gatorade 決定不只幫跑者補充電解質。他們打造一套激勵系統：不在終點才頒發一面完整獎牌，而是把獎牌拆成碎片。所以跑者每完成一個階段，就會拿到一塊碎片。",
+        execution: "三階段對應獎牌三塊碎片：Stage 01（0–33 km，Mount O'Connor, The Andes）、Stage 02（33–66 km，Manzano Bay Pines, Route 40）、Stage 03（66–99 km，Lago Correntoso, V. La Angostura）。跑者每過一關拿到一塊，最後拼成完整獎牌。板上成果：賽事 #1 mentioned brand；99.2% 跑者抵達終點；創下 El Cruce 史上最低棄賽率。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 219,
+        title: "Ukraine Air Raid Alerts – Emergency Broadcast System Helsinki",
+        year: "2026",
+        brand: "UNICEF Finland",
+        agency: "UNITED IMAGINATIONS, Helsinki",
+        country: "Finland",
+        summary: "UNICEF Finland 把赫爾辛基數位看板接上烏克蘭空襲警報，讓芬蘭人即時「感覺」到戰爭。",
+        boardImage: "boards/ukraine-air-raid-alerts.jpg",
+        filmUrl: "https://lion.box.com/s/9ogcsd9q051t5f89uimver0vgu3oti0l",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/ukraine-air-raid-alerts-01.jpg',
+            idea: 'assets/stills/ukraine-air-raid-alerts-02.jpg',
+            execution: 'assets/stills/ukraine-air-raid-alerts-03.jpg'
+        },
+        background: "當戰爭淡出注意力：與其只告訴人烏克蘭正被攻擊，不如讓人親身感覺。赫爾辛基的廣告被切進警戒模式，烏克蘭防空警報響起時，芬蘭日常生活也被突然打斷。",
+        idea: "把媒體基礎設施變成即時應變系統——廣告進入 alert mode。空襲警報資料一觸發，城市螢幕網絡就自動接管，讓遠方的苦難變成眼前的責任。",
+        execution: "赫爾辛基數位看板直接連接烏克蘭官方空襲警報系統（live data feed + 客製整合）；Ocean、Outshine、Mediateko、JCDecaux 等業者加入。兩週內 396 次烏克蘭空襲警報；1,078 面 DOOH 被打斷；384,674 次警報播放；12M impressions；總捐款 +545%、私人捐款 +550%、持續捐款成長 +250%；全球媒體曝光 24.8M。UNICEF 計畫把技術推到全球危機。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 220,
+        title: "JELL-OMETER",
+        year: "2026",
+        brand: "Jell-O",
+        agency: "GUT, Miami",
+        country: "United States",
+        summary: "Jell-O 做出史上第一台用果凍晃動來量粉絲氣場的 JELL-OMETER，單位是 Jiggles。",
+        boardImage: "boards/jell-ometer.jpg",
+        filmUrl: "https://lion.box.com/s/bfs3qp68313s1b444ztb0hvkcukaadaw",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/jell-ometer-01.jpg',
+            idea: 'assets/stills/jell-ometer-02.jpg',
+            execution: 'assets/stills/jell-ometer-03.jpg'
+        },
+        background: "運動已變成數字遊戲：速度、準度都被硬數據追蹤。轉播量得到場上球員表現，卻沒人量背後的力量——球迷。",
+        idea: "JELL-OMETER 是首創裝置，用 1–10 Jiggles（Js）量測現場球迷能量，並用晃動的果凍把數據可視化。4 月 4 日在 NHL 關鍵戰（Islanders vs Flyers）滿座球場首度亮相。",
+        execution: "用專有 plate-sensing 技術捕捉觀眾聲壓，轉成機械晃動。板上媒體評價含 NYT「If it sounds silly, that's the point」。成果：293M earned media impressions；$2.7M AVE；Instagram shares 年增 5.4X。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
