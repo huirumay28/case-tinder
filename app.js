@@ -5441,6 +5441,246 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 221,
+        title: "Dirt Is Glory",
+        year: "2026",
+        brand: "OMO / Dirt Is Good",
+        agency: "FRANK, London",
+        country: "United Kingdom",
+        summary: "OMO 從巴西草根足球 Várzea 長出設計系統：Dirt Is Glory，把泥土球場的粗曠美學做成 Varzenal Cup。",
+        boardImage: "boards/dirt-is-glory.jpg",
+        filmUrl: "https://lion.box.com/s/lo2ujrzxphc2wkbcq3yviet9lmse8dyy",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/dirt-is-glory-01.jpg',
+            idea: 'assets/stills/dirt-is-glory-02.jpg',
+            execution: 'assets/stills/dirt-is-glory-03.jpg'
+        },
+        background: "Várzea 是巴西草根足球的靈魂——在設備簡陋的社區泥地球場比賽，充滿原始與純粹。OMO 長期是這文化的一部分：球員賽後用 OMO 洗掉滿是泥土的球衣。挑戰是：怎麼做出真正屬於這個世界的品牌系統，而不是從外部硬套精緻設計。",
+        idea: "我們不是為它設計，而是從它長出來。依全球理念 Dirt Is Glory，發起 OMO Varzenal Cup；設計系統採用當地直覺語言，把真實紋理、材質與視覺符碼轉成有凝聚力的識別：手繪／鋼印感字體、克制用色、街道啟發的模版插畫，保留不完美，而不是抹掉它。",
+        execution: "為效仿英超 Arsenal 的巴西草根球隊辦系列錦標賽；系統貫穿紀錄片、社群、實體空間（球場噴漆、球衣）。板上結果：觀看逾 1.11 億；earned media 逾 1.3 億；互動率高於所有 Arsenal 合作夥伴基準 +106%；92% 受訪觀眾覺得品牌與文化連結更緊；紐時評為「一場足球的盛宴」。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 222,
+        title: "Crosses for Crisis",
+        year: "2026",
+        brand: "Red Cross Flanders",
+        agency: "MUTANT, Antwerp",
+        country: "Belgium",
+        summary: "紅十字會把歐洲藥局綠十字接上即時血庫數據，存量危急時變紅，變成救命號召。",
+        boardImage: "boards/crosses-for-crisis.jpg",
+        filmUrl: "https://lion.box.com/s/zyu8uywhtxi7zhq2p8wjgj6ioj7si967",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/crosses-for-crisis-01.jpg',
+            idea: 'assets/stills/crosses-for-crisis-02.jpg',
+            execution: 'assets/stills/crosses-for-crisis-03.jpg'
+        },
+        background: "歐洲街頭處處是藥局的綠色 LED 十字——日夜可見、極好認。同時血庫反覆短缺：近七成（板上亦寫約 75%）人一生會需要輸血，卻只有約 3% 捐血；危機常要到緊急才被看見。",
+        idea: "與 Red Cross 及 LED 十字製造商合作，把這座城市識別改造成即時救命媒介：用自研軟硬體把藥局十字接上國家血庫即時資料。存量掉到臨界，熟悉的綠十字動態轉紅，靜態招牌變成公共行動號召。",
+        execution: "技術鏈：Red Cross Live Database → Live Data API → Custom Animation → Pharmacy Crosses → Turn Red。板上成果：捐血 +500k、首次捐血者 +50k；從比利時擴到法國、德國、盧森堡、烏克蘭。媒體評為 ongoing solution、new media platform to prevent blood shortages。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 223,
+        title: "COLORFOOD",
+        year: "2026",
+        brand: "Auchan",
+        agency: "TBWA Paris",
+        country: "France",
+        summary: "Auchan 把營養均衡做成給孩子玩的設計系統 COLORFOOD：六色盒子拼出均衡餐盤。",
+        boardImage: "boards/colorfood.jpg",
+        filmUrl: "https://lion.box.com/s/cksn1xmfc2frw7l848o93nz8om9l6gbs",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/colorfood-01.jpg',
+            idea: 'assets/stills/colorfood-02.jpg',
+            execution: 'assets/stills/colorfood-03.jpg'
+        },
+        background: "法國每 5 個孩子就有 1 個過重或肥胖，2030 年恐變成 1/3。營養指引存在，但對孩子太抽象；孩子又天生愛米色食物——義大利麵、薯條、雞塊、洋芋片——缺色彩也缺多樣。挑戰：Auchan 如何用設計改變孩子看食物的方式，讓均衡飲食看得見、直覺、好玩。",
+        idea: "與營養專家與產品設計師一起做出 COLORFOOD：把營養均衡變成視覺互動體驗——六個色碼盒子代表不同食物群，各裝好適合孩子份量的食材。托盤像拼圖網格，盒子可移動組合；湊齊顏色，就組出一餐均衡。",
+        execution: "落地含營養師計算份量的 3D、超市體驗、餐桌實作、校園導入與網紅禮盒。板上結果：24 小時內盤子 100% 被拿走；觸及 36M+；0 tears over food；法國衛生與就醫近用部評「Incredible initiative」。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 224,
+        title: "Custom Billboards",
+        year: "2026",
+        brand: "Mercado Libre",
+        agency: "GUT, Buenos Aires",
+        country: "Argentina",
+        summary: "Mercado Libre 把 AI 個性化搬上街頭看板：讀當下情境，即時推薦不同商品。",
+        boardImage: "boards/custom-billboards.jpg",
+        filmUrl: "https://lion.box.com/s/7zi6i7gf8xl1lcm2a1ti6zdcqa0loheq",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/custom-billboards-01.jpg',
+            idea: 'assets/stills/custom-billboards-02.jpg',
+            execution: 'assets/stills/custom-billboards-03.jpg'
+        },
+        background: "品牌在線上已很會個人化，實體世界卻仍在廣播同一則廣告。作為拉丁美洲領先電商，Mercado Libre 想改變這件事。",
+        idea: "做出會依情境、即時推薦商品並客製文案的 AI 看板，證明在 Mercado Libre 你找得到需要的一切。",
+        execution: "結合 Computer Vision 與 AI：即時辨識清楚可見的需求（提重物、騎車、遛狗等），從目錄選商品與最適文案，並產出帶唯一 QR 的情境廣告以便立刻購買——不蒐集個人影像或資料。板上：每天 +1200 則個性化廣告；活動觸及 3MM。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 225,
+        title: "Forests Without Names",
+        year: "2026",
+        brand: "Hyundai",
+        agency: "BBDO New York",
+        country: "United States",
+        summary: "Hyundai 發起 Forests Without Names：為沒名字的海藻森林命名、劃界，讓保護變可能。",
+        boardImage: "boards/forests-without-names.jpg",
+        filmUrl: "https://lion.box.com/s/pf0vud8ll4jr8tx9txcvyms2zcxx093i",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/forests-without-names-01.jpg',
+            idea: 'assets/stills/forests-without-names-02.jpg',
+            execution: 'assets/stills/forests-without-names-03.jpg'
+        },
+        background: "我們為陸上森林、河流、山脈命名劃界，甚至幫月球火星隕石坑取名；有名字的地方才進課本、新聞、法律。但海藻林——世上最有價值的生態系之一——幾乎沒有正式名稱與邊界，因此難被當作「森林」保護，也更容易被忽視。",
+        idea: "Forests Without Names：給海藻林每塊受保護陸域生態系已有的東西——名字與清楚邊界。不是象徵動作，而是創造可被引用、研究、行動的條件，讓它們從「大海的一部分」變成可被單獨辨認的地方。",
+        execution: "統一全球 NGO／研究機構零散資料 → 劃定邊界 → 與在地／原住民社群命名 → 支援法律與地圖系統認證（含 white paper、Google Maps 等級證據包）。板上標出 Tonggumi、Ullim、Yanggaa、Auken Aiken 等；Hyundai 延續多年海洋復育承諾，從清理走向保護。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 226,
+        title: "Here to Stay",
+        year: "2026",
+        brand: "Mastercard",
+        agency: "McCANN Poland, Warsaw",
+        country: "Poland",
+        summary: "Mastercard 與 IOM 做 Here to Stay：用數據與 AI 幫斯洛伐克移民找回專業工作。",
+        boardImage: "boards/here-to-stay.jpg",
+        filmUrl: "https://lion.box.com/s/gx8hm353qpa06hpa5rcxgdim5je3suup",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/here-to-stay-01.jpg',
+            idea: 'assets/stills/here-to-stay-02.jpg',
+            execution: 'assets/stills/here-to-stay-03.jpg'
+        },
+        background: "斯洛伐克在 ManpowerGroup 2026 全球人才短缺報告排名第一：87% 企業找不到對的人力；同時有 278,595 名移民，其中 40% 從事低於自身資格的工作。金融時報寫：若移民能做同等工作拿同等薪資，歐洲經濟可多成長 €33.8B。",
+        idea: "用 Mastercard 數據分析、IOM（UN Migration）專業，加上 profesia.sk（斯洛伐克最大求職網）即時勞動市場資料，做出 Here to Stay——把移民接回本業的平台。",
+        execution: "在 wherenext.sk 輸入資格，AI 助理媒合驗證職缺、協助學歷認證、估算合理薪資與生活成本、計算達標所需努力。板上：23% 低度就業技術移民使用；30% 走完整旅程並進入新職涯路徑；解鎖 €18.22B 經濟成長潛力；Mastercard 在斯洛伐克偏好 +20pp。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 227,
+        title: "Missing Managers",
+        year: "2026",
+        brand: "Xbox",
+        agency: "McCANN London",
+        country: "United Kingdom",
+        summary: "Xbox 與 Sky Sports 把 Football Manager 變成女性教練養成路徑：Missing Managers。",
+        boardImage: "boards/missing-managers.jpg",
+        filmUrl: "https://lion.box.com/s/lfk83rlqkykpp72sl37blzl7fmvvdfaa",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/missing-managers-01.jpg',
+            idea: 'assets/stills/missing-managers-02.jpg',
+            execution: 'assets/stills/missing-managers-03.jpg'
+        },
+        background: "女子足球是全球成長最快的運動，但女教練／女經理人比例極低——板上寫今日僅約 5% 足球經理人是女性，許多女足隊伍仍由男性執教；缺路徑、考照成本高，成為障礙。",
+        idea: "Xbox 與 Sky Sports 開一條全新進路：在 Football Manager 24 設挑戰，讓玩家用戰術、陣型、策略證明管理能力，用遊戲發掘下一代女性經理人。",
+        execution: "五年承諾：遊戲內解成就 → 選出學員（Powerhouse Project）→ UEFA 教練證獎學金 → WSL 等頂級俱樂部實習 → 下一版遊戲加入角色；並有 Sky Sports 紀錄片與 Emma Hayes 等大師課。板上：遊戲內女性經理人 +101%；FM24 營收 +41%；960 小時專業 UEFA 教練培訓；Xbox 上 FM 自 Game Pass 上架後暢銷第一。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 228,
+        title: "Fantasy Herd",
+        year: "2026",
+        brand: "Meadow Fresh",
+        agency: "McCANN New Zealand, Auckland",
+        country: "New Zealand",
+        summary: "Meadow Fresh 做出以 500 頭真牛為主角的奇幻聯賽 Fantasy Herd，用數據重塑乳業信任。",
+        boardImage: "boards/fantasy-herd.jpg",
+        filmUrl: "https://lion.box.com/s/uf1hi9uhzoupavmp61elabsekeciiwod",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/fantasy-herd-01.jpg',
+            idea: 'assets/stills/fantasy-herd-02.jpg',
+            execution: 'assets/stills/fantasy-herd-03.jpg'
+        },
+        background: "口味改變、檢視升高、植物奶正面挑戰牛乳——乳業需要重置。我們用誰也無法否認的東西：數據，並邀請紐西蘭人以前所未有的方式走進農場門後。",
+        idea: "把每頭牛每日擠乳數據與健康行為資料結合，做出全球第一個以 500 頭真實牧場乳牛為主角的奇幻聯賽。每輪經理組 herd，依五項表現計分；有隊長、替補與調度，讓人看見每頭 Meadow Fresh 乳牛都被個別監測與照顧。",
+        execution: "玩家邀親友組私人聯賽（1,100+）；與 TVNZ 在 Super Bowl LIX 期間做三分鐘直播選秀；體育新聞分析每輪數據；週更社群回顧。高排名牛要花更多 Moolah，需購買並掃描 Meadow Fresh 產品換幣。板上：紐西蘭 18+ 有 1% 玩過這款牛奶遊戲；600 則 earned articles、135M reach；全線乳品銷售 YoY +6.2%。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 229,
+        title: "M&M'S RickTok",
+        year: "2026",
+        brand: "M&M'S",
+        agency: "BBDO Chicago",
+        country: "United States",
+        summary: "M&M'S 把 TikTok 變成 RickTok：幫 75 歲收藏家 Rick 找回缺的蘋果樹椒鹽罐。",
+        boardImage: "boards/mms-ricktok.jpg",
+        filmUrl: "https://lion.box.com/s/r4zzbfuxps91ygba5o8egdf5pojexp8o",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/mms-ricktok-01.jpg',
+            idea: 'assets/stills/mms-ricktok-02.jpg',
+            execution: 'assets/stills/mms-ricktok-03.jpg'
+        },
+        background: "怎麼在一個社群媒體最「不合」的分裂世界，落地新全球品牌平台 It's More Fun Together？",
+        idea: "如果你是 M&M'S，就從一位粉絲開始。認識 Rick Stephan：75 歲、收藏逾 3000 件 M&M'S 周邊，只缺一組稀有蘋果樹鹽胡椒罐。品牌把官方 TikTok 改成 RickTok，連續四週只做一件事：找到 Rick 的 Apple Tree。",
+        execution: "搜尋擴到收藏圈：eBay 換畫、Marketplace 通緝海報、假線索、收藏家背叛、甚至百萬贖金——網民跟著每一集。最後同好伸出援手，M&M'S 幫 Rick 到手。板上：M&M'S 史上表現最好的有機戰役；互動高於品類 431%；觀看 +3,555%；找到 1 組椒鹽罐。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 230,
+        title: "Departures",
+        year: "2026",
+        brand: "O Boticário",
+        agency: "ALMAPBBDO, Sao Paulo",
+        country: "Brazil",
+        summary: "O Boticário 母親節不推產品，用近四分鐘火車站告別片 Departures 承包話題。",
+        boardImage: "boards/departures.jpg",
+        filmUrl: "https://lion.box.com/s/cgrru783efn0ca64nzzmkpri0o1l4ck3",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/departures-01.jpg',
+            idea: 'assets/stills/departures-02.jpg',
+            execution: 'assets/stills/departures-03.jpg'
+        },
+        background: "巴西領先美妝品牌 O Boticário 總在關鍵文化時刻連結消費者。這次選中無數母親的真實主題：空巢——孩子真正離家前，母親早已在無數微小、幾乎看不見的告別裡練習放手。",
+        idea: "用火車站比喻母親身分裡的一次次告別：每班離站是一個階段的結束，每班進站是新階段的開始。核心句子：Motherhood is an eternal departure. And constant new beginnings.（母職是永恆的出發，也是不斷的開始。）",
+        execution: "在零售最重要檔期反其道：片中沒有產品；也不做短直式社群片，改做近 4 分鐘橫式長片，在巴西病毒式傳播。板上史上新高：總有機觀看 +81MM；品牌 IG 單帖 +40MM 觀看、+1MM 分享；品牌提及 +97%；較 2023 母親節觀看 +511%；相關搜尋 +4,350%。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
