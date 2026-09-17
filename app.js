@@ -5681,6 +5681,246 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 231,
+        title: "Cancer Prevention Discounts",
+        year: "2026",
+        brand: "Broadfork Produce",
+        agency: "TANK Worldwide, Montreal",
+        country: "Canada",
+        summary: "Broadfork 把防癌科學變成超市折扣：食物降低多少癌症風險，就打多少折。",
+        boardImage: "boards/cancer-prevention-discounts.jpg",
+        filmUrl: "https://lion.box.com/s/z6u1uabwfuy3e5lc4schk28qvye7suub",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/cancer-prevention-discounts-01.jpg',
+            idea: 'assets/stills/cancer-prevention-discounts-02.jpg',
+            execution: 'assets/stills/cancer-prevention-discounts-03.jpg'
+        },
+        background: "癌症是加拿大最致命的疾病之一；研究顯示高達 40% 的癌症可透過更健康飲食等簡單改變來預防，某些食物甚至能把風險降 10%、20%、甚至 37%。知道不是問題，改變習慣才是。於是他們問：如果防癌能在貨架上變成省錢呢？",
+        idea: "與 Quebec Cancer Foundation 合作，把特定食物的「癌症風險降低幅度」直接換成雜貨折扣——若某食物可降肺癌風險 20%，就打 20% 折；降 15% 就打 15% 折，讓醫學證據變成消費者一看就懂的省錢。",
+        execution: "以 Cancer Prevention Discounts 作為店內獨立品牌，在安大略與魁北克的電商、零售活動與賣場端啟動，搭配付費社群放大。板上呈現例如花椰菜／高麗菜降肺癌風險 20% 對應折扣，並帶動銷售與更健康選擇的討論。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 232,
+        title: "Game On Ball",
+        year: "2026",
+        brand: "True Hockey",
+        agency: "Dentsu Creative, Toronto",
+        country: "Canada",
+        summary: "True Hockey 做出會「假裝塞車」的智慧街球，讓 Google／Waze 把車導離小孩打球的巷子。",
+        boardImage: "boards/game-on-ball.jpg",
+        filmUrl: "https://lion.box.com/s/maqetdebk68byzq25m6403axehj4rk6b",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/game-on-ball-01.jpg',
+            idea: 'assets/stills/game-on-ball-02.jpg',
+            execution: 'assets/stills/game-on-ball-03.jpg'
+        },
+        background: "Google Maps 與 Waze 為了省時間，常把車流從幹道導進住宅巷弄（rat-running），威脅加拿大孩子長年在街頭玩曲棍球的傳統，也讓戶外遊玩比例下降。",
+        idea: "做出第一顆能欺騙導航 App 的科技街曲棍球：裝置模擬車流，讓 App 把球辨識成塞車，把車繞離正在打球的孩子。",
+        execution: "零媒體預算引爆討論；USA Hockey 向逾百萬會員背書；運動部長 Adam van Koeverden 也關注。板上：四週內逾 1,000 萬線上互動、逾 2,200 萬 earned reach；受訪駕駛約九成支持導航避開住宅街道。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 233,
+        title: "Fertilizer 2.5",
+        year: "2026",
+        brand: "Thai Health Promotion Foundation",
+        agency: "Grey Thailand, Bangkok",
+        country: "Thailand",
+        summary: "泰國推 Fertilizer 2.5：用微生物在七天內分解稻稈，取代焚燒、降低 PM2.5。",
+        boardImage: "boards/fertilizer-25.jpg",
+        filmUrl: "https://lion.box.com/s/foi1gq2o7ifpzoljv6oc2gbqwp45ahlc",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/fertilizer-25-01.jpg',
+            idea: 'assets/stills/fertilizer-25-02.jpg',
+            execution: 'assets/stills/fertilizer-25-03.jpg'
+        },
+        background: "泰國空污惡化，約 57.9% 的 PM2.5 來自生質燃燒。儘管有禁令，許多農民收穫後仍焚燒作物殘餘——因為那是最快、最便宜的整地方式；對農民而言，燒不是選擇，是生存必要。",
+        idea: "與農民站在一起，推出 Fertilizer 2.5：以微生物加速分解作物殘餘，約七天內把原本助長污染的稻稈變成養分豐富的有機肥，改善土壤並降低肥料成本，讓農民不是只被叫停燒，而是有實用替代方案。",
+        execution: "板上成果包含收穫／熱點相關改善與大面積免燒整地（如數百萬平方公尺稻田免燒），並對照泰國高峰焚燒期與前十大焚燒省份的 PM2.5 監測數據，強調從源頭減少霧霾。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 234,
+        title: "Long Lasting Passport",
+        year: "2026",
+        brand: "Darty",
+        agency: "Publicis Conseil, Paris",
+        country: "France",
+        summary: "Darty 的 Long Lasting Passport：用 QR／區塊鏈紀錄二手家電完整履歷，重建信任。",
+        boardImage: "boards/long-lasting-passport.jpg",
+        filmUrl: "https://lion.box.com/s/jql4i5cbrhkjc68vbu0m68zdluznlfex",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/long-lasting-passport-01.jpg',
+            idea: 'assets/stills/long-lasting-passport-02.jpg',
+            execution: 'assets/stills/long-lasting-passport-03.jpg'
+        },
+        background: "法國每年約 1,000 萬台大型家電被扔掉，其中半數仍可運作。為何二手市場接不住？約 66% 消費者不信任二手大家電——幾乎無法證明烤箱或冰箱真的正常，只能聽賣家一面之詞。",
+        idea: "信任符號逾 50 年的 Darty 打造「Long Lasting Passport」：QR code 通往家電完整歷史（來源、組成、製造、維修），像汽車保養手冊但加上科技；只有 Darty 專家能寫入並以區塊鏈保全紀錄。",
+        execution: "掃描即可查閱履歷，讓二手大家電變得可信。板上強調可延長壽命、減少丟棄、養成更好習慣；已有家電配備護照，並顯示消費者更願考慮購買二手的意向數據。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 235,
+        title: "Marseille C'est Nous",
+        year: "2026",
+        brand: "PUMA",
+        agency: "Way Agency, Paris",
+        country: "France",
+        summary: "PUMA × OM 為非裔移民球迷做「雙重身份」球衣系列：Marseille C'est Nous。",
+        boardImage: "boards/marseille-cest-nous.jpg",
+        filmUrl: "https://lion.box.com/s/13yvy9l5c401l3wnncgb31umz64fym5h",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/marseille-cest-nous-01.jpg',
+            idea: 'assets/stills/marseille-cest-nous-02.jpg',
+            execution: 'assets/stills/marseille-cest-nous-03.jpg'
+        },
+        background: "在馬賽，足球與非洲移民社群密不可分——塞內加爾、摩洛哥、科摩羅等球迷撐滿球場，但雙重身份很少被慶祝。非洲國家盃期間，大家為母國加油，這份張力更尖銳。作為 AFCON 長期夥伴與 OM 球衣贊助，PUMA 有機會改寫敘事。",
+        idea: "為 AFCON 2025 推出史上第一套同時代表球會與國家的球衣系列，以球迷口號「Marseille Is Us／Marseille C'est Nous」命名；七件球衣各自代表馬賽非裔移民核心國家，並排組起來會拼出 OM 徽章。",
+        execution: "透過在地人物種草，街市快閃三小時售罄；非裔球員與公眾人物在 AFCON 期間穿著，把粉絲參與變成持續的身份宣言。板上：成為 AFCON 期間最被搜尋球衣之一，並帶動大量 earned media 與社群觸及。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 236,
+        title: "Juan Gabriel — The Ballad of Alberto",
+        year: "2026",
+        brand: "Netflix",
+        agency: "Netflix, Mexico City",
+        country: "Mexico",
+        summary: "Netflix 不先求你看紀錄片，而是先讓萬人在墨西哥市中心「感受」Juan Gabriel。",
+        boardImage: "boards/juan-gabriel-the-ballad-of-alberto.jpg",
+        filmUrl: "https://lion.box.com/s/jg0k3s67j6b7wtyv0cq4h2ho1aotrsgn",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/juan-gabriel-the-ballad-of-alberto-01.jpg',
+            idea: 'assets/stills/juan-gabriel-the-ballad-of-alberto-02.jpg',
+            execution: 'assets/stills/juan-gabriel-the-ballad-of-alberto-03.jpg'
+        },
+        background: "Netflix 要講 Alberto——Juan Gabriel 背後的那個人——但墨西哥早已深愛這位偶像。若只用傳統方式上線紀錄片，很難打開新好奇心。",
+        idea: "別先求人看片，先讓人感覺到：修復並重製 Juan Gabriel 傳奇的 1990 演唱會，以免費、對全民開放的形式搬到墨西哥市 Zócalo，讓數千上萬粉絲重溫經典現場。",
+        execution: "PR 預熱、城市佔領（如 Bellas Artes 捷運站）、社群／OOH／電視放大，演唱會宣告為高潮；巨型螢幕與沉浸音場把廣場變成場館，逾 17 萬人同唱。板上：逾 4.07 億曝光、790 萬互動、約 2.5 萬則 earned 報導，並推升紀錄片觀看與排行。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 237,
+        title: "Explore Your Story",
+        year: "2026",
+        brand: "Coach",
+        agency: "Forsman & Bodenfors, Gothenburg",
+        country: "Sweden",
+        summary: "Coach 把被禁／受挑戰的書做成可讀迷你書吊飾，把配件變成身份宣言。",
+        boardImage: "boards/explore-your-story.jpg",
+        filmUrl: "https://lion.box.com/s/3fxedzlkoomljlfhflcuxfub53mj6s8n",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/explore-your-story-01.jpg',
+            idea: 'assets/stills/explore-your-story-02.jpg',
+            execution: 'assets/stills/explore-your-story-03.jpg'
+        },
+        background: "Z 世代把閱讀當成獲取觀點、建立社群與表達自我的核心方式；BookTok 等讓書成為可見的自我語言。與此同時，探討身份、種族、性別與社會正義的書在美國等地被禁數量創新高——對讀得更多、也用書表達自己的一代，多元敘事的近用比以往更急迫。",
+        idea: "Coach 與 Penguin Random House 及全球獨立出版社合作，把被禁與受挑戰的書變成包上的可讀迷你書吊飾；書目與 Z 世代社群共同挑選，凸顯女性作者與多元聲音，讓配件在敘事被限縮的時刻成為立場。",
+        execution: "吊飾打開連通的體驗生態，為年輕人創造分享自身故事的實體空間。板上：有機社群互動、PR 報導、用戶生成內容，並呈現 Gen Z 獲客與銷售成長等數據。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 238,
+        title: "Drawn to D&AD",
+        year: "2026",
+        brand: "D&AD",
+        agency: "Jones Knowles Ritchie, London",
+        country: "United Kingdom",
+        summary: "D&AD 以 Drawn to Create 把 Pencil 重新推回創意卓越的核心象徵。",
+        boardImage: "boards/drawn-to-dad.jpg",
+        filmUrl: "https://lion.box.com/s/6uyd8asj85px6teohspqqk6y70c3vw1u",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/drawn-to-dad-01.jpg',
+            idea: 'assets/stills/drawn-to-dad-02.jpg',
+            execution: 'assets/stills/drawn-to-dad-03.jpg'
+        },
+        background: "六十多年來 D&AD 只獎勵真正卓越——獎盃不是獎盃，是 Pencil。近年 Pencil 在傳播中淡出；獎項林立威脅報名量，D&AD 需要重申 Pencil 作為創意卓越符號，提醒創意人為何要參賽。",
+        idea: "把 Pencil 放回紙上，確立它作為全球創意價值象徵。「Drawn to create」成核心理念——設計系統在文案與視覺上雙關這句話，直接對創意人說話，肯定作品並慶祝創作心態。",
+        execution: "貫穿傳播與 2025 Festival；板上指出 Festival NPS +31，為 D&AD Festival 史上最高，勝過疫情前基準，並讓 Pencil 重新成為創意卓越的燈塔。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 239,
+        title: "Chupa Chups Impossible",
+        year: "2026",
+        brand: "Perfetti Van Melle / Chupa Chups",
+        agency: "BBH, London",
+        country: "United Kingdom",
+        summary: "Chupa Chups 把「最難拆的包裝」做成終極挑戰，反推更好拆的新棒棒糖。",
+        boardImage: "boards/chupa-chups-impossible.jpg",
+        filmUrl: "https://lion.box.com/s/dnxgontt29dp6sl5fl4inb444cxup6ms",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/chupa-chups-impossible-01.jpg',
+            idea: 'assets/stills/chupa-chups-impossible-02.jpg',
+            execution: 'assets/stills/chupa-chups-impossible-03.jpg'
+        },
+        background: "人們抱怨 Chupa Chups 包裝難拆已數十年。要推出更好拆的新產品，他們反其道而行。",
+        idea: "把新的好拆棒棒糖藏進史上最難拆的包裝：碳複合外殼、Kevlar®、碳化矽塗層再浸液態橡膠。約 250 份送往全球接受考驗，把最大缺點變成最大戰役。",
+        execution: "引發全球媒體與創作者挑戰（含液壓機等極端測試）。板上呈現高度正面情緒、海量曝光與互動，並被 Hypebeast、Complex 等議論為「世界上最難拆的棒棒糖」。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 240,
+        title: "Owners Reunions",
+        year: "2026",
+        brand: "Porsche Latin American",
+        agency: "The Community, Miami",
+        country: "United States",
+        summary: "Porsche 用 VIN 解碼同一輛車的歷任車主，把陌生人重聚成永續故事的章節。",
+        boardImage: "boards/owners-reunions.jpg",
+        filmUrl: "https://lion.box.com/s/p8ry25rilj612ath7xyuelxuyc4rpizw",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/owners-reunions-01.jpg',
+            idea: 'assets/stills/owners-reunions-02.jpg',
+            execution: 'assets/stills/owners-reunions-03.jpg'
+        },
+        background: "約三分之二出廠的 Porsche 仍在路上。當所有車廠迷戀「新車」，他們做相反的事：每輛 Porsche 的 VIN 本為追蹤生產，但車活得夠久，這組代碼就變成傳記。",
+        idea: "解碼數十年 VIN 資料，追出同一輛 Porsche 背後的每一位車主，再把這些陌生人重聚——由同一輛車連結。",
+        execution: "每位車主成為故事一章，在社群陸續釋出，並延伸短片、肖像、看板與平面；搭建平台讓全球車主提交愛車、挖掘歷史、開啟更多重聚。板上：成為 Porsche LATAM 觸及最高的戰役之一，並帶動高有機互動與新內容參與。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
