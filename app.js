@@ -6161,6 +6161,247 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 251,
+        title: "70 ANS",
+        year: "2026",
+        brand: "ALPINE",
+        agency: "MATHEMATIC STUDIO, Paris / MAISON BETC, Paris",
+        country: "France",
+        summary: "以漫畫風格畫面重現 1965 年利曼 24 小時耐力賽雨夜中的 Alpine 藍色賽車。",
+        boardImage: "boards/70-ans.jpg",
+        filmUrl: "https://lion.box.com/s/ppvju3b7akdzs78azx6wx1tdat3cpqe6",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/70-ans-01.jpg',
+            idea: 'assets/stills/70-ans-02.jpg',
+            execution: 'assets/stills/70-ans-03.jpg'
+        },
+        background: "【板上幾乎無可讀文案】Presentation Image 以漫畫／清晰線條插畫呈現雨夜賽道：藍色 Alpine 賽車駛向標有 DUNLOP／SP SPORT 的拱橋，路旁牌子寫著「1965 - 24h DU MANS」。",
+        idea: "【板上無 IDEA 文案區塊】可辨識元素僅有賽道場景、擬聲字與品牌賽車形象，無法從板上讀出明確策略主張。",
+        execution: "【板上無 EXECUTION 文案區塊】執行呈現為整幅漫畫風格動態畫面：雨線、賽道燈光、擬聲字排版與 Cannes Lions 標誌，幾乎沒有可翻譯的說明文字。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 252,
+        title: "AXA X SONITA : THE LONE VOICE",
+        year: "2026",
+        brand: "AXA",
+        agency: "PUBLICIS CONSEIL, Paris",
+        country: "France",
+        summary: "AXA 與阿富汗饒舌歌手 Sonita 合作，把一個被禁的聲音變成成千上萬人合唱的社運合唱。",
+        boardImage: "boards/axa-x-sonita-the-lone-voice.jpg",
+        filmUrl: "https://lion.box.com/s/1h5fcw1tur6skc6vcqku6y5p4p2s75rn",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/axa-x-sonita-the-lone-voice-01.jpg',
+            idea: 'assets/stills/axa-x-sonita-the-lone-voice-02.jpg',
+            execution: 'assets/stills/axa-x-sonita-the-lone-voice-03.jpg'
+        },
+        background: "在阿富汗，女性被逼噤聲：禁止唱歌、公開發言，甚至不該被聽見。但有一個聲音拒絕消失——Sonita，阿富汗難民與倡議者，曾逃離兩次被迫婚姻，如今用饒舌替說不出話的人發聲。2023 年 AXA 推出策略平台「being a woman shouldn’t be a risk」，正視女性在健康、工作與暴力上面對的不成比例威脅，並以產品創新（Three Words）與全球倡議支援女性。",
+        idea: "打造史上第一個由社會共同構築的女性權利合唱：沒有人該在不公面前感到無力；我們都有聲音。於是把一個被禁止的聲音變成成千上萬道聲音，並向世界播出。",
+        execution: "Sonita 分享故事後，與網紅邀請大家透過 TikTok 濾鏡或專屬網站「捐出聲音」一起唱；音樂錄影帶收錄所有捐聲者，並穿插她離開阿富汗前的記憶。歌曲引起法國國民議會女性權利與性別平等代表團主席注意，邀請她到國會談倡議；再經由巴黎流亡阿富汗女性經營、旨在教育阿富汗女性的衛星頻道 Begum TV 把歌曲播回阿富汗。板上數據：6,100 萬總觀看、觸及 1,000 萬阿富汗女性、2,400 萬則 UGC TikTok 觀看。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 253,
+        title: "BORN IN ROMA RENDEZ-VOUS IVORY COLLECTION / STUDIO 54 EXPERIENCE",
+        year: "2026",
+        brand: "VALENTINO BEAUTY",
+        agency: "MAISON BETC, Paris",
+        country: "France",
+        summary: "Valentino Beauty 為 Born in Roma 象牙色系列上市，真正重開一夜 Studio 54，把香水發表做成自我表達的文化時刻。",
+        boardImage: "boards/born-in-roma-rendez-vous-ivory-collection-studio-54-experience.jpg",
+        filmUrl: "https://lion.box.com/s/1tv6wpwm6rncucn50sp0gsy89xn3w1qj",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/born-in-roma-rendez-vous-ivory-collection-studio-54-experience-01.jpg',
+            idea: 'assets/stills/born-in-roma-rendez-vous-ivory-collection-studio-54-experience-02.jpg',
+            execution: 'assets/stills/born-in-roma-rendez-vous-ivory-collection-studio-54-experience-03.jpg'
+        },
+        background: "Born in Roma 建立在一個簡單信念：個性才是終極奢華。但今天，連線更緊密的一代卻愈來愈被社會規範束縛，自我表達的自由不再理所當然；年輕受眾也期待品牌不只賣產品，還要有始終站在價值這一邊的真實聲音。在飽和的美妝市場裡，Valentino Beauty 需要超越傳統上市，打造真正體現自我表達願景的文化平台。",
+        idea: "把 Born in Roma Rendez-Vous Ivory Collection 的上市轉成 360° 文化平台，慶祝自我表達。關鍵不是引用 Studio 54，而是把這座傳奇場地重開一夜，喚醒深植於 Maison 傳承的真實個性象徵——Valentino Garavani 本人曾是常客，把想法錨定在品牌遺產。這成為橫跨影像、平面、零售、社群與沉浸體驗的戰役基礎，邀請觀眾不只看見品牌，更透過它表達自己：一場香水上市變成產品、身分與參與交會的文化時刻。",
+        execution: "戰役以一夜重開的 Studio 54 為核心，再放大到電影、平面、零售、社群與沉浸體驗。VOGUE 寫道：時光旅行還沒成真，但 Valentino Beauty 成功把賓客直接送回 Studio 54 全盛年代。板上成果：觸及 47 億、3,380 萬歐元 earned media value、Sephora 史上最大筆香水 app 評價潮，並把 Born in Roma 推上美國女性香水第 1、男性香水第 2。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 254,
+        title: "CHEETOS FLAMIN’ HOT DILL PICKLE RELAUNCH",
+        year: "2026",
+        brand: "CHEETOS",
+        agency: "GUT, Miami",
+        country: "United States",
+        summary: "Cheetos 把沾粉指紋變成收藏品認證，找 Megan Thee Stallion 與 Nickelback 跨界重啟 Flamin’ Hot Dill Pickle。",
+        boardImage: "boards/cheetos-flamin-hot-dill-pickle-relaunch.jpg",
+        filmUrl: "https://lion.box.com/s/2kx5d3nx4k8k3ug5b5jvx5fh0t9nmg62",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/cheetos-flamin-hot-dill-pickle-relaunch-01.jpg',
+            idea: 'assets/stills/cheetos-flamin-hot-dill-pickle-relaunch-02.jpg',
+            execution: 'assets/stills/cheetos-flamin-hot-dill-pickle-relaunch-03.jpg'
+        },
+        background: "2025 年初，Cheetos 推出以 Megan Thee Stallion 怪奇零食組合為靈感的限量口味 Flamin’ Hot Dill Pickle；售罄後粉絲湧上社群，明確喊著：他們要 Pickle 回來。",
+        idea: "把品牌最標誌性的資產——Cheetle® 沾粉指紋——變成全新的音樂收藏品認證方式：藝人碰過的道具留下橘色指紋，當成「碰過的證據」，讓產品體驗變成認證收藏的新方法。",
+        execution: "重啟口味時找來兩個「不該合在一起」的音樂類型與藝人——Megan Thee Stallion 與 Nickelback——重製 2000 年代神曲〈How You Remind Me〉音樂錄影帶，比喻就像 Flamin’ Hot 加 Dill Pickle。現場道具與樂器留下 Cheetle® 指紋，做成獨一無二收藏；由 James Spence Authentication 認證後上 Goldin 拍賣，收益捐給 Pete & Thomas Foundation 與 All The Right Reasons Foundation。板上：97 億曝光、上市後銷售增 16%、TikTok／Instagram 互動高於 2026 任何一支超級盃廣告、帶沾粉的收藏品價值提升 117%。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 255,
+        title: "DIN – THE MAGAZINE IN ALL FORMATS",
+        year: "2026",
+        brand: "DIN",
+        agency: "DEUTSCHES INSTITUT FUR NORMUNG, Berlin / RYSM, Berlin",
+        country: "Germany",
+        summary: "DIN 用 45 種規格、45 頁的特刊雜誌慶祝標準協定 50 年，證明標準也能長出創意。",
+        boardImage: "boards/din-the-magazine-in-all-formats.jpg",
+        filmUrl: "https://lion.box.com/s/7nt91xiucx7onyflhl86yj56nvkmm85e",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/din-the-magazine-in-all-formats-01.jpg',
+            idea: 'assets/stills/din-the-magazine-in-all-formats-02.jpg',
+            execution: 'assets/stills/din-the-magazine-in-all-formats-03.jpg'
+        },
+        background: "2025 年，德國標準化學會（German Institute for Standardization）慶祝與德意志聯邦共和國「標準協定 50 年」，推出一本激進的 DIN Magazine 特刊：45 頁、45 種不同 DIN 規格，依尺寸排列；每一頁都說一個由該規格啟發的故事。",
+        idea: "用繽紛、多元、前衛的角度重新看標準化：標準不是自由的限制，相反地，標準讓協作與交流成為可能。DIN Magazine 裡的故事，從各種面向展示沉睡在不同標準裡的創造潛力——45 種尺寸，45 個故事。",
+        execution: "四個系列（D、A、C、B）各 11 種規格，再加上 DIN Long：從 D10 到 B0 共 45 頁；最後幾頁可拆成海報。頁面例子包括 A9 貼紙質疑都市規範、DIN Lang 最長德文句子（背面依 DIN 8581-1 簡化版）、B4 用 D/A/C/B 音符寫成的樂曲、D2 畫框藝術史、C1 紀錄片《The Big Forgery》、D0 尋物遊戲「不正常有多正常」。此刊已納入柏林國家博物館藝術圖書館收藏。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 256,
+        title: "YOU MUST LOVE COKE",
+        year: "2026",
+        brand: "COCA-COLA",
+        agency: "GREY, New York / GREY ARGENTINA, Buenos Aires / VML, Sao Paulo / VML, New York",
+        country: "United States",
+        summary: "Coca-Cola 用光學錯覺，在禁止紅色的阿根廷球場讓球迷「看見」品牌紅。",
+        boardImage: "boards/you-must-love-coke.jpg",
+        filmUrl: "https://lion.box.com/s/7annxgwtw2mwz920qk66kzbn5onz1bng",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/you-must-love-coke-01.jpg',
+            idea: 'assets/stills/you-must-love-coke-02.jpg',
+            execution: 'assets/stills/you-must-love-coke-03.jpg'
+        },
+        background: "在阿根廷，Racing Club 球迷流的是藍色的血；紅色屬於死敵 Independiente，兩隊主場只隔 300 公尺。Racing 球迷把紅色趕出衣櫃與冰箱，有人連番茄都只買綠色；主教練 Gustavo Costas 連紅椅子都不坐。那麼，一個以紅色定義的品牌 Coca-Cola，要怎麼走進這個拒絕紅色的社群？",
+        idea: "Coca-Cola 把紅色拿走。運用光學錯覺原理，只用藍、黑、白、灰做出仍讓球迷感知到 Coca-Cola 紅的執行；數十年對品牌的愛，會在腦中把紅色補回去。",
+        execution: "作品投放球場大螢幕、OOH 與社群，嵌入球迷文化，同時尊重敵對傳統。板上強調實際只用兩色：CYAN 與 GREY；螢幕文案寫著「ACÁ SOLO ESTÁN LOS COLORES QUE AMÁS. Y UNA Coca-Cola.」。成果：98% 正面情緒（板上玩笑：我們猜另外 2% 是 Independiente 球迷）、觸及 5.46 億。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 257,
+        title: "PAID SICK LEAVE FOR COWS",
+        year: "2026",
+        brand: "TOO GOOD",
+        agency: "THE PARTNERSHIP AGENCY",
+        country: "Kenya",
+        summary: "TOO GOOD 用「乳牛有薪病假」保護肯亞小農在扣留牛奶期間的收入，讓乳品安全不必靠漲價換。",
+        boardImage: "boards/paid-sick-leave-for-cows.jpg",
+        filmUrl: "https://lion.box.com/s/cb1pjwwnwt3c0rtv13oujrae6j03w1cd",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/paid-sick-leave-for-cows-01.jpg',
+            idea: 'assets/stills/paid-sick-leave-for-cows-02.jpg',
+            execution: 'assets/stills/paid-sick-leave-for-cows-03.jpg'
+        },
+        background: "肯亞的乳品體系依賴小農；當乳牛接受抗生素治療、必須扣留牛奶時，農友收入就中斷。品管雖能檢出不安全的牛奶，但農友若不想損失收入就很難合規，價格又無法上漲。",
+        idea: "Paid Sick Leave for Cows 把人力勞動原則套到乳業：用保護農友收入的方式，拿掉合規成本。",
+        execution: "以簡單的 WhatsApp 系統讓農友申請扣留牛奶的補償（申請→處方照片→審核→核准病假，並以 M-PESA 撥款），在不漲價的前提下對齊整條供應鏈誘因。板上成果：退還農友 27,000 美元（從未販售的牛奶）、100% 保護農友收入且不漲價、牛奶拒收近乎降至 0。Supported by：KIEP、Finnish Government、Visa Foundation、The World Bank。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 258,
+        title: "MOTHER CELL HEIST",
+        year: "2026",
+        brand: "OPELLA",
+        agency: "BBDO Spain",
+        country: "Spain",
+        summary: "Enterogermina 雇真實竊賊規劃盜取原始菌株，再拍成 History Channel 首播的八分鐘搶劫短片。",
+        boardImage: "boards/the-mothercell-heist.jpg",
+        filmUrl: "https://lion.box.com/s/lr4g5afbkvbsliuyr7hmykbdr2zqs0z2",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-mothercell-heist-01.jpg',
+            idea: 'assets/stills/the-mothercell-heist-02.jpg',
+            execution: 'assets/stills/the-mothercell-heist-03.jpg'
+        },
+        background: "Enterogermina 是全球第一的益生菌，也是健康領域最常被仿冒的品牌之一。競爭對手試圖複製名稱、宣稱、包裝——幾乎一切；但真正優勢在於原始菌株，那是每項產品背後的活來源。問題是：在充斥「自稱最好」仿品的市場裡，該如何脫穎而出？",
+        idea: "我們雇了一名竊賊來盜取原始菌株、測試保全系統，確保競爭對手永遠碰不到最寶貴的資產。真的——合作對象是美國史上惡名昭彰的珠寶大盜 Larry Lawton。我們簡報設施、給他期限；他分析每一層防護、尋找破口，然後設計出一場真實搶案。",
+        execution: "基於安全考量無法公開 Larry 的真實計畫，於是把現實變成娛樂：與《Money Heist》編劇之一 Alberto Sierra 合作，拍出高張力八分鐘搶劫短片，於 THE HISTORY CHANNEL 首播。板上介紹 THE MASTERMIND：Larry Lawton 在八〇、九〇年代盜走近 2,000 萬美元，服刑 11 年後離開犯罪、創辦 Reality Check Program 幫助孩子遠離歧途，也是暢銷作家、擁有 150 萬追蹤的 YouTuber 與電視分析師。媒體評語包括 LITTLE BLACK BOOK、ANUNCIOS、MARKETINGNEWS、REASON WHY、MKD。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 259,
+        title: "SUPER ASHA",
+        year: "2026",
+        brand: "MUMKIN APP LLP",
+        agency: "Mumkin App",
+        country: "India",
+        summary: "Mumkin App 用網頁遊戲 SUPER ASHA 讓玩家走進印度 ASHA 社區健康工作者的超載日常。",
+        boardImage: "boards/super-asha.jpg",
+        filmUrl: "https://lion.box.com/s/bybamn2vxozbsmzw7u5iae65013pp0fy",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/super-asha-01.jpg',
+            idea: 'assets/stills/super-asha-02.jpg',
+            execution: 'assets/stills/super-asha-03.jpg'
+        },
+        background: "在印度，約一百萬人的全女性隊伍挨家挨戶做健康檢查、處理健康紀錄與資料——她們是 ASHA didis。「ASHA」在印地語意為「希望」，她們確實是印度的生命線；從秘密到故事，到如今的個人資料，ASHA 握著超過十億人的福祉。WHO 在 2022 年授予 ASHA 工作者「Global Health Leaders」頭銜，但她們每月只賺 30–80 美元、沒有正式認可；嚴重過勞與低薪、日夜不停，卻沒有員工的基本權利。板上標語：「We work ‘25 hours/day’」。",
+        idea: "怎麼讓人真正感受到 ASHA 的工作負荷？我們做了一款五關遊戲，玩家卻還是覺得累垮。SUPER ASHA 是沉浸式網頁遊戲與體驗：你試著以 ASHA 工作者的身分「贏」——穿上她的鞋子。但怎麼才算贏？一邊握著人們的資料，另一邊握著秘密；勝利或許是主觀的。",
+        execution: "體驗入口：WWW.SUPERASHA.COM/PLAY；標語寫「Experience the life of a healthcare worker through an original game」。板上「Experience of players worldwide」引述玩家：「I am tired.」「Exhausted.」「What! No XP for household work?」「How do they do it?」「How do I win?」「Is this true?」底部 ASHA 引言：「A million ASHAs for a billion-plus people; yet we are not recognised as employees.」「We saved people's lives during COVID. And they did not let us enter our own homes.」",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 260,
+        title: "U UP?",
+        year: "2026",
+        brand: "IKEA",
+        agency: "RETHINK, Toronto",
+        country: "Canada",
+        summary: "IKEA 半夜傳「u up?」私訊給失眠滑手機的人，回覆就給床墊折扣。",
+        boardImage: "boards/u-up.jpg",
+        filmUrl: "https://lion.box.com/s/66jx5bhbz4qxdczdezfws7dyt5lslgbe",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/u-up-01.jpg',
+            idea: 'assets/stills/u-up-02.jpg',
+            execution: 'assets/stills/u-up-03.jpg'
+        },
+        background: "IKEA 床墊品質耐用、價格只要別人的零頭，但很多人根本不考慮，寧可躺在昂貴又爛的床墊上翻來覆去睡不著。若能在他們睡不著、半夜滑手機的當下接觸他們，用一句只會在深夜出現的惡名昭彰訊息呢？",
+        idea: "為抓住失眠滑手機者的注意力，我們深夜滑進他們的 DM，用一句他們無法無視的訊息「U up?」推銷更好的床墊；有回覆的人就獲得 IKEA 床墊折扣。",
+        execution: "Instagram 私訊對話示意（凌晨 1:32）：IKEA 先問「u up?」，對方回「No way this is IKEA」，IKEA 再說「So you are up!」並提供床墊 15% off，導向 ikea.com/u-up。板上成果：送出 3,608,412 則「U UP」訊息、線上造訪 +17%、床墊銷售 +36%。媒體評語：campaign「TAKES 'SLIDING INTO DMS' TO A WHOLE NEW LEVEL」；The Drum「DID WHAT MOST BRANDS WOULDN'T DARE」；ADWEEK「A CHEEKY SPIN ON THE ICONIC PHRASE」。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
