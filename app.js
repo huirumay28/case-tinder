@@ -6643,6 +6643,246 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 271,
+        title: "THE BIG REDEMPTION",
+        year: "2026",
+        brand: "FRONTIER AIRLINES",
+        agency: "BARKLEYOKRP, KANSAS CITY",
+        country: "United States",
+        summary: "Frontier Airlines 重啟忠誠計畫時，幫 30 年前差點換到獵鷹式戰機的男人完成結局。",
+        boardImage: "boards/the-big-redemption.jpg",
+        filmUrl: "https://lion.box.com/s/x4lxletd42muyl3hm7bgdl19u86uhnlx",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-big-redemption-01.jpg',
+            idea: 'assets/stills/the-big-redemption-02.jpg',
+            execution: 'assets/stills/the-big-redemption-03.jpg'
+        },
+        background: "30 年前 Pepsi 超級盃促銷：集滿 700 萬點可換 Harrier Jet。大學生 John Leonard 湊滿點數卻被告知是玩笑，還被告。這故事變成忠誠計畫荒謬的代名詞，至今仍在 Reddit、TikTok、Instagram 與 Netflix 紀錄片流動。Frontier 要重啟自己的忠誠計畫時，看到觀眾已經等了 30 年結局。",
+        idea: "【板上 IDEA 開頭】給他們等待已久的結局（OCR 後段有缺字，不臆造細節）。",
+        execution: "板上顯示前四周訂位與首週股價等成果數字（OCR 讀為 Flights Booked in First Four Weeks / Stock Increase in First Week）；細節以板上可見為限。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 272,
+        title: "RE-COMMERCE ATACAMA",
+        year: "2026",
+        brand: "VTEX & DESIERTO VESTIDO & FASHION REVOLUTION",
+        agency: "ARTPLAN, SAO PAULO",
+        country: "Brazil",
+        summary: "VTEX 等夥伴從阿塔卡馬沙漠時尚垃圾場救出完好名牌衣，做成世界無法忽視的免費再商務電商。",
+        boardImage: "boards/re-commerce-atacama.jpg",
+        filmUrl: "https://lion.box.com/s/68uvd2eoonq1e1m3h7ut63ms7ktx0o1j",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/re-commerce-atacama-01.jpg',
+            idea: 'assets/stills/re-commerce-atacama-02.jpg',
+            execution: 'assets/stills/re-commerce-atacama-03.jpg'
+        },
+        background: "因時尚業過剩生產，每年有成噸衣物被丟進阿塔卡馬沙漠，形成全球最大時尚垃圾場；其中多數衣服其實完好。",
+        idea: "一個世界無法忽視的電商：從沙漠救出的頂級品牌衣服，免費提供。",
+        execution: "Re-commerce Atacama 庫存迅速售罄，行動把快時尚危機推上全球焦點。媒體評語包括「改變時尚典範」「行動主義之舉」「替時尚注入新生命」。板上標示觸及多國（OCR 見 countries）。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 273,
+        title: "THE 58 YEAR OLD ROOKIE",
+        year: "2026",
+        brand: "OPELLA",
+        agency: "MARTIN, RICHMOND",
+        country: "United States",
+        summary: "Aspercreme 贊助 58 歲大學美式足球菜鳥 Tom Cillo，證明追夢永遠不嫌晚，成為當季最被討論的贊助。",
+        boardImage: "boards/the-58-year-old-rookie.jpg",
+        filmUrl: "https://lion.box.com/s/lplpisohkivgzxqtjnbraze3k7sx9arf",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-58-year-old-rookie-01.jpg',
+            idea: 'assets/stills/the-58-year-old-rookie-02.jpg',
+            execution: 'assets/stills/the-58-year-old-rookie-03.jpg'
+        },
+        background: "年長者常被文化（尤其運動）邊緣化。Aspercreme 是面向 55+ 關節疼痛的小品牌，卻相信不論年齡皆有可能，並找到完美夥伴來證明。",
+        idea: "與 58 歲 Tom Cillo 合作：他不只重返大學，還加入足球隊，對上年輕三十歲的球員，打最痛的防守線位置。",
+        execution: "發現他後數日內 Aspercreme 成為贊助；板上稱其為當季最被談論的贊助，並列出與其他運動員的對照排名。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 274,
+        title: "RENU VS THE CITY",
+        year: "2026",
+        brand: "ST. JUDE INDIA CHILDCARE CENTRES",
+        agency: "OGILVY, MUMBAI",
+        country: "India",
+        summary: "St. Jude India 用九歲癌童 Renu 的街道求生「指南」影片，讓人看見被誤認成遊民的孩子其實在抗癌。",
+        boardImage: "boards/renu-vs-the-city.jpg",
+        filmUrl: "https://lion.box.com/s/qzcp46o89vaurti3mqt0nh53ekl8g6r6",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/renu-vs-the-city-01.jpg',
+            idea: 'assets/stills/renu-vs-the-city-02.jpg',
+            execution: 'assets/stills/renu-vs-the-city-03.jpg'
+        },
+        background: "St. Jude India ChildCare Centres 為癌童家庭提供免費安全住宿，但需要更多捐款才能收容更多人。任務是讓大眾知道：那些被以為無家可歸的孩子，其實在跟癌症搏鬥。",
+        idea: "不做同情凝視，而是讓孩子自己說話：影片《Renu vs The City》中，9 歲癌患 Renu 對鏡頭分享「在人行道生活的指南」。",
+        execution: "以連續長拍提高真實感、減少喘息剪接；孩子天真陳述讓現實更難忽視。板上強調戰役以「拯救生命」而非單位銷售衡量成功。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 275,
+        title: "TWO-WAY DEAL",
+        year: "2026",
+        brand: "CLASH OF CLANS",
+        agency: "DAVID, NEW YORK",
+        country: "United States",
+        summary: "Clash of Clans 用 NFL 雙向巨星 Travis Hunter，把玩家的進攻／防守基地數據變成即時球探評估。",
+        boardImage: "boards/two-way-deal.jpg",
+        filmUrl: "https://lion.box.com/s/r6msopt9oyuvs7ug11fhugabcbftgd3l",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/two-way-deal-01.jpg',
+            idea: 'assets/stills/two-way-deal-02.jpg',
+            execution: 'assets/stills/two-way-deal-03.jpg'
+        },
+        background: "美式足球裡能像 Travis Hunter 同時打進攻與防守極為罕見，也讓他拿到巨額合約。在 Clash of Clans，雙向玩法同樣被看見。",
+        idea: "把遊戲內雙向表現做成「被球探發掘」的瞬間：成千玩家交出 in-game ID，用即時資料評估技巧。",
+        execution: "板上呈現媒體評語（game-changing crossover、once-in-a-lifetime chance）、社交互動、Travis Hunter 相關內容與營收成長指標；並可見進攻／防守各 1,000,000 gems 等視覺。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 276,
+        title: "THE WIZARD OF OZ AT SPHERE",
+        year: "2026",
+        brand: "SPHERE STUDIOS",
+        agency: "SPHERE ENTERTAINMENT, BURBANK",
+        country: "United States",
+        summary: "Sphere 把 1939《綠野仙蹤》做成可走進去的沉浸世界，用 AI 與 4D 多感官重定義體驗娛樂。",
+        boardImage: "boards/the-wizard-of-oz-at-sphere.jpg",
+        filmUrl: "https://lion.box.com/s/icg9mcdf356y4bo74rpxtx2c1b3vvruo",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-wizard-of-oz-at-sphere-01.jpg',
+            idea: 'assets/stills/the-wizard-of-oz-at-sphere-02.jpg',
+            execution: 'assets/stills/the-wizard-of-oz-at-sphere-03.jpg'
+        },
+        background: "Sphere 要以新形態娛樂帶來驚奇：故事不再困在螢幕裡，而成為包圍你的世界。《綠野仙蹤》在 Sphere 的目標是定義這新媒介，把沉浸敘事推向下一個前沿——觀眾不是在看，而是走進去。",
+        idea: "改造 1939 經典，把故事推出畫框，變成可居住的沉浸世界；用 AI 處理過去被畫框限制的表演，抹平觀眾與螢幕的界線。",
+        execution: "結合 4D 與多感官敘事，讓觀眾感覺像跟著 Dorothy 走在黃磚路上。板上其餘數據 OCR 不完整處不臆造。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 277,
+        title: "THE GRIT & THE GLITTER",
+        year: "2026",
+        brand: "LONDON MUSEUM",
+        agency: "UNCOMMON CREATIVE STUDIO, LONDON",
+        country: "United Kingdom",
+        summary: "London Museum 改名並以「Grit & Glitter」雙重性重做識別，用鴿子與鳥屎符號回應倫敦人的城市真實感。",
+        boardImage: "boards/the-grit-the-glitter.jpg",
+        filmUrl: "https://lion.box.com/s/t6r85adqdldue0wds2mzcizy4zw1o1u3",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-grit-the-glitter-01.jpg',
+            idea: 'assets/stills/the-grit-the-glitter-02.jpg',
+            execution: 'assets/stills/the-grit-the-glitter-03.jpg'
+        },
+        background: "倫敦人厭惡舊 Museum of London 識別。團隊把名字改成 London Museum，把倫敦放在前面；與倫敦人研究後，指向一個兩極碰撞的城市：富與貧、權力與抗議。",
+        idea: "雙重性「Grit & Glitter」。圖標會是鴿子——城市的觀察者——以及（板上所述）splat 作為倫敦能指。",
+        execution: "媒體評語包括「不太可能的偶像」「大膽新品牌識別」「避開矯飾陳腔」；Design Week 等認為人們會開始把鴿子與 splat 認作 London Museum 的記號。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 278,
+        title: "RAIL CLOCK",
+        year: "2026",
+        brand: "NETWORK RAIL",
+        agency: "DESIGN BRIDGE AND PARTNERS, LONDON",
+        country: "United Kingdom",
+        summary: "Network Rail 的 Rail Clock 把國家鐵路時間重新變成公共守時工具與文化遺產。",
+        boardImage: "boards/rail-clock.jpg",
+        filmUrl: "https://lion.box.com/s/f1ueuoiami7jl2cyaehk1rpoe8vwhrkw",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/rail-clock-01.jpg',
+            idea: 'assets/stills/rail-clock-02.jpg',
+            execution: 'assets/stills/rail-clock-03.jpg'
+        },
+        background: "【OCR 嚴重不清】板上可見 Rail Clock 標題，以及關於英國鐵路、守時與國家鐵路遺產的殘缺句子。",
+        idea: "【板上 IDEA 難以完整辨識】從殘字可見與「重新定義時間／幫助旅人守時」相關，但不臆造完整主張。",
+        execution: "【OCR 不足】僅能確認與全國旅客／車站時鐘相關的執行方向；細節以板上可讀為限，不補造。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 279,
+        title: "THE MISSING WORD DICTIONARY",
+        year: "2026",
+        brand: "VISIONING BEYOND VIOLENCE, YOUTH ALIVE!",
+        agency: "FCB HEALTH NEW YORK",
+        country: "United States",
+        summary: "為失去孩子的父母創造英語缺失的詞，並發動大眾把它送進牛津詞典，把字變成運動。",
+        boardImage: "boards/the-missing-word-dictionary.jpg",
+        filmUrl: "https://lion.box.com/s/9i2ghhbxyvbufyfv907qay2qpx753r5m",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-missing-word-dictionary-01.jpg',
+            idea: 'assets/stills/the-missing-word-dictionary-02.jpg',
+            execution: 'assets/stills/the-missing-word-dictionary-03.jpg'
+        },
+        background: "今日槍枝暴力是美國青少年首要死因；愈來愈多父母活在這種失落裡，卻沒有一個詞能稱呼自己是誰。英語有失去配偶的 widow、失去父母的 orphan，但失去孩子的父母——直到現在——沒有詞。",
+        idea: "創造這個缺失的詞，並邀請大眾把它提交給牛津英語詞典，把一個詞變成運動。",
+        execution: "板上可見 TAKE ACTION／SPREAD THE WORD、寫信給國會、海報傳播等行動呼籲；並強調槍枝暴力是公共健康危機。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 280,
+        title: "PRICE PACKS",
+        year: "2026",
+        brand: "PENNY",
+        agency: "SERVICEPLAN GERMANY, MUNICH",
+        country: "Germany",
+        summary: "德國折扣超市 PENNY 推出「價格就是包裝」的 Price Packs，把長期穩定低價做成無法反悔的承諾。",
+        boardImage: "boards/price-packs.jpg",
+        filmUrl: "https://lion.box.com/s/evhifs4aai6kch006tidqnthkfh6eust",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/price-packs-01.jpg',
+            idea: 'assets/stills/price-packs-02.jpg',
+            execution: 'assets/stills/price-packs-03.jpg'
+        },
+        background: "購物者受食品通膨困擾，動態定價等新零售手法更添不安。德國折扣通路 PENNY 要如何展現對低價且穩定的承諾？",
+        idea: "PRICE PACKS 是第一個「一切都關乎價格」的品牌：包裝設計完全聚焦價格。",
+        execution: "因傳統生產需數月，此設計成為對價格穩定的不可撤回承諾；放在競品旁能立刻看出最划算的選擇。覆蓋德國全數 2,122 家 PENNY，並以同樣醒目的 OOH 推廣；戰役獲傳統與社群媒體大量回饋，累積約 3.39 億媒體曝光。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
