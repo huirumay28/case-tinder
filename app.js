@@ -6402,6 +6402,247 @@ const casesData = [
             { award: "Silver Lion", icon: "🥈" },
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 261,
+        title: "THE LEGACY OF VIRGINIA GIUFFRE",
+        year: "2026",
+        brand: "VIRGINIA GIUFFRE",
+        agency: "DINI VON MUEFFLING COMMUNICATIONS, NEW YORK",
+        country: "United States",
+        summary: "Virginia Roberts Giuffre 的遺產戰役以「我再也不會沒有發言權」為核心，把個人證詞變成全球媒體與文化衝擊。",
+        boardImage: "boards/the-legacy-of-virginia-giuffre.jpg",
+        filmUrl: "https://lion.box.com/s/xsg60ufifuzr0yq4my6xfxybn0word5t",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-legacy-of-virginia-giuffre-01.jpg',
+            idea: 'assets/stills/the-legacy-of-virginia-giuffre-02.jpg',
+            execution: 'assets/stills/the-legacy-of-virginia-giuffre-03.jpg'
+        },
+        background: "【板上文案極少】Presentation Image 以大標「THE LEGACY OF VIRGINIA ROBERTS GIUFFRE」與引言「I WILL NEVER HAVE ‘NO SAY’ AGAIN.」呈現；下方 THE IMPACT 區塊列出總 UVPM、文章數與涵蓋國家等媒體數據。",
+        idea: "【板上無獨立 IDEA 標題區塊】可辨識主張集中在「永遠不再沒有發言權」這句引言，以及把個人故事轉成可量化的全球媒體影響力。",
+        execution: "板上 THE IMPACT 顯示：總 UVPM（OCR 讀為 113.11 B 量級）、ARTICLES: 4,503，涵蓋 118 COUNTRIES。其餘執行細節板上幾乎沒有可讀段落。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 262,
+        title: "RUN BACK THE MIRACLE",
+        year: "2026",
+        brand: "MICHELOB ULTRA",
+        agency: "WIEDEN+KENNEDY, NEW YORK",
+        country: "United States",
+        summary: "Michelob ULTRA 在米蘭可提納冬奧前，讓球迷真正「回到」1980 冰上奇蹟現場，而不是只在螢幕上看重播。",
+        boardImage: "boards/run-back-the-miracle.jpg",
+        filmUrl: "https://lion.box.com/s/1ogtzb6bs1ktubecl7nmk66tq4cxcal6",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 2 },
+        stills: {
+            background: 'assets/stills/run-back-the-miracle-01.jpg',
+            idea: 'assets/stills/run-back-the-miracle-02.jpg',
+            execution: 'assets/stills/run-back-the-miracle-03.jpg'
+        },
+        background: "1980 年 Miracle on Ice 是每位美國冰球迷都希望親臨的比賽；46 年來它只存在於單一轉播與當日觀眾的記憶。2026 年 1 月、米蘭可提納冬奧前一個月，Michelob ULTRA 想給球迷一張「通往那場比賽」的票。",
+        idea: "開創一種新的體育娛樂：讓粉絲第一次、也永遠可以「出席」歷史賽事。球迷不是在螢幕上看奇蹟，而是走進它。",
+        execution: "2026 年 1 月 15 日，約 1,700 名球迷擠進原場館；比賽以全像方式在原冰面上重演，1980 英雄也在觀眾席。板上強調這是售罄活動，並把體驗定位成運動本身從未做到的事。",
+        awardsDetail: [
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 263,
+        title: "THE TRIANGLE THEORY",
+        year: "2026",
+        brand: "DORITOS",
+        agency: "ALMAPBBDO, SAO PAULO",
+        country: "Brazil",
+        summary: "Doritos 把「三角陰謀論」滲進足球文化討論，最後用紀錄片揭曉：一切都指向脆片三角。",
+        boardImage: "boards/the-triangle-theory.jpg",
+        filmUrl: "https://lion.box.com/s/s70hjuqpqddutexr4krw1a34sxo0g16o",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 2 },
+        stills: {
+            background: 'assets/stills/the-triangle-theory-01.jpg',
+            idea: 'assets/stills/the-triangle-theory-02.jpg',
+            execution: 'assets/stills/the-triangle-theory-03.jpg'
+        },
+        background: "板上以大量媒體標題呈現陰謀蔓延：從 C 羅經典髮型是否藏著祕密三角，到體育節目與創作者開始調查、辯論。",
+        idea: "什麼比戰役更會傳播？陰謀。足球文化本來就愛陰謀；Doritos 把品牌三角變成球迷願意追的文化駭客。",
+        execution: "先讓陰謀在網路上流傳（粉絲分析圖像、自製影片、節目辯論），再釋出未品牌化紀錄片《The Triangle Theory》，以約兩分鐘調查片呈現證人、證據與 C 羅本人；板上列出觀看分鐘數、分享率等成果對比。",
+        awardsDetail: [
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 264,
+        title: "SCRATCH YOUR DATA",
+        year: "2026",
+        brand: "MERCADO LIVRE",
+        agency: "GUT, SAO PAULO",
+        country: "Brazil",
+        summary: "Mercado Livre 把宅配單做成刮刮卡，要領優惠就得先刮掉、銷毀自己的個資。",
+        boardImage: "boards/scratch-your-data.jpg",
+        filmUrl: "https://lion.box.com/s/bgjig1jgv6qvp4yrd0pfldkx8jzbr46w",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 2 },
+        stills: {
+            background: 'assets/stills/scratch-your-data-01.jpg',
+            idea: 'assets/stills/scratch-your-data-02.jpg',
+            execution: 'assets/stills/scratch-your-data-03.jpg'
+        },
+        background: "人們擔心數位資料遭竊時，另一種更簡單的詐騙正在升溫：從丟棄的包裹垃圾桶偷個資。作為拉丁美洲第一大電商、每天配送約 350 萬箱，Mercado Livre 必須介入。",
+        idea: "重新設計出貨標籤成刮刮卡，把優惠藏在個資區域下方；要領獎，就必須先刮掉並銷毀自己的資訊。",
+        execution: "把配送旅程的最後一步變成新習慣的第一步；覆蓋巴西 27 州中的 26 州、約 7,500 萬人，並進入 82 個媒體報導。板上引述媒體稱其為「簡單但重要的行動」。",
+        awardsDetail: [
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 265,
+        title: "MISSING LETTERS OF WORTH",
+        year: "2026",
+        brand: "L'OREAL",
+        agency: "FP7 MCCANN DUBAI",
+        country: "United Arab Emirates",
+        summary: "L’Oréal Paris 把兩個字母變成運動，推動中東把官方文件上的「家庭主婦」標籤改寫，讓女性取回「worth」。",
+        boardImage: "boards/missing-letters-of-worth.jpg",
+        filmUrl: "https://lion.box.com/s/87ezv7aos62sugakt904nqqu4wk9v5go",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/missing-letters-of-worth-01.jpg',
+            idea: 'assets/stills/missing-letters-of-worth-02.jpg',
+            execution: 'assets/stills/missing-letters-of-worth-03.jpg'
+        },
+        background: "在中東，女性已是成功創業家、自由工作者與高學歷專業人士，卻仍常在社會與官方文件被標成 housewife；這標籤不只誤稱，還限制旅行、開戶或經商，有時甚至需丈夫書面許可。作為長期告訴女性 you’re worth it 的品牌，L’Oréal Paris 看到以文化相關方式協助女性取回價值的機會。",
+        idea: "把兩個字母變成能驅動文化與制度改變的運動（板上副標：TURNING TWO LETTERS INTO A MOVEMENT THAT DROVE CULTURAL AND INSTITUTIONAL CHANGE）。",
+        execution: "板上可見 2025 年 3 月相關節點，包括 Sheikh Hamdan 指示阿聯酋社區發展當局更換「housewife」標籤等制度回應；其餘執行細節 OCR 部分模糊，不臆造。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 266,
+        title: "THE FINAL COPY OF ILON SPECHT",
+        year: "2026",
+        brand: "L'OREAL",
+        agency: "MCCANN PARIS",
+        country: "France",
+        summary: "L’Oréal Paris 找回 Ilon Specht 的故事，用她那句五十年不變的「Because I’m Worth It」做成全球紀錄片戰役。",
+        boardImage: "boards/the-final-copy-of-ilon-specht.jpg",
+        filmUrl: "https://lion.box.com/s/3njv1487p21vv01ou72858fkjaue81yn",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-final-copy-of-ilon-specht-01.jpg',
+            idea: 'assets/stills/the-final-copy-of-ilon-specht-02.jpg',
+            execution: 'assets/stills/the-final-copy-of-ilon-specht-03.jpg'
+        },
+        background: "1973 年，Ilon Specht 用四個簡單的字創造歷史：「Because I’m Worth It.」今天，她的句子與故事比以往更有意義。",
+        idea: "把 Ilon Specht 的故事帶到台前，並在不改動任何一個字的前提下，讓這句五十年前的開創性文案重新活起來。",
+        execution: "國際婦女節當天釋出約 18 分鐘紀錄片，於 Prime Video、AMC+ 與 YouTube 播出；並透過全球 20+ 國放映、活動、社群、OOH 與互動裝置擴散。板上列出曝光、品牌考量、IMDb 分數與按讚比率等成果指標。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 267,
+        title: "STELLA LOCAD GUIDES",
+        year: "2026",
+        brand: "STELLA ARTOIS",
+        agency: "AB INBEV, BUENOS AIRES",
+        country: "Argentina",
+        summary: "Stella Artois 把 Google Local Guide 的真實評論變成品牌媒介，用在地人的夜晚描述帶出啤酒。",
+        boardImage: "boards/stella-locad-guides.jpg",
+        filmUrl: "https://lion.box.com/s/y1tjutlgx6mahh6z42kxajewlhgztn2a",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/stella-locad-guides-01.jpg',
+            idea: 'assets/stills/stella-locad-guides-02.jpg',
+            execution: 'assets/stills/stella-locad-guides-03.jpg'
+        },
+        background: "板上以多則 Local Guide 評論構成主要可讀內容：例如 Level 7 嚮導描述點了 Stella、bruschetta 與烤牛肉三明治的夜晚；Level 8 嚮導推薦大道上的披薩店並搭配桶裝 Stella。",
+        idea: "讓在地嚮導的真實意見成為 Stella 的媒體與信任來源（板上以 Google 商家意見介面呈現）。",
+        execution: "呈現 Google 商家頁的 Photos／Opinions 介面與多則 Local guide 評價截圖；策略長文與量化成果 OCR 不清，不臆造。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 268,
+        title: "MOVING LANDSCAPES",
+        year: "2026",
+        brand: "BMW",
+        agency: "SERVICEPLAN SPAIN, MADRID",
+        country: "Spain",
+        summary: "BMW 把車從畫面拿掉，用車內視角把西班牙風景拍成抽象情緒，重新定義 Sheer Driving Pleasure。",
+        boardImage: "boards/moving-landscapes.jpg",
+        filmUrl: "https://lion.box.com/s/m667eek3njpvj3rzmghec03pt9s3qgvr",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/moving-landscapes-01.jpg',
+            idea: 'assets/stills/moving-landscapes-02.jpg',
+            execution: 'assets/stills/moving-landscapes-03.jpg'
+        },
+        background: "汽車廣告愈來愈被緊迫感、性能與不斷的產品展示主導，幾乎沒有空間談真正的駕駛體驗。對建立在 Sheer Driving Pleasure 的 BMW 來說，這成了從內部挑戰品類的機會。",
+        idea: "Moving Landscapes 把車完全拿掉，把焦點放回駕駛它的體驗。",
+        execution: "由攝影師 Ivan Arribas 從移動中的 BMW 車內拍攝西班牙旅程，把熟悉風景轉成抽象情緒。戰役先登藝術雜誌 Matador，再擴到 OOH、社群與公關，產生 30+ 則媒體報導、觸及逾 200 萬人。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 269,
+        title: "SEE A SEIZURE",
+        year: "2026",
+        brand: "JAZZ PHARMACEUTICALS",
+        agency: "21GRAMS, NEW YORK",
+        country: "United States",
+        summary: "Jazz Pharmaceuticals 做出罕見癲癇細微發作的視覺資源，讓癲癇更容易被辨識、診斷與治療。",
+        boardImage: "boards/see-a-seizure.jpg",
+        filmUrl: "https://lion.box.com/s/npkthbi1dbdg0vls3bkgjspsl3qqfyir",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/see-a-seizure-01.jpg',
+            idea: 'assets/stills/see-a-seizure-02.jpg',
+            execution: 'assets/stills/see-a-seizure-03.jpg'
+        },
+        background: "罕見癲癇極難辨識與診斷，常被誤認成自閉等更常見狀況；重症患者一天可能經歷數百次未被注意的發作。每次發作都傷害大腦，延誤診斷可能嚴重影響認知與日常功能。問題是：過去從未有夠準確的視覺資源，教人看懂細微發作長什麼樣子。",
+        idea: "做出第一個足夠準確的視覺資源，讓發作更可見，也讓癲癇更可診斷、可治療，避免大腦持續受損。",
+        execution: "板上展示 ATYPICAL ABSENCE SEIZURE、ATONIC (DROP) SEIZURE 等發作類型視覺；其餘媒介與數據 OCR 不完整處不臆造。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 270,
+        title: "THE SHAKESPEARE BIC",
+        year: "2026",
+        brand: "BIC",
+        agency: "VML, SAO PAULO",
+        country: "Brazil",
+        summary: "BIC 用一支 Cristal 筆手寫重現《羅密歐與茱麗葉》全 226 頁，證明筆的耐用，也向失落的手稿致敬。",
+        boardImage: "boards/the-shakespeare-bic.jpg",
+        filmUrl: "https://lion.box.com/s/hdy3txz7ncfer27sz3qrxjrk5gtx9yfy",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-shakespeare-bic-01.jpg',
+            idea: 'assets/stills/the-shakespeare-bic-02.jpg',
+            execution: 'assets/stills/the-shakespeare-bic-03.jpg'
+        },
+        background: "莎士比亞的原始手稿（包括《羅密歐與茱麗葉》）已佚失。BIC 看到機會：在向這份遺產致敬的同時，展示其筆的驚人耐用。",
+        idea: "用單一 Bic Cristal 筆，以莎士比亞的筆跡重寫全部 226 頁《羅密歐與茱麗葉》；書本身成為可觸摸、可檢視、可相信的直接證據。",
+        execution: "完成的書被展出並捐贈給葡萄牙皇家閱讀室，讓觀眾近距離看手稿；另做口袋書送給媒體與網紅作為可手持的直效媒介。媒體評語包括「年度最佳戰役之一」「聰明的戰役」。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
