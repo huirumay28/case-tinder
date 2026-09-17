@@ -4962,6 +4962,246 @@ const casesData = [
         ]
     },
     {
+        id: 201,
+        title: "Sheep happens",
+        year: "2026",
+        brand: "PENNY",
+        agency: "SAINT ELMOS, Munich / CHARLES & CHARLOTTE, Berlin",
+        country: "Germany",
+        summary: "PENNY 把闖進小鎮超市的 50 隻羊變成全球話題，把「羊毛入侵者」變成品牌大使。",
+        boardImage: "boards/sheep-happens.jpg",
+        filmUrl: "https://lion.box.com/s/s6so1kna46krukbea0p7seheyc2arwft",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/sheep-happens-01.jpg',
+            idea: 'assets/stills/sheep-happens-02.jpg',
+            execution: 'assets/stills/sheep-happens-03.jpg'
+        },
+        background: "50 隻羊突然闖進小鎮 PENNY 店。別人看到的是混亂，PENNY 看到的是文化級、網路破圈品牌時刻的完美火花。",
+        idea: "把羊毛入侵者變成全球大使。PENNY 即時反應，與社區合作，把這場地方驚喜變成全球現象；這場戰役成為 PENNY 史上最成功的一場。",
+        execution: "贊助整群 700 隻羊度過整個冬天；派調查型網紅追查事件真相；請羊回來拍 Penny 蔬菜 Unboxing；一夜之間把數千則平面、TV 與數位優惠「羊化」；線上投票請社區為店改名（PENNY Schafsinn）；與 Luca-Dante Spadafora 推出 feat. Sheep 音樂影片。板上結果：+€30M earned media；PENNY Burgsinn 營收 +13%；PENNY Germany 營收 +6%；品牌人氣 +69%。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 202,
+        title: "ICEDENTITY",
+        year: "2026",
+        brand: "AGUILA LIGHT",
+        agency: "DAVID, Bogota",
+        country: "Colombia",
+        summary: "Aguila Light 把冰箱結露造成的模糊，變成獨特品牌視覺資產「Icedentity」。",
+        boardImage: "boards/icedentity.jpg",
+        filmUrl: "https://lion.box.com/s/amde6jmb6rzhe0fvb4ugblr3cx84haer",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/icedentity-01.jpg',
+            idea: 'assets/stills/icedentity-02.jpg',
+            execution: 'assets/stills/icedentity-03.jpg'
+        },
+        background: "哥倫比亞許多地區氣溫超過 38°C，同時加劇對冰涼的渴望，以及熱碰上冷的可見效果。濕空氣碰到冰冷冰箱，結露微滴模糊背後的一切。與此同時，Aguila Light 把品牌建立在 coldness 上，並一貫表現在各式資產中。",
+        idea: "我們把結露——冰箱裡的那層模糊——變成獨特品牌資產。把折射、擴散、色偏與可讀性流失等光學效果轉成視覺指引，建立去飽和色調、柔化形體與模糊質感的系統。曾經讓我們難以辨識的東西，成為橫跨看板、立面與零售的獨特視覺語言。",
+        execution: "Icedentity 在哥倫比亞北部推出——Aguila Light 的誕生地與關鍵防守據點，氣候持續炎熱（平均 30°C、可飆至 40°C），且銷量最高（佔 30%）。因為 Aguila Light 94% 銷售走傳統便利店，我們聚焦可規模化、可控的通路。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 203,
+        title: "Road Test Royale",
+        year: "2026",
+        brand: "The General Auto Insurance",
+        agency: "BBDO Chicago",
+        country: "United States",
+        summary: "The General 把 Twitch 變成美國最大駕訓班，在 Fortnite 裡練習真實路考。",
+        boardImage: "boards/road-test-royale.jpg",
+        filmUrl: "https://lion.box.com/s/pydihth0c17bv9gsksiy71sn0oyxo263",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/road-test-royale-01.jpg',
+            idea: 'assets/stills/road-test-royale-02.jpg',
+            execution: 'assets/stills/road-test-royale-03.jpg'
+        },
+        background: "The General Auto Insurance 以協助難保駕駛、尤其年輕駕駛著稱，卻面臨商業難題：Gen Z 是至今最焦慮的駕盤世代。害怕開車、尤其怕路考不及格，讓美國青少年駕照申請下降 27%。持照駕駛變少，新保戶也變少。如何把青少年帶回路上？",
+        idea: "The General 打造 Road Test Royale：自建駕駛體驗，獎勵玩家精通路考挑戰與安全駕駛。靈感來自真實路考，邀請玩家在熟悉環境學習交通規則。串流合作、預告內容與現場錦標賽，給學生升級技能所需的一切。不只是遊戲，Road Test Royale 把 Twitch 變成美國最大駕訓班。",
+        execution: "對應美國路考不及格率最高的城市（紐約、邁阿密、舊金山，板上寫 2025），在 Fortnite 重現最難考路線，把車速控制、濕地操控、標誌辨識等做成逾 100 項遊戲內挑戰。頂尖 Twitch 實況主（含 R&B 偶像 T-Pain）成為駕訓教練，在自訂地圖直播教學並帶玩家過關。最後與 NDT（美國頂尖駕訓之一）合作，納入學生課程，讓虛擬練習銜接真實駕駛，覆蓋全美 50 州。板上結果：6.8M live streams；220K hours of gameplay watched；單一遊戲 +100 lessons；+150M impressions；品牌好感 4.3X above benchmark。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 204,
+        title: "Fantastic Keys",
+        year: "2026",
+        brand: "MARVEL",
+        agency: "MARCEL, Paris",
+        country: "France",
+        summary: "Marvel 把鍵盤 F4 鍵變成《The Fantastic 4: First Steps》電影票，再變成限量收藏徽章。",
+        boardImage: "boards/fantastic-keys.jpg",
+        filmUrl: "https://lion.box.com/s/vd4gzheq4qbrmxji941066hxo9qibex4",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/fantastic-keys-01.jpg',
+            idea: 'assets/stills/fantastic-keys-02.jpg',
+            execution: 'assets/stills/fantastic-keys-03.jpg'
+        },
+        background: "對 Marvel 來說，死忠粉絲至關重要。法國上映新 Fantastic Four 電影時，Marvel 要確保粉絲準時到場。怎麼做？告訴他們：票已經在手上——就是 F4 鍵。",
+        idea: "Marvel 把鍵盤 F4 鍵變成電影院門票，邀請粉絲拆下帶到戲院入場。社群迅速擁抱這點子。不止於此：映期間每顆鍵變成限量收藏——塗成標誌藍、蓋上 F4 logo、放進玻璃盒。曾經平凡的按鍵，變成粉絲徽章。",
+        execution: "粉絲記錄每一步：拆鍵、入場、裝回客製 F4，把單純觀影變成嵌入電腦的長期品牌存在。客製 F4 把個人工作空間變成永久媒體版位；一位粉絲甚至請 Pedro Pascal（a.k.a. Mr. Fantastic）在收藏鍵上簽名。UGC 帶來逾 200 萬有機觀看、廣泛媒體報導，並助 Fantastic Four 開週登頂法國票房。板上：開週法國票房第一｜2M organic views｜一顆 F4 經 Pedro Pascal 簽名。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 205,
+        title: "The Least Most Interesting Man",
+        year: "2026",
+        brand: "Dos Equis",
+        agency: "LEPUB",
+        country: "United States",
+        summary: "Dos Equis 把「世上最有趣的人」變成無品牌的「世上最無趣的人」，為十年回歸暖場。",
+        boardImage: "boards/the-least-most-interesting-man.jpg",
+        filmUrl: "https://lion.box.com/s/l2756rblez467phsz9sfprfxxsw7phyc",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-least-most-interesting-man-01.jpg',
+            idea: 'assets/stills/the-least-most-interesting-man-02.jpg',
+            execution: 'assets/stills/the-least-most-interesting-man-03.jpg'
+        },
+        background: "離開十年後，「世上最有趣的人」即將回歸。但這個以偏好 Dos Equis 聞名的角色，需要的回歸不只是喚起記憶，還要把角色帶出電視、現代化到社群。",
+        idea: "如果世上最有趣的人其實從未離開？我們把這個品牌偶像變成無品牌的「世上最無趣的人」，用來解釋他十年缺席，並為他的回歸預熱。",
+        execution: "動用 Dos Equis 著名品牌資產庫，以這個新身份在影片與社群讓他回歸。兩週預告戰役用同一個人、音樂與旁白——但沒有啤酒、沒有品牌、也沒有任何「有趣」的痕跡。板上結果：X Top Trending Topic；5+ Billion earned impressions；相對美國前十大啤酒品牌最大銷售趨勢成長。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 206,
+        title: "Socializing Billboards",
+        year: "2026",
+        brand: "Heineken",
+        agency: "LEPUB",
+        country: "Brazil",
+        summary: "Heineken 在巴西禁令下，與 MISCI、iFood 並排出街招，把「社交畫面」合組成合規的 Heineken 廣告。",
+        boardImage: "boards/socializing-billboards.jpg",
+        filmUrl: "https://lion.box.com/s/n384tdye3o9mgwcc46382ns6zzlcb61q",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/socializing-billboards-01.jpg',
+            idea: 'assets/stills/socializing-billboards-02.jpg',
+            execution: 'assets/stills/socializing-billboards-03.jpg'
+        },
+        background: "Heineken 目標明確：讓人聚在一起社交、好好喝一杯。但在巴西，嚴格規範禁止任何戶外酒精廣告出現人物。沒有人、沒有 Heineken，也就沒有社交——真的嗎？板上引用巴西自律規範 Annex A - Article 6：街道家具廣告元素僅限展示產品、品牌與／或 slogan。",
+        idea: "Heineken 邀請巴西品牌在自家街招旁邊投放廣告。乍看像各自獨立戰役，合在一起卻組成一塊看板：人們正與我們的啤酒社交。全部合規。既然不能把人聚在一起，就讓看板聚在一起。一張照片 → 兩則廣告。合作夥伴：MISCI（服飾）、iFood（外送）。",
+        execution: "並排出街：Heineken 瓶與沙發場景，隔壁是 MISCI／iFood 的人物場景，合起來才是完整社交畫面；文案「A verdadeira rede social desde 1873.」。落地含街家具數位屏、公車站與建築立面。板上結果：88 OOH placements；27MM Impressions；4MM Target reached；100% People socializing。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 207,
+        title: "#MainFlavourEnergy",
+        year: "2026",
+        brand: "Hellmann's",
+        agency: "Edelman",
+        country: "Canada",
+        summary: "Hellmann's 請來「世界最強綠葉」Jesse Heiman，讓新口味美乃滋從配角變成 #MainFlavourEnergy。",
+        boardImage: "boards/mainflavourenergy.jpg",
+        filmUrl: "https://lion.box.com/s/msoup5wu2mmysxmczv4yo84poiafw6fg",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/mainflavourenergy-01.jpg',
+            idea: 'assets/stills/mainflavourenergy-02.jpg',
+            execution: 'assets/stills/mainflavourenergy-03.jpg'
+        },
+        background: "作為調味料，美乃滋向來在食物裡當配角；但有了大膽新口味，它準備當主角。",
+        idea: "要宣傳這份新「明星地位」，Hellmann's 大可找大咖名人，卻選了 Jesse Heiman——世上最厲害的背景演員，螢幕出鏡逾 100 次，包括 Spider-Man 與 Big Bang Theory。既然美乃滋要從背景球員變主配料，我們讓 Jesse 成為 flavoured mayo 的臉，打一場社群與網紅戰役。我們給了 Jesse 第一個主演角色，他也讓 Hellmann's Flavours 出名。",
+        execution: "Paid & earned：Jesse 成為 Hellmann's Flavours 臉孔，現身社群與 OOH，不尋常代言人帶動 earned media。Hero film：電影感短片寫 Jesse 與 mayo 都曾活在背景，直到 Hellmann's Flavours 給他們「Main Flavour Energy」。Creator partnership：Jesse 未預告出現在各大城美食創作者影片背景，引發好奇。Experience：在歷史戲院辦 Flavour Premiere，品嚐體驗聚集媒體與創作者。板上結果：93% of invited creators posted organically；5.28x web traffic than average；+13% sales lift across flavoured mayo；~112M earned impressions。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 208,
+        title: "A Cry for Hydration",
+        year: "2026",
+        brand: "Studena",
+        agency: "Imago",
+        country: "Croatia",
+        summary: "Studena 雇來真正的哭喪婦，用誇張哭調悼念「脫水的人」，把補水變成全民話題。",
+        boardImage: "boards/a-cry-for-hydration.jpg",
+        filmUrl: "https://lion.box.com/s/lke4nbglkk0mvxu8wfr0tmx00vvqa6xj",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/a-cry-for-hydration-01.jpg',
+            idea: 'assets/stills/a-cry-for-hydration-02.jpg',
+            execution: 'assets/stills/a-cry-for-hydration-03.jpg'
+        },
+        background: "克羅埃西亞有幾乎被遺忘的 naricanje 傳統——由受僱女性大聲、戲劇化地悼念亡者。日常語言裡同樣誇張：人們常說「渴死了」，卻很少認真看待脫水。",
+        idea: "Studena 水請來真實哭喪婦。不是悼亡者，是悼脫水的人。透過特製哭調歌詞，描寫日常生活中該多喝水的情境。訊息清楚：脫水會要命——只是用好笑的方式說。Studena 把幾乎被遺忘的傳統，破壞式帶進新媒體。",
+        execution: "傳統哭調混上日常脫水歌詞，把平凡時刻變成戲劇哀歌。以約 2 分鐘短片介紹哭喪婦開場，再在社群依情境（沙灘、公車站、長工時）發布內容，對齊通勤、午休、睡前等時機。互動貼文邀請標記「很渴」的朋友，觸發點名社群帳號的客製哭影片。哭喪婦（narikače）穿黑、帶品牌藍細節；配樂靈感來自東歐喜劇片，確保幽默而非陰森。另有對應 YouTube 內容的客製 pre-roll、點名真實用戶的哭影片，以及一日時段脫水場合貼文。板上結果（人口 390 萬國）：Sales +12%；品牌偏好 +73%；+43M impressions；+26M video views；+24M engagement；TikTok 追蹤 +65%；市占 +1 p.p.。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 209,
+        title: "An Agent “Como a Gente”",
+        year: "2026",
+        brand: "Magalu",
+        agency: "Ogilvy",
+        country: "Brazil",
+        summary: "Magalu 自研 agentic AI，讓虛擬網紅 Lu 在 WhatsApp 上像巴西人一樣說話、成交。",
+        boardImage: "boards/an-agent-como-a-gente.jpg",
+        filmUrl: "https://lion.box.com/s/acr9jqmxpqja78enc1jzbze8gnkuxq01",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/an-agent-como-a-gente-01.jpg',
+            idea: 'assets/stills/an-agent-como-a-gente-02.jpg',
+            execution: 'assets/stills/an-agent-como-a-gente-03.jpg'
+        },
+        background: "23 年來，Lu 是 Magalu 最強資產：3,400 萬追蹤的虛擬網紅，粉絲當她是真人。但她無法規模化回覆。在一個 92% 的人能立刻認出機器人的國家，Magalu 發現這不是行銷限制，而是創新機會。",
+        idea: "既有 AI 聽不懂巴西文化——幽默、俚語、語音訊息文化與對話潛台詞，更別說把這份理解變成銷售。Magalu 完全自研專屬 agentic AI：跑在 Magalu Cloud 的 Multi-Agent Orchestration，用巴西溝通模式訓練，部署在 WhatsApp。Lu 同時處理語音、影像與文字，保有持久記憶，總能找到最好價錢，在單一對話完成整筆購買。全球 agentic commerce 首例，從品牌自身身分長出來。（與 Meta 合作。）",
+        execution: "落地 WhatsApp 購物體驗；用戶評論板上寫「像在跟人說話」「比真人客服還好」。板上標示 Best AI Shopping Experience on WhatsApp，NPS 83。結果：轉換率是 Magalu app 的 3 倍；Carnival 期間銷售是實體店的 6 倍；4.5MM unique users；150 天內逾 96,000 筆交易賣出 R$ 28MM。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 210,
+        title: "A Minecraft Movie Meal",
+        year: "2026",
+        brand: "McDonald's",
+        agency: "Wieden+Kennedy",
+        country: "United States",
+        summary: "McDonald's 做出史上最「可玩」的餐點：方塊包裝、Nether Flame 醬與遊戲內皮膚，把粉絲送進 Minecraft。",
+        boardImage: "boards/a-minecraft-movie-meal.jpg",
+        filmUrl: "https://lion.box.com/s/jsir8ruohjle167bw8cki5ofysa52m9d",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/a-minecraft-movie-meal-01.jpg',
+            idea: 'assets/stills/a-minecraft-movie-meal-02.jpg',
+            execution: 'assets/stills/a-minecraft-movie-meal-03.jpg'
+        },
+        background: "早在 A Minecraft Movie 上映前，玩家就已在 Minecraft 裡蓋 McDonald's——完全沒被推廣，只因他們 lovin' it。合作宣布時，我們知道這是把控制器交給全球粉絲、讓他們前所未有大興土木的時刻。",
+        idea: "我們做出史上最可玩的一餐。從辛辣新 Nether Flame 醬到方塊 Grimace Egg 收藏，每樣東西把粉絲帶出現實門檻、進入無邊 Minecraft。不只給玩家一餐，還給他們在現實與遊戲裡建造的工具。",
+        execution: "先把包裝「方塊化」：史上首次把經典長方盒變成金色 Minecraft 建材方塊；薯條盒背面到杯身細節都埋遊戲彩蛋。對齊 Minecraft 收藏文化，再做六款高級公仔，把稀有 Minecraft 道具與經典 McDonald's 角色融合；每款附交換卡與序號，解鎖遊戲內專屬皮膚。板上結果：Global Sales OVER $500M；39.8M global social impressions；5.6M skins downloaded；100+ markets activated；$833M earned media；94 BILLION earned impressions；Top 5 市場售罄。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
         id: 211,
         title: "Wherever life goes",
         year: "2026",
