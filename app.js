@@ -5921,6 +5921,246 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 241,
+        title: "Voice of Food",
+        year: "2026",
+        brand: "Ajinomoto Co., Inc.",
+        agency: "Dentsu Inc., Tokyo",
+        country: "Japan",
+        summary: "Ajinomoto 與視障料理家合作，把食譜改寫成「用耳朵煮菜」的聲音語言。",
+        boardImage: "boards/voice-of-food.jpg",
+        filmUrl: "https://lion.box.com/s/1i5ieydx4tyofrr9fno8fmnbif7oqkgt",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/voice-of-food-01.jpg',
+            idea: 'assets/stills/voice-of-food-02.jpg',
+            execution: 'assets/stills/voice-of-food-03.jpg'
+        },
+        background: "食譜多半寫給眼睛：煎到金黃、攪到看起來剛好。但對日本超過 30 萬名視障者來說，這些指示幾乎沒有意義；煮飯這件日常共享儀式，仍難以在沒有視力時完成。",
+        idea: "與視障居家料理家 Miki 合作，找出她真正依賴的線索——聲音。一起把視覺指示換成可辨識、可重複的音訊訊號：不是改編舊食譜，而是全新的烹飪方式。",
+        execution: "把烹飪拆成關鍵瞬間再以聲音重建：滋滋聲強度＝火候、刀工節奏＝時間、沸騰聲＝熟度；並做成聲音食譜／聲音資料庫，讓使用者用聽的完成料理。板上：23,604 名新用戶使用聲音食譜、網站互動提升 120%、導入日本 41 所盲校，並成立日本首個由視障學生主導的烹飪社團。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 242,
+        title: "Laws Under Attack",
+        year: "2026",
+        brand: "International Committee of the Red Cross (ICRC)",
+        agency: "TBWA\\RAAD, Dubai",
+        country: "United Arab Emirates",
+        summary: "紅十字把日內瓦公約寫上被炸醫院屋頂，讓無人機與空拍視角直接看見「醫院不是目標」。",
+        boardImage: "boards/laws-under-attack.jpg",
+        filmUrl: "https://lion.box.com/s/n0hpqikynvrrcracj4v3a90c20cayyh8",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/laws-under-attack-01.jpg',
+            idea: 'assets/stills/laws-under-attack-02.jpg',
+            execution: 'assets/stills/laws-under-attack-03.jpg'
+        },
+        background: "ICRC 在衝突前線守護日內瓦公約——196 國簽署、保護戰時醫療的法律。2024 年全球回報逾 1,600 起對醫療的攻擊，曾經震驚的事變成日常。戰爭越來越常透過空拍、無人機與即時監控被看見，決策者離人的代價卻更遠：戰爭更可見，問責卻更弱。",
+        idea: "問題不是曝光不夠，而是麻木。與其把訊息丟進傳統媒體，不如讓環境本身成為媒介：把公約與「This is not a target」直接漆在醫院屋頂，對準無人機與直播畫面的視線。",
+        execution: "媒體規劃從頻道改成視角、從受眾改成視線。訊息嵌入觀看戰爭的系統，把可見度轉成問責。板上：迄今已有 106 國重申對日內瓦公約的承諾，且持續增加。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 243,
+        title: "It's Time to Stop!",
+        year: "2026",
+        brand: "Bingo Group",
+        agency: "VIA Media",
+        country: "Bosnia & Herzegovina",
+        summary: "波士尼亞最大零售商 Bingo 在婦女節停業連署，推動法律承認殺害女性為獨立罪刑。",
+        boardImage: "boards/its-time-to-stop.jpg",
+        filmUrl: "https://lion.box.com/s/n90wvpccnj2ih8xffg2sre0im6vlwboc",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/its-time-to-stop-01.jpg',
+            idea: 'assets/stills/its-time-to-stop-02.jpg',
+            execution: 'assets/stills/its-time-to-stop-03.jpg'
+        },
+        background: "波士尼亞與赫塞哥維納的殺害女性是沉默疫情：六年內逾 60 名女性遇害，要求法律承認的連署卻卡在 5,000 份。作為國內最大企業與零售商，Bingo 約九成員工中三分之二為女性，決定出手。",
+        idea: "3 月 8 日不打折，改暫停營業：讓全國最大雇主變成抗議機器，把賣場變成連署站。",
+        execution: "每個門市、倉庫與工廠停工 30 分鐘；230+ 零售空間變成連署亭，員工與顧客一起要求法律承認殺害女性。一週內收集 111,753 份連署（95% 店內）；2025 年 7 月國會將殺害女性納入刑法。行動觸及 520 萬人、逾 400 則媒體報導。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 244,
+        title: "¡Hola!",
+        year: "2026",
+        brand: "Colas Iceland",
+        agency: "Colas Iceland",
+        country: "Iceland",
+        summary: "Colas 用西班牙語的「¡Hola!」打招呼冰島坑洞 hola，逼出道路維修預算。",
+        boardImage: "boards/hola.jpg",
+        filmUrl: "https://lion.box.com/s/leb0lr1mbk4raau0r8dw2ygmep7ubq7l",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/hola-01.jpg',
+            idea: 'assets/stills/hola-02.jpg',
+            execution: 'assets/stills/hola-03.jpg'
+        },
+        background: "冰島公有道路系統嚴重失修，到處都是 hola（坑洞）。負責修路的 Colas 需要政府加碼維修經費，讓路更安全，也帶動業務成長。",
+        idea: "Hola 在冰島語是坑洞，¡hola! 在西班牙語是你好。於是創造西班牙坑洞愛好者 Nicolas，走遍冰島，對每個 hola 大聲打招呼，把問題丟回執政者，並拉民眾一起施壓。",
+        execution: "活動後政府在 2025 年追加約 2,000 萬歐元道路維修預算，Colas 承攬工程：產量提升 54%、ROI 1,742%；坑洞登記增 115%、earned media 增 98%、品牌第一提及度增 36.3%，社群逾 410 萬觀看。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 245,
+        title: "Fascinating",
+        year: "2026",
+        brand: "Shenzhen Tourism Bureau, China",
+        agency: "The Nine",
+        country: "China",
+        summary: "深圳旅遊局用後現代極簡攝影，把城市科技與詩意拍成「Fascinating」系列。",
+        boardImage: "boards/fascinating.jpg",
+        filmUrl: "https://lion.box.com/s/v6h6i3ibjbjsbh4moilqfld4luf2wss7",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/fascinating-01.jpg',
+            idea: 'assets/stills/fascinating-02.jpg',
+            execution: 'assets/stills/fascinating-03.jpg'
+        },
+        background: "深圳是中國極具活力的國際創新樞紐。深圳市文化廣電旅遊體育局想透過平面攝影，吸引更多全球旅客體驗深圳的 Fascinating 魅力。",
+        idea: "深入建築奇觀、創新科技、山海休閒與歷史文化，探索一場「入迷」之旅，用影像重新定義城市觀光敘事。",
+        execution: "以後現代攝影的極簡與幾何構圖捕捉建築與人的瞬間：熱氣球吊鋼琴海上獨奏、粵劇名伶對巨像、宇航員搭時光膠囊電梯、詠春對決、大鵬所城擂巨鼓、機械臂書法、螺旋 T 台、沙灘白馬與比亞迪繞圈等；並延伸海報、明信片、唱片封等。板上曝光逾 6,000 萬，吸引成千上萬旅客體驗 Fascinating Shenzhen。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 246,
+        title: "R2R",
+        year: "2026",
+        brand: "Brahma",
+        agency: "Africa Creative, Sao Paulo",
+        country: "Brazil",
+        summary: "Brahma 把 Ronaldo 經典「第一」慶祝動作，變成電玩指令 R2R，重新綁回品牌。",
+        boardImage: "boards/r2r.jpg",
+        filmUrl: "https://lion.box.com/s/9o49s6g00be8yyq8bv8eoia9kpq5whya",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/r2r-01.jpg',
+            idea: 'assets/stills/r2r-02.jpg',
+            execution: 'assets/stills/r2r-03.jpg'
+        },
+        background: "1990 年代 Brahma 贊助 Ronaldo Nazário，讓他進球後豎起一根手指——代表巴西第一啤酒。隨著贊助改變，新一代球迷仍記得動作，卻不再聯想到 Brahma；這個慶祝甚至進了 EA Sports FC，品牌卻消失在畫面外。",
+        idea: "既然慶祝已是電玩標配，就把遊戲指令變成 Brahma 的同義詞：用 R2R（R2 + 右搖桿左滑）讓新世代再次看見「Number One Celebration」。",
+        execution: "線上線下把品牌名換成 R2R 指令圖騰，找 Ronaldo 一起做 360 活動，並發起挑戰：在遊戲裡進球做出 R2R 慶祝就有機會把 Brahma 送到家。板上觸及逾 4,700 萬用戶、逾 1.21 億曝光。（註：板上聲明未使用 EA Sports FC 版權素材。）",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 247,
+        title: "Untaught History Edition",
+        year: "2026",
+        brand: "AnNahar",
+        agency: "IMPACT BBDO, Dubai",
+        country: "Lebanon",
+        summary: "黎巴嫩報紙 AnNahar 用 80 年頭版檔案，在獨立日印出第一本「學校沒教的歷史」報紙版。",
+        boardImage: "boards/untaught-history-edition.jpg",
+        filmUrl: "https://lion.box.com/s/vske1dmqcab0852xhmqatggzqsaxgpvs",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/untaught-history-edition-01.jpg',
+            idea: 'assets/stills/untaught-history-edition-02.jpg',
+            execution: 'assets/stills/untaught-history-edition-03.jpg'
+        },
+        background: "世界各地歷史常被政治改寫；黎巴嫩也不例外。獨立以來學童從未被教過統一的國家史，政治僵局與刻意壓抑讓世代只能靠家族、政治與偏見拼湊過去，教科書裡沒有共同版本。",
+        idea: "獨立日當天，AnNahar 用超過 80 年頭版與檔案，把缺頁補回——把第一本真正的歷史書做成報紙特刊。每頁經報社報導驗證，並首度獲各政黨（含總理與教育部長）承認，發到全國學校，讓昨日新聞變成今日歷史課。",
+        execution: "Logo 做成時間軸隨年代演變；照片與版面依檔案原樣重現；字體回到各年代原款，重要日期用螢光強調。板上：訂閱 +40%、網站瀏覽 +30%、電子報註冊 +143%。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 248,
+        title: "The Coolest Ihram",
+        year: "2026",
+        brand: "Saudia",
+        agency: "Landor, Dubai",
+        country: "Saudi Arabia",
+        summary: "Saudia 重做朝聖戒衣 Ihram，用合規涼感面料幫朝聖者降溫約 2°C。",
+        boardImage: "boards/the-coolest-ihram.jpg",
+        filmUrl: "https://lion.box.com/s/qho99dmulxhcqlh6pandru70wom3108p",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/the-coolest-ihram-01.jpg',
+            idea: 'assets/stills/the-coolest-ihram-02.jpg',
+            execution: 'assets/stills/the-coolest-ihram-03.jpg'
+        },
+        background: "每年約 200 萬朝聖者完成朝覲，在極端高溫與潮濕中長途行走；酷熱帶來中暑、脫水、衰竭甚至死亡風險。朝聖者幾乎沒有能對抗熱浪的防護裝備。",
+        idea: "Ihram 是朝覲期間唯一被允許穿的衣服，千年幾乎沒變。Saudia 以涼感科技重做這件衣服，做出符合宗教規範的全新面料，讓皮膚約降溫 2°C（約等於三台風扇跟著你），並可減少熱蓄積與出汗。",
+        execution: "已製造、售出並發放 14,000 件，獲朝覲部納入官方套裝並獲宗教權威背書；經電商與全球朝覲旅行社擴散。板上：上線 10 天逾 1 億媒體曝光、數位觸及逾 1,600 萬，並指向服務每年約 2,700 萬朝覲／副朝旅客的規模。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 249,
+        title: "Silent Cleaning",
+        year: "2026",
+        brand: "Kao Brands",
+        agency: "Whatever, Tokyo",
+        country: "Japan",
+        summary: "Kao 把清潔做成 Steam 免費恐怖遊戲：安靜打掃才能躲過會對聲音反應的怪物。",
+        boardImage: "boards/silent-cleaning.jpg",
+        filmUrl: "https://lion.box.com/s/wslih9ogl8tria6ab7tdm2aqmytk9xhz",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/silent-cleaning-01.jpg',
+            idea: 'assets/stills/silent-cleaning-02.jpg',
+            execution: 'assets/stills/silent-cleaning-03.jpg'
+        },
+        background: "Kao 是日本老字號家清領導品牌，但 Gen Z 對打掃興趣極低，新產品認知與「清潔跟我有關」都偏弱。面對定義未來市場的世代，問題變成：怎麼讓不在乎打掃的人在乎，並選擇 Kao？",
+        idea: "與其單向打廣告，不如把清潔放進 Gen Z 已在玩的情境——恐怖遊戲與直播。恐怖是實況熱門類型，遊戲也是願意互動分享的場域，於是把「打掃」做成核心玩法，推出免費 Steam 遊戲 Silent Cleaning。",
+        execution: "玩家要清理怪物出沒的宅邸找線索逃生；怪物對聲音有反應，必須又快又安靜地清，否則被攻擊。遊戲內工具是 Magiclean、Quickle Wiper 等真實商品，依髒污類型選用，把產品特性與清潔技巧嵌進破關。板上：重點商品銷售 +200%、有機實況／通關影片 3,200+、日本 X 趨勢 #1、30 天下載 20 萬+ 並登上 Steam 免費趨勢、串流觸及逾 1,000 萬。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 250,
+        title: "Glowing Relief",
+        year: "2026",
+        brand: "Alivia Health",
+        agency: "De La Cruz Ogilvy, San Juan",
+        country: "Puerto Rico",
+        summary: "Alivia Health／Farmacias Plaza 把處方籤做成夜光標籤，停電時藥名仍發亮可讀。",
+        boardImage: "boards/glowing-relief.jpg",
+        filmUrl: "https://lion.box.com/s/35g6r82u6ath97qny5h50f1hfax7bqf2",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/glowing-relief-01.jpg',
+            idea: 'assets/stills/glowing-relief-02.jpg',
+            execution: 'assets/stills/glowing-relief-03.jpg'
+        },
+        background: "在美國，處方藥幾乎都是同一款琥珀色藥瓶。波多黎各又常停電，夜晚一來瓶子變成一樣的剪影，病人難以安全辨藥。",
+        idea: "FDA 與美國規範讓標籤必須標準化，可改空間很窄——只能動貼上瓶子的那張紙。於是用夜光清漆把標籤變成光源：合規、店內可印、全黑仍可讀，像緊急標示一樣作用在藥瓶上。",
+        execution: "與標籤夥伴開發配方並通過測試，直接接上藥局既有印表機，全島上線且不改流程；取藥與宅配皆免費提供給病人。板上：earned media 約 530 萬美元、曝光 3.65 億、合作藥局處方 +10%，並指向每年約 150 萬張處方的潛力。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
