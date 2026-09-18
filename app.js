@@ -6883,6 +6883,247 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 291,
+        title: "MY JAPAN RAILWAY",
+        year: "2026",
+        brand: "JR GROUP",
+        agency: "DENTSU INC., TOKYO",
+        country: "Japan",
+        summary: "JR Group 用木刻風車站印章與互動 App，把日常通勤變成收藏旅程，重新連結日本人與鐵路。",
+        boardImage: "boards/my-japan-railway.jpg",
+        filmUrl: "https://lion.box.com/s/1xv7m1n5cugkskiqj9pf1q44mmvu9hj9",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/my-japan-railway-01.jpg',
+            idea: 'assets/stills/my-japan-railway-02.jpg',
+            execution: 'assets/stills/my-japan-railway-03.jpg'
+        },
+        background: "鐵路已深度嵌入日本生活，反而常被視為理所當然。JR Group 想在個人層面重新連結人們與鐵路及其基礎設施。",
+        idea: "從歷史檔案與社群媒體搜集全日本車站故事，為各站創作木刻風格印章，並做可在手機收集印章的互動網頁 App，把通勤變成冒險。",
+        execution: "搭配海報、書籍、站內看板與周邊；鼓勵人們多訪車站、發現新風景，並開啟與品牌對話，一起想像未來鐵路。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 292,
+        title: "PRESERVED PROMOS",
+        year: "2026",
+        brand: "ZIPLOC",
+        agency: "VML, NEW YORK",
+        country: "United States",
+        summary: "Ziploc 把過期食品優惠券「延長保鮮」，上傳截圖就能在下次購物換到延長優惠。",
+        boardImage: "boards/preserved-promos.jpg",
+        filmUrl: "https://lion.box.com/s/bg8buzduw3xih0qcm6e3z8wi6qrnu8nl",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/preserved-promos-01.jpg',
+            idea: 'assets/stills/preserved-promos-02.jpg',
+            execution: 'assets/stills/preserved-promos-03.jpg'
+        },
+        background: "食物會過期，食品促銷也會過期。Ziploc 一向幫忙保鮮食物，決定連過期折價券的壽命一併延長。",
+        idea: "打造電商體驗：上傳過期食品促銷的照片或截圖，下次購物只要購物車含 Ziploc，就能拿到延長優惠。",
+        execution: "協助消費者省下最需要的品項，也幫零售夥伴留住本會作廢的優惠客；板上可見 +80K 等成果與新買家／銷售提升指標。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 293,
+        title: "SEARCHING FOR BIRDS ON WIRES",
+        year: "2026",
+        brand: "ABRADEE",
+        agency: "AFRICA CREATIVE, SAO PAULO",
+        country: "Brazil",
+        summary: "巴西電力公會邀請全民拍電線上的鳥，把城市生物多樣性譜成由鳥兒寫下的國家交響曲。",
+        boardImage: "boards/searching-for-birds-on-wires.jpg",
+        filmUrl: "https://lion.box.com/s/hrsn8b37le4eznnr89f9l3pulhvq1ngy",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/searching-for-birds-on-wires-01.jpg',
+            idea: 'assets/stills/searching-for-birds-on-wires-02.jpg',
+            execution: 'assets/stills/searching-for-birds-on-wires-03.jpg'
+        },
+        background: "2009 年藝術家 Jarbas Agnelli 把報紙上電線鳥群排成樂譜的照片譜成歌，成為全球現象。十六年後他與攝影師回到原址，鳥兒卻消失了。",
+        idea: "若一張照片能成歌，更多照片就能成交響曲。ABRADEE 與會員公司用全國電網號召民眾拍攝電線上的鳥，每隻鳥都是新樂譜上的音符。",
+        execution: "產出由巴西鳥類寫下的國家交響曲，於里約、巴西利亞等地演出並赴華沙演出；影片上架 YouTube／Vimeo，音樂於串流平台發行。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" }
+        ]
+    },
+    {
+        id: 294,
+        title: "FIRST SCHOOL POO",
+        year: "2026",
+        brand: "ANDREX",
+        agency: "KIMBERLY-CLARK, TADWORTH",
+        country: "United Kingdom",
+        summary: "Andrex 以 Get Comfortable 平台正面衝撞如廁禁忌，與 Bowel Cancer UK 合作讓英國人敢談腸道健康。",
+        boardImage: "boards/first-school-poo.jpg",
+        filmUrl: "https://lion.box.com/s/9y66yygzmxtq2fzussjr28kkfl8h6lye",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/first-school-poo-01.jpg',
+            idea: 'assets/stills/first-school-poo-02.jpg',
+            execution: 'assets/stills/first-school-poo-03.jpg'
+        },
+        background: "英國人對廁所有獨特的尷尬：62% 怕別人知道自己在大便，近半數迴避公廁，不少人連與醫師談腸道問題都覺得羞恥。衛生紙品類長年用委婉隱喻延續「避談廁所」文化。",
+        idea: "Get Comfortable：從迴避轉向正面對質、從委婉轉向廁所真相，不只正常化上廁所，更給人許可去面對基本生理需求。",
+        execution: "與 Bowel Cancer UK 合作引發重新評估；品牌突然成為全國話題。板上可見腸癌徵兆搜尋上升、新觸及家庭與銷售成長等成果。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 295,
+        title: "SAVINGS INDEX",
+        year: "2026",
+        brand: "NATWEST",
+        agency: "INITIATIVE MEDIA, LONDON",
+        country: "United Kingdom",
+        summary: "NatWest 用萬人存款調查餵養「對話引擎」，在 AI 與 Reddit 等發現層變成儲蓄搜尋的答案。",
+        boardImage: "boards/savings-index.jpg",
+        filmUrl: "https://lion.box.com/s/kca4xe1wmzzj68nlj6weevsae02zg5ar",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/savings-index-01.jpg',
+            idea: 'assets/stills/savings-index-02.jpg',
+            execution: 'assets/stills/savings-index-03.jpg'
+        },
+        background: "生活成本與財政拖累下，儲蓄者常忽略 ISA 稅務利益；人們找答案時已少問銀行，改問動態牆、論壇與機器，而 NatWest 在那些時刻缺席。",
+        idea: "分析顯示 AI 優先引用 Reddit 與媒體而非品牌站。於是駭進演算法：拆解舊做法、重建可被機器讀取的對話引擎，把 1 萬名儲蓄者的聲音變成品牌聲音。",
+        execution: "五人「craft + data」小隊嵌入數位體驗團隊，在真人與機器真正搜尋的發現層釋放對話片段；付費媒體放大對話而非導流官網。板上見 AI 可見答案成長、非品牌搜尋成長與儲蓄帳戶開戶年增等成果。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 296,
+        title: "SIMPLY NKD™ THE RENAISSANCE OF SNACKING",
+        year: "2026",
+        brand: "SIMPLY NKD™",
+        agency: "GUT, MIAMI",
+        country: "United States",
+        summary: "PepsiCo 去掉 Cheetos／Doritos 標誌色與粉末，用「裸食文藝復興」證明無人工色素也能同味。",
+        boardImage: "boards/simply-nkd-the-renaissance-of-snacking.jpg",
+        filmUrl: "https://lion.box.com/s/5ebsiaabriuvvwl2i4uon78582oywaaj",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/simply-nkd-the-renaissance-of-snacking-01.jpg',
+            idea: 'assets/stills/simply-nkd-the-renaissance-of-snacking-02.jpg',
+            execution: 'assets/stills/simply-nkd-the-renaissance-of-snacking-03.jpg'
+        },
+        background: "2025 年美國政府宣布計畫於 2027 年前禁用人工食用色素，零食業必須調適。PepsiCo 已超前推出 Simply NKD：保留經典口味但去掉人工色素與風味粉，也等於拿掉橘色與粉塵等最可辨資產。",
+        idea: "產品要 NKD，Campaign 也要 NKD——剝回純粹形態，靈感取自文藝復興對人體本真的讚美；再用色盲口味測試挑戰「沒有顏色就不對味」的偏見。",
+        execution: "手繪壁畫 OOH、色盲口味套件與全美媒體覆蓋；板上標示史上最大 Walmart 上市、數月內售罄與大量曝光等成果。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 297,
+        title: "VISION PULSE: SIGHT BEYOND SEEING",
+        year: "2026",
+        brand: "HYUNDAI",
+        agency: "PAULUS, SEOUL",
+        country: "South Korea",
+        summary: "Hyundai 用 UWB 鑰匙圈與校車錨點，讓司機在視線之外也能看見可能碰撞的學童。",
+        boardImage: "boards/vision-pulse-sight-beyond-seeing.jpg",
+        filmUrl: "https://lion.box.com/s/jy4enj8j21dfefx1xmxp00narrek4vkf",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/vision-pulse-sight-beyond-seeing-01.jpg',
+            idea: 'assets/stills/vision-pulse-sight-beyond-seeing-02.jpg',
+            execution: 'assets/stills/vision-pulse-sight-beyond-seeing-03.jpg'
+        },
+        background: "韓國學童最大日常風險竟是自家校車：學區低速與上下車時，孩童矮小且常在視線死角。相機／LiDAR 只能辨識可見物，牆後或停放車輛之間會失效。",
+        idea: "既然 UWB 能精準找被障礙物擋住的裝置，也能偵測「看不見的孩子」。VISION PULSE 讓孩童標籤與校車錨點即時交換數據，於司機 App 視覺化碰撞風險。",
+        execution: "鑰匙圈日間好攜帶、夜間兼氣氛燈鼓勵充電；App 雙視野與依接近速度分級的三級警示，可同時追蹤至多約 40 個移動物件。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 298,
+        title: "STRANGER THINGS IN SEARCH",
+        year: "2026",
+        brand: "GOOGLE AND NETFLIX",
+        agency: "GOOGLE, MOUNTAIN VIEW",
+        country: "United States",
+        summary: "Google 與 Netflix 回到 1987，用 11 卷手工 VHS 與搜尋彩蛋慶祝《怪奇物語》最終季。",
+        boardImage: "boards/stranger-things-in-search.jpg",
+        filmUrl: "https://lion.box.com/s/9sj0v7tnen5h4sca82s2soay0q269c4i",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/stranger-things-in-search-01.jpg',
+            idea: 'assets/stills/stranger-things-in-search-02.jpg',
+            execution: 'assets/stills/stranger-things-in-search-03.jpg'
+        },
+        background: "最終季將至，兩家高科技公司要推搜尋熱度又必須像劇集本身。洞察是：粉絲迷戀的不只劇情，還有 1980 年代。",
+        idea: "要觸及粉絲就得回到過去——於是兩家塑造未來的公司做了最不像高科技的事：一路回到 1987。",
+        execution: "為 11 位超級粉絲手工製作 11 卷真 80 年代技術的 VHS：個人化三分鐘影、400+ 搜尋趨勢、幕後與彩蛋；社群延伸預告、測驗與 Easter eggs。板上見數億觀看與互動、最終季觀看時數等成果。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 299,
+        title: "BROKEN SOULS",
+        year: "2026",
+        brand: "MUSEE DE LA GRANDE GUERRE",
+        agency: "BBDO PARIS",
+        country: "France",
+        summary: "一戰博物館用被「傷害」過的實驗海報，把士兵看不見的心理創傷做成可觸摸的紀念。",
+        boardImage: "boards/broken-souls.jpg",
+        filmUrl: "https://lion.box.com/s/8aaeb3633hnkrz4mlnt4ueag4myqz4u0",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/broken-souls-01.jpg',
+            idea: 'assets/stills/broken-souls-02.jpg',
+            execution: 'assets/stills/broken-souls-03.jpg'
+        },
+        background: "在法國，一戰仍是歷史上的重大衝突。戰時與戰後無數士兵承受心理創傷，當時被誤解為裝病或怯懦，甚至遭粗暴治療；今日這些隱形傷口被承認為 PTSD。",
+        idea: "不做一般印刷海報，而是用實驗過程「改變」海報來體現精神創傷：1916 層疊印成戰壕、超 24 小時溶劑滴蝕肖像、肖像埋入真實戰壕 10 天等。",
+        execution: "海報與裝置於博物館展出，讓隱形傷口被看見、被記住。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 300,
+        title: "SOSEGÁ",
+        year: "2026",
+        brand: "CERVEZAS ALHAMBRA",
+        agency: "LLYC, MADRID",
+        country: "Spain",
+        summary: "Alhambra 把品牌「不匆忙」哲學寫進新佛朗明哥語彙 Sosegá，與 Dellafuente 等創作者跨界重塑傳統。",
+        boardImage: "boards/soseg.jpg",
+        filmUrl: "https://lion.box.com/s/j7qgplfmprq9a8eysuzy2p38hxd4vftq",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/soseg-01.jpg',
+            idea: 'assets/stills/soseg-02.jpg',
+            execution: 'assets/stills/soseg-03.jpg'
+        },
+        background: "世界加速運轉，人們追趕時間；Alhambra 長年以不匆忙的釀造哲學聞名，決定把這精神推進百年佛朗明哥文化。",
+        idea: "創造「Unrushed Style」——Sosegá：以不匆忙的態度重新詮釋佛朗明哥精髓，做成可擴散的音樂與影音語言。",
+        execution: "音樂錄影帶、紀錄片與跨類型合作（如與 Trapstar Dellafuente、R&B 等相遇）；媒體廣覆，板上標示約 4.5 億受眾觸及。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
