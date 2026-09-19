@@ -7124,6 +7124,265 @@ const casesData = [
         awardsDetail: [
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 301,
+        title: "Tilt Accessible Beauty - Inclusive Design",
+        year: "2026",
+        brand: "TILT",
+        agency: "ESTABLISHED, NEW YORK",
+        country: "United States",
+        summary: "Tilt 把美妝包裝從零重做成「對有障礙者更好用，卻人人都想用」的產品線，並拿下 Arthritis Foundation Ease of Use® 認證。",
+        boardImage: "boards/tilt-accessible-beauty-inclusive-design.jpg",
+        filmUrl: "https://lion.box.com/s/k6k748u914gzm74df6uuxxm0aw6paqfl",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/tilt-accessible-beauty-inclusive-design-01.jpg',
+            idea: 'assets/stills/tilt-accessible-beauty-inclusive-design-02.jpg',
+            execution: 'assets/stills/tilt-accessible-beauty-inclusive-design-03.jpg'
+        },
+        background: "美國每四名成人就有一人有障礙，但只有約 4% 美妝品牌真正為他們設計包裝；許多人得靠膠帶、橡皮筋等土法才能開瓶。",
+        idea: "為什麼不能做出「對有些人更好用，卻人人都覺得好看」的美妝？Tilt 把無障礙與包容設計嵌進產品從頭到尾。",
+        execution: "超過 300 次原型、四年研發：磁吸開合、加寬握感、短刷頭、點字與 Atkinson Hyperlegible 字體，並獲 Time 年度發明等肯定。",
+        awardsDetail: [
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 302,
+        title: "For Your Right to be Curious",
+        year: "2026",
+        brand: "NPR",
+        agency: "MISCHIEF AT NO FIXED ADDRESS, NEW YORK",
+        country: "United States",
+        summary: "國會砍掉公共媒體經費後，NPR 把三字母標誌改寫成 WHY／HOW／WHO，用提問捍衛「好奇的權利」。",
+        boardImage: "boards/for-your-right-to-be-curious.jpg",
+        filmUrl: "https://lion.box.com/s/ic3tv61upkmyvtt3ijkyj54bo2v4mx87",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/for-your-right-to-be-curious-01.jpg',
+            idea: 'assets/stills/for-your-right-to-be-curious-02.jpg',
+            execution: 'assets/stills/for-your-right-to-be-curious-03.jpg'
+        },
+        background: "2025 年美國國會刪減約 10 億美元公共媒體經費，試圖削弱 NPR；這三個字母已為幾乎全美提供嚴謹新聞。",
+        idea: "砍預算不只是攻擊媒體，更是攻擊大眾知情與提問的權利——用品牌本身去捍衛好奇。",
+        execution: "以 WHY／HOW／WHO 重構標誌，佈署總部到周邊商品，並以全版紐約時報宣言與影片把提問帶進日常。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" }
+        ]
+    },
+    {
+        id: 303,
+        title: "(SAVE A) LIFE INSURANCE",
+        year: "2026",
+        brand: "GENERALI",
+        agency: "VML, BUCHAREST",
+        country: "Romania",
+        summary: "Generali 把壽險從「人死後理賠」翻成「教你救人」：完成急救課程就能拿到壽險優惠費率。",
+        boardImage: "boards/save-a-life-insurance.jpg",
+        filmUrl: "https://lion.box.com/s/vvbkeiwank1a3jploxzs1qwd5osbjqbq",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 0, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/save-a-life-insurance-01.jpg',
+            idea: 'assets/stills/save-a-life-insurance-02.jpg',
+            execution: 'assets/stills/save-a-life-insurance-03.jpg'
+        },
+        background: "羅馬尼亞每年約 7 萬人因救援太晚死亡；多數人沒把握做急救，只有約兩成自認會基本急救。",
+        idea: "如果壽險不只在人死後賠錢，也能預防人死亡呢？讓保戶變成附近的救命者。",
+        execution: "與 NGO 合作開設 CPR、哈姆立克等課程；完成即認證並自動獲得壽險優惠，真正救過命的人還可獲一年免費保障。",
+        awardsDetail: [
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 304,
+        title: "DARESCORE",
+        year: "2026",
+        brand: "MOUNTAIN DEW",
+        agency: "LEO INDIA, MUMBAI",
+        country: "India",
+        summary: "Mountain Dew 與尼泊爾觀光局打造 DareScore：不用海拔、改用「難度」替山岳打分，重寫登山敘事。",
+        boardImage: "boards/darescore.jpg",
+        filmUrl: "https://lion.box.com/s/siiaaatv9m1xdtkfyfmr7dvcomgxktwp",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 0, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/darescore-01.jpg',
+            idea: 'assets/stills/darescore-02.jpg',
+            execution: 'assets/stills/darescore-03.jpg'
+        },
+        background: "尼泊爾擁有多座八千米高峰，但世人多只知珠峰；其實許多山更難爬。",
+        idea: "做全球第一個以「真正難度」而非高度替山岳評級的系統，讓勇氣之峰被看見。",
+        execution: "串聯 Discovery、NTB 與夏爾巴知識，整合遠征、天氣、地形與在地智慧成可比分數，並以社群與登山論壇擴散。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "1 Grand Prix", icon: "🏆" }
+        ]
+    },
+    {
+        id: 305,
+        title: "Meet Marina Prieto",
+        year: "2024",
+        brand: "JC DECAUX",
+        agency: "DAVID, MADRID",
+        country: "Spain",
+        summary: "JCDecaux 在馬德里地鐵無預警貼滿一位陌生奶奶 Marina 的日常照，等她爆紅後才揭曉是戶外媒體本身的力量。",
+        boardImage: "boards/meet-marina-prieto.jpg",
+        filmUrl: "https://lion.box.com/s/1nsb36vjyo5gobyf2tc9t0pk5mhf6hhy",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 1, silver: 1, bronze: 2 },
+        stills: {
+            background: 'assets/stills/meet-marina-prieto-01.jpg',
+            idea: 'assets/stills/meet-marina-prieto-02.jpg',
+            execution: 'assets/stills/meet-marina-prieto-03.jpg'
+        },
+        background: "品牌對戶外媒體投資猶豫；JCDecaux 需要證明載體本身就能製造話題。",
+        idea: "先讓一座城市 collectively 認識一個陌生人，再用揭曉證明 OOH 的爆發力。",
+        execution: "850+ 版位只放 Marina 生活照、不解釋；話題延燒到社群與新聞後，在 Effie 現場向 CMO 揭曉並帶動訂位與投資。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 306,
+        title: "Find Your Summer",
+        year: "2024",
+        brand: "MAGNUM",
+        agency: "LOLA MULLENLOWE, MADRID",
+        country: "Spain",
+        summary: "Magnum 在陰雨英國捕捉陽光瞬間，用照片座標＋即時追日 App 帶人找到最近的一小片夏日。",
+        boardImage: "boards/find-your-summer.jpg",
+        filmUrl: "https://lion.box.com/s/enam3w435nrn0qzslxatxox5euheivhj",
+        filmLabel: "Demo Film",
+        awards: { gp: 1, gold: 2, silver: 1, bronze: 3 },
+        stills: {
+            background: 'assets/stills/find-your-summer-01.jpg',
+            idea: 'assets/stills/find-your-summer-02.jpg',
+            execution: 'assets/stills/find-your-summer-03.jpg'
+        },
+        background: "英國夏天難尋；品牌想鼓勵人們把握那些短暫的陽光時刻。",
+        idea: "先找到太陽，再邀大家一起去享受——用影像與工具把陽光變成可抵達的目的地。",
+        execution: "攝影師守候快門捕捉陽光，每張照片標地點時間並導向 FindYourSummer.app，即時追蹤最近晴點。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Gold Lion ×2", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×3", icon: "🥉" }
+        ]
+    },
+    {
+        id: 307,
+        title: "The Last Barf Bag",
+        year: "2024",
+        brand: "DRAMAMINE",
+        agency: "FCB CHICAGO, CHICAGO",
+        country: "United States",
+        summary: "Dramamine 宣稱自己太有效，害得暈機袋瀕臨滅絕，於是替「最後一個嘔吐袋」辦一場盛大告別。",
+        boardImage: "boards/the-last-barf-bag.jpg",
+        filmUrl: "https://lion.box.com/s/b0e9tgghn1pgmx70k1xjn77p7tb2jl0b",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 1, silver: 3, bronze: 2 },
+        stills: {
+            background: 'assets/stills/the-last-barf-bag-01.jpg',
+            idea: 'assets/stills/the-last-barf-bag-02.jpg',
+            execution: 'assets/stills/the-last-barf-bag-03.jpg'
+        },
+        background: "Dramamine 防暈 75 年；副作用是機上／船上的 barf bag 越來越沒機會派上用場。",
+        idea: "用荒謬又認真的告別，證明品牌有多有效——Dramamine 已經把嘔吐這件事搞定了。",
+        execution: "紀錄片進 Tribeca、街頭海報、百老匯「嘔吐袋博物館」與限量再造周邊，全面把告別變成品牌展演。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion ×3", icon: "🥈" },
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 308,
+        title: "Adoptable. By Pedigree",
+        year: "2024",
+        brand: "PEDIGREE",
+        agency: "COLENSO BBDO, AUCKLAND",
+        country: "New Zealand",
+        summary: "Pedigree 把每支廣告裡的狗，都變成你附近可領養的收容所狗，用地理定位讓廣告直接促成領養。",
+        boardImage: "boards/adoptable-by-pedigree.jpg",
+        filmUrl: "https://lion.box.com/s/ts5l4bctmznyyt7ob811y9sbpocwdtq2",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 1, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/adoptable-by-pedigree-01.jpg',
+            idea: 'assets/stills/adoptable-by-pedigree-02.jpg',
+            execution: 'assets/stills/adoptable-by-pedigree-03.jpg'
+        },
+        background: "Pedigree 廣告永遠有狗；若那隻狗剛好就是附近收容所待領養的毛孩呢？",
+        idea: "與其拍一支「呼籲領養」的廣告，不如讓每一支廣告本身都可以被領養。",
+        execution: "自研 AI 把收容所狗照片升級成片場級影像並綁 CGI；依地理投放，狗被領養後立即退出輪播。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 309,
+        title: "Sightwalks",
+        year: "2024",
+        brand: "SOL CEMENT",
+        agency: "CIRCUS GREY, LIMA",
+        country: "Peru",
+        summary: "秘魯水泥品牌 SOL 為視障者設計新觸覺鋪面詞彙，用導盲杖數線就能知道旁邊是什麼店。",
+        boardImage: "boards/sightwalks.jpg",
+        filmUrl: "https://lion.box.com/s/vayv4t18d6v0lh2vbp054rmmahbq0kzz",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 4, silver: 2, bronze: 1 },
+        stills: {
+            background: 'assets/stills/sightwalks-01.jpg',
+            idea: 'assets/stills/sightwalks-02.jpg',
+            execution: 'assets/stills/sightwalks-03.jpg'
+        },
+        background: "觸覺鋪面能引路，但到站後常仍得仰賴他人才能確認目的地。",
+        idea: "擴充現有系統的「觸覺詞彙」，讓人用導盲杖數線就知道身旁是超市、藥局還是醫院。",
+        execution: "與視障組織共創並在 Miraflores 落地教學；開源設計希望全球複製，服務數十萬人。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Gold Lion ×4", icon: "🥇" },
+            { award: "Silver Lion ×2", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 310,
+        title: "We Are Ayenda",
+        year: "2024",
+        brand: "WHATSAPP",
+        agency: "CREATIVE X, PALO ALTO",
+        country: "United States",
+        summary: "WhatsApp 半小時紀錄片講述阿富汗女子足球隊經聊天室逃出塔利班統治的真實故事。",
+        boardImage: "boards/we-are-ayenda.jpg",
+        filmUrl: "https://lion.box.com/s/mtdvanz6j31wlz6mi5noqeojjx98m82l",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 2, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/we-are-ayenda-01.jpg',
+            idea: 'assets/stills/we-are-ayenda-02.jpg',
+            execution: 'assets/stills/we-are-ayenda-03.jpg'
+        },
+        background: "2021 塔利班掌權後，阿富汗女子青年足球隊員性命受威脅。",
+        idea: "用她們真實的 WhatsApp 對話，把隱私功能講成救命繩，而不是功能表。",
+        execution: "交織訪談、檔案與聊天紀錄，於女足世界盃期間上架 Amazon Prime，獲主流媒體與 Malala 等聲援。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Gold Lion ×2", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
     }
 ];
 
