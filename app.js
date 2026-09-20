@@ -7383,6 +7383,264 @@ const casesData = [
             { award: "Silver Lion", icon: "🥈" },
             { award: "Bronze Lion", icon: "🥉" }
         ]
+    },
+    {
+        id: 311,
+        title: "Michael CeraVe",
+        year: "2024",
+        brand: "CERAVE",
+        agency: "OGILVY PR, NEW YORK",
+        country: "United States",
+        summary: "CeraVe 首度打進 Super Bowl，用「Michael Cera 研發 CeraVe」陰謀論炒熱一個月，再在比賽日揭曉真相：產品是跟皮膚科醫師一起做的，不是跟 Michael Cera。",
+        boardImage: "boards/michael-cerave.jpg",
+        filmUrl: "https://lion.box.com/s/h38cbn1te32vzhxr0as1zx4mbm2u7wim",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 3, silver: 2, bronze: 3 },
+        stills: {
+            background: 'assets/stills/michael-cerave-01.jpg',
+            idea: 'assets/stills/michael-cerave-02.jpg',
+            execution: 'assets/stills/michael-cerave-03.jpg'
+        },
+        background: "CeraVe 要打第一支 Super Bowl，目標是讓大家知道產品與皮膚科醫師共同研發；但超級盃廣告場上全是 A-list 明星，皮膚科醫師相對沒那麼「吸睛」。",
+        idea: "改寫 Super Bowl 劇本：多數品牌賽前一週才預告廣告，我們花一個月散播陰謀論——CeraVe 其實是演員 Michael Cera 研發的；問題是他不上社群，怎麼把話題灌滿網路？",
+        execution: "以 PR、社群與網紅佈局（800+ 媒體從 Daily Mail 到 New York Times），越否認大家越投入；賽前累積約 90 億曝光。比賽日由 Tim & Eric 執導廣告揭曉：皮膚科醫師拒絕 Michael，強調 CeraVe 是跟醫師一起做的。板上結果含約 300 億 earned impressions、賽後一週銷售 +25% 等。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Gold Lion ×3", icon: "🥇" },
+            { award: "Silver Lion ×2", icon: "🥈" },
+            { award: "Bronze Lion ×3", icon: "🥉" }
+        ]
+    },
+    {
+        id: 312,
+        title: "Recycle Me",
+        year: "2024",
+        brand: "COCA-COLA",
+        agency: "OGILVY, NEW YORK",
+        country: "United States",
+        summary: "Coca-Cola 故意壓扁自己的經典 logo，做成「RECYCLE ME」呼籲：罐子再怎麼皺，標誌仍認得出來——請回收每一罐。",
+        boardImage: "boards/recycle-me.jpg",
+        filmUrl: "https://lion.box.com/s/6bz5kryptm6l4b007vu59uvi2fup433f",
+        filmLabel: "Demo Film",
+        awards: { gp: 1, gold: 2, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/recycle-me-01.jpg',
+            idea: 'assets/stills/recycle-me-02.jpg',
+            execution: 'assets/stills/recycle-me-03.jpg'
+        },
+        background: "Coca-Cola 有多項永續目標，包含包裝：朝 2025 年 100% 包裝可回收，並希望到 2030 年每賣出一瓶／罐就能回收一瓶／罐；塑膠、玻璃、鋁都該被再利用。",
+        idea: "Coca-Cola logo 被全球約 94% 人口認得。為了用最有力的方式傳達回收，我們打破嚴格品牌規範，把標誌壓扁，激勵大家回收每一罐。",
+        execution: "用手、回收廠壓機甚至真空等多種方式壓扁罐子，再抽出各自不同的壓皺 logo；CTA「RECYCLE ME」就取自罐身；因為沒有兩罐回收後長得一樣，執行畫面也不相同。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Gold Lion ×2", icon: "🥇" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 313,
+        title: "Play It Safe",
+        year: "2024",
+        brand: "SYDNEY OPERA HOUSE",
+        agency: "THE MONKEYS | ACCENTURE SONG, SYDNEY",
+        country: "Australia",
+        summary: "雪梨歌劇院 50 週年，與 Tim Minchin 等推出反諷歌曲《Play It Safe》：嘴上叫你保守安全，其實在提醒澳洲別忘了當年敢做夢的創造力。",
+        boardImage: "boards/play-it-safe.jpg",
+        filmUrl: "https://lion.box.com/s/szy7ieztyyia17l6nl1k969wu9fuz6tr",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 0, silver: 2, bronze: 1 },
+        stills: {
+            background: 'assets/stills/play-it-safe-01.jpg',
+            idea: 'assets/stills/play-it-safe-02.jpg',
+            execution: 'assets/stills/play-it-safe-03.jpg'
+        },
+        background: "雪梨歌劇院在不可能的條件下建成：1957 年交給尚未成名的丹麥建築師 Jørn Utzon；完工時晚了十年、預算超支約 13.5 倍，歷經抗議與政治壓力，如今卻是世上最知名建築之一。1973 年開幕後，它象徵勇敢創意的力量。",
+        idea: "但當代澳洲往保守與從眾漂移，歌劇院精神被淡忘。50 週年，我們要提醒澳洲曾有的創造力——那種敢作敢為、近乎莽撞的夢想，才蓋出雪梨歌劇院。",
+        execution: "與 Tim Minchin、Kim Gehrig 等創作原創歌曲與 MV《Play It Safe》：歌詞裡保守的內在聲音要你安分守己，同時眨眼暗示勇敢無視它會發生什麼。板上數據含 231 套棕西裝、840 條錄音軌、約 19 億觸及、664 則國際報導。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Silver Lion ×2", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 314,
+        title: "Heinz Ketchup & Seemingly Ranch",
+        year: "2024",
+        brand: "HEINZ KETCHUP",
+        agency: "RETHINK, TORONTO",
+        country: "Canada",
+        summary: "Heinz 把滯銷的 Kranch 在 24 小時內改名「Ketchup and Seemingly Ranch」，借 Taylor Swift 看球吃雞的迷因，把最差賣變成熱銷。",
+        boardImage: "boards/heinz-ketchup-seemingly-ranch.jpg",
+        filmUrl: "https://lion.box.com/s/pq26dmk15jv9amevqkwtt8i9cd4vlbl2",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 2, silver: 1, bronze: 5 },
+        stills: {
+            background: 'assets/stills/heinz-ketchup-seemingly-ranch-01.jpg',
+            idea: 'assets/stills/heinz-ketchup-seemingly-ranch-02.jpg',
+            execution: 'assets/stills/heinz-ketchup-seemingly-ranch-03.jpg'
+        },
+        background: "2019 年 Heinz 推出番茄醬與 ranch 混合的 Kranch，銷售崩跌。2023 年網路瘋傳 Taylor Swift 與 Travis Kelce 新戀情，一張她在 Chiefs 比賽「吃雞肉配 ketchup and seemingly ranch」的照片爆紅，我們看見機會。",
+        idea: "24 小時內把 Kranch 重推成「Ketchup and Seemingly Ranch」。",
+        execution: "72 小時內紐約戶外上線、NFL 球場有貨；Swifties 20 分鐘搶光；Walmart 來電後限量變成全國常態商品。零代言費觸及超粉粉絲群。板上結果含約 60 億 earned impressions、+2,400 媒體露出、需求約為 Heinz Ketchup 的 5 倍、約 +$160M earned media、賣速比原 Kranch 快 320% 等。",
+        awardsDetail: [
+            { award: "Gold Lion ×2", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion ×5", icon: "🥉" }
+        ]
+    },
+    {
+        id: 315,
+        title: "VW 70 Years Campaign",
+        year: "2024",
+        brand: "VOLKSWAGEN",
+        agency: "ALMAPBBDO, SAO PAULO",
+        country: "Brazil",
+        summary: "Volkswagen 巴西 70 週年，用 AI 讓已故歌后 Elis Regina 與女兒 Maria Rita 首度同框合唱，把世代傳承接到電動車新世代。",
+        boardImage: "boards/vw-70-years-campaign.jpg",
+        filmUrl: "https://lion.box.com/s/66p4555hdxm42yolinll5l4przht7a64",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 1, silver: 2, bronze: 2 },
+        stills: {
+            background: 'assets/stills/vw-70-years-campaign-01.jpg',
+            idea: 'assets/stills/vw-70-years-campaign-02.jpg',
+            execution: 'assets/stills/vw-70-years-campaign-03.jpg'
+        },
+        background: "Volkswagen 要慶祝在巴西 70 年，並在推出首兩款純電車時重建情感連結。Elis Regina 被視為巴西最偉大歌手；女兒 Maria Rita 是多屆拉丁葛萊美得主，母親過世時她才四歲。",
+        idea: "用品質與創新的「世代傳承」當軸心：以 AI 重現 Elis 面容，讓母女合唱經典〈Como Nossos Pais〉（Like Our Parents），片中經典 VW 與現役電動車隊並列。",
+        execution: "影片未先上電視，而是在 70 週年活動透過 WhatsApp 傳給約 5,000 名來賓後數小時內病毒擴散。板上結果含約 +5,000 萬有機觀看、約 +20 億曝光，以及 Elis 在 Spotify 上線後不到 24 小時逾 200 萬聆聽等。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion ×2", icon: "🥈" },
+            { award: "Bronze Lion ×2", icon: "🥉" }
+        ]
+    },
+    {
+        id: 316,
+        title: "DoorDash-All-The-Ads",
+        year: "2024",
+        brand: "DOORDASH",
+        agency: "WIEDEN+KENNEDY, PORTLAND",
+        country: "United States",
+        summary: "Super Bowl 當晚，DoorDash 把其他品牌廣告裡出現的商品即時加進購物車，最後把 76 支廣告裡的東西全送到同一個人手上。",
+        boardImage: "boards/doordash-all-the-ads.jpg",
+        filmUrl: "https://lion.box.com/s/1ipidook6p7ittrkn8wzgn31dh94e7dc",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 2, silver: 4, bronze: 1 },
+        stills: {
+            background: 'assets/stills/doordash-all-the-ads-01.jpg',
+            idea: 'assets/stills/doordash-all-the-ads-02.jpg',
+            execution: 'assets/stills/doordash-all-the-ads-03.jpg'
+        },
+        background: "DoorDash 以餐廳外送聞名，但 App 已能送數百萬種其他商品；超級盃其他品牌各自打廣告時，DoorDash 想證明「幾乎什麼都能送到」。",
+        idea: "每當另一支 Super Bowl 廣告播出，就把該廣告的商品加進我們的線上購物車，讓世界即時追蹤；四節比賽累積品牌、網紅與網友參與後，播出自己的超長 promo code 廣告，輸入正確才有機會拿走全部商品。",
+        execution: "最終把 76 支廣告裡的商品全送到同一位幸運得主，共 2,468 件單品；這是即時跨品牌協作、法務核准與網友參與的首次此類 Super Bowl 行動。板上結果含約 119 億曝光、800 萬次投稿、76 組官方／非官方合作。",
+        awardsDetail: [
+            { award: "Gold Lion ×2", icon: "🥇" },
+            { award: "Silver Lion ×4", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 317,
+        title: "Child Wedding Cards",
+        year: "2024",
+        brand: "UN WOMEN",
+        agency: "IMPACT BBDO, DUBAI",
+        country: "United Arab Emirates",
+        summary: "UN Women 請孩童親手畫「童婚喜帖」寄給巴基斯坦國會議員，推動把最低結婚年齡訂為 18 歲。",
+        boardImage: "boards/child-wedding-cards.jpg",
+        filmUrl: "https://lion.box.com/s/6uuofvj81nxjqikoxm4ktv532jkomp8u",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 1 },
+        stills: {
+            background: 'assets/stills/child-wedding-cards-01.jpg',
+            idea: 'assets/stills/child-wedding-cards-02.jpg',
+            execution: 'assets/stills/child-wedding-cards-03.jpg'
+        },
+        background: "巴基斯坦約 21% 女孩在 18 歲前被嫁出；UNICEF 指近 1,900 萬人為童婚新娘，其中約 460 萬在 15 歲前結婚，有些甚至只有五歲。UN Women 持續對抗童婚。",
+        idea: "為促使立法者通過保護兒童的法案，對巴基斯坦國民議會議員發起直郵：寄出虛構的兒童婚禮邀請函，喜帖完全由孩子設計，像是「適合孩子婚禮」的卡片。",
+        execution: "邀請約五到十五歲女孩（含曾是童新娘者）繪製邀請卡，內容稚氣、時間寫「星期天，因為星期一要上課」等；寄出後議員在會議中舉起卡片呼籲行動。板上結果：Federal Shariah Court 宣布 18 歲為最低結婚年齡。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 318,
+        title: "MullenLowe Global Rebrand",
+        year: "2024",
+        brand: "MULLENLOWE GLOBAL",
+        agency: "MULLENLOWE U.S., NEW YORK",
+        country: "United States",
+        summary: "MullenLowe 全球換裝：以章魚的流動與適應力為靈感，做一套永遠在變、卻仍可辨識的插畫識別。",
+        boardImage: "boards/mullenlowe-global-rebrand.jpg",
+        filmUrl: "https://lion.box.com/s/z1mzujku5dzfwl0ckvyc36mj7u7juffh",
+        filmLabel: "Demo Film",
+        awards: { gp: 0, gold: 1, silver: 1, bronze: 1 },
+        stills: {
+            background: 'assets/stills/mullenlowe-global-rebrand-01.jpg',
+            idea: 'assets/stills/mullenlowe-global-rebrand-02.jpg',
+            execution: 'assets/stills/mullenlowe-global-rebrand-03.jpg'
+        },
+        background: "插畫是 MullenLowe 品牌識別核心，需要一個簡單、流動、可變換卻仍具標誌感的視覺系統，涵蓋 logo 變體到字體設計。",
+        idea: "向章魚的流動與適應力致敬，建立持續變化的視覺識別。",
+        execution: "以極度簡化、旋繞的線條插畫貫穿：多款 octopus logo 變體、交織圖案、員工名片各有不同圖騰、Kick Off 海報與管狀立體字體；細節容錯極低，多一彎、粗一線都會破掉和諧。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" },
+            { award: "Bronze Lion", icon: "🥉" }
+        ]
+    },
+    {
+        id: 319,
+        title: "FIFA 23 x TED LASSO",
+        year: "2023",
+        brand: "EA SPORTS & APPLE",
+        agency: "APPLE, CUPERTINO",
+        country: "United States",
+        summary: "EA Sports FIFA 23 首度放入虛構球隊 A.F.C. Richmond，並讓 Ted Lasso 成為可操作教練，把影集世界接進足球遊戲。",
+        boardImage: "boards/fifa-23-x-ted-lasso.jpg",
+        filmUrl: "https://lion.box.com/s/mkzzgdzzibh5bn34i2guljfb232t20a8",
+        filmLabel: "Case Film",
+        awards: { gp: 1, gold: 1, silver: 1, bronze: 0 },
+        stills: {
+            background: 'assets/stills/fifa-23-x-ted-lasso-01.jpg',
+            idea: 'assets/stills/fifa-23-x-ted-lasso-02.jpg',
+            execution: 'assets/stills/fifa-23-x-ted-lasso-03.jpg'
+        },
+        background: "Ted Lasso 是當時最成功的電視喜劇之一，兩季都拿下 Emmy 最佳喜劇；故事是美國足球教練去英格蘭執教虛構英超球隊 A.F.C. Richmond。EA Sports FIFA 則是全球最受歡迎的體育遊戲之一，收錄逾 700 支真實俱樂部。",
+        idea: "在 FIFA 23 讓 AFC Richmond 成為完全可玩球隊，並首次加入可完整操作的教練角色 Ted Lasso——FIFA 史上第一支虛構球隊。",
+        execution: "遊戲內可完整遊玩該隊與教練。板上結果含全球約 +2,000 篇報導、在逾 700 隊中排名全球第 17 常玩、Ted Lasso 串流約 +35%、首 30 天約 132 億 earned impressions。",
+        awardsDetail: [
+            { award: "Titanium", icon: "🏆" },
+            { award: "Gold Lion", icon: "🥇" },
+            { award: "Silver Lion", icon: "🥈" }
+        ]
+    },
+    {
+        id: 320,
+        title: "Working with Cancer",
+        year: "2023",
+        brand: "MEMORIAL SLOAN KETTERING CANCER CENTER (MSK)",
+        agency: "LA FOUNDATION PUBLICIS, CHICAGO",
+        country: "United States",
+        summary: "MSK 與 La Fondation Publicis 發起 Working with Cancer 承諾：一半癌友不敢告訴雇主，要 CEO 連署終結職場污名。",
+        boardImage: "boards/working-with-cancer.jpg",
+        filmUrl: "https://lion.box.com/s/xlrpnx8h8zx2w9y5sep60e21xl3c3g89",
+        filmLabel: "Case Film",
+        awards: { gp: 0, gold: 1, silver: 0, bronze: 0 },
+        stills: {
+            background: 'assets/stills/working-with-cancer-01.jpg',
+            idea: 'assets/stills/working-with-cancer-02.jpg',
+            execution: 'assets/stills/working-with-cancer-03.jpg'
+        },
+        background: "一半癌友害怕告訴雇主，擔心工作、健保與職涯。創意目標是讓 CEO 與企業領袖意識到這是影響員工的情緒議題，並簽署承諾以終結「帶癌工作」的污名、推動公司內實質改變。",
+        idea: "視覺扣住「50%」：平面與戶外用被統計數字撕開的臉；影片則呈現癌友表面正常上班、暗地掙扎的孤立感。",
+        execution: "含 Super Bowl 廣告、世界經濟論壇首映、Times Square 佔領與華爾街日報等平面。板上結果：逾 $100MM 捐贈媒體、逾 20 億曝光；約 390 家大型企業簽署（含 Fortune 100 CEO 與各大廣告控股），影響約 1,300 萬員工。",
+        awardsDetail: [
+            { award: "Gold Lion", icon: "🥇" }
+        ]
     }
 ];
 
